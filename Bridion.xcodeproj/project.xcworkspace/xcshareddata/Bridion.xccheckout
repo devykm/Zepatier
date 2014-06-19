@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7D28FA41-95A9-49AA-B6A0-9DC974EF88C4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bridion</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E2845A7F-9B12-404A-8127-D2E17EB8B40D</key>
+		<string>https://github.com/devykm/Bridion.git</string>
+		<key>FDB94C06-AF7C-45D2-A4D6-FC7593D7C818</key>
+		<string>https://github.com/devykm/SrcArc.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Bridion.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E2845A7F-9B12-404A-8127-D2E17EB8B40D</key>
+		<string>../..</string>
+		<key>FDB94C06-AF7C-45D2-A4D6-FC7593D7C818</key>
+		<string>../../../SrcArc</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/devykm/Bridion.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E2845A7F-9B12-404A-8127-D2E17EB8B40D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E2845A7F-9B12-404A-8127-D2E17EB8B40D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bridion</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FDB94C06-AF7C-45D2-A4D6-FC7593D7C818</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SrcArc</string>
+		</dict>
+	</array>
+</dict>
+</plist>

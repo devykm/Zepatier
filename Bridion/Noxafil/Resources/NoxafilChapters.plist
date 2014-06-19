@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>hideFromNavigation</key>
+		<false/>
+		<key>number</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Opening</string>
+		<key>pages</key>
+		<array>
+			<dict>
+				<key>className</key>
+				<string>NoxafilPage1</string>
+				<key>previewImage</key>
+				<string></string>
+				<key>ignoreMenu</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

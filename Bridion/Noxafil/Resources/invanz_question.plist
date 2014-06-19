@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <array>
+    <dict>
+      <key>qid</key>
+      <integer>10054</integer>
+      <key>question</key>
+      <string>כמה מחזורי השריית ביוץ חדשים למטרת הפרייה חוץ גופית (IVFQICI )  את/ה מתחיל/ה בחודש?</string>
+      <key>type</key>
+      <integer>4</integer>
+      <key>fromValue</key>
+      <integer>5</integer>
+      <key>toValue</key>
+      <integer>100</integer>
+      <key>initValue</key>
+      <integer>5</integer>
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>10055</integer>
+      <key>question</key>
+      <string>כמה מחזורי השריית ביוץ חדשים למטרת הזרעה (OI/IUI)  את/ה מתחיל/ה בחודש?</string>
+      <key>type</key>
+      <integer>4</integer>
+      <key>fromValue</key>
+      <integer>5</integer>
+      <key>toValue</key>
+      <integer>100</integer>
+      <key>initValue</key>
+      <integer>5</integer>
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>10056</integer>
+      <key>question</key>
+      <string>באיזה % מהמחזורים שלך את/ה מטפל/ת רק ב r-FSH?</string>
+      <key>type</key>
+      <integer>3</integer>
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>10057</integer>
+      <key>question</key>
+      <string>באיזה אחוז מהמחזורים שלך את/ה  מטפל/ת ב- hMG הורמונים ממקור שתני בלבד?</string>
+      <key>type</key>
+      <integer>3</integer>
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>10058</integer>
+      <key>question</key>
+      <string>באיזה אחוז מהמחזורים שלך אתה משלב בין r-FSH ו- hMG?</string>
+      <key>type</key>
+      <integer>3</integer>
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>10059</integer>
+      <key>question</key>
+      <string>באיזה אחוז מהמחזורים שלך אתה משתמש בפרוטוקול antagonist?</string>
+      <key>type</key>
+      <integer>3</integer>
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>10060</integer>
+      <key>question</key>
+      <string>באיזה אחוז מהמחזורים שלך אתה משתמש בפרוטוקול agonist ? השלם/י על סמך שאלה 6</string>
+      <key>type</key>
+      <integer>3</integer>
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>10061</integer>
+      <key>question</key>
+      <string>מהו נתח השוק של פיוריגון מסך נתח שוק של רקומביננט FSH?</string>
+      <key>type</key>
+      <integer>3</integer>
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>10062</integer>
+      <key>question</key>
+      <string>מהו נתח השוק של אלונבה מנתח השוק של רקומביננט FSH?</string>
+      <key>type</key>
+      <integer>3</integer>
+    </dict>
+  </array>
+</plist>
