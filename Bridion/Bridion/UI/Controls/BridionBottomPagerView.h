@@ -10,9 +10,9 @@
 #import "BridionBottomPagerPreview.h"
 
 @protocol BridionBottomPagerViewDelegate <NSObject>
--(void) emendBottomPagerPreviewSelected:(int)chapter page:(int)page;
--(void) emendBottomPagerPreviewOpen;
--(void) emendBottomPagerPreviewClose;
+-(void) bridionBottomPagerPreviewSelected:(int)chapter page:(int)page;
+-(void) bridionBottomPagerPreviewOpen;
+-(void) bridionBottomPagerPreviewClose;
 
 @end
 

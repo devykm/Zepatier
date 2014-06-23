@@ -70,7 +70,7 @@
     //[self.infoPlus setAlpha:0];
     //[self.infoR setAlpha:0];
     _isOpen = YES;
-    [self.delegate EmendZoomItemWillOpen:self];
+    [self.delegate BridionZoomItemWillOpen:self];
     AppDelegate *app = (AppDelegate*)[UIApplication sharedApplication].delegate;
     //shadow
     [self.imageShadow setAlpha:0];

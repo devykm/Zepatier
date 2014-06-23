@@ -49,7 +49,7 @@
                     index++;
                 }
             }
-			[self showHomeMenu:pagesArray statisticId:EmendStatistictMenuHome];
+			[self showHomeMenu:pagesArray statisticId:BridionStatistictMenuHome];
 
             break;
         }

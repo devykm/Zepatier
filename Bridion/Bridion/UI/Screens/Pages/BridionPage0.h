@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "EmendBase.h"
+#import "BridionBase.h"
+#import  "QuestionViewController.h"
 
-@interface EmendPage1 : EmendBase
+@interface BridionPage0 : BridionBase<QuestionViewControllerDelegate>
 
 @end

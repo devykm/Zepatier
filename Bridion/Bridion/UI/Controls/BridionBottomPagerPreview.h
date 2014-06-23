@@ -11,7 +11,7 @@
 #import "BridionChapterData.h"
 
 @protocol BridionBottomPagerPreviewDelegate <NSObject>
--(void) emendBottomPagerPreviewSelected:(int)chapter page:(int)page;
+-(void) bridionBottomPagerPreviewSelected:(int)chapter page:(int)page;
 @end
 
 @interface BridionBottomPagerPreview : UIView

@@ -12,13 +12,13 @@
 #import "BridionZoomItem.h"
 
 
-@protocol EmendBaseDelegate <NSObject>
--(void) emendBaseMoveToPage:(int)page;
--(void) emendBaseChangeHeaderTitle:(NSString*)title;
+@protocol BridionBaseDelegate <NSObject>
+-(void) bridionBaseMoveToPage:(int)page;
+-(void) bridionBaseChangeHeaderTitle:(NSString*)title;
 @end
 
 
-@interface EmendBase : BasePageTimer <BridionZoomItemDelegate>
+@interface BridionBase : BasePageTimer <BridionZoomItemDelegate>
 
 - (id)initWithPageNumber:(int)page size:(CGSize)size;
 
@@ -33,7 +33,7 @@
 @property(nonatomic,retain) BridionInfoControl *infoPlus;
 @property(nonatomic,retain) BridionInfoControl *infoR;
 @property(nonatomic,strong) UIImageView *imgBack;
-@property(nonatomic,weak) id<EmendBaseDelegate> delegate;
+@property(nonatomic,weak) id<BridionBaseDelegate> delegate;
 
 @property(nonatomic,assign) BOOL isLoaded;
 

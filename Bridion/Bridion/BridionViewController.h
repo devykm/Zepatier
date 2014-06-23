@@ -13,9 +13,9 @@
 #import "QuestionViewController.h"
 #import "BridionGMMainMenuView.h"
 #import "BridionBottomPagerView.h"
-#import "EmendBase.h"
+#import "BridionBase.h"
 
-@interface BridionViewController : BaseMainAppViewController <QuestionViewControllerDelegate,BridionStartMeetingMenuDelegate,GTMMainMenuViewDelegate,UIScrollViewDelegate,BridionBottomPagerViewDelegate,GMMainMenuViewDelegate,EmendBaseDelegate>
+@interface BridionViewController : BaseMainAppViewController <QuestionViewControllerDelegate,BridionStartMeetingMenuDelegate,GTMMainMenuViewDelegate,UIScrollViewDelegate,BridionBottomPagerViewDelegate,GMMainMenuViewDelegate,BridionBaseDelegate>
 
 @property(nonatomic,retain) BridionGMMainMenuView *menu;
 @property(nonatomic,retain) IBOutlet BridionStartMeetingMenu *startMeetingMenu;

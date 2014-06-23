@@ -95,7 +95,7 @@
 -(void) btnPageOpenClick:(id)sender
 {
     UIButton *btn = (UIButton*)sender;
-    [_delegate emendBottomPagerPreviewSelected:self.currentChapterData.number page:btn.tag];
+    [_delegate bridionBottomPagerPreviewSelected:self.currentChapterData.number page:btn.tag];
 }
 
 

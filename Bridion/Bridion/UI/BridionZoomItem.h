@@ -33,5 +33,5 @@
 @end
 
 @protocol BridionZoomItemDelegate <NSObject>
--(void) EmendZoomItemWillOpen:(BridionZoomItem*)sender;
+-(void) BridionZoomItemWillOpen:(BridionZoomItem*)sender;
 @end

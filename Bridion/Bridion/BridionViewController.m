@@ -9,7 +9,7 @@
 #import "BridionViewController.h"
 #import "GMMainMenuView.h"
 #import "UIView-Extensions.h"
-#import "EmendBase.h"
+#import "BridionBase.h"
 #import "EndMeetingUniversalController.h"
 #import "EndMeetingUniQuestionView.h"
 
@@ -38,7 +38,7 @@
 {
     [super viewDidLoad];
     
-    self.applicationId = APPLICATION_EMEND;
+    self.applicationId = APPLICATION_BRIDION;
     [self.view setBackgroundColor:[UIColor colorWithRed:226.0/255.0 green:226.0/255.0 blue:226.0/255.0 alpha:1.0]];
     
     self.pagesData = [BridionChapterData loadPagesData:@"BridionChapters.plist"];
@@ -189,16 +189,16 @@
 
 
 ///////////////////////
-#pragma mark EmendBaseDelegate
+#pragma mark BridionBaseDelegate
 
 
--(void) emendBaseMoveToPage:(int)page
+-(void) bridionBaseMoveToPage:(int)page
 {
     [self notifyActiveScreenDisAppear];
     [self setPage:page animate:YES];
 }
 
--(void) emendBaseChangeHeaderTitle:(NSString*)title
+-(void) bridionBaseChangeHeaderTitle:(NSString*)title
 {
     self.lblTopMenu.text = title;
     [self.lblTopMenu setFont:[UIFont fontWithName:@"Tipograf2" size:28]];
@@ -268,11 +268,11 @@
 {
     if(finalQuestionController == nil) {
         finalQuestionController = [[QuestionViewController alloc] initWithNibName:@"QuestionViewController" bundle:[NSBundle mainBundle]];
-        finalQuestionController.dataFileName = @"emend_question.plist";
+        finalQuestionController.dataFileName = @"bridion_question.plist";
         finalQuestionController.delegateQ = self;
         finalQuestionController.applicationId = self.applicationId;
         finalQuestionController.answersData = [Test activeTest].answers;
-        finalQuestionController.statisticId = EmendStatistictQuestionScreen;
+        finalQuestionController.statisticId = BridionStatistictQuestionScreen;
         finalQuestionController.applicationId = self.applicationId;
         [self presentViewController:finalQuestionController animated:YES completion:nil];
     }
@@ -302,23 +302,23 @@
 -(void) GTMMainMenuViewHistory:(GTMMainMenuView*)menu
 {
     HistoryUniversalViewController *historyController = [[HistoryUniversalViewController alloc] initWithNibName:@"HistoryUniversalViewController" bundle:nil];
-    historyController.statisticId = EmendStatistictMenuHistory;
+    historyController.statisticId = BridionStatistictMenuHistory;
     [self presentViewController:historyController animated:YES completion:nil];
 }
 
 -(void) GTMMainMenuViewHistoryDoctor:(GTMMainMenuView*)menu
 {
     HistoryUniversalViewController *historyController = [[HistoryUniversalViewController alloc] initWithNibName:@"HistoryUniversalViewController" bundle:nil];
-    historyController.statisticId = EmendStatistictMenuHistory;
+    historyController.statisticId = BridionStatistictMenuHistory;
     historyController.openDoctorModeInLoad = YES;
     [self presentViewController:historyController animated:YES completion:nil]; //change warnings to this
 }
 
 
 ///////////////////////
-#pragma mark EmendBottomPagerViewDelegate
+#pragma mark BridionBottomPagerViewDelegate
 
--(void) emendBottomPagerPreviewSelected:(int)chapter page:(int)page
+-(void) bridionBottomPagerPreviewSelected:(int)chapter page:(int)page
 {
     if(self.currentPage == page) return;
     
@@ -329,13 +329,13 @@
 	[self notifyActiveScreenAppear];
 }
 
--(void) emendBottomPagerPreviewClose
+-(void) bridionBottomPagerPreviewClose
 {
     [self notifyActiveScreenAppear];
     [self notifyPageChanged];
 }
 
--(void) emendBottomPagerPreviewOpen
+-(void) bridionBottomPagerPreviewOpen
 {
     [self notifyActiveScreenDisAppear];
 }
@@ -460,7 +460,7 @@
     if (page >= [self.pagesData count]) return;
     
     BridionPageData *pageData = [self.pagesData objectAtIndex:page];
-    EmendBase *controller = [self.viewControllers objectAtIndex:page];
+    BridionBase *controller = [self.viewControllers objectAtIndex:page];
     if ((NSNull *)controller == [NSNull null]) {
         controller = [[NSClassFromString(pageData.className) alloc] initWithPageNumber:1 size:self.scrollView.bounds.size];
 		controller.delegate = self;

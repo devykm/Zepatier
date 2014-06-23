@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 YKM. All rights reserved.
 //
 
-#import "EmendBase.h"
+#import "BridionBase.h"
 #import "UIView-Extensions.h"
 #import "BridionInfoControl.h"
-@implementation EmendBase
+@implementation BridionBase
 {
     UIImage *buttonImageInfo;
     UIButton *buttonInfoText;
@@ -35,20 +35,20 @@
     return self;
 }
 
--(void) emendZoomItemWillOpen:(BridionZoomItem*)sender
+-(void) bridionZoomItemWillOpen:(BridionZoomItem*)sender
 {
     
 }
 
 -(void) setRInfo:(NSString*)image
 {
-    self.infoPlus = [[BridionInfoControl alloc] initWithFrame:CGRectMake(25, 620, 50, 50) textImageName:image imageToPress:@"emend_r.png"];
+    self.infoPlus = [[BridionInfoControl alloc] initWithFrame:CGRectMake(25, 620, 50, 50) textImageName:image imageToPress:@"bridion_r.png"];
     [self addSubview:self.infoPlus];
 }
 
 -(void) setPlusInfo:(NSString*)image
 {
-    self.infoPlus = [[BridionInfoControl alloc] initWithFrame:CGRectMake(85, 620, 50, 50) textImageName:image imageToPress:@"emend_+.png"];
+    self.infoPlus = [[BridionInfoControl alloc] initWithFrame:CGRectMake(85, 620, 50, 50) textImageName:image imageToPress:@"bridion_+.png"];
     [self addSubview:self.infoPlus];
 }
 

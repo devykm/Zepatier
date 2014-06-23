@@ -10,7 +10,7 @@
 #import "AppConstants.h"
 
 
-#define APPLICATION_ID_MACRO 21
+#define APPLICATION_ID_MACRO 40
 
 //do not move
 #import "AppMacro.h"

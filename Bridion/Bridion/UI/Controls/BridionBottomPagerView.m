@@ -48,7 +48,7 @@
     if(isAnimating) return;
     
     isAnimating = YES;
-    [self.delegate emendBottomPagerPreviewOpen];
+    [self.delegate bridionBottomPagerPreviewOpen];
     [self setHidden:NO];
     [UIView animateWithDuration:0.4 animations:^(void){
         [self.barContainer setY:self.bounds.size.height - 55.0];
@@ -63,7 +63,7 @@
     if(isAnimating) return;
     
     isAnimating = YES;
-    [self.delegate emendBottomPagerPreviewClose];
+    [self.delegate bridionBottomPagerPreviewClose];
     [UIView animateWithDuration:0.4 animations:^(void){
         [self.barContainer setY:self.bounds.size.height];
         self.fadeView.alpha = 0;
@@ -89,9 +89,9 @@
 //        
 //        float w = self.width / [chapters count];
 //        UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(xPos, yPos, w, 75)];
-//        [btn setBackgroundImage:[[UIImage imageNamed:@"btn_pager_emend.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateNormal];
-//        [btn setBackgroundImage:[[UIImage imageNamed:@"btn_pager_emend_s.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateSelected];
-//        [btn setBackgroundImage:[[UIImage imageNamed:@"btn_pager_emend_s.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateSelected | UIControlStateHighlighted];
+//        [btn setBackgroundImage:[[UIImage imageNamed:@"btn_pager_bridion.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateNormal];
+//        [btn setBackgroundImage:[[UIImage imageNamed:@"btn_pager_bridion_s.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateSelected];
+//        [btn setBackgroundImage:[[UIImage imageNamed:@"btn_pager_bridion_s.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateSelected | UIControlStateHighlighted];
 //        [btn setAdjustsImageWhenHighlighted:NO];
 //        [btn setTitle:data.name forState:UIControlStateNormal];
 //        [btn setContentVerticalAlignment:UIControlContentVerticalAlignmentCenter];
@@ -169,7 +169,7 @@
 //    xPos = MIN(xPos, self.bounds.size.width - previewW - 10);
 //    xPos = MAX(xPos, 10);
 //    if(self.previewView == nil) {
-//        self.previewView = [[EmendBottomPagerPreview alloc] initWithFrame:CGRectMake(xPos - 30.0, 0, previewW, 660)];
+//        self.previewView = [[BridionBottomPagerPreview alloc] initWithFrame:CGRectMake(xPos - 30.0, 0, previewW, 660)];
 //        self.previewView.delegate = self;
 //        [self.previewView setBackgroundColor:[UIColor clearColor]];
 //        [self addSubview:self.previewView];
@@ -193,11 +193,11 @@
 
 
 #pragma --------------
-#pragma EmendBottomPagerPreviewDelegate
+#pragma BridionBottomPagerPreviewDelegate
 
--(void) emendBottomPagerPreviewSelected:(int)chapter page:(int)page
+-(void) bridionBottomPagerPreviewSelected:(int)chapter page:(int)page
 {
-    [self.delegate emendBottomPagerPreviewSelected:chapter page:page];
+    [self.delegate bridionBottomPagerPreviewSelected:chapter page:page];
     [self performSelector:@selector(hide) withObject:nil afterDelay:0.3];
 }
 
