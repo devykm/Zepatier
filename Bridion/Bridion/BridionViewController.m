@@ -41,6 +41,9 @@
     self.applicationId = APPLICATION_BRIDION;
     [self.view setBackgroundColor:[UIColor colorWithRed:226.0/255.0 green:226.0/255.0 blue:226.0/255.0 alpha:1.0]];
     
+    // set MSD icon btn to inactive
+    [self.btnTools setUserInteractionEnabled:NO];
+    
     self.pagesData = [BridionChapterData loadPagesData:@"BridionChapters.plist"];
     self.chapterArray = [BridionChapterData loadData:@"BridionChapters.plist"];
 	[self initPagesData];
@@ -100,6 +103,8 @@
 
 -(void) viewWillAppear:(BOOL )animated
 {
+    [super viewWillAppear:animated];
+    
     if([self.menu isOpen]) {
         [self.menu pageDidAppear];
         return;
@@ -174,6 +179,9 @@
     //[self setPage:currentPage animate:NO];
     [self notifyPageChanged]; //stop current page timer
 	[self notifyActiveScreenAppear]; //start new page timer
+    
+    // for portal
+    [self.startMeetingMenu showCloseMode:YES];
 }
 
 - (void) receiveTestEndNotification:(NSNotification *) notification

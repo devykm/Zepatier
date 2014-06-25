@@ -2210,7 +2210,7 @@
 			path = Oncology/Main;
 			sourceTree = "<group>";
 		};
-		5D55120518157B4800542038 /* Emend */ = {
+		5D55120518157B4800542038 /* Bridion */ = {
 			isa = PBXGroup;
 			children = (
 				DB66A61D194A065F002A043E /* AppDelegate.h */,
@@ -2222,7 +2222,7 @@
 				DB66A64F194A0793002A043E /* Resources */,
 				DB66A6FC194A0793002A043E /* UI */,
 			);
-			name = Emend;
+			name = Bridion;
 			path = Oncology/Emend;
 			sourceTree = "<group>";
 		};
@@ -2231,7 +2231,7 @@
 			children = (
 				DBCDE99E1948C31E00E4DFA3 /* SrcArc */,
 				4F99E25C18311AA4006FCC52 /* Question */,
-				5D55120518157B4800542038 /* Emend */,
+				5D55120518157B4800542038 /* Bridion */,
 				5D550FAE181562A000542038 /* Main */,
 				5D98018917CB91B000F0E467 /* Supporting Files */,
 				5D98018117CB91B000F0E467 /* Frameworks */,
