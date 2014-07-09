@@ -148,6 +148,30 @@
 		DB66A946194A0C03002A043E /* QuestionUIData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66A907194A0C03002A043E /* QuestionUIData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DB66A947194A0C03002A043E /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66A909194A0C03002A043E /* QuestionViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DB66A948194A0C03002A043E /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB66A90A194A0C03002A043E /* QuestionViewController.xib */; };
+		DB6B510B195AE3FF00574CA5 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B5104195AE3FF00574CA5 /* AsyncImageView.m */; };
+		DB6B510C195AE3FF00574CA5 /* PortalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B5106195AE3FF00574CA5 /* PortalViewController.m */; };
+		DB6B510D195AE3FF00574CA5 /* PortalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6B5107195AE3FF00574CA5 /* PortalViewController.xib */; };
+		DB6B510E195AE3FF00574CA5 /* portal_img_place_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6B510A195AE3FF00574CA5 /* portal_img_place_back@2x.png */; };
+		DB6B5113195AEA0300574CA5 /* DateSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B5110195AEA0300574CA5 /* DateSelectionViewController.m */; };
+		DB6B5114195AEA0300574CA5 /* DateSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6B5111195AEA0300574CA5 /* DateSelectionViewController.xib */; };
+		DB6B5115195AEA0300574CA5 /* DateSelectionViewControllerTitle.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6B5112195AEA0300574CA5 /* DateSelectionViewControllerTitle.xib */; };
+		DB6B5131195AEB8100574CA5 /* GTMEditClinicView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B5118195AEB8100574CA5 /* GTMEditClinicView.m */; };
+		DB6B5132195AEB8100574CA5 /* GTMEditClinicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6B5119195AEB8100574CA5 /* GTMEditClinicView.xib */; };
+		DB6B5133195AEB8100574CA5 /* GTMEditDoctorLeaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B511B195AEB8100574CA5 /* GTMEditDoctorLeaveView.m */; };
+		DB6B5134195AEB8100574CA5 /* GTMEditDoctorLeaveView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6B511C195AEB8100574CA5 /* GTMEditDoctorLeaveView.xib */; };
+		DB6B5135195AEB8100574CA5 /* GTMEditDoctorMissingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B511E195AEB8100574CA5 /* GTMEditDoctorMissingView.m */; };
+		DB6B5136195AEB8100574CA5 /* GTMEditDoctorMissingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6B511F195AEB8100574CA5 /* GTMEditDoctorMissingView.xib */; };
+		DB6B5137195AEB8100574CA5 /* GTMEditDoctorUniteView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B5121195AEB8100574CA5 /* GTMEditDoctorUniteView.m */; };
+		DB6B5138195AEB8100574CA5 /* GTMEditDoctorUniteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6B5122195AEB8100574CA5 /* GTMEditDoctorUniteView.xib */; };
+		DB6B5139195AEB8100574CA5 /* GTMEditExpertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B5124195AEB8100574CA5 /* GTMEditExpertiseView.m */; };
+		DB6B513A195AEB8100574CA5 /* GTMEditExpertiseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6B5125195AEB8100574CA5 /* GTMEditExpertiseView.xib */; };
+		DB6B513B195AEB8100574CA5 /* GTMEditMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B5127195AEB8100574CA5 /* GTMEditMenuView.m */; };
+		DB6B513C195AEB8100574CA5 /* GTMEditMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6B5128195AEB8100574CA5 /* GTMEditMenuView.xib */; };
+		DB6B513D195AEB8100574CA5 /* GTMEditNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B512A195AEB8100574CA5 /* GTMEditNameView.m */; };
+		DB6B513E195AEB8100574CA5 /* GTMEditNameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6B512B195AEB8100574CA5 /* GTMEditNameView.xib */; };
+		DB6B513F195AEB8100574CA5 /* GTMEditNewDoctorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B512D195AEB8100574CA5 /* GTMEditNewDoctorView.m */; };
+		DB6B5140195AEB8100574CA5 /* GTMEditNewDoctorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6B512E195AEB8100574CA5 /* GTMEditNewDoctorView.xib */; };
+		DB6B5141195AEB8100574CA5 /* GTMTopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B5130195AEB8100574CA5 /* GTMTopButton.m */; };
 		DBCDEDB71948C32000E4DFA3 /* FTAnimation+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDE9A11948C31E00E4DFA3 /* FTAnimation+UIView.m */; };
 		DBCDEDB81948C32000E4DFA3 /* FTAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDE9A41948C31E00E4DFA3 /* FTAnimationManager.m */; };
 		DBCDEDB91948C32000E4DFA3 /* FTUtils+NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDE9A61948C31E00E4DFA3 /* FTUtils+NSObject.m */; };
@@ -930,21 +954,6 @@
 		DBCDF0C51948C32000E4DFA3 /* gmtool_menu_back.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCDED841948C32000E4DFA3 /* gmtool_menu_back.png */; };
 		DBCDF0C61948C32000E4DFA3 /* gmtool_white_msd_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCDED851948C32000E4DFA3 /* gmtool_white_msd_logo.png */; };
 		DBCDF0C71948C32000E4DFA3 /* gmtool_white_msd_logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCDED861948C32000E4DFA3 /* gmtool_white_msd_logo2.png */; };
-		DBCDF0C81948C32000E4DFA3 /* GTMEditClinicView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDED891948C32000E4DFA3 /* GTMEditClinicView.m */; };
-		DBCDF0C91948C32000E4DFA3 /* GTMEditClinicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBCDED8A1948C32000E4DFA3 /* GTMEditClinicView.xib */; };
-		DBCDF0CA1948C32000E4DFA3 /* GTMEditDoctorLeaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDED8C1948C32000E4DFA3 /* GTMEditDoctorLeaveView.m */; };
-		DBCDF0CB1948C32000E4DFA3 /* GTMEditDoctorLeaveView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBCDED8D1948C32000E4DFA3 /* GTMEditDoctorLeaveView.xib */; };
-		DBCDF0CC1948C32000E4DFA3 /* GTMEditDoctorUniteView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDED8F1948C32000E4DFA3 /* GTMEditDoctorUniteView.m */; };
-		DBCDF0CD1948C32000E4DFA3 /* GTMEditDoctorUniteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBCDED901948C32000E4DFA3 /* GTMEditDoctorUniteView.xib */; };
-		DBCDF0CE1948C32000E4DFA3 /* GTMEditExpertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDED921948C32000E4DFA3 /* GTMEditExpertiseView.m */; };
-		DBCDF0CF1948C32000E4DFA3 /* GTMEditExpertiseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBCDED931948C32000E4DFA3 /* GTMEditExpertiseView.xib */; };
-		DBCDF0D01948C32000E4DFA3 /* GTMEditMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDED951948C32000E4DFA3 /* GTMEditMenuView.m */; };
-		DBCDF0D11948C32000E4DFA3 /* GTMEditMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBCDED961948C32000E4DFA3 /* GTMEditMenuView.xib */; };
-		DBCDF0D21948C32000E4DFA3 /* GTMEditNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDED981948C32000E4DFA3 /* GTMEditNameView.m */; };
-		DBCDF0D31948C32000E4DFA3 /* GTMEditNameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBCDED991948C32000E4DFA3 /* GTMEditNameView.xib */; };
-		DBCDF0D41948C32000E4DFA3 /* GTMEditNewDoctorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDED9B1948C32000E4DFA3 /* GTMEditNewDoctorView.m */; };
-		DBCDF0D51948C32000E4DFA3 /* GTMEditNewDoctorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBCDED9C1948C32000E4DFA3 /* GTMEditNewDoctorView.xib */; };
-		DBCDF0D61948C32000E4DFA3 /* GTMTopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDED9E1948C32000E4DFA3 /* GTMTopButton.m */; };
 		DBCDF0D71948C32000E4DFA3 /* InfoControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDEDA11948C32000E4DFA3 /* InfoControl.m */; };
 		DBCDF0D81948C32000E4DFA3 /* InfoControlController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDEDA31948C32000E4DFA3 /* InfoControlController.m */; };
 		DBCDF0D91948C32000E4DFA3 /* InfoControlLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDEDA51948C32000E4DFA3 /* InfoControlLinks.m */; };
@@ -958,6 +967,8 @@
 		DBCDF0E11948C32000E4DFA3 /* Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDEDB61948C32000E4DFA3 /* Validator.m */; };
 		DBE3AA2C195088BF005201DA /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE3AA2A195088BF005201DA /* icon@2x.png */; };
 		DBE3AA2D195088BF005201DA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE3AA2B195088BF005201DA /* icon.png */; };
+		DBE5489D196D30D500A3C6EE /* Beyond_the_pill_white.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE5489B196D30D500A3C6EE /* Beyond_the_pill_white.png */; };
+		DBE5489E196D30D500A3C6EE /* Beyond_the_pill.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE5489C196D30D500A3C6EE /* Beyond_the_pill.png */; };
 		DBEF71E2194A0D2A00F0EDC2 /* btn_loginAll.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEF71D5194A0D2A00F0EDC2 /* btn_loginAll.png */; };
 		DBEF71E5194A0D2A00F0EDC2 /* close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEF71D8194A0D2A00F0EDC2 /* close_btn.png */; };
 		DBEF71E6194A0D2A00F0EDC2 /* close_small.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEF71D9194A0D2A00F0EDC2 /* close_small.png */; };
@@ -1160,6 +1171,42 @@
 		DB66A908194A0C03002A043E /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
 		DB66A909194A0C03002A043E /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
 		DB66A90A194A0C03002A043E /* QuestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
+		DB6B5103195AE3FF00574CA5 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		DB6B5104195AE3FF00574CA5 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		DB6B5105195AE3FF00574CA5 /* PortalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortalViewController.h; sourceTree = "<group>"; };
+		DB6B5106195AE3FF00574CA5 /* PortalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortalViewController.m; sourceTree = "<group>"; };
+		DB6B5107195AE3FF00574CA5 /* PortalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortalViewController.xib; sourceTree = "<group>"; };
+		DB6B510A195AE3FF00574CA5 /* portal_img_place_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "portal_img_place_back@2x.png"; sourceTree = "<group>"; };
+		DB6B510F195AEA0300574CA5 /* DateSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateSelectionViewController.h; sourceTree = "<group>"; };
+		DB6B5110195AEA0300574CA5 /* DateSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateSelectionViewController.m; sourceTree = "<group>"; };
+		DB6B5111195AEA0300574CA5 /* DateSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateSelectionViewController.xib; sourceTree = "<group>"; };
+		DB6B5112195AEA0300574CA5 /* DateSelectionViewControllerTitle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateSelectionViewControllerTitle.xib; sourceTree = "<group>"; };
+		DB6B5117195AEB8100574CA5 /* GTMEditClinicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMEditClinicView.h; sourceTree = "<group>"; };
+		DB6B5118195AEB8100574CA5 /* GTMEditClinicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMEditClinicView.m; sourceTree = "<group>"; };
+		DB6B5119195AEB8100574CA5 /* GTMEditClinicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMEditClinicView.xib; sourceTree = "<group>"; };
+		DB6B511A195AEB8100574CA5 /* GTMEditDoctorLeaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMEditDoctorLeaveView.h; sourceTree = "<group>"; };
+		DB6B511B195AEB8100574CA5 /* GTMEditDoctorLeaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMEditDoctorLeaveView.m; sourceTree = "<group>"; };
+		DB6B511C195AEB8100574CA5 /* GTMEditDoctorLeaveView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMEditDoctorLeaveView.xib; sourceTree = "<group>"; };
+		DB6B511D195AEB8100574CA5 /* GTMEditDoctorMissingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMEditDoctorMissingView.h; sourceTree = "<group>"; };
+		DB6B511E195AEB8100574CA5 /* GTMEditDoctorMissingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMEditDoctorMissingView.m; sourceTree = "<group>"; };
+		DB6B511F195AEB8100574CA5 /* GTMEditDoctorMissingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMEditDoctorMissingView.xib; sourceTree = "<group>"; };
+		DB6B5120195AEB8100574CA5 /* GTMEditDoctorUniteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMEditDoctorUniteView.h; sourceTree = "<group>"; };
+		DB6B5121195AEB8100574CA5 /* GTMEditDoctorUniteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMEditDoctorUniteView.m; sourceTree = "<group>"; };
+		DB6B5122195AEB8100574CA5 /* GTMEditDoctorUniteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMEditDoctorUniteView.xib; sourceTree = "<group>"; };
+		DB6B5123195AEB8100574CA5 /* GTMEditExpertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMEditExpertiseView.h; sourceTree = "<group>"; };
+		DB6B5124195AEB8100574CA5 /* GTMEditExpertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMEditExpertiseView.m; sourceTree = "<group>"; };
+		DB6B5125195AEB8100574CA5 /* GTMEditExpertiseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMEditExpertiseView.xib; sourceTree = "<group>"; };
+		DB6B5126195AEB8100574CA5 /* GTMEditMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMEditMenuView.h; sourceTree = "<group>"; };
+		DB6B5127195AEB8100574CA5 /* GTMEditMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMEditMenuView.m; sourceTree = "<group>"; };
+		DB6B5128195AEB8100574CA5 /* GTMEditMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMEditMenuView.xib; sourceTree = "<group>"; };
+		DB6B5129195AEB8100574CA5 /* GTMEditNameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMEditNameView.h; sourceTree = "<group>"; };
+		DB6B512A195AEB8100574CA5 /* GTMEditNameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMEditNameView.m; sourceTree = "<group>"; };
+		DB6B512B195AEB8100574CA5 /* GTMEditNameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMEditNameView.xib; sourceTree = "<group>"; };
+		DB6B512C195AEB8100574CA5 /* GTMEditNewDoctorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMEditNewDoctorView.h; sourceTree = "<group>"; };
+		DB6B512D195AEB8100574CA5 /* GTMEditNewDoctorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMEditNewDoctorView.m; sourceTree = "<group>"; };
+		DB6B512E195AEB8100574CA5 /* GTMEditNewDoctorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMEditNewDoctorView.xib; sourceTree = "<group>"; };
+		DB6B512F195AEB8100574CA5 /* GTMTopButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMTopButton.h; sourceTree = "<group>"; };
+		DB6B5130195AEB8100574CA5 /* GTMTopButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMTopButton.m; sourceTree = "<group>"; };
 		DBCDE9A01948C31E00E4DFA3 /* FTAnimation+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTAnimation+UIView.h"; sourceTree = "<group>"; };
 		DBCDE9A11948C31E00E4DFA3 /* FTAnimation+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FTAnimation+UIView.m"; sourceTree = "<group>"; };
 		DBCDE9A21948C31E00E4DFA3 /* FTAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAnimation.h; sourceTree = "<group>"; };
@@ -2097,29 +2144,6 @@
 		DBCDED841948C32000E4DFA3 /* gmtool_menu_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gmtool_menu_back.png; sourceTree = "<group>"; };
 		DBCDED851948C32000E4DFA3 /* gmtool_white_msd_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gmtool_white_msd_logo.png; sourceTree = "<group>"; };
 		DBCDED861948C32000E4DFA3 /* gmtool_white_msd_logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gmtool_white_msd_logo2.png; sourceTree = "<group>"; };
-		DBCDED881948C32000E4DFA3 /* GTMEditClinicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMEditClinicView.h; sourceTree = "<group>"; };
-		DBCDED891948C32000E4DFA3 /* GTMEditClinicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMEditClinicView.m; sourceTree = "<group>"; };
-		DBCDED8A1948C32000E4DFA3 /* GTMEditClinicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMEditClinicView.xib; sourceTree = "<group>"; };
-		DBCDED8B1948C32000E4DFA3 /* GTMEditDoctorLeaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMEditDoctorLeaveView.h; sourceTree = "<group>"; };
-		DBCDED8C1948C32000E4DFA3 /* GTMEditDoctorLeaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMEditDoctorLeaveView.m; sourceTree = "<group>"; };
-		DBCDED8D1948C32000E4DFA3 /* GTMEditDoctorLeaveView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMEditDoctorLeaveView.xib; sourceTree = "<group>"; };
-		DBCDED8E1948C32000E4DFA3 /* GTMEditDoctorUniteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMEditDoctorUniteView.h; sourceTree = "<group>"; };
-		DBCDED8F1948C32000E4DFA3 /* GTMEditDoctorUniteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMEditDoctorUniteView.m; sourceTree = "<group>"; };
-		DBCDED901948C32000E4DFA3 /* GTMEditDoctorUniteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMEditDoctorUniteView.xib; sourceTree = "<group>"; };
-		DBCDED911948C32000E4DFA3 /* GTMEditExpertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMEditExpertiseView.h; sourceTree = "<group>"; };
-		DBCDED921948C32000E4DFA3 /* GTMEditExpertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMEditExpertiseView.m; sourceTree = "<group>"; };
-		DBCDED931948C32000E4DFA3 /* GTMEditExpertiseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMEditExpertiseView.xib; sourceTree = "<group>"; };
-		DBCDED941948C32000E4DFA3 /* GTMEditMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMEditMenuView.h; sourceTree = "<group>"; };
-		DBCDED951948C32000E4DFA3 /* GTMEditMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMEditMenuView.m; sourceTree = "<group>"; };
-		DBCDED961948C32000E4DFA3 /* GTMEditMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMEditMenuView.xib; sourceTree = "<group>"; };
-		DBCDED971948C32000E4DFA3 /* GTMEditNameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMEditNameView.h; sourceTree = "<group>"; };
-		DBCDED981948C32000E4DFA3 /* GTMEditNameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMEditNameView.m; sourceTree = "<group>"; };
-		DBCDED991948C32000E4DFA3 /* GTMEditNameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMEditNameView.xib; sourceTree = "<group>"; };
-		DBCDED9A1948C32000E4DFA3 /* GTMEditNewDoctorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMEditNewDoctorView.h; sourceTree = "<group>"; };
-		DBCDED9B1948C32000E4DFA3 /* GTMEditNewDoctorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMEditNewDoctorView.m; sourceTree = "<group>"; };
-		DBCDED9C1948C32000E4DFA3 /* GTMEditNewDoctorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMEditNewDoctorView.xib; sourceTree = "<group>"; };
-		DBCDED9D1948C32000E4DFA3 /* GTMTopButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMTopButton.h; sourceTree = "<group>"; };
-		DBCDED9E1948C32000E4DFA3 /* GTMTopButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMTopButton.m; sourceTree = "<group>"; };
 		DBCDEDA01948C32000E4DFA3 /* InfoControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoControl.h; sourceTree = "<group>"; };
 		DBCDEDA11948C32000E4DFA3 /* InfoControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoControl.m; sourceTree = "<group>"; };
 		DBCDEDA21948C32000E4DFA3 /* InfoControlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoControlController.h; sourceTree = "<group>"; };
@@ -2143,6 +2167,8 @@
 		DBCDEDB61948C32000E4DFA3 /* Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validator.m; sourceTree = "<group>"; };
 		DBE3AA2A195088BF005201DA /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		DBE3AA2B195088BF005201DA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DBE5489B196D30D500A3C6EE /* Beyond_the_pill_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beyond_the_pill_white.png; sourceTree = "<group>"; };
+		DBE5489C196D30D500A3C6EE /* Beyond_the_pill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beyond_the_pill.png; sourceTree = "<group>"; };
 		DBEF71D5194A0D2A00F0EDC2 /* btn_loginAll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_loginAll.png; sourceTree = "<group>"; };
 		DBEF71D8194A0D2A00F0EDC2 /* close_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_btn.png; sourceTree = "<group>"; };
 		DBEF71D9194A0D2A00F0EDC2 /* close_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_small.png; sourceTree = "<group>"; };
@@ -2615,6 +2641,68 @@
 			path = QNetwork;
 			sourceTree = "<group>";
 		};
+		DB6B5102195AE3FF00574CA5 /* Portal */ = {
+			isa = PBXGroup;
+			children = (
+				DB6B5103195AE3FF00574CA5 /* AsyncImageView.h */,
+				DB6B5104195AE3FF00574CA5 /* AsyncImageView.m */,
+				DB6B5105195AE3FF00574CA5 /* PortalViewController.h */,
+				DB6B5106195AE3FF00574CA5 /* PortalViewController.m */,
+				DB6B5107195AE3FF00574CA5 /* PortalViewController.xib */,
+				DB6B5108195AE3FF00574CA5 /* Resources */,
+			);
+			path = Portal;
+			sourceTree = "<group>";
+		};
+		DB6B5108195AE3FF00574CA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB6B5109195AE3FF00574CA5 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB6B5109195AE3FF00574CA5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DB6B510A195AE3FF00574CA5 /* portal_img_place_back@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DB6B5116195AEB8100574CA5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DB6B5117195AEB8100574CA5 /* GTMEditClinicView.h */,
+				DB6B5118195AEB8100574CA5 /* GTMEditClinicView.m */,
+				DB6B5119195AEB8100574CA5 /* GTMEditClinicView.xib */,
+				DB6B511A195AEB8100574CA5 /* GTMEditDoctorLeaveView.h */,
+				DB6B511B195AEB8100574CA5 /* GTMEditDoctorLeaveView.m */,
+				DB6B511C195AEB8100574CA5 /* GTMEditDoctorLeaveView.xib */,
+				DB6B511D195AEB8100574CA5 /* GTMEditDoctorMissingView.h */,
+				DB6B511E195AEB8100574CA5 /* GTMEditDoctorMissingView.m */,
+				DB6B511F195AEB8100574CA5 /* GTMEditDoctorMissingView.xib */,
+				DB6B5120195AEB8100574CA5 /* GTMEditDoctorUniteView.h */,
+				DB6B5121195AEB8100574CA5 /* GTMEditDoctorUniteView.m */,
+				DB6B5122195AEB8100574CA5 /* GTMEditDoctorUniteView.xib */,
+				DB6B5123195AEB8100574CA5 /* GTMEditExpertiseView.h */,
+				DB6B5124195AEB8100574CA5 /* GTMEditExpertiseView.m */,
+				DB6B5125195AEB8100574CA5 /* GTMEditExpertiseView.xib */,
+				DB6B5126195AEB8100574CA5 /* GTMEditMenuView.h */,
+				DB6B5127195AEB8100574CA5 /* GTMEditMenuView.m */,
+				DB6B5128195AEB8100574CA5 /* GTMEditMenuView.xib */,
+				DB6B5129195AEB8100574CA5 /* GTMEditNameView.h */,
+				DB6B512A195AEB8100574CA5 /* GTMEditNameView.m */,
+				DB6B512B195AEB8100574CA5 /* GTMEditNameView.xib */,
+				DB6B512C195AEB8100574CA5 /* GTMEditNewDoctorView.h */,
+				DB6B512D195AEB8100574CA5 /* GTMEditNewDoctorView.m */,
+				DB6B512E195AEB8100574CA5 /* GTMEditNewDoctorView.xib */,
+				DB6B512F195AEB8100574CA5 /* GTMTopButton.h */,
+				DB6B5130195AEB8100574CA5 /* GTMTopButton.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		DBCDE99E1948C31E00E4DFA3 /* SrcArc */ = {
 			isa = PBXGroup;
 			children = (
@@ -2632,6 +2720,7 @@
 				DBCDEC1A1948C31F00E4DFA3 /* JSON */,
 				DBCDEC281948C31F00E4DFA3 /* Network */,
 				DBCDEC3F1948C31F00E4DFA3 /* Pdf */,
+				DB6B5102195AE3FF00574CA5 /* Portal */,
 				DBCDEC561948C31F00E4DFA3 /* Resources */,
 				DBCDEC601948C31F00E4DFA3 /* Sound */,
 				DBCDEC631948C31F00E4DFA3 /* UI */,
@@ -3677,6 +3766,10 @@
 				DBCDEC671948C31F00E4DFA3 /* BaseLoginViewController.m */,
 				DBCDEC681948C31F00E4DFA3 /* BaseMainAppViewController.h */,
 				DBCDEC691948C31F00E4DFA3 /* BaseMainAppViewController.m */,
+				DB6B510F195AEA0300574CA5 /* DateSelectionViewController.h */,
+				DB6B5110195AEA0300574CA5 /* DateSelectionViewController.m */,
+				DB6B5111195AEA0300574CA5 /* DateSelectionViewController.xib */,
+				DB6B5112195AEA0300574CA5 /* DateSelectionViewControllerTitle.xib */,
 				DBCDEC6A1948C31F00E4DFA3 /* Entitlements.plist */,
 				DBCDEC6B1948C31F00E4DFA3 /* EntitlementsDebug.plist */,
 				DBCDEC6C1948C31F00E4DFA3 /* ErrorMessage.h */,
@@ -3925,6 +4018,8 @@
 		DBCDECA61948C31F00E4DFA3 /* en */ = {
 			isa = PBXGroup;
 			children = (
+				DBE5489B196D30D500A3C6EE /* Beyond_the_pill_white.png */,
+				DBE5489C196D30D500A3C6EE /* Beyond_the_pill.png */,
 				DBCDECA71948C31F00E4DFA3 /* gm_logo_admin_en.png */,
 				DBCDECA81948C31F00E4DFA3 /* gm_logo_admin_s_en.png */,
 				DBCDECA91948C31F00E4DFA3 /* gm_logo_articles_en.png */,
@@ -3999,8 +4094,8 @@
 				DBCDED641948C32000E4DFA3 /* GTMMainMenuView.h */,
 				DBCDED651948C32000E4DFA3 /* GTMMainMenuView.m */,
 				DBCDED661948C32000E4DFA3 /* GTMMainMenuView.xib */,
+				DB6B5116195AEB8100574CA5 /* UI */,
 				DBCDED671948C32000E4DFA3 /* Resources */,
-				DBCDED871948C32000E4DFA3 /* UI */,
 			);
 			path = GenericToolsMenu;
 			sourceTree = "<group>";
@@ -4048,36 +4143,6 @@
 				DBCDED861948C32000E4DFA3 /* gmtool_white_msd_logo2.png */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		DBCDED871948C32000E4DFA3 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				DBCDED881948C32000E4DFA3 /* GTMEditClinicView.h */,
-				DBCDED891948C32000E4DFA3 /* GTMEditClinicView.m */,
-				DBCDED8A1948C32000E4DFA3 /* GTMEditClinicView.xib */,
-				DBCDED8B1948C32000E4DFA3 /* GTMEditDoctorLeaveView.h */,
-				DBCDED8C1948C32000E4DFA3 /* GTMEditDoctorLeaveView.m */,
-				DBCDED8D1948C32000E4DFA3 /* GTMEditDoctorLeaveView.xib */,
-				DBCDED8E1948C32000E4DFA3 /* GTMEditDoctorUniteView.h */,
-				DBCDED8F1948C32000E4DFA3 /* GTMEditDoctorUniteView.m */,
-				DBCDED901948C32000E4DFA3 /* GTMEditDoctorUniteView.xib */,
-				DBCDED911948C32000E4DFA3 /* GTMEditExpertiseView.h */,
-				DBCDED921948C32000E4DFA3 /* GTMEditExpertiseView.m */,
-				DBCDED931948C32000E4DFA3 /* GTMEditExpertiseView.xib */,
-				DBCDED941948C32000E4DFA3 /* GTMEditMenuView.h */,
-				DBCDED951948C32000E4DFA3 /* GTMEditMenuView.m */,
-				DBCDED961948C32000E4DFA3 /* GTMEditMenuView.xib */,
-				DBCDED971948C32000E4DFA3 /* GTMEditNameView.h */,
-				DBCDED981948C32000E4DFA3 /* GTMEditNameView.m */,
-				DBCDED991948C32000E4DFA3 /* GTMEditNameView.xib */,
-				DBCDED9A1948C32000E4DFA3 /* GTMEditNewDoctorView.h */,
-				DBCDED9B1948C32000E4DFA3 /* GTMEditNewDoctorView.m */,
-				DBCDED9C1948C32000E4DFA3 /* GTMEditNewDoctorView.xib */,
-				DBCDED9D1948C32000E4DFA3 /* GTMTopButton.h */,
-				DBCDED9E1948C32000E4DFA3 /* GTMTopButton.m */,
-			);
-			path = UI;
 			sourceTree = "<group>";
 		};
 		DBCDED9F1948C32000E4DFA3 /* Info */ = {
@@ -4188,12 +4253,14 @@
 				DBCDEE931948C32000E4DFA3 /* endu_tab_app3_s.png in Resources */,
 				DBCDF0381948C32000E4DFA3 /* gm_logo_flyers.png in Resources */,
 				DBCDF08A1948C32000E4DFA3 /* gm_logo_question.png in Resources */,
+				DB6B5134195AEB8100574CA5 /* GTMEditDoctorLeaveView.xib in Resources */,
 				DBCDEE1D1948C32000E4DFA3 /* ChatToSelectCell.xib in Resources */,
 				DBCDF0751948C32000E4DFA3 /* gm_logo_mss_puregon_s.png in Resources */,
 				DBCDEF341948C32000E4DFA3 /* historyu_tab_app34_s.png in Resources */,
 				DBCDEDD31948C32000E4DFA3 /* chat_contact_header_back_s.png in Resources */,
 				DBCDF0061948C32000E4DFA3 /* gm_logo_lecture_s_en.png in Resources */,
 				DBCDEE341948C32000E4DFA3 /* endu_samples_back_en.png in Resources */,
+				DBE5489D196D30D500A3C6EE /* Beyond_the_pill_white.png in Resources */,
 				DBCDF09E1948C32000E4DFA3 /* gm_logo_zostavax.png in Resources */,
 				DBCDEEE01948C32000E4DFA3 /* historyu_calendar_cell_back.png in Resources */,
 				DBCDEE3D1948C32000E4DFA3 /* endu_delete_btn_old.png in Resources */,
@@ -4232,7 +4299,6 @@
 				DBCDF0601948C32000E4DFA3 /* gm_logo_mss_clarinase_s@2x.png in Resources */,
 				DBCDEFBB1948C32000E4DFA3 /* Avenir65.ttf in Resources */,
 				DBCDEFD11948C32000E4DFA3 /* gm_catalog_noInternet.png in Resources */,
-				DBCDF0CD1948C32000E4DFA3 /* GTMEditDoctorUniteView.xib in Resources */,
 				DBCDF0311948C32000E4DFA3 /* gm_logo_doctor_s.png in Resources */,
 				DB66A750194A0793002A043E /* emend_play_stop_btn_s@2x.png in Resources */,
 				DBCDEEB31948C32000E4DFA3 /* endu_update_btn.png in Resources */,
@@ -4243,6 +4309,7 @@
 				DBCDEE831948C32000E4DFA3 /* endu_tab_app32_s.png in Resources */,
 				DBCDEFCB1948C32000E4DFA3 /* GMMainMenuView.xib in Resources */,
 				DBCDF0521948C32000E4DFA3 /* gm_logo_mercilon_s.png in Resources */,
+				DBE5489E196D30D500A3C6EE /* Beyond_the_pill.png in Resources */,
 				DBCDEF1A1948C32000E4DFA3 /* historyu_tab_app23.png in Resources */,
 				DBCDEE401948C32000E4DFA3 /* endu_field_blue_err_back.png in Resources */,
 				DBCDEFEF1948C32000E4DFA3 /* gm_row_back_red.png in Resources */,
@@ -4312,6 +4379,7 @@
 				DBCDF0711948C32000E4DFA3 /* gm_logo_mss_mercilon_s.png in Resources */,
 				DBCDF0081948C32000E4DFA3 /* gm_logo_more_products_s_en.png in Resources */,
 				DBCDF0341948C32000E4DFA3 /* gm_logo_ezetrol.png in Resources */,
+				DB6B513E195AEB8100574CA5 /* GTMEditNameView.xib in Resources */,
 				DBCDEFEC1948C32000E4DFA3 /* gm_row_back_orangebright.png in Resources */,
 				DB66A815194A07AB002A043E /* LoginController.xib in Resources */,
 				DBEF7206194A0F9A00F0EDC2 /* bridion_logo_side-white@2x.png in Resources */,
@@ -4337,20 +4405,20 @@
 				DBCDEFF61948C32000E4DFA3 /* gm_logo_cansidas_side_s.png in Resources */,
 				DBCDF0571948C32000E4DFA3 /* gm_logo_mss_arius.png in Resources */,
 				DBCDEF4B1948C32000E4DFA3 /* historyu_tab_app43_s.png in Resources */,
+				DB6B513C195AEB8100574CA5 /* GTMEditMenuView.xib in Resources */,
 				DBCDF0901948C32000E4DFA3 /* gm_logo_rizalt.png in Resources */,
 				DBCDEFD41948C32000E4DFA3 /* gm_email_close.png in Resources */,
 				DB66A948194A0C03002A043E /* QuestionViewController.xib in Resources */,
 				DBCDEE421948C32000E4DFA3 /* endu_field_ddl_back.png in Resources */,
 				DBCDEF201948C32000E4DFA3 /* historyu_tab_app26.png in Resources */,
 				DBCDEDD81948C32000E4DFA3 /* chat_edituser_camera_btn.png in Resources */,
-				DBCDF0CF1948C32000E4DFA3 /* GTMEditExpertiseView.xib in Resources */,
 				DBCDEF9B1948C32000E4DFA3 /* HistoryUniversalSamplesViewController.xib in Resources */,
 				DBCDF0301948C32000E4DFA3 /* gm_logo_doctor.png in Resources */,
 				DBEF71E5194A0D2A00F0EDC2 /* close_btn.png in Resources */,
 				DBCDEFD61948C32000E4DFA3 /* gm_menu_chapter_back.png in Resources */,
 				DBCDEE4D1948C32000E4DFA3 /* endu_power_btn.png in Resources */,
-				DBCDF0CB1948C32000E4DFA3 /* GTMEditDoctorLeaveView.xib in Resources */,
 				DBCDEEE31948C32000E4DFA3 /* historyu_calendar_meetings_bottom_back.png in Resources */,
+				DB6B510E195AE3FF00574CA5 /* portal_img_place_back@2x.png in Resources */,
 				DBCDEFFC1948C32000E4DFA3 /* gm_logo_doctor_s_en.png in Resources */,
 				DBCDF0B81948C32000E4DFA3 /* gmtool_edit_blue_btn.png in Resources */,
 				DBCDF0231948C32000E4DFA3 /* gm_logo_arcoxia_s.png in Resources */,
@@ -4506,6 +4574,7 @@
 				DBCDEF5C1948C32000E4DFA3 /* historyu_tab_app5r_s.png in Resources */,
 				DBCDEE431948C32000E4DFA3 /* endu_field_ddl_err_back.png in Resources */,
 				DBCDEE991948C32000E4DFA3 /* endu_tab_app41_s.png in Resources */,
+				DB6B5136195AEB8100574CA5 /* GTMEditDoctorMissingView.xib in Resources */,
 				DBCDF03B1948C32000E4DFA3 /* gm_logo_focusd_s.png in Resources */,
 				DBCDEE8C1948C32000E4DFA3 /* endu_tab_app37.png in Resources */,
 				DBCDF0941948C32000E4DFA3 /* gm_logo_start.png in Resources */,
@@ -4573,6 +4642,7 @@
 				DBCDEEEC1948C32000E4DFA3 /* historyu_drag_pin.png in Resources */,
 				DBCDF03F1948C32000E4DFA3 /* gm_logo_gardasil_s.png in Resources */,
 				DBCDEF601948C32000E4DFA3 /* historyu_tab_app8_one.png in Resources */,
+				DB6B510D195AE3FF00574CA5 /* PortalViewController.xib in Resources */,
 				DBCDF0441948C32000E4DFA3 /* gm_logo_januetXR.png in Resources */,
 				DBCDEDDD1948C32000E4DFA3 /* chat_left_addmessage_btn.png in Resources */,
 				DBCDEF501948C32000E4DFA3 /* historyu_tab_app46.png in Resources */,
@@ -4680,6 +4750,7 @@
 				DBCDEE761948C32000E4DFA3 /* endu_tab_app28.png in Resources */,
 				DBCDF04B1948C32000E4DFA3 /* gm_logo_lecture_s.png in Resources */,
 				DB4067E2194DAD1100750F90 /* historyu_tab_app48_s@2x.png in Resources */,
+				DB6B5140195AEB8100574CA5 /* GTMEditNewDoctorView.xib in Resources */,
 				DBCDEF411948C32000E4DFA3 /* historyu_tab_app4.png in Resources */,
 				DBCDEE971948C32000E4DFA3 /* endu_tab_app40_s.png in Resources */,
 				DBCDEDF11948C32000E4DFA3 /* chat_send_btn.png in Resources */,
@@ -4693,7 +4764,6 @@
 				DBCDEE531948C32000E4DFA3 /* endu_samples_open_btn.png in Resources */,
 				DBCDEDEF1948C32000E4DFA3 /* chat_selectto_header_back.png in Resources */,
 				DB66A925194A0C03002A043E /* quet_boxend_text2.png in Resources */,
-				DBCDF0D11948C32000E4DFA3 /* GTMEditMenuView.xib in Resources */,
 				DBCDF0781948C32000E4DFA3 /* gm_logo_mss_singulair.png in Resources */,
 				DBCDEF591948C32000E4DFA3 /* historyu_tab_app5l.png in Resources */,
 				DBEF7201194A0F9A00F0EDC2 /* bridion_logo_history-white.png in Resources */,
@@ -4796,6 +4866,7 @@
 				DB66A921194A0C03002A043E /* quet_box7_sub_row.png in Resources */,
 				DB66A73F194A0793002A043E /* btn_pager_emend_s.png in Resources */,
 				DBCDF0401948C32000E4DFA3 /* gm_logo_home.png in Resources */,
+				DB6B5138195AEB8100574CA5 /* GTMEditDoctorUniteView.xib in Resources */,
 				DBCDEF611948C32000E4DFA3 /* historyu_tab_app8_s.png in Resources */,
 				DBCDF0041948C32000E4DFA3 /* gm_logo_kenes_s_en.png in Resources */,
 				DBCDEF911948C32000E4DFA3 /* HistoryUniversalTopView.xib in Resources */,
@@ -4839,6 +4910,7 @@
 				DBCDEEF51948C32000E4DFA3 /* historyu_input_cal_btn.png in Resources */,
 				DBCDEE651948C32000E4DFA3 /* endu_tab_app1_s.png in Resources */,
 				DBCDEF481948C32000E4DFA3 /* historyu_tab_app42.png in Resources */,
+				DB6B5114195AEA0300574CA5 /* DateSelectionViewController.xib in Resources */,
 				DBEF720D194A0F9A00F0EDC2 /* loginAll_back.png in Resources */,
 				DBCDEE321948C32000E4DFA3 /* EndMeetingUniversalController.xib in Resources */,
 				DBCDF08C1948C32000E4DFA3 /* gm_logo_recommend.png in Resources */,
@@ -4889,11 +4961,12 @@
 				DBCDEFDF1948C32000E4DFA3 /* gm_row_back_bluedark.png in Resources */,
 				DBCDEF1B1948C32000E4DFA3 /* historyu_tab_app23_s.png in Resources */,
 				DBCDEFD31948C32000E4DFA3 /* gm_email_btn.png in Resources */,
+				DB6B5115195AEA0300574CA5 /* DateSelectionViewControllerTitle.xib in Resources */,
+				DB6B5132195AEB8100574CA5 /* GTMEditClinicView.xib in Resources */,
 				DB4067D9194D9ECE00750F90 /* endu_tab_app48.png in Resources */,
 				DB4067DF194DAD1100750F90 /* historyu_tab_app48@2x.png in Resources */,
 				DBCDEEDF1948C32000E4DFA3 /* historyu_calendar_backup.png in Resources */,
 				DBCDEFCE1948C32000E4DFA3 /* gm_button_toggle2.png in Resources */,
-				DBCDF0D51948C32000E4DFA3 /* GTMEditNewDoctorView.xib in Resources */,
 				DBCDF0C41948C32000E4DFA3 /* gmtool_line.png in Resources */,
 				DBCDF0071948C32000E4DFA3 /* gm_logo_more_products_en.png in Resources */,
 				DBCDF0861948C32000E4DFA3 /* gm_logo_privacy-Policy.png in Resources */,
@@ -4905,9 +4978,8 @@
 				DBCDEF3B1948C32000E4DFA3 /* historyu_tab_app38.png in Resources */,
 				DBCDF06C1948C32000E4DFA3 /* gm_logo_mss_invanz_s.png in Resources */,
 				DBCDEE771948C32000E4DFA3 /* endu_tab_app28_s.png in Resources */,
-				DBCDF0C91948C32000E4DFA3 /* GTMEditClinicView.xib in Resources */,
 				DBCDEE4B1948C32000E4DFA3 /* endu_multi_btn.png in Resources */,
-				DBCDF0D31948C32000E4DFA3 /* GTMEditNameView.xib in Resources */,
+				DB6B513A195AEB8100574CA5 /* GTMEditExpertiseView.xib in Resources */,
 				DBCDEDCA1948C32000E4DFA3 /* bubbleMine.png in Resources */,
 				DB66A744194A0793002A043E /* header_elonva.png in Resources */,
 				DBCDEEFD1948C32000E4DFA3 /* historyu_meetingList_back.png in Resources */,
@@ -4945,9 +5017,11 @@
 				DBCDEDFF1948C32000E4DFA3 /* CSqlTeam.m in Sources */,
 				DBCDEF9A1948C32000E4DFA3 /* HistoryUniversalSamplesViewController.m in Sources */,
 				DBCDEF961948C32000E4DFA3 /* HistoryUniversalAddSamplesPopView.m in Sources */,
+				DB6B5139195AEB8100574CA5 /* GTMEditExpertiseView.m in Sources */,
 				DBCDEF8A1948C32000E4DFA3 /* HistoryUniversalDragOfChoiseView.m in Sources */,
 				DBCDEE271948C32000E4DFA3 /* LoginResponse.m in Sources */,
 				DB66A934194A0C03002A043E /* QuestionError.m in Sources */,
+				DB6B5137195AEB8100574CA5 /* GTMEditDoctorUniteView.m in Sources */,
 				DBCDEFC91948C32000E4DFA3 /* GMPageData.m in Sources */,
 				DB66A61F194A065F002A043E /* AppDelegate.m in Sources */,
 				DBCDEECD1948C32000E4DFA3 /* UINavigation-Extension.m in Sources */,
@@ -4971,12 +5045,12 @@
 				DBCDEFB21948C32000E4DFA3 /* PdfLinksView.m in Sources */,
 				DBCDEDBF1948C32000E4DFA3 /* CChatOnlineManager.m in Sources */,
 				DBCDEECA1948C32000E4DFA3 /* UIImage+PDF.m in Sources */,
+				DB6B510B195AE3FF00574CA5 /* AsyncImageView.m in Sources */,
 				DBCDEE301948C32000E4DFA3 /* EndMeetingUniInitData.m in Sources */,
 				DBCDEDBB1948C32000E4DFA3 /* AppConstants.m in Sources */,
 				DBCDEE311948C32000E4DFA3 /* EndMeetingUniversalController.m in Sources */,
 				DBCDEDC31948C32000E4DFA3 /* CPoolResponse.m in Sources */,
 				DBCDEF8D1948C32000E4DFA3 /* HistoryUniversalOtherViewController.m in Sources */,
-				DBCDF0D41948C32000E4DFA3 /* GTMEditNewDoctorView.m in Sources */,
 				DB66A7E3194A0793002A043E /* BridionPage0.m in Sources */,
 				DBCDEE2C1948C32000E4DFA3 /* Timer.m in Sources */,
 				DB66A941194A0C03002A043E /* QuestionBoxDataType4.m in Sources */,
@@ -5003,7 +5077,6 @@
 				DBCDEDBE1948C32000E4DFA3 /* CChatManager.m in Sources */,
 				DB66A72F194A0793002A043E /* BridionPageData.m in Sources */,
 				DBCDEF9F1948C32000E4DFA3 /* SBJsonBase.m in Sources */,
-				DBCDF0D61948C32000E4DFA3 /* GTMTopButton.m in Sources */,
 				DB66A93F194A0C03002A043E /* QuestionBoxDataType1.m in Sources */,
 				DBCDEED51948C32000E4DFA3 /* HistoryUniversalInitData.m in Sources */,
 				DB66A940194A0C03002A043E /* QuestionBoxDataType2.m in Sources */,
@@ -5015,16 +5088,16 @@
 				DBCDEE2D1948C32000E4DFA3 /* UserPDFStatistics.m in Sources */,
 				DBCDF0DF1948C32000E4DFA3 /* BasePageTimerController.m in Sources */,
 				DBCDEEC21948C32000E4DFA3 /* UIAlertViewHelper.m in Sources */,
+				DB6B5133195AEB8100574CA5 /* GTMEditDoctorLeaveView.m in Sources */,
 				DBCDEE281948C32000E4DFA3 /* MeetingFreezeManager.m in Sources */,
 				DBCDEE001948C32000E4DFA3 /* ChatEditPicView.m in Sources */,
-				DBCDF0CC1948C32000E4DFA3 /* GTMEditDoctorUniteView.m in Sources */,
 				DB66A942194A0C03002A043E /* QuestionBoxDataType7.m in Sources */,
 				DBCDEFA01948C32000E4DFA3 /* SBJsonParser.m in Sources */,
 				DBCDEF881948C32000E4DFA3 /* HistoryUniversalDoctorExtraDataViewController.m in Sources */,
 				DBCDEED31948C32000E4DFA3 /* HistoryUniversalCalendarListData.m in Sources */,
 				DB66A7DE194A0793002A043E /* BridionInfoControlController.m in Sources */,
+				DB6B510C195AE3FF00574CA5 /* PortalViewController.m in Sources */,
 				DBCDEFC51948C32000E4DFA3 /* GMCatalogDownloadObserver.m in Sources */,
-				DBCDF0CA1948C32000E4DFA3 /* GTMEditDoctorLeaveView.m in Sources */,
 				DBCDEDC51948C32000E4DFA3 /* CChatDataManager.m in Sources */,
 				DBCDEF861948C32000E4DFA3 /* HistoryUniversalMeetingRow.m in Sources */,
 				DBCDEEB71948C32000E4DFA3 /* EndMeetingUniDateSelectionViewController.m in Sources */,
@@ -5038,11 +5111,11 @@
 				DBCDEE081948C32000E4DFA3 /* ChatEditRoomView.m in Sources */,
 				DBCDEF7D1948C32000E4DFA3 /* HistoryUniversalCalendarCell.m in Sources */,
 				DBCDEF981948C32000E4DFA3 /* HistoryUniversalAddSamplesRow.m in Sources */,
-				DBCDF0D01948C32000E4DFA3 /* GTMEditMenuView.m in Sources */,
 				DBCDEFC61948C32000E4DFA3 /* GMCatalogFileHelper.m in Sources */,
 				DBCDEDB91948C32000E4DFA3 /* FTUtils+NSObject.m in Sources */,
 				DBCDEF9E1948C32000E4DFA3 /* SBJSON.m in Sources */,
 				DBCDEE231948C32000E4DFA3 /* ApplicationKeyValue.m in Sources */,
+				DB6B5141195AEB8100574CA5 /* GTMTopButton.m in Sources */,
 				DBCDEFC41948C32000E4DFA3 /* ErrorMessage.m in Sources */,
 				DBCDEEB81948C32000E4DFA3 /* EndMeetingUniQuestionView.m in Sources */,
 				DBCDEE061948C32000E4DFA3 /* ChatContactListView.m in Sources */,
@@ -5067,10 +5140,10 @@
 				DBCDEEC11948C32000E4DFA3 /* NSString+extensions.m in Sources */,
 				DBCDEFB11948C32000E4DFA3 /* PdfFileData.m in Sources */,
 				DBCDF0DE1948C32000E4DFA3 /* BasePageTimer.m in Sources */,
+				DB6B513F195AEB8100574CA5 /* GTMEditNewDoctorView.m in Sources */,
 				DBCDEEC91948C32000E4DFA3 /* PDFView.m in Sources */,
 				DB66A806194A07AB002A043E /* Constants.m in Sources */,
 				DBCDEEC81948C32000E4DFA3 /* NSString+MD5.m in Sources */,
-				DBCDF0D21948C32000E4DFA3 /* GTMEditNameView.m in Sources */,
 				DBCDEEBC1948C32000E4DFA3 /* EndMeetingUniSamplesView.m in Sources */,
 				DBCDEECB1948C32000E4DFA3 /* UIView+Image.m in Sources */,
 				DBCDF0D91948C32000E4DFA3 /* InfoControlLinks.m in Sources */,
@@ -5078,10 +5151,10 @@
 				DB66A936194A0C03002A043E /* QuestionBox1View.m in Sources */,
 				DBCDEE0E1948C32000E4DFA3 /* ChatBubbleData.m in Sources */,
 				DBCDEE241948C32000E4DFA3 /* Doctor.m in Sources */,
-				DBCDF0C81948C32000E4DFA3 /* GTMEditClinicView.m in Sources */,
 				DBCDEFB31948C32000E4DFA3 /* PDFScrollView.m in Sources */,
 				DBCDEFA11948C32000E4DFA3 /* SBJsonWriter.m in Sources */,
 				DBCDF0E11948C32000E4DFA3 /* Validator.m in Sources */,
+				DB6B513D195AEB8100574CA5 /* GTMEditNameView.m in Sources */,
 				DBCDEFC01948C32000E4DFA3 /* BaseLoginViewController.m in Sources */,
 				DBCDEEBA1948C32000E4DFA3 /* EndMeetingUniSampleRow.m in Sources */,
 				DBCDEEC41948C32000E4DFA3 /* UICustomBarButtonItem.m in Sources */,
@@ -5093,7 +5166,6 @@
 				DBCDEDB81948C32000E4DFA3 /* FTAnimationManager.m in Sources */,
 				DBCDEED71948C32000E4DFA3 /* HistoryUniversalMeetingListItemData.m in Sources */,
 				DB66A730194A0793002A043E /* BridionViewController.m in Sources */,
-				DBCDF0CE1948C32000E4DFA3 /* GTMEditExpertiseView.m in Sources */,
 				DBCDEE261948C32000E4DFA3 /* LanguageManager.m in Sources */,
 				DB66A933194A0C03002A043E /* QuestionDataManager.m in Sources */,
 				DBCDEDC11948C32000E4DFA3 /* ChatTeamContactData.m in Sources */,
@@ -5101,6 +5173,7 @@
 				DBCDEF901948C32000E4DFA3 /* HistoryUniversalTopView.m in Sources */,
 				DBCDEED61948C32000E4DFA3 /* HistoryUniversalMeetingData.m in Sources */,
 				DBCDF0A81948C32000E4DFA3 /* GTMMainMenuView.m in Sources */,
+				DB6B5113195AEA0300574CA5 /* DateSelectionViewController.m in Sources */,
 				DB66A937194A0C03002A043E /* QuestionBox2View.m in Sources */,
 				DBCDF0A51948C32000E4DFA3 /* GMMenuItemView.m in Sources */,
 				DBCDEE041948C32000E4DFA3 /* ChatContactListCell.m in Sources */,
@@ -5109,9 +5182,11 @@
 				DBCDEFB71948C32000E4DFA3 /* ZoomingPDFViewerViewController.m in Sources */,
 				DBCDEED11948C32000E4DFA3 /* UIViewController+Container.m in Sources */,
 				DBCDEEBE1948C32000E4DFA3 /* NSDate+Extension.m in Sources */,
+				DB6B5135195AEB8100574CA5 /* GTMEditDoctorMissingView.m in Sources */,
 				DBCDF0A71948C32000E4DFA3 /* GMPdfMenu.m in Sources */,
 				DBCDEDC01948C32000E4DFA3 /* ChatSendMessageMail.m in Sources */,
 				DB66A814194A07AB002A043E /* LoginController.m in Sources */,
+				DB6B5131195AEB8100574CA5 /* GTMEditClinicView.m in Sources */,
 				DBCDEFA81948C32000E4DFA3 /* DataManager.m in Sources */,
 				DBCDEE111948C32000E4DFA3 /* ChatRoomListCell.m in Sources */,
 				DBCDEFA21948C32000E4DFA3 /* ASIAuthenticationDialog.m in Sources */,
@@ -5128,6 +5203,7 @@
 				DBCDF0D71948C32000E4DFA3 /* InfoControl.m in Sources */,
 				DBCDEF941948C32000E4DFA3 /* HistoryUniversalFreezeViewController.m in Sources */,
 				DBCDEEBD1948C32000E4DFA3 /* DotNetDateFormatter.m in Sources */,
+				DB6B513B195AEB8100574CA5 /* GTMEditMenuView.m in Sources */,
 				DBCDEE021948C32000E4DFA3 /* ChatMainView.m in Sources */,
 				DBCDEED81948C32000E4DFA3 /* HistoryUniversalViewController.m in Sources */,
 				DB66A93D194A0C03002A043E /* QuestionBoxBase.m in Sources */,
@@ -5184,7 +5260,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Merck Sharp & Dohme  (Israel-1996) Company Ltd.//";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Merck Sharp & Dohme  (Israel-1996) Company Ltd.//";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bridion/Bridion-Prefix.pch";
 				INFOPLIST_FILE = "Bridion/Bridion-Info.plist";
@@ -5196,10 +5272,11 @@
 					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc/CrittercismSDK,
 					/Users/ykm_macmini/Documents/Projects/Oncology/SrcArc/CrittercismSDK,
 					/Users/ykm_macmini/Documents/Projects/SrcArc/CrittercismSDK,
+					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc,
 				);
 				PRODUCT_NAME = Bridion;
-				PROVISIONING_PROFILE = "D8567034-22FC-4229-8531-5AAB188FF989";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D8567034-22FC-4229-8531-5AAB188FF989";
+				PROVISIONING_PROFILE = "3B75F754-2E58-4BB5-B4F6-590DE635904A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3B75F754-2E58-4BB5-B4F6-590DE635904A";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
@@ -5263,7 +5340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dotan Ran (3C5M52T9E7)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bridion/Bridion-Prefix.pch";
@@ -5276,11 +5353,12 @@
 					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc/CrittercismSDK,
 					/Users/ykm_macmini/Documents/Projects/Oncology/SrcArc/CrittercismSDK,
 					/Users/ykm_macmini/Documents/Projects/SrcArc/CrittercismSDK,
+					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc,
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = Bridion;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7086AF44-6EAA-4130-B01A-3D4618456C84";
+				PROVISIONING_PROFILE = "4DD78D58-9147-46FD-931E-B77AB1280A07";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
@@ -5303,10 +5381,11 @@
 					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc/CrittercismSDK,
 					/Users/ykm_macmini/Documents/Projects/Oncology/SrcArc/CrittercismSDK,
 					/Users/ykm_macmini/Documents/Projects/SrcArc/CrittercismSDK,
+					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc,
 				);
 				PRODUCT_NAME = Bridion;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7086AF44-6EAA-4130-B01A-3D4618456C84";
+				PROVISIONING_PROFILE = "3B75F754-2E58-4BB5-B4F6-590DE635904A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3B75F754-2E58-4BB5-B4F6-590DE635904A";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};

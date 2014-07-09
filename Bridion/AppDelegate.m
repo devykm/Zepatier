@@ -51,6 +51,8 @@
             break;
     }
      */
+    
+    [super loginSuccess];
 }
 
 

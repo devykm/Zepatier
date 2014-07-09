@@ -120,6 +120,8 @@
 
 -(void) viewWillDisappear:(BOOL )animated
 {
+     [super viewWillDisappear:animated];
+    
     if([self.menu isOpen]) {
         [self.menu pagewillDisapear];
         return;
