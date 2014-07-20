@@ -5273,6 +5273,7 @@
 					/Users/ykm_macmini/Documents/Projects/Oncology/SrcArc/CrittercismSDK,
 					/Users/ykm_macmini/Documents/Projects/SrcArc/CrittercismSDK,
 					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc,
+					/Users/XEON/YKM/SrcArc/CrittercismSDK,
 				);
 				PRODUCT_NAME = Bridion;
 				PROVISIONING_PROFILE = "3B75F754-2E58-4BB5-B4F6-590DE635904A";
@@ -5354,6 +5355,7 @@
 					/Users/ykm_macmini/Documents/Projects/Oncology/SrcArc/CrittercismSDK,
 					/Users/ykm_macmini/Documents/Projects/SrcArc/CrittercismSDK,
 					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc,
+					/Users/XEON/YKM/SrcArc/CrittercismSDK,
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = Bridion;
@@ -5382,6 +5384,7 @@
 					/Users/ykm_macmini/Documents/Projects/Oncology/SrcArc/CrittercismSDK,
 					/Users/ykm_macmini/Documents/Projects/SrcArc/CrittercismSDK,
 					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc,
+					/Users/XEON/YKM/SrcArc/CrittercismSDK,
 				);
 				PRODUCT_NAME = Bridion;
 				PROVISIONING_PROFILE = "3B75F754-2E58-4BB5-B4F6-590DE635904A";
