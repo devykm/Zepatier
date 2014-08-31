@@ -13,8 +13,8 @@
 
 -(void) showBridion:(UIViewAnimationOptions)option;
 //-(void) showFosavance:(UIViewAnimationOptions)option;
--(void) showInvanz:(UIViewAnimationOptions)option;
--(void) showNoxafil:(UIViewAnimationOptions)option;
--(void) showCancidas:(UIViewAnimationOptions)option;
+//-(void) showInvanz:(UIViewAnimationOptions)option;
+//-(void) showNoxafil:(UIViewAnimationOptions)option;
+//-(void) showCancidas:(UIViewAnimationOptions)option;
 
 @end

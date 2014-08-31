@@ -41,22 +41,22 @@
     self.isLoaded = YES;
 }
 
--(void) openInvanz:(id)sender
-{
-    AppDelegate *app = (AppDelegate*)[UIApplication sharedApplication].delegate;
-    [app showInvanz:UIViewAnimationOptionTransitionNone];
-}
-
--(void) openNoxafil:(id)sender
-{
-    AppDelegate *app = (AppDelegate*)[UIApplication sharedApplication].delegate;
-    [app showNoxafil:UIViewAnimationOptionTransitionNone];
-}
--(void) openCancidas:(id)sender
-{
-    AppDelegate *app = (AppDelegate*)[UIApplication sharedApplication].delegate;
-    [app showCancidas:UIViewAnimationOptionTransitionNone];
-}
+//-(void) openInvanz:(id)sender
+//{
+//    AppDelegate *app = (AppDelegate*)[UIApplication sharedApplication].delegate;
+//    [app showInvanz:UIViewAnimationOptionTransitionNone];
+//}
+//
+//-(void) openNoxafil:(id)sender
+//{
+//    AppDelegate *app = (AppDelegate*)[UIApplication sharedApplication].delegate;
+//    [app showNoxafil:UIViewAnimationOptionTransitionNone];
+//}
+//-(void) openCancidas:(id)sender
+//{
+//    AppDelegate *app = (AppDelegate*)[UIApplication sharedApplication].delegate;
+//    [app showCancidas:UIViewAnimationOptionTransitionNone];
+//}
 
 -(void) openBridion:(id)sender
 {
