@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		299BA19519B3CA520038EF4B /* Arab Sector.png in Resources */ = {isa = PBXBuildFile; fileRef = 299BA18A19B3CA520038EF4B /* Arab Sector.png */; };
+		299BA19619B3CA520038EF4B /* ARX-FSV.png in Resources */ = {isa = PBXBuildFile; fileRef = 299BA18B19B3CA520038EF4B /* ARX-FSV.png */; };
+		299BA19719B3CA520038EF4B /* Bridion.png in Resources */ = {isa = PBXBuildFile; fileRef = 299BA18C19B3CA520038EF4B /* Bridion.png */; };
+		299BA19819B3CA520038EF4B /* Contraception.png in Resources */ = {isa = PBXBuildFile; fileRef = 299BA18D19B3CA520038EF4B /* Contraception.png */; };
+		299BA19919B3CA520038EF4B /* Diversify.png in Resources */ = {isa = PBXBuildFile; fileRef = 299BA18E19B3CA520038EF4B /* Diversify.png */; };
+		299BA19A19B3CA520038EF4B /* Ezetrol.png in Resources */ = {isa = PBXBuildFile; fileRef = 299BA18F19B3CA520038EF4B /* Ezetrol.png */; };
+		299BA19B19B3CA520038EF4B /* Fertility.png in Resources */ = {isa = PBXBuildFile; fileRef = 299BA19019B3CA520038EF4B /* Fertility.png */; };
+		299BA19D19B3CA520038EF4B /* Januet.png in Resources */ = {isa = PBXBuildFile; fileRef = 299BA19219B3CA520038EF4B /* Januet.png */; };
+		299BA19E19B3CA520038EF4B /* Vaccines.png in Resources */ = {isa = PBXBuildFile; fileRef = 299BA19319B3CA520038EF4B /* Vaccines.png */; };
+		299BA19F19B3CA520038EF4B /* Victrelis.png in Resources */ = {isa = PBXBuildFile; fileRef = 299BA19419B3CA520038EF4B /* Victrelis.png */; };
 		5D98018317CB91B000F0E467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D98018217CB91B000F0E467 /* UIKit.framework */; };
 		5D98018517CB91B000F0E467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D98018417CB91B000F0E467 /* Foundation.framework */; };
 		5D98018717CB91B000F0E467 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D98018617CB91B000F0E467 /* CoreGraphics.framework */; };
@@ -987,7 +997,7 @@
 		DBF8669F1949D54E00C1A08E /* historyu_tab_app46_s.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF8669D1949D54E00C1A08E /* historyu_tab_app46_s.png */; };
 		DBFBEE6F19A7863400F76653 /* ServerChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFBEE6D19A7863400F76653 /* ServerChooseViewController.m */; };
 		DBFBEE7019A7863400F76653 /* ServerChooseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBFBEE6E19A7863400F76653 /* ServerChooseViewController.xib */; };
-		DBFBEE7C19A7864800F76653 /* login_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFBEE7219A7864800F76653 /* login_back@2x.png */; };
+		DBFBEE7C19A7864800F76653 /* new_login_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFBEE7219A7864800F76653 /* new_login_back@2x.png */; };
 		DBFBEE7D19A7864800F76653 /* login_bottom_strip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFBEE7319A7864800F76653 /* login_bottom_strip@2x.png */; };
 		DBFBEE7E19A7864800F76653 /* login_btn_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFBEE7419A7864800F76653 /* login_btn_green@2x.png */; };
 		DBFBEE7F19A7864800F76653 /* login_btn_pinck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFBEE7519A7864800F76653 /* login_btn_pinck@2x.png */; };
@@ -1001,6 +1011,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		299BA18A19B3CA520038EF4B /* Arab Sector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arab Sector.png"; sourceTree = "<group>"; };
+		299BA18B19B3CA520038EF4B /* ARX-FSV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARX-FSV.png"; sourceTree = "<group>"; };
+		299BA18C19B3CA520038EF4B /* Bridion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bridion.png; sourceTree = "<group>"; };
+		299BA18D19B3CA520038EF4B /* Contraception.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contraception.png; sourceTree = "<group>"; };
+		299BA18E19B3CA520038EF4B /* Diversify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diversify.png; sourceTree = "<group>"; };
+		299BA18F19B3CA520038EF4B /* Ezetrol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ezetrol.png; sourceTree = "<group>"; };
+		299BA19019B3CA520038EF4B /* Fertility.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fertility.png; sourceTree = "<group>"; };
+		299BA19119B3CA520038EF4B /* Hospitols.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hospitols.png; sourceTree = "<group>"; };
+		299BA19219B3CA520038EF4B /* Januet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Januet.png; sourceTree = "<group>"; };
+		299BA19319B3CA520038EF4B /* Vaccines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vaccines.png; sourceTree = "<group>"; };
+		299BA19419B3CA520038EF4B /* Victrelis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Victrelis.png; sourceTree = "<group>"; };
 		5D98017E17CB91B000F0E467 /* Bridion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bridion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D98018217CB91B000F0E467 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5D98018417CB91B000F0E467 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -2198,7 +2219,7 @@
 		DBFBEE6C19A7863400F76653 /* ServerChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerChooseViewController.h; path = ServerChooser/ServerChooseViewController.h; sourceTree = "<group>"; };
 		DBFBEE6D19A7863400F76653 /* ServerChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServerChooseViewController.m; path = ServerChooser/ServerChooseViewController.m; sourceTree = "<group>"; };
 		DBFBEE6E19A7863400F76653 /* ServerChooseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ServerChooseViewController.xib; path = ServerChooser/ServerChooseViewController.xib; sourceTree = "<group>"; };
-		DBFBEE7219A7864800F76653 /* login_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login_back@2x.png"; path = "Resources/login_back@2x.png"; sourceTree = "<group>"; };
+		DBFBEE7219A7864800F76653 /* new_login_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "new_login_back@2x.png"; path = "Resources/new_login_back@2x.png"; sourceTree = "<group>"; };
 		DBFBEE7319A7864800F76653 /* login_bottom_strip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login_bottom_strip@2x.png"; path = "Resources/login_bottom_strip@2x.png"; sourceTree = "<group>"; };
 		DBFBEE7419A7864800F76653 /* login_btn_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login_btn_green@2x.png"; path = "Resources/login_btn_green@2x.png"; sourceTree = "<group>"; };
 		DBFBEE7519A7864800F76653 /* login_btn_pinck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login_btn_pinck@2x.png"; path = "Resources/login_btn_pinck@2x.png"; sourceTree = "<group>"; };
@@ -2238,6 +2259,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		299BA18919B3CA520038EF4B /* Application_Logos */ = {
+			isa = PBXGroup;
+			children = (
+				299BA18A19B3CA520038EF4B /* Arab Sector.png */,
+				299BA18B19B3CA520038EF4B /* ARX-FSV.png */,
+				299BA18C19B3CA520038EF4B /* Bridion.png */,
+				299BA18D19B3CA520038EF4B /* Contraception.png */,
+				299BA18E19B3CA520038EF4B /* Diversify.png */,
+				299BA18F19B3CA520038EF4B /* Ezetrol.png */,
+				299BA19019B3CA520038EF4B /* Fertility.png */,
+				299BA19119B3CA520038EF4B /* Hospitols.png */,
+				299BA19219B3CA520038EF4B /* Januet.png */,
+				299BA19319B3CA520038EF4B /* Vaccines.png */,
+				299BA19419B3CA520038EF4B /* Victrelis.png */,
+			);
+			name = Application_Logos;
+			path = Resources/Application_Logos;
+			sourceTree = "<group>";
+		};
 		4F99E25C18311AA4006FCC52 /* Question */ = {
 			isa = PBXGroup;
 			children = (
@@ -4217,7 +4257,8 @@
 		DBFBEE7119A7863700F76653 /* LoginResource Images */ = {
 			isa = PBXGroup;
 			children = (
-				DBFBEE7219A7864800F76653 /* login_back@2x.png */,
+				299BA18919B3CA520038EF4B /* Application_Logos */,
+				DBFBEE7219A7864800F76653 /* new_login_back@2x.png */,
 				DBFBEE7319A7864800F76653 /* login_bottom_strip@2x.png */,
 				DBFBEE7419A7864800F76653 /* login_btn_green@2x.png */,
 				DBFBEE7519A7864800F76653 /* login_btn_pinck@2x.png */,
@@ -4373,6 +4414,7 @@
 				DBCDF0BD1948C32000E4DFA3 /* gmtool_edit_field_red.png in Resources */,
 				DBCDEFB61948C32000E4DFA3 /* PdfZoomPopViewController.xib in Resources */,
 				DB66A920194A0C03002A043E /* quet_box7_clear.png in Resources */,
+				299BA19D19B3CA520038EF4B /* Januet.png in Resources */,
 				DB66A73B194A0793002A043E /* btn_menu_emend.png in Resources */,
 				DBCDEF2E1948C32000E4DFA3 /* historyu_tab_app31_s.png in Resources */,
 				DBCDEEE51948C32000E4DFA3 /* historyu_calendar_power.png in Resources */,
@@ -4438,6 +4480,7 @@
 				DBCDEE5D1948C32000E4DFA3 /* endu_tab_app16_s.png in Resources */,
 				DBCDEE031948C32000E4DFA3 /* ChatMainView.xib in Resources */,
 				DBCDEE691948C32000E4DFA3 /* endu_tab_app20_s.png in Resources */,
+				299BA19719B3CA520038EF4B /* Bridion.png in Resources */,
 				DBCDF0321948C32000E4DFA3 /* gm_logo_emend.png in Resources */,
 				DBEF7203194A0F9A00F0EDC2 /* bridion_logo_history.png in Resources */,
 				DBCDF0AB1948C32000E4DFA3 /* gmtool_badge.png in Resources */,
@@ -4518,12 +4561,14 @@
 				DBCDF0481948C32000E4DFA3 /* gm_logo_kenes.png in Resources */,
 				DBCDEFAA1948C32000E4DFA3 /* pdf_link_close.png in Resources */,
 				DBCDEEB61948C32000E4DFA3 /* EndMeetingUniApplicationSelectionViewController.xib in Resources */,
+				299BA19819B3CA520038EF4B /* Contraception.png in Resources */,
 				DBCDF0161948C32000E4DFA3 /* gm_logo_recommend_s_en.png in Resources */,
 				DBCDF00A1948C32000E4DFA3 /* gm_logo_mss_menu_s.png in Resources */,
 				DBCDEE7D1948C32000E4DFA3 /* endu_tab_app3.png in Resources */,
 				DBCDEE3A1948C32000E4DFA3 /* endu_cal_btn_old.png in Resources */,
 				DBCDF0121948C32000E4DFA3 /* gm_logo_privacy-Policy_s_en.png in Resources */,
 				DBCDEDD41948C32000E4DFA3 /* chat_contact_header_back_white.png in Resources */,
+				299BA19E19B3CA520038EF4B /* Vaccines.png in Resources */,
 				DBCDEE8B1948C32000E4DFA3 /* endu_tab_app36_s.png in Resources */,
 				DBCDEF121948C32000E4DFA3 /* historyu_tab_app1r_s.png in Resources */,
 				DBCDEEE71948C32000E4DFA3 /* historyu_calendar_report_btn.png in Resources */,
@@ -4600,6 +4645,7 @@
 				DBCDEF291948C32000E4DFA3 /* historyu_tab_app2r.png in Resources */,
 				DBE3AA2D195088BF005201DA /* icon.png in Resources */,
 				DBCDEF641948C32000E4DFA3 /* historyu_tab_back.png in Resources */,
+				299BA19F19B3CA520038EF4B /* Victrelis.png in Resources */,
 				DBCDEFDB1948C32000E4DFA3 /* gm_row_back.png in Resources */,
 				DBCDEF5B1948C32000E4DFA3 /* historyu_tab_app5r.png in Resources */,
 				DB66A928194A0C03002A043E /* quet_logo.png in Resources */,
@@ -4704,6 +4750,7 @@
 				DBCDF0181948C32000E4DFA3 /* gm_logo_redirect_s_en.png in Resources */,
 				DBCDF0721948C32000E4DFA3 /* gm_logo_mss_orgalutran.png in Resources */,
 				DBCDEFE01948C32000E4DFA3 /* gm_row_back_brown.png in Resources */,
+				299BA19919B3CA520038EF4B /* Diversify.png in Resources */,
 				DBCDF0C51948C32000E4DFA3 /* gmtool_menu_back.png in Resources */,
 				DBFBEE7F19A7864800F76653 /* login_btn_pinck@2x.png in Resources */,
 				DBCDEF311948C32000E4DFA3 /* historyu_tab_app33.png in Resources */,
@@ -4839,7 +4886,7 @@
 				DBCDEE3E1948C32000E4DFA3 /* endu_field_back.png in Resources */,
 				DBCDEE551948C32000E4DFA3 /* endu_searchin_btn_s.png in Resources */,
 				DBCDEFB91948C32000E4DFA3 /* Avenir35.ttf in Resources */,
-				DBFBEE7C19A7864800F76653 /* login_back@2x.png in Resources */,
+				DBFBEE7C19A7864800F76653 /* new_login_back@2x.png in Resources */,
 				DBCDEEA91948C32000E4DFA3 /* endu_tab_app47_s@2x.png in Resources */,
 				DBCDF00D1948C32000E4DFA3 /* gm_logo_pain_en.png in Resources */,
 				DB66A92F194A0C03002A043E /* quet_ui_ez.plist in Resources */,
@@ -4861,6 +4908,7 @@
 				DBCDEF7C1948C32000E4DFA3 /* historyu_xforce_empty.png in Resources */,
 				DBCDEE6F1948C32000E4DFA3 /* endu_tab_app24_s.png in Resources */,
 				DBCDEEAC1948C32000E4DFA3 /* endu_tab_app5_s.png in Resources */,
+				299BA19619B3CA520038EF4B /* ARX-FSV.png in Resources */,
 				DBCDF03C1948C32000E4DFA3 /* gm_logo_fosevan.png in Resources */,
 				DBCDF09A1948C32000E4DFA3 /* gm_logo_who.png in Resources */,
 				DBCDEF1E1948C32000E4DFA3 /* historyu_tab_app25.png in Resources */,
@@ -4893,6 +4941,7 @@
 				DBCDF0151948C32000E4DFA3 /* gm_logo_recommend_en.png in Resources */,
 				DBCDF02D1948C32000E4DFA3 /* gm_logo_detailed-Aid_s.png in Resources */,
 				DBCDEF711948C32000E4DFA3 /* historyu_top_left_shadow.png in Resources */,
+				299BA19519B3CA520038EF4B /* Arab Sector.png in Resources */,
 				DBCDEE571948C32000E4DFA3 /* endu_tab_app1.png in Resources */,
 				DBCDEDF71948C32000E4DFA3 /* chat_send_message_field_back.png in Resources */,
 				DBCDEDD11948C32000E4DFA3 /* chat_contact_header_back.png in Resources */,
@@ -4918,6 +4967,7 @@
 				DBCDEE4A1948C32000E4DFA3 /* endu_ipad_btn_sd.png in Resources */,
 				DB66A733194A0793002A043E /* BridionChapters.plist in Resources */,
 				DBCDEF6C1948C32000E4DFA3 /* historyu_tab_right_btn.png in Resources */,
+				299BA19A19B3CA520038EF4B /* Ezetrol.png in Resources */,
 				DBCDEE891948C32000E4DFA3 /* endu_tab_app35_s.png in Resources */,
 				DBE3AA2C195088BF005201DA /* icon@2x.png in Resources */,
 				DBCDF0A11948C32000E4DFA3 /* gm_logo_zoster_s.png in Resources */,
@@ -4968,6 +5018,7 @@
 				DBCDEEF51948C32000E4DFA3 /* historyu_input_cal_btn.png in Resources */,
 				DBCDEE651948C32000E4DFA3 /* endu_tab_app1_s.png in Resources */,
 				DBCDEF481948C32000E4DFA3 /* historyu_tab_app42.png in Resources */,
+				299BA19B19B3CA520038EF4B /* Fertility.png in Resources */,
 				DB6B5114195AEA0300574CA5 /* DateSelectionViewController.xib in Resources */,
 				DBEF720D194A0F9A00F0EDC2 /* loginAll_back.png in Resources */,
 				DBCDEE321948C32000E4DFA3 /* EndMeetingUniversalController.xib in Resources */,
@@ -5320,7 +5371,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Merck Sharp & Dohme  (Israel-1996) Company Ltd.//";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Merck Sharp & Dohme  (Israel-1996) Company Ltd.//";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bridion/Bridion-Prefix.pch";
 				INFOPLIST_FILE = "Bridion/Bridion-Info.plist";
@@ -5333,6 +5384,7 @@
 					/Users/ykm_macmini/Documents/Projects/Oncology/SrcArc/CrittercismSDK,
 					/Users/ykm_macmini/Documents/Projects/SrcArc/CrittercismSDK,
 					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc,
+					/Users/XEON/YKM/SrcArc/CrittercismSDK,
 				);
 				PRODUCT_NAME = Bridion;
 				PROVISIONING_PROFILE = "3B75F754-2E58-4BB5-B4F6-590DE635904A";
@@ -5414,6 +5466,7 @@
 					/Users/ykm_macmini/Documents/Projects/Oncology/SrcArc/CrittercismSDK,
 					/Users/ykm_macmini/Documents/Projects/SrcArc/CrittercismSDK,
 					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc,
+					/Users/XEON/YKM/SrcArc/CrittercismSDK,
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = Bridion;
@@ -5428,8 +5481,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Merck Sharp & Dohme  (Israel-1996) Company Ltd.//";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Merck Sharp & Dohme  (Israel-1996) Company Ltd.//";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bridion/Bridion-Prefix.pch";
 				INFOPLIST_FILE = "Bridion/Bridion-Info.plist";
@@ -5442,6 +5495,7 @@
 					/Users/ykm_macmini/Documents/Projects/Oncology/SrcArc/CrittercismSDK,
 					/Users/ykm_macmini/Documents/Projects/SrcArc/CrittercismSDK,
 					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc,
+					/Users/XEON/YKM/SrcArc/CrittercismSDK,
 				);
 				PRODUCT_NAME = Bridion;
 				PROVISIONING_PROFILE = "3B75F754-2E58-4BB5-B4F6-590DE635904A";

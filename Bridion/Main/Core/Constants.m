@@ -11,6 +11,7 @@
 @implementation Constants
 
 NSString* const APPLICATION_VERSION = @"1.5";
+//Application ID
 NSString* const APPLICATION_ID = @"48";
 NSString* const APPLICATION_SCHEMA = @"msdilbridion";
 
