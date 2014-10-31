@@ -10,33 +10,37 @@
 	<string>Bridion</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>E2845A7F-9B12-404A-8127-D2E17EB8B40D</key>
+		<key>06CA75D68828B1C7484974D8417C1795C7FE77D2</key>
 		<string>https://github.com/devykm/Bridion.git</string>
-		<key>FDB94C06-AF7C-45D2-A4D6-FC7593D7C818</key>
+		<key>0EDD29B9F41B991DC36C9556310190551E5E90BC</key>
+		<string>https://github.com/devykm/Zihumologim.git</string>
+		<key>608D1C894EAB282B362013E674BE884F68340B68</key>
 		<string>https://github.com/devykm/SrcArc.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Bridion.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>E2845A7F-9B12-404A-8127-D2E17EB8B40D</key>
+		<key>06CA75D68828B1C7484974D8417C1795C7FE77D2</key>
 		<string>../..</string>
-		<key>FDB94C06-AF7C-45D2-A4D6-FC7593D7C818</key>
+		<key>0EDD29B9F41B991DC36C9556310190551E5E90BC</key>
+		<string>../../../Zihumologim</string>
+		<key>608D1C894EAB282B362013E674BE884F68340B68</key>
 		<string>../../../SrcArc</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/devykm/Bridion.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E2845A7F-9B12-404A-8127-D2E17EB8B40D</string>
+	<string>06CA75D68828B1C7484974D8417C1795C7FE77D2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E2845A7F-9B12-404A-8127-D2E17EB8B40D</string>
+			<string>06CA75D68828B1C7484974D8417C1795C7FE77D2</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Bridion</string>
 		</dict>
@@ -44,9 +48,17 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>FDB94C06-AF7C-45D2-A4D6-FC7593D7C818</string>
+			<string>608D1C894EAB282B362013E674BE884F68340B68</string>
 			<key>IDESourceControlWCCName</key>
 			<string>SrcArc</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0EDD29B9F41B991DC36C9556310190551E5E90BC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Zihumologim</string>
 		</dict>
 	</array>
 </dict>

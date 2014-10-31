@@ -15,7 +15,6 @@
 //do not move
 #import "AppMacro.h"
 
-extern NSString* const APPLICATION_VERSION;
 extern NSString* const APPLICATION_ID;
 extern NSString* const FONT_NAME;
 extern NSString* const FONT_NAME_BOLD;
