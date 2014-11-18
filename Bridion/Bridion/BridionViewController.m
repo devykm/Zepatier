@@ -97,8 +97,6 @@
     [tap setCancelsTouchesInView:NO];
     [tap setNumberOfTapsRequired:2];
     [self.scrollView addGestureRecognizer:tap];
-    
-    [self btnMenuClick:nil];
 }
 
 -(void) viewWillAppear:(BOOL )animated
@@ -149,6 +147,14 @@
     [self.chapterPager show];
 }
 
+- (IBAction)btnPredictableCompleteClick:(id)sender
+{
+    [self notifyActiveScreenDisAppear];
+    [self setPage:1 animate:NO];
+    [self notifyActiveScreenAppear];
+    
+    [self.menu hide];
+}
 
 /////////////////////////
 #pragma mark startMeetingMenuDelegate
@@ -223,7 +229,7 @@
         [self.menu hide];
     }
     else {
-        self.menu = [[BridionGMMainMenuView alloc] initWithFrame:CGRectMake(0, 92, 1024, 768 - 92)];
+        self.menu = [[BridionGMMainMenuView alloc] initWithFrame:CGRectMake(0, 90, 1024, 768 - 90)];
         self.menu.delegate = self;
         [self.menu showInView:self.view];
         [self.view bringSubviewToFront:self.topMenu];

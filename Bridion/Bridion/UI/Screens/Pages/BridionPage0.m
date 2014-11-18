@@ -7,19 +7,17 @@
 //
 #import "AppDelegate.h"
 #import "BridionPage0.h"
-
-#import "BridionViewController.h"
+#import "NSObject+Extension.h"
+#import "FTAnimation+UIView.h"
 
 @implementation BridionPage0
 {
     UIImageView *img;
-    QuestionViewController *finalQuestionController;
-
 }
 
 - (id)initWithPageNumber:(int)page size:(CGSize)size
 {
-	if (self = [super initWithPageNumber:BridionStatistictPageSelect size:size]) {
+	if (self = [super initWithPageNumber:BridionStatistictPage0 size:size]) {
         [self buildPage];
     }
     return self;
@@ -27,8 +25,9 @@
 
 -(void) buildPage
 {
-    [self.imgBack setImage:[UIImage imageNamed:@"choose-hospitals.png"]];
-    [self.imgBack setContentMode:UIViewContentModeScaleAspectFill];
+    [[NSBundle mainBundle] loadNibNamed:@"BridionPage0" owner:self options:nil];
+    [self.view setFrame:self.bounds];
+    [self addSubview:self.view];
 }
 
 -(void) pageDidAppear
@@ -39,37 +38,17 @@
         return;
     }
     self.isLoaded = YES;
+    
+    [self performBlock:^{
+        [self.text1 popIn:0.5 delegate:nil];
+        [self performBlock:^{
+            [self.text2 popIn:0.5 delegate:nil];
+            [self performBlock:^{
+                [self.text3 popIn:0.5 delegate:nil];
+            } afterDelay:0.5];
+        } afterDelay:0.5];
+        
+    } afterDelay:1.0];
 }
-
-//-(void) openInvanz:(id)sender
-//{
-//    AppDelegate *app = (AppDelegate*)[UIApplication sharedApplication].delegate;
-//    [app showInvanz:UIViewAnimationOptionTransitionNone];
-//}
-//
-//-(void) openNoxafil:(id)sender
-//{
-//    AppDelegate *app = (AppDelegate*)[UIApplication sharedApplication].delegate;
-//    [app showNoxafil:UIViewAnimationOptionTransitionNone];
-//}
-//-(void) openCancidas:(id)sender
-//{
-//    AppDelegate *app = (AppDelegate*)[UIApplication sharedApplication].delegate;
-//    [app showCancidas:UIViewAnimationOptionTransitionNone];
-//}
-
--(void) openBridion:(id)sender
-{
-    [self.delegate bridionBaseMoveToPage:1];
-}
-
-#pragma mark questionViewController DELEGATE
-
-//-(void) questionViewControllerCloseMe{
-//    
-//    [EmendVC dismissViewControllerAnimated:YES completion:nil];
-//
-//	finalQuestionController = nil;
-//}
 
 @end

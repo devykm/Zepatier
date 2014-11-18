@@ -7,13 +7,12 @@
 //
 
 #import "BridionBottomPagerView.h"
-//#import "InvanzChapterData.h"
+#import "BridionChapterData.h"
 #import "UIView-Extensions.h"
 
 #define BOX_W 148
 
-@interface BridionBottomPagerView (PRIVATE)
--(void) showPreview:(int)tag;
+@interface BridionBottomPagerView ()
 @end
 
 @implementation BridionBottomPagerView
@@ -51,7 +50,7 @@
     [self.delegate bridionBottomPagerPreviewOpen];
     [self setHidden:NO];
     [UIView animateWithDuration:0.4 animations:^(void){
-        [self.barContainer setY:self.bounds.size.height - 55.0];
+        [self.barContainer setY:self.bounds.size.height - self.barContainer.height];
         self.fadeView.alpha = 1;
     } completion:^(BOOL finished){
         isAnimating = NO;
@@ -77,60 +76,48 @@
 
 - (void)initChapters:(NSMutableArray*)chapters
 {
-//    self.chaptersData = chapters;
-//    self.boxes = [[NSMutableDictionary alloc] init];
-//    float xPos = 0.0;
-//    float yPos = 0.0;
-//    for (int i=0; i<[chapters count]; i++) {
-//        InvanzChapterData *data = (InvanzChapterData*)[chapters objectAtIndex:i];
-//        if(data.hideFromNavigation) { 
-//            continue; 
-//        }
-//        
-//        float w = self.width / [chapters count];
-//        UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(xPos, yPos, w, 75)];
-//        [btn setBackgroundImage:[[UIImage imageNamed:@"btn_pager_bridion.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateNormal];
-//        [btn setBackgroundImage:[[UIImage imageNamed:@"btn_pager_bridion_s.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateSelected];
-//        [btn setBackgroundImage:[[UIImage imageNamed:@"btn_pager_bridion_s.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateSelected | UIControlStateHighlighted];
-//        [btn setAdjustsImageWhenHighlighted:NO];
-//        [btn setTitle:data.name forState:UIControlStateNormal];
-//        [btn setContentVerticalAlignment:UIControlContentVerticalAlignmentCenter];
-//        [btn.titleLabel setLineBreakMode:NSLineBreakByWordWrapping];
-//        [btn.titleLabel setNumberOfLines:2];
-//        [btn.titleLabel setTextAlignment:NSTextAlignmentCenter];
-//        
-//        btn.titleLabel.font = [UIFont fontWithName:@"Tipograf" size:16];
-//        //[btn.titleLabel setFont:[UIFont fontWithName:@"Tipograf2" size:25]];
-//        
-//        //[btn.titleLabel setFont:[UIFont fontWithName:@"Tipograf2" size:25]]; // Tipograf2 || Avenir LT 65 Medium || FormataBQ-Light
-//        //btn.titleLabel.font = [UIFont systemFontOfSize:23];
-//        //btn.titleLabel.font = [UIFont fontWithName:@"Tipograf2" size:30.0];
-//
-//        int redGrey = 177;
-//        int greenGrey = 242;
-//        int blueGrey = 177;
-//        UIColor *colorGrey = [UIColor colorWithRed:(redGrey/255.0) green:(greenGrey/255.0) blue:(blueGrey/255.0) alpha:1.0f];
-//        
-//        int redWhite = 256;
-//        int greenWhite = 256;
-//        int blueWhite = 256;
-//        UIColor *colorWhite = [UIColor colorWithRed:(redWhite/255.0) green:(greenWhite/255.0) blue:(blueWhite/255.0) alpha:1.0f];
-//        
-//        //UIFont *boldFont = [UIFont boldSystemFontOfSize:fontSize];
-//        
-//        
-//        
-//        [btn setTitleColor:colorGrey forState:UIControlStateNormal];
-//        [btn setTitleColor:colorWhite forState:UIControlStateSelected];
-//        [btn setTitleColor:colorWhite forState:UIControlStateHighlighted];
-//        
-//        [btn setContentMode:UIViewContentModeCenter];
-//        [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
-//        btn.tag = data.number;
-//        [self.barContainer addSubview:btn];
-//        [self.boxes setValue:btn forKey:[NSString stringWithFormat:@"%d",data.number]];
-//        xPos += w;
-//    }
+    self.chaptersData = chapters;
+    self.boxes = [[NSMutableDictionary alloc] init];
+    float xPos = 0.0;
+    float yPos = 0.0;
+    
+    int totalChapters = 0;
+    for (int i=0; i<[chapters count]; i++) {
+        BridionChapterData *data = (BridionChapterData*)[chapters objectAtIndex:i];
+        if(!data.hideFromNavigation) {
+            totalChapters++;
+        }
+    }
+    
+    float w = self.width / totalChapters;
+    for (int i=0; i<[chapters count]; i++) {
+        BridionChapterData *data = (BridionChapterData*)[chapters objectAtIndex:i];
+        if(data.hideFromNavigation) { 
+            continue; 
+        }
+        
+        UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(xPos, yPos, w, self.barContainer.height)];
+        [btn setBackgroundImage:[[UIImage imageNamed:@"bridion_footer.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateNormal];
+        [btn setBackgroundImage:[[UIImage imageNamed:@"bridion_footer_press.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateSelected];
+        [btn setBackgroundImage:[[UIImage imageNamed:@"bridion_footer_press.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateSelected | UIControlStateHighlighted];
+        [btn setAdjustsImageWhenHighlighted:NO];
+        [btn setTitle:data.name forState:UIControlStateNormal];
+        [btn setTitleEdgeInsets:UIEdgeInsetsMake(20, 0, 0, 0)];
+        [btn setContentVerticalAlignment:UIControlContentVerticalAlignmentCenter];
+        [btn.titleLabel setLineBreakMode:NSLineBreakByWordWrapping];
+        [btn.titleLabel setNumberOfLines:1];
+        [btn.titleLabel setTextAlignment:NSTextAlignmentCenter];
+        btn.titleLabel.font = [UIFont fontWithName:@"Arial-BoldMT" size:20];
+        [btn setTitleColor:[UIColor colorWithRed:(255/255.0) green:(255/255.0) blue:(255/255.0) alpha:1.0f] forState:UIControlStateNormal];
+        [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateSelected];
+        [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
+        [btn setContentMode:UIViewContentModeCenter];
+        [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+        btn.tag = data.number;
+        [self.barContainer addSubview:btn];
+        [self.boxes setValue:btn forKey:[NSString stringWithFormat:@"%d",data.number]];
+        xPos += w;
+    }
 }
 
 -(BOOL) isOpen
@@ -162,21 +149,21 @@
 
 -(void) showPreview:(int)tag
 {
-//    float previewW = 200.0;
-//    UIButton *box = (UIButton*)[self.boxes objectForKey:[NSString stringWithFormat:@"%d",tag]];
-//    InvanzChapterData *chapter = [self.chaptersData objectAtIndex:tag];
-//    float xPos = box.center.x - (previewW/2);
-//    xPos = MIN(xPos, self.bounds.size.width - previewW - 10);
-//    xPos = MAX(xPos, 10);
-//    if(self.previewView == nil) {
-//        self.previewView = [[BridionBottomPagerPreview alloc] initWithFrame:CGRectMake(xPos - 30.0, 0, previewW, 660)];
-//        self.previewView.delegate = self;
-//        [self.previewView setBackgroundColor:[UIColor clearColor]];
-//        [self addSubview:self.previewView];
-//        [self bringSubviewToFront:self.barContainer];
-//    }
-//    
-//    [self.previewView moveToPoint:CGPointMake(xPos, 0) andInitItems:chapter];
+    float previewW = 200.0;
+    UIButton *box = (UIButton*)[self.boxes objectForKey:[NSString stringWithFormat:@"%d",tag]];
+    BridionChapterData *chapter = [self.chaptersData objectAtIndex:tag];
+    float xPos = box.center.x - (previewW/2);
+    xPos = MIN(xPos, self.bounds.size.width - previewW - 10);
+    xPos = MAX(xPos, 10);
+    if(self.previewView == nil) {
+        self.previewView = [[BridionBottomPagerPreview alloc] initWithFrame:CGRectMake(xPos - 30.0, 0, previewW, 660)];
+        self.previewView.delegate = self;
+        [self.previewView setBackgroundColor:[UIColor clearColor]];
+        [self addSubview:self.previewView];
+        [self bringSubviewToFront:self.barContainer];
+    }
+    
+    [self.previewView moveToPoint:CGPointMake(xPos, 0) andInitItems:chapter];
 }
 
 -(void) hidePreview
@@ -191,7 +178,6 @@
     }
 }
 
-
 #pragma --------------
 #pragma BridionBottomPagerPreviewDelegate
 
@@ -200,7 +186,5 @@
     [self.delegate bridionBottomPagerPreviewSelected:chapter page:page];
     [self performSelector:@selector(hide) withObject:nil afterDelay:0.3];
 }
-
-
 
 @end

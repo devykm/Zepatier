@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "BridionBase.h"
-#import  "QuestionViewController.h"
 
-@interface BridionPage0 : BridionBase<QuestionViewControllerDelegate>
+@interface BridionPage0 : BridionBase
+
+@property(nonatomic,strong) IBOutlet UIView *view;
+@property(nonatomic,strong) IBOutlet UIImageView *text1;
+@property(nonatomic,strong) IBOutlet UIImageView *text2;
+@property(nonatomic,strong) IBOutlet UIImageView *text3;
 
 @end

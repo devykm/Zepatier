@@ -32,6 +32,117 @@
 		5D98083517CB955600F0E467 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D98082917CB955500F0E467 /* QuartzCore.framework */; };
 		5D98083617CB955600F0E467 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D98082A17CB955500F0E467 /* Security.framework */; };
 		5D98083717CB955600F0E467 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D98082B17CB955500F0E467 /* SystemConfiguration.framework */; };
+		BA05260F1A069F5800E8B07D /* bridion_footer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526041A069F5800E8B07D /* bridion_footer@2x.png */; };
+		BA0526101A069F5800E8B07D /* bridion_footer_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526051A069F5800E8B07D /* bridion_footer_press@2x.png */; };
+		BA0526111A069F5800E8B07D /* bridion_HP_bk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526061A069F5800E8B07D /* bridion_HP_bk@2x.png */; };
+		BA0526121A069F5800E8B07D /* bridion_HP_Complete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526071A069F5800E8B07D /* bridion_HP_Complete@2x.png */; };
+		BA0526131A069F5800E8B07D /* bridion_HP_icons@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526081A069F5800E8B07D /* bridion_HP_icons@2x.png */; };
+		BA0526141A069F5800E8B07D /* bridion_HP_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526091A069F5800E8B07D /* bridion_HP_line@2x.png */; };
+		BA0526151A069F5800E8B07D /* bridion_HP_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA05260A1A069F5800E8B07D /* bridion_HP_logo@2x.png */; };
+		BA0526161A069F5800E8B07D /* bridion_HP_Predictable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA05260B1A069F5800E8B07D /* bridion_HP_Predictable@2x.png */; };
+		BA0526171A069F5800E8B07D /* bridion_HP_Rapid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA05260C1A069F5800E8B07D /* bridion_HP_Rapid@2x.png */; };
+		BA0526181A069F5800E8B07D /* bridion_HP_text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA05260D1A069F5800E8B07D /* bridion_HP_text@2x.png */; };
+		BA05261F1A06A49500E8B07D /* bridion_MOA_bk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA05261B1A06A49500E8B07D /* bridion_MOA_bk@2x.png */; };
+		BA0526201A06A49500E8B07D /* bridion_MOA_chapter_name@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA05261C1A06A49500E8B07D /* bridion_MOA_chapter_name@2x.png */; };
+		BA0526211A06A49500E8B07D /* bridion_MOA_tittle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA05261D1A06A49500E8B07D /* bridion_MOA_tittle@2x.png */; };
+		BA0526291A06A59C00E8B07D /* bridion_SSI_bk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526241A06A59C00E8B07D /* bridion_SSI_bk@2x.png */; };
+		BA05262A1A06A59C00E8B07D /* bridion_SSI_summary_text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526251A06A59C00E8B07D /* bridion_SSI_summary_text@2x.png */; };
+		BA05262C1A06A59C00E8B07D /* bridion_SSI_tittle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526271A06A59C00E8B07D /* bridion_SSI_tittle@2x.png */; };
+		BA05263A1A06BD4700E8B07D /* bridion_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA05262F1A06BD4700E8B07D /* bridion_back@2x.png */; };
+		BA05263B1A06BD4700E8B07D /* bridion_bk_tittle_long.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526301A06BD4700E8B07D /* bridion_bk_tittle_long.png */; };
+		BA05263C1A06BD4700E8B07D /* bridion_bk_tittle_short.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526311A06BD4700E8B07D /* bridion_bk_tittle_short.png */; };
+		BA05263D1A06BD4700E8B07D /* bridion_blue-strip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526321A06BD4700E8B07D /* bridion_blue-strip@2x.png */; };
+		BA05263E1A06BD4700E8B07D /* bridion_blue_and_logo_strip.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526331A06BD4700E8B07D /* bridion_blue_and_logo_strip.png */; };
+		BA05263F1A06BD4700E8B07D /* bridion_logo_bridion_side@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526341A06BD4700E8B07D /* bridion_logo_bridion_side@2x.png */; };
+		BA0526401A06BD4700E8B07D /* bridion_logo_header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526351A06BD4700E8B07D /* bridion_logo_header@2x.png */; };
+		BA0526411A06BD4700E8B07D /* bridion_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526361A06BD4700E8B07D /* bridion_menu@2x.png */; };
+		BA0526421A06BD4700E8B07D /* bridion_PCR_top_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526371A06BD4700E8B07D /* bridion_PCR_top_menu@2x.png */; };
+		BA0526431A06BD4700E8B07D /* bridion_R@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0526381A06BD4700E8B07D /* bridion_R@2x.png */; };
+		BA33BE211A0C0DEE0021B3FF /* BridionPage2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA33BE201A0C0DEE0021B3FF /* BridionPage2.xib */; };
+		BA456CAC1A0E416D0056B4DF /* KAProgressLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA456CA91A0E416D0056B4DF /* KAProgressLabel.m */; };
+		BA456CAD1A0E416D0056B4DF /* TPPropertyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA456CAB1A0E416D0056B4DF /* TPPropertyAnimation.m */; };
+		BA4C67681A0E7C0A00E3F7EE /* bridion_PCR3_deep_text1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4C67661A0E7C0A00E3F7EE /* bridion_PCR3_deep_text1@2x.png */; };
+		BA4C67691A0E7C0A00E3F7EE /* bridion_PCR3_moderate_text1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4C67671A0E7C0A00E3F7EE /* bridion_PCR3_moderate_text1@2x.png */; };
+		BA5B51751A0F7DCE0033D5C7 /* bridion_PCR3_deep_gray49@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5B51711A0F7DCE0033D5C7 /* bridion_PCR3_deep_gray49@2x.png */; };
+		BA5B51761A0F7DCE0033D5C7 /* bridion_PCR3_deep_orange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5B51721A0F7DCE0033D5C7 /* bridion_PCR3_deep_orange@2x.png */; };
+		BA5B51771A0F7DCE0033D5C7 /* bridion_PCR3_moderate_gray18.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5B51731A0F7DCE0033D5C7 /* bridion_PCR3_moderate_gray18.5@2x.png */; };
+		BA5B51781A0F7DCE0033D5C7 /* bridion_PCR3_moderate_orange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5B51741A0F7DCE0033D5C7 /* bridion_PCR3_moderate_orange@2x.png */; };
+		BA5B517B1A0F827C0033D5C7 /* bridion_SSI_text1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5B51791A0F827C0033D5C7 /* bridion_SSI_text1@2x.png */; };
+		BA5B517C1A0F827C0033D5C7 /* bridion_SSI_text2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5B517A1A0F827C0033D5C7 /* bridion_SSI_text2@2x.png */; };
+		BA5B517E1A0FB2280033D5C7 /* bridion_MOA_picture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5B517D1A0FB2280033D5C7 /* bridion_MOA_picture@2x.png */; };
+		BA5B51801A0FBDBF0033D5C7 /* libCrittercism_v5_0_4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5B517F1A0FBDBF0033D5C7 /* libCrittercism_v5_0_4.a */; };
+		BA60A7311A0536FC00916199 /* BridionPage1.m in Sources */ = {isa = PBXBuildFile; fileRef = BA60A7241A0536FC00916199 /* BridionPage1.m */; };
+		BA60A7321A0536FC00916199 /* BridionPage2.m in Sources */ = {isa = PBXBuildFile; fileRef = BA60A7261A0536FC00916199 /* BridionPage2.m */; };
+		BA60A7331A0536FC00916199 /* BridionPage3.m in Sources */ = {isa = PBXBuildFile; fileRef = BA60A7281A0536FC00916199 /* BridionPage3.m */; };
+		BA60A7341A0536FC00916199 /* BridionPage4.m in Sources */ = {isa = PBXBuildFile; fileRef = BA60A72A1A0536FC00916199 /* BridionPage4.m */; };
+		BA60A7351A0536FC00916199 /* BridionPage5.m in Sources */ = {isa = PBXBuildFile; fileRef = BA60A72C1A0536FC00916199 /* BridionPage5.m */; };
+		BA60A7361A0536FC00916199 /* BridionPage6.m in Sources */ = {isa = PBXBuildFile; fileRef = BA60A72E1A0536FC00916199 /* BridionPage6.m */; };
+		BA60A7371A0536FC00916199 /* BridionPage7.m in Sources */ = {isa = PBXBuildFile; fileRef = BA60A7301A0536FC00916199 /* BridionPage7.m */; };
+		BA60A7391A0539F000916199 /* btn_pager_bridion@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA60A7381A0539F000916199 /* btn_pager_bridion@2x.png */; };
+		BA60A7631A053C1B00916199 /* bridion_thumb_HP_01.png in Resources */ = {isa = PBXBuildFile; fileRef = BA60A75B1A053C1B00916199 /* bridion_thumb_HP_01.png */; };
+		BA60A7641A053C1B00916199 /* bridion_thumb_MOA_01.png in Resources */ = {isa = PBXBuildFile; fileRef = BA60A75C1A053C1B00916199 /* bridion_thumb_MOA_01.png */; };
+		BA60A7651A053C1B00916199 /* bridion_thumb_PCR_01.png in Resources */ = {isa = PBXBuildFile; fileRef = BA60A75D1A053C1B00916199 /* bridion_thumb_PCR_01.png */; };
+		BA60A7661A053C1B00916199 /* bridion_thumb_PCR_02.png in Resources */ = {isa = PBXBuildFile; fileRef = BA60A75E1A053C1B00916199 /* bridion_thumb_PCR_02.png */; };
+		BA60A7671A053C1B00916199 /* bridion_thumb_PCR_03.png in Resources */ = {isa = PBXBuildFile; fileRef = BA60A75F1A053C1B00916199 /* bridion_thumb_PCR_03.png */; };
+		BA60A7681A053C1B00916199 /* bridion_thumb_PCR_04.png in Resources */ = {isa = PBXBuildFile; fileRef = BA60A7601A053C1B00916199 /* bridion_thumb_PCR_04.png */; };
+		BA60A7691A053C1B00916199 /* bridion_thumb_SSI_01.png in Resources */ = {isa = PBXBuildFile; fileRef = BA60A7611A053C1B00916199 /* bridion_thumb_SSI_01.png */; };
+		BA60A76A1A053C1B00916199 /* bridion_thumb_SSI_02.png in Resources */ = {isa = PBXBuildFile; fileRef = BA60A7621A053C1B00916199 /* bridion_thumb_SSI_02.png */; };
+		BABE0A6B1A0D0F5200E0BBF7 /* BridionPage0.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABE0A6A1A0D0F5200E0BBF7 /* BridionPage0.xib */; };
+		BABE0A6D1A0D149800E0BBF7 /* bridion_PCR2_reference@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABE0A6C1A0D149800E0BBF7 /* bridion_PCR2_reference@2x.png */; };
+		BABE0A6F1A0D15D200E0BBF7 /* BridionPage4.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABE0A6E1A0D15D200E0BBF7 /* BridionPage4.xib */; };
+		BABE0A711A0D1AAD00E0BBF7 /* BridionPage3.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABE0A701A0D1AAD00E0BBF7 /* BridionPage3.xib */; };
+		BABE0A791A0E354200E0BBF7 /* JWGCircleCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = BABE0A781A0E354200E0BBF7 /* JWGCircleCounter.m */; };
+		BAC1FD8C1A092608009A636C /* BridionPage1.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD8B1A092608009A636C /* BridionPage1.xib */; };
+		BAC1FDCA1A09265E009A636C /* bridion_PCR1_adapted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD8F1A09265E009A636C /* bridion_PCR1_adapted@2x.png */; };
+		BAC1FDCB1A09265E009A636C /* bridion_PCR1_bridion@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD901A09265E009A636C /* bridion_PCR1_bridion@2x.png */; };
+		BAC1FDCC1A09265E009A636C /* bridion_PCR1_complete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD911A09265E009A636C /* bridion_PCR1_complete@2x.png */; };
+		BAC1FDCD1A09265E009A636C /* bridion_PCR1_copyright@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD921A09265E009A636C /* bridion_PCR1_copyright@2x.png */; };
+		BAC1FDCE1A09265E009A636C /* bridion_PCR1_graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD931A09265E009A636C /* bridion_PCR1_graph@2x.png */; };
+		BAC1FDCF1A09265E009A636C /* bridion_PCR1_graph_gray_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD941A09265E009A636C /* bridion_PCR1_graph_gray_line@2x.png */; };
+		BAC1FDD01A09265E009A636C /* bridion_PCR1_graph_orange_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD951A09265E009A636C /* bridion_PCR1_graph_orange_line@2x.png */; };
+		BAC1FDD11A09265E009A636C /* bridion_PCR1_gray11_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD961A09265E009A636C /* bridion_PCR1_gray11_circle@2x.png */; };
+		BAC1FDD21A09265E009A636C /* bridion_PCR1_gray_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD971A09265E009A636C /* bridion_PCR1_gray_circle@2x.png */; };
+		BAC1FDD31A09265E009A636C /* bridion_PCR1_gray_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD981A09265E009A636C /* bridion_PCR1_gray_line@2x.png */; };
+		BAC1FDD41A09265E009A636C /* bridion_PCR1_neostigmine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD991A09265E009A636C /* bridion_PCR1_neostigmine@2x.png */; };
+		BAC1FDD51A09265E009A636C /* bridion_PCR1_num5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD9A1A09265E009A636C /* bridion_PCR1_num5@2x.png */; };
+		BAC1FDD61A09265E009A636C /* bridion_PCR1_orange98_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD9B1A09265E009A636C /* bridion_PCR1_orange98_circle@2x.png */; };
+		BAC1FDD71A09265E009A636C /* bridion_PCR1_orange_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD9C1A09265E009A636C /* bridion_PCR1_orange_circle@2x.png */; };
+		BAC1FDD81A09265E009A636C /* bridion_PCR1_orange_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD9D1A09265E009A636C /* bridion_PCR1_orange_line@2x.png */; };
+		BAC1FDD91A09265E009A636C /* bridion_PCR1_predictable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD9E1A09265E009A636C /* bridion_PCR1_predictable@2x.png */; };
+		BAC1FDDA1A09265E009A636C /* bridion_PCR1_reference@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD9F1A09265E009A636C /* bridion_PCR1_reference@2x.png */; };
+		BAC1FDDB1A09265E009A636C /* bridion_PCR1_tittle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDA01A09265E009A636C /* bridion_PCR1_tittle@2x.png */; };
+		BAC1FDDD1A09265E009A636C /* bridion_PCR1_blue73_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDA31A09265E009A636C /* bridion_PCR1_blue73_circle@2x.png */; };
+		BAC1FDDE1A09265E009A636C /* bridion_PCR1_gray0_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDA41A09265E009A636C /* bridion_PCR1_gray0_circle@2x.png */; };
+		BAC1FDDF1A09265E009A636C /* bridion_PCR1_orange97_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDA51A09265E009A636C /* bridion_PCR1_orange97_circle@2x.png */; };
+		BAC1FDE01A09265E009A636C /* bridion_PCR2_adapted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDA61A09265E009A636C /* bridion_PCR2_adapted@2x.png */; };
+		BAC1FDE11A09265E009A636C /* bridion_PCR2_bk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDA71A09265E009A636C /* bridion_PCR2_bk@2x.png */; };
+		BAC1FDE21A09265E009A636C /* bridion_PCR2_blue_text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDA81A09265E009A636C /* bridion_PCR2_blue_text@2x.png */; };
+		BAC1FDE31A09265E009A636C /* bridion_PCR2_bridion@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDA91A09265E009A636C /* bridion_PCR2_bridion@2x.png */; };
+		BAC1FDE41A09265E009A636C /* bridion_PCR2_complete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDAA1A09265E009A636C /* bridion_PCR2_complete@2x.png */; };
+		BAC1FDE51A09265E009A636C /* bridion_PCR2_graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDAB1A09265E009A636C /* bridion_PCR2_graph@2x.png */; };
+		BAC1FDE61A09265E009A636C /* bridion_PCR2_graph_blue_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDAC1A09265E009A636C /* bridion_PCR2_graph_blue_line@2x.png */; };
+		BAC1FDE71A09265E009A636C /* bridion_PCR2_graph_gray_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDAD1A09265E009A636C /* bridion_PCR2_graph_gray_line@2x.png */; };
+		BAC1FDE81A09265E009A636C /* bridion_PCR2_graph_orange_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDAE1A09265E009A636C /* bridion_PCR2_graph_orange_line@2x.png */; };
+		BAC1FDE91A09265E009A636C /* bridion_PCR2_gray_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDAF1A09265E009A636C /* bridion_PCR2_gray_line@2x.png */; };
+		BAC1FDEA1A09265E009A636C /* bridion_PCR2_neostigmine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDB01A09265E009A636C /* bridion_PCR2_neostigmine@2x.png */; };
+		BAC1FDEB1A09265E009A636C /* bridion_PCR2_orange_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDB11A09265E009A636C /* bridion_PCR2_orange_line@2x.png */; };
+		BAC1FDEC1A09265E009A636C /* bridion_PCR2_predictable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDB21A09265E009A636C /* bridion_PCR2_predictable@2x.png */; };
+		BAC1FDEE1A09265E009A636C /* bridion_PCR2_tittle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDB41A09265E009A636C /* bridion_PCR2_tittle@2x.png */; };
+		BAC1FDF01A09265E009A636C /* bridion_PCR3-line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDB71A09265E009A636C /* bridion_PCR3-line@2x.png */; };
+		BAC1FDF11A09265E009A636C /* bridion_PCR3_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDB81A09265E009A636C /* bridion_PCR3_arrow.png */; };
+		BAC1FDF21A09265E009A636C /* bridion_PCR3_button_how-long@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDB91A09265E009A636C /* bridion_PCR3_button_how-long@2x.png */; };
+		BAC1FDF31A09265E009A636C /* bridion_PCR3_deep-block-press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDBA1A09265E009A636C /* bridion_PCR3_deep-block-press@2x.png */; };
+		BAC1FDF41A09265E009A636C /* bridion_PCR3_deep-block@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDBB1A09265E009A636C /* bridion_PCR3_deep-block@2x.png */; };
+		BAC1FDF51A09265E009A636C /* bridion_PCR3_deep_2.7_minutes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDBC1A09265E009A636C /* bridion_PCR3_deep_2.7_minutes@2x.png */; };
+		BAC1FDF71A09265E009A636C /* bridion_PCR3_moderate-block@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDBE1A09265E009A636C /* bridion_PCR3_moderate-block@2x.png */; };
+		BAC1FDF81A09265E009A636C /* bridion_PCR3_moderate-block_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDBF1A09265E009A636C /* bridion_PCR3_moderate-block_press@2x.png */; };
+		BAC1FDF91A09265E009A636C /* bridion_PCR3_moderate_1.4_minutes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDC01A09265E009A636C /* bridion_PCR3_moderate_1.4_minutes@2x.png */; };
+		BAC1FDFB1A09265E009A636C /* bridion_PCR3_rapid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDC21A09265E009A636C /* bridion_PCR3_rapid@2x.png */; };
+		BAC1FDFC1A09265E009A636C /* bridion_PCR3_reference@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDC31A09265E009A636C /* bridion_PCR3_reference@2x.png */; };
+		BAC1FDFD1A09265E009A636C /* bridion_PCR3_text_down1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDC41A09265E009A636C /* bridion_PCR3_text_down1@2x.png */; };
+		BAC1FDFE1A09265E009A636C /* bridion_PCR3_text_down2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDC51A09265E009A636C /* bridion_PCR3_text_down2@2x.png */; };
+		BAC1FDFF1A09265E009A636C /* bridion_PCR3_text_down3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDC61A09265E009A636C /* bridion_PCR3_text_down3@2x.png */; };
+		BAC1FE001A09265E009A636C /* bridion_PCR3_tittle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FDC71A09265E009A636C /* bridion_PCR3_tittle@2x.png */; };
 		DB4067D7194D9ECE00750F90 /* endu_tab_app48_s.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4067D3194D9ECE00750F90 /* endu_tab_app48_s.png */; };
 		DB4067D8194D9ECE00750F90 /* endu_tab_app48_s2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4067D4194D9ECE00750F90 /* endu_tab_app48_s2x.png */; };
 		DB4067D9194D9ECE00750F90 /* endu_tab_app48.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4067D5194D9ECE00750F90 /* endu_tab_app48.png */; };
@@ -50,7 +161,6 @@
 		DB66A734194A0793002A043E /* FormataBQLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB66A653194A0793002A043E /* FormataBQLight.ttf */; };
 		DB66A735194A0793002A043E /* LTe50344_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB66A654194A0793002A043E /* LTe50344_0.ttf */; };
 		DB66A736194A0793002A043E /* Tipogra2_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB66A655194A0793002A043E /* Tipogra2_1.ttf */; };
-		DB66A737194A0793002A043E /* back.psd in Resources */ = {isa = PBXBuildFile; fileRef = DB66A658194A0793002A043E /* back.psd */; };
 		DB66A738194A0793002A043E /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB66A659194A0793002A043E /* back@2x.png */; };
 		DB66A739194A0793002A043E /* btn_menu_elonva.png in Resources */ = {isa = PBXBuildFile; fileRef = DB66A65A194A0793002A043E /* btn_menu_elonva.png */; };
 		DB66A73A194A0793002A043E /* btn_menu_elonva1.png in Resources */ = {isa = PBXBuildFile; fileRef = DB66A65B194A0793002A043E /* btn_menu_elonva1.png */; };
@@ -287,7 +397,6 @@
 		DBCDEE1D1948C32000E4DFA3 /* ChatToSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBCDEA421948C31E00E4DFA3 /* ChatToSelectCell.xib */; };
 		DBCDEE1E1948C32000E4DFA3 /* ChatToSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDEA441948C31E00E4DFA3 /* ChatToSelectViewController.m */; };
 		DBCDEE1F1948C32000E4DFA3 /* ChatToSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBCDEA451948C31E00E4DFA3 /* ChatToSelectViewController.xib */; };
-		DBCDEE221948C32000E4DFA3 /* libCrittercism_v4_0_0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCDEA4C1948C31E00E4DFA3 /* libCrittercism_v4_0_0.a */; };
 		DBCDEE231948C32000E4DFA3 /* ApplicationKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDEA4F1948C31E00E4DFA3 /* ApplicationKeyValue.m */; };
 		DBCDEE241948C32000E4DFA3 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDEA511948C31E00E4DFA3 /* Doctor.m */; };
 		DBCDEE251948C32000E4DFA3 /* Error.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCDEA531948C31E00E4DFA3 /* Error.m */; };
@@ -1038,6 +1147,128 @@
 		5D98082917CB955500F0E467 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5D98082A17CB955500F0E467 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		5D98082B17CB955500F0E467 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BA0526041A069F5800E8B07D /* bridion_footer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_footer@2x.png"; sourceTree = "<group>"; };
+		BA0526051A069F5800E8B07D /* bridion_footer_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_footer_press@2x.png"; sourceTree = "<group>"; };
+		BA0526061A069F5800E8B07D /* bridion_HP_bk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_HP_bk@2x.png"; sourceTree = "<group>"; };
+		BA0526071A069F5800E8B07D /* bridion_HP_Complete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_HP_Complete@2x.png"; sourceTree = "<group>"; };
+		BA0526081A069F5800E8B07D /* bridion_HP_icons@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_HP_icons@2x.png"; sourceTree = "<group>"; };
+		BA0526091A069F5800E8B07D /* bridion_HP_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_HP_line@2x.png"; sourceTree = "<group>"; };
+		BA05260A1A069F5800E8B07D /* bridion_HP_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_HP_logo@2x.png"; sourceTree = "<group>"; };
+		BA05260B1A069F5800E8B07D /* bridion_HP_Predictable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_HP_Predictable@2x.png"; sourceTree = "<group>"; };
+		BA05260C1A069F5800E8B07D /* bridion_HP_Rapid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_HP_Rapid@2x.png"; sourceTree = "<group>"; };
+		BA05260D1A069F5800E8B07D /* bridion_HP_text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_HP_text@2x.png"; sourceTree = "<group>"; };
+		BA05261B1A06A49500E8B07D /* bridion_MOA_bk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_MOA_bk@2x.png"; sourceTree = "<group>"; };
+		BA05261C1A06A49500E8B07D /* bridion_MOA_chapter_name@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_MOA_chapter_name@2x.png"; sourceTree = "<group>"; };
+		BA05261D1A06A49500E8B07D /* bridion_MOA_tittle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_MOA_tittle@2x.png"; sourceTree = "<group>"; };
+		BA0526241A06A59C00E8B07D /* bridion_SSI_bk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_SSI_bk@2x.png"; sourceTree = "<group>"; };
+		BA0526251A06A59C00E8B07D /* bridion_SSI_summary_text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_SSI_summary_text@2x.png"; sourceTree = "<group>"; };
+		BA0526271A06A59C00E8B07D /* bridion_SSI_tittle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_SSI_tittle@2x.png"; sourceTree = "<group>"; };
+		BA05262F1A06BD4700E8B07D /* bridion_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_back@2x.png"; sourceTree = "<group>"; };
+		BA0526301A06BD4700E8B07D /* bridion_bk_tittle_long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridion_bk_tittle_long.png; sourceTree = "<group>"; };
+		BA0526311A06BD4700E8B07D /* bridion_bk_tittle_short.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridion_bk_tittle_short.png; sourceTree = "<group>"; };
+		BA0526321A06BD4700E8B07D /* bridion_blue-strip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_blue-strip@2x.png"; sourceTree = "<group>"; };
+		BA0526331A06BD4700E8B07D /* bridion_blue_and_logo_strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridion_blue_and_logo_strip.png; sourceTree = "<group>"; };
+		BA0526341A06BD4700E8B07D /* bridion_logo_bridion_side@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_logo_bridion_side@2x.png"; sourceTree = "<group>"; };
+		BA0526351A06BD4700E8B07D /* bridion_logo_header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_logo_header@2x.png"; sourceTree = "<group>"; };
+		BA0526361A06BD4700E8B07D /* bridion_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_menu@2x.png"; sourceTree = "<group>"; };
+		BA0526371A06BD4700E8B07D /* bridion_PCR_top_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR_top_menu@2x.png"; sourceTree = "<group>"; };
+		BA0526381A06BD4700E8B07D /* bridion_R@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_R@2x.png"; sourceTree = "<group>"; };
+		BA33BE201A0C0DEE0021B3FF /* BridionPage2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BridionPage2.xib; sourceTree = "<group>"; };
+		BA456CA81A0E416D0056B4DF /* KAProgressLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAProgressLabel.h; sourceTree = "<group>"; };
+		BA456CA91A0E416D0056B4DF /* KAProgressLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAProgressLabel.m; sourceTree = "<group>"; };
+		BA456CAA1A0E416D0056B4DF /* TPPropertyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPropertyAnimation.h; sourceTree = "<group>"; };
+		BA456CAB1A0E416D0056B4DF /* TPPropertyAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPropertyAnimation.m; sourceTree = "<group>"; };
+		BA4C67661A0E7C0A00E3F7EE /* bridion_PCR3_deep_text1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_deep_text1@2x.png"; sourceTree = "<group>"; };
+		BA4C67671A0E7C0A00E3F7EE /* bridion_PCR3_moderate_text1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_moderate_text1@2x.png"; sourceTree = "<group>"; };
+		BA5B51711A0F7DCE0033D5C7 /* bridion_PCR3_deep_gray49@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_deep_gray49@2x.png"; sourceTree = "<group>"; };
+		BA5B51721A0F7DCE0033D5C7 /* bridion_PCR3_deep_orange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_deep_orange@2x.png"; sourceTree = "<group>"; };
+		BA5B51731A0F7DCE0033D5C7 /* bridion_PCR3_moderate_gray18.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_moderate_gray18.5@2x.png"; sourceTree = "<group>"; };
+		BA5B51741A0F7DCE0033D5C7 /* bridion_PCR3_moderate_orange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_moderate_orange@2x.png"; sourceTree = "<group>"; };
+		BA5B51791A0F827C0033D5C7 /* bridion_SSI_text1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_SSI_text1@2x.png"; sourceTree = "<group>"; };
+		BA5B517A1A0F827C0033D5C7 /* bridion_SSI_text2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_SSI_text2@2x.png"; sourceTree = "<group>"; };
+		BA5B517D1A0FB2280033D5C7 /* bridion_MOA_picture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_MOA_picture@2x.png"; sourceTree = "<group>"; };
+		BA5B517F1A0FBDBF0033D5C7 /* libCrittercism_v5_0_4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCrittercism_v5_0_4.a; sourceTree = "<group>"; };
+		BA5B51811A0FBDC90033D5C7 /* CRFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRFilter.h; sourceTree = "<group>"; };
+		BA60A7231A0536FC00916199 /* BridionPage1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionPage1.h; sourceTree = "<group>"; };
+		BA60A7241A0536FC00916199 /* BridionPage1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionPage1.m; sourceTree = "<group>"; };
+		BA60A7251A0536FC00916199 /* BridionPage2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionPage2.h; sourceTree = "<group>"; };
+		BA60A7261A0536FC00916199 /* BridionPage2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionPage2.m; sourceTree = "<group>"; };
+		BA60A7271A0536FC00916199 /* BridionPage3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionPage3.h; sourceTree = "<group>"; };
+		BA60A7281A0536FC00916199 /* BridionPage3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionPage3.m; sourceTree = "<group>"; };
+		BA60A7291A0536FC00916199 /* BridionPage4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionPage4.h; sourceTree = "<group>"; };
+		BA60A72A1A0536FC00916199 /* BridionPage4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionPage4.m; sourceTree = "<group>"; };
+		BA60A72B1A0536FC00916199 /* BridionPage5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionPage5.h; sourceTree = "<group>"; };
+		BA60A72C1A0536FC00916199 /* BridionPage5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionPage5.m; sourceTree = "<group>"; };
+		BA60A72D1A0536FC00916199 /* BridionPage6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionPage6.h; sourceTree = "<group>"; };
+		BA60A72E1A0536FC00916199 /* BridionPage6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionPage6.m; sourceTree = "<group>"; };
+		BA60A72F1A0536FC00916199 /* BridionPage7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionPage7.h; sourceTree = "<group>"; };
+		BA60A7301A0536FC00916199 /* BridionPage7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionPage7.m; sourceTree = "<group>"; };
+		BA60A7381A0539F000916199 /* btn_pager_bridion@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_pager_bridion@2x.png"; sourceTree = "<group>"; };
+		BA60A75B1A053C1B00916199 /* bridion_thumb_HP_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridion_thumb_HP_01.png; sourceTree = "<group>"; };
+		BA60A75C1A053C1B00916199 /* bridion_thumb_MOA_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridion_thumb_MOA_01.png; sourceTree = "<group>"; };
+		BA60A75D1A053C1B00916199 /* bridion_thumb_PCR_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridion_thumb_PCR_01.png; sourceTree = "<group>"; };
+		BA60A75E1A053C1B00916199 /* bridion_thumb_PCR_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridion_thumb_PCR_02.png; sourceTree = "<group>"; };
+		BA60A75F1A053C1B00916199 /* bridion_thumb_PCR_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridion_thumb_PCR_03.png; sourceTree = "<group>"; };
+		BA60A7601A053C1B00916199 /* bridion_thumb_PCR_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridion_thumb_PCR_04.png; sourceTree = "<group>"; };
+		BA60A7611A053C1B00916199 /* bridion_thumb_SSI_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridion_thumb_SSI_01.png; sourceTree = "<group>"; };
+		BA60A7621A053C1B00916199 /* bridion_thumb_SSI_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridion_thumb_SSI_02.png; sourceTree = "<group>"; };
+		BABE0A6A1A0D0F5200E0BBF7 /* BridionPage0.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BridionPage0.xib; sourceTree = "<group>"; };
+		BABE0A6C1A0D149800E0BBF7 /* bridion_PCR2_reference@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR2_reference@2x.png"; sourceTree = "<group>"; };
+		BABE0A6E1A0D15D200E0BBF7 /* BridionPage4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BridionPage4.xib; sourceTree = "<group>"; };
+		BABE0A701A0D1AAD00E0BBF7 /* BridionPage3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BridionPage3.xib; sourceTree = "<group>"; };
+		BABE0A771A0E354200E0BBF7 /* JWGCircleCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWGCircleCounter.h; sourceTree = "<group>"; };
+		BABE0A781A0E354200E0BBF7 /* JWGCircleCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWGCircleCounter.m; sourceTree = "<group>"; };
+		BAC1FD8B1A092608009A636C /* BridionPage1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BridionPage1.xib; sourceTree = "<group>"; };
+		BAC1FD8F1A09265E009A636C /* bridion_PCR1_adapted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_adapted@2x.png"; sourceTree = "<group>"; };
+		BAC1FD901A09265E009A636C /* bridion_PCR1_bridion@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_bridion@2x.png"; sourceTree = "<group>"; };
+		BAC1FD911A09265E009A636C /* bridion_PCR1_complete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_complete@2x.png"; sourceTree = "<group>"; };
+		BAC1FD921A09265E009A636C /* bridion_PCR1_copyright@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_copyright@2x.png"; sourceTree = "<group>"; };
+		BAC1FD931A09265E009A636C /* bridion_PCR1_graph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_graph@2x.png"; sourceTree = "<group>"; };
+		BAC1FD941A09265E009A636C /* bridion_PCR1_graph_gray_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_graph_gray_line@2x.png"; sourceTree = "<group>"; };
+		BAC1FD951A09265E009A636C /* bridion_PCR1_graph_orange_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_graph_orange_line@2x.png"; sourceTree = "<group>"; };
+		BAC1FD961A09265E009A636C /* bridion_PCR1_gray11_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_gray11_circle@2x.png"; sourceTree = "<group>"; };
+		BAC1FD971A09265E009A636C /* bridion_PCR1_gray_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_gray_circle@2x.png"; sourceTree = "<group>"; };
+		BAC1FD981A09265E009A636C /* bridion_PCR1_gray_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_gray_line@2x.png"; sourceTree = "<group>"; };
+		BAC1FD991A09265E009A636C /* bridion_PCR1_neostigmine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_neostigmine@2x.png"; sourceTree = "<group>"; };
+		BAC1FD9A1A09265E009A636C /* bridion_PCR1_num5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_num5@2x.png"; sourceTree = "<group>"; };
+		BAC1FD9B1A09265E009A636C /* bridion_PCR1_orange98_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_orange98_circle@2x.png"; sourceTree = "<group>"; };
+		BAC1FD9C1A09265E009A636C /* bridion_PCR1_orange_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_orange_circle@2x.png"; sourceTree = "<group>"; };
+		BAC1FD9D1A09265E009A636C /* bridion_PCR1_orange_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_orange_line@2x.png"; sourceTree = "<group>"; };
+		BAC1FD9E1A09265E009A636C /* bridion_PCR1_predictable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_predictable@2x.png"; sourceTree = "<group>"; };
+		BAC1FD9F1A09265E009A636C /* bridion_PCR1_reference@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_reference@2x.png"; sourceTree = "<group>"; };
+		BAC1FDA01A09265E009A636C /* bridion_PCR1_tittle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_tittle@2x.png"; sourceTree = "<group>"; };
+		BAC1FDA31A09265E009A636C /* bridion_PCR1_blue73_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_blue73_circle@2x.png"; sourceTree = "<group>"; };
+		BAC1FDA41A09265E009A636C /* bridion_PCR1_gray0_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_gray0_circle@2x.png"; sourceTree = "<group>"; };
+		BAC1FDA51A09265E009A636C /* bridion_PCR1_orange97_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR1_orange97_circle@2x.png"; sourceTree = "<group>"; };
+		BAC1FDA61A09265E009A636C /* bridion_PCR2_adapted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR2_adapted@2x.png"; sourceTree = "<group>"; };
+		BAC1FDA71A09265E009A636C /* bridion_PCR2_bk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR2_bk@2x.png"; sourceTree = "<group>"; };
+		BAC1FDA81A09265E009A636C /* bridion_PCR2_blue_text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR2_blue_text@2x.png"; sourceTree = "<group>"; };
+		BAC1FDA91A09265E009A636C /* bridion_PCR2_bridion@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR2_bridion@2x.png"; sourceTree = "<group>"; };
+		BAC1FDAA1A09265E009A636C /* bridion_PCR2_complete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR2_complete@2x.png"; sourceTree = "<group>"; };
+		BAC1FDAB1A09265E009A636C /* bridion_PCR2_graph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR2_graph@2x.png"; sourceTree = "<group>"; };
+		BAC1FDAC1A09265E009A636C /* bridion_PCR2_graph_blue_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR2_graph_blue_line@2x.png"; sourceTree = "<group>"; };
+		BAC1FDAD1A09265E009A636C /* bridion_PCR2_graph_gray_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR2_graph_gray_line@2x.png"; sourceTree = "<group>"; };
+		BAC1FDAE1A09265E009A636C /* bridion_PCR2_graph_orange_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR2_graph_orange_line@2x.png"; sourceTree = "<group>"; };
+		BAC1FDAF1A09265E009A636C /* bridion_PCR2_gray_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR2_gray_line@2x.png"; sourceTree = "<group>"; };
+		BAC1FDB01A09265E009A636C /* bridion_PCR2_neostigmine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR2_neostigmine@2x.png"; sourceTree = "<group>"; };
+		BAC1FDB11A09265E009A636C /* bridion_PCR2_orange_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR2_orange_line@2x.png"; sourceTree = "<group>"; };
+		BAC1FDB21A09265E009A636C /* bridion_PCR2_predictable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR2_predictable@2x.png"; sourceTree = "<group>"; };
+		BAC1FDB41A09265E009A636C /* bridion_PCR2_tittle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR2_tittle@2x.png"; sourceTree = "<group>"; };
+		BAC1FDB71A09265E009A636C /* bridion_PCR3-line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3-line@2x.png"; sourceTree = "<group>"; };
+		BAC1FDB81A09265E009A636C /* bridion_PCR3_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridion_PCR3_arrow.png; sourceTree = "<group>"; };
+		BAC1FDB91A09265E009A636C /* bridion_PCR3_button_how-long@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_button_how-long@2x.png"; sourceTree = "<group>"; };
+		BAC1FDBA1A09265E009A636C /* bridion_PCR3_deep-block-press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_deep-block-press@2x.png"; sourceTree = "<group>"; };
+		BAC1FDBB1A09265E009A636C /* bridion_PCR3_deep-block@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_deep-block@2x.png"; sourceTree = "<group>"; };
+		BAC1FDBC1A09265E009A636C /* bridion_PCR3_deep_2.7_minutes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_deep_2.7_minutes@2x.png"; sourceTree = "<group>"; };
+		BAC1FDBE1A09265E009A636C /* bridion_PCR3_moderate-block@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_moderate-block@2x.png"; sourceTree = "<group>"; };
+		BAC1FDBF1A09265E009A636C /* bridion_PCR3_moderate-block_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_moderate-block_press@2x.png"; sourceTree = "<group>"; };
+		BAC1FDC01A09265E009A636C /* bridion_PCR3_moderate_1.4_minutes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_moderate_1.4_minutes@2x.png"; sourceTree = "<group>"; };
+		BAC1FDC21A09265E009A636C /* bridion_PCR3_rapid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_rapid@2x.png"; sourceTree = "<group>"; };
+		BAC1FDC31A09265E009A636C /* bridion_PCR3_reference@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_reference@2x.png"; sourceTree = "<group>"; };
+		BAC1FDC41A09265E009A636C /* bridion_PCR3_text_down1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_text_down1@2x.png"; sourceTree = "<group>"; };
+		BAC1FDC51A09265E009A636C /* bridion_PCR3_text_down2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_text_down2@2x.png"; sourceTree = "<group>"; };
+		BAC1FDC61A09265E009A636C /* bridion_PCR3_text_down3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_text_down3@2x.png"; sourceTree = "<group>"; };
+		BAC1FDC71A09265E009A636C /* bridion_PCR3_tittle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bridion_PCR3_tittle@2x.png"; sourceTree = "<group>"; };
 		DB4067D3194D9ECE00750F90 /* endu_tab_app48_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = endu_tab_app48_s.png; sourceTree = "<group>"; };
 		DB4067D4194D9ECE00750F90 /* endu_tab_app48_s2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = endu_tab_app48_s2x.png; sourceTree = "<group>"; };
 		DB4067D5194D9ECE00750F90 /* endu_tab_app48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = endu_tab_app48.png; sourceTree = "<group>"; };
@@ -1060,7 +1291,6 @@
 		DB66A653194A0793002A043E /* FormataBQLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FormataBQLight.ttf; sourceTree = "<group>"; };
 		DB66A654194A0793002A043E /* LTe50344_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LTe50344_0.ttf; sourceTree = "<group>"; };
 		DB66A655194A0793002A043E /* Tipogra2_1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tipogra2_1.ttf; sourceTree = "<group>"; };
-		DB66A658194A0793002A043E /* back.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = back.psd; sourceTree = "<group>"; };
 		DB66A659194A0793002A043E /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
 		DB66A65A194A0793002A043E /* btn_menu_elonva.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_menu_elonva.png; sourceTree = "<group>"; };
 		DB66A65B194A0793002A043E /* btn_menu_elonva1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_menu_elonva1.png; sourceTree = "<group>"; };
@@ -1392,7 +1622,6 @@
 		DBCDEA451948C31E00E4DFA3 /* ChatToSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatToSelectViewController.xib; sourceTree = "<group>"; };
 		DBCDEA4A1948C31E00E4DFA3 /* Crittercism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crittercism.h; sourceTree = "<group>"; };
 		DBCDEA4B1948C31E00E4DFA3 /* CrittercismDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrittercismDelegate.h; sourceTree = "<group>"; };
-		DBCDEA4C1948C31E00E4DFA3 /* libCrittercism_v4_0_0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCrittercism_v4_0_0.a; sourceTree = "<group>"; };
 		DBCDEA4E1948C31E00E4DFA3 /* ApplicationKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationKeyValue.h; sourceTree = "<group>"; };
 		DBCDEA4F1948C31E00E4DFA3 /* ApplicationKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationKeyValue.m; sourceTree = "<group>"; };
 		DBCDEA501948C31E00E4DFA3 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
@@ -2239,6 +2468,7 @@
 			files = (
 				5D98082C17CB955600F0E467 /* AudioToolbox.framework in Frameworks */,
 				5D98082D17CB955600F0E467 /* CFNetwork.framework in Frameworks */,
+				BA5B51801A0FBDBF0033D5C7 /* libCrittercism_v5_0_4.a in Frameworks */,
 				5D98082E17CB955600F0E467 /* CoreLocation.framework in Frameworks */,
 				5D98082F17CB955600F0E467 /* libicucore.A.dylib in Frameworks */,
 				5D98083017CB955600F0E467 /* libsqlite3.dylib in Frameworks */,
@@ -2250,7 +2480,6 @@
 				5D98083617CB955600F0E467 /* Security.framework in Frameworks */,
 				5D98083717CB955600F0E467 /* SystemConfiguration.framework in Frameworks */,
 				5D98018317CB91B000F0E467 /* UIKit.framework in Frameworks */,
-				DBCDEE221948C32000E4DFA3 /* libCrittercism_v4_0_0.a in Frameworks */,
 				5D98018517CB91B000F0E467 /* Foundation.framework in Frameworks */,
 				5D98018717CB91B000F0E467 /* CoreGraphics.framework in Frameworks */,
 			);
@@ -2369,6 +2598,186 @@
 			path = Ocsaar;
 			sourceTree = "<group>";
 		};
+		BA0526031A069F5800E8B07D /* HP */ = {
+			isa = PBXGroup;
+			children = (
+				BA0526041A069F5800E8B07D /* bridion_footer@2x.png */,
+				BA0526051A069F5800E8B07D /* bridion_footer_press@2x.png */,
+				BA0526061A069F5800E8B07D /* bridion_HP_bk@2x.png */,
+				BA0526071A069F5800E8B07D /* bridion_HP_Complete@2x.png */,
+				BA0526081A069F5800E8B07D /* bridion_HP_icons@2x.png */,
+				BA0526091A069F5800E8B07D /* bridion_HP_line@2x.png */,
+				BA05260A1A069F5800E8B07D /* bridion_HP_logo@2x.png */,
+				BA05260B1A069F5800E8B07D /* bridion_HP_Predictable@2x.png */,
+				BA05260C1A069F5800E8B07D /* bridion_HP_Rapid@2x.png */,
+				BA05260D1A069F5800E8B07D /* bridion_HP_text@2x.png */,
+			);
+			path = HP;
+			sourceTree = "<group>";
+		};
+		BA05261A1A06A49500E8B07D /* MOA */ = {
+			isa = PBXGroup;
+			children = (
+				BA05261B1A06A49500E8B07D /* bridion_MOA_bk@2x.png */,
+				BA05261C1A06A49500E8B07D /* bridion_MOA_chapter_name@2x.png */,
+				BA05261D1A06A49500E8B07D /* bridion_MOA_tittle@2x.png */,
+				BA5B517D1A0FB2280033D5C7 /* bridion_MOA_picture@2x.png */,
+			);
+			path = MOA;
+			sourceTree = "<group>";
+		};
+		BA0526231A06A59C00E8B07D /* SSI */ = {
+			isa = PBXGroup;
+			children = (
+				BA0526241A06A59C00E8B07D /* bridion_SSI_bk@2x.png */,
+				BA0526251A06A59C00E8B07D /* bridion_SSI_summary_text@2x.png */,
+				BA0526271A06A59C00E8B07D /* bridion_SSI_tittle@2x.png */,
+				BA5B51791A0F827C0033D5C7 /* bridion_SSI_text1@2x.png */,
+				BA5B517A1A0F827C0033D5C7 /* bridion_SSI_text2@2x.png */,
+			);
+			path = SSI;
+			sourceTree = "<group>";
+		};
+		BA05262E1A06BD4700E8B07D /* general */ = {
+			isa = PBXGroup;
+			children = (
+				BA05262F1A06BD4700E8B07D /* bridion_back@2x.png */,
+				BA0526301A06BD4700E8B07D /* bridion_bk_tittle_long.png */,
+				BA0526311A06BD4700E8B07D /* bridion_bk_tittle_short.png */,
+				BA0526321A06BD4700E8B07D /* bridion_blue-strip@2x.png */,
+				BA0526331A06BD4700E8B07D /* bridion_blue_and_logo_strip.png */,
+				BA0526341A06BD4700E8B07D /* bridion_logo_bridion_side@2x.png */,
+				BA0526351A06BD4700E8B07D /* bridion_logo_header@2x.png */,
+				BA0526361A06BD4700E8B07D /* bridion_menu@2x.png */,
+				BA0526371A06BD4700E8B07D /* bridion_PCR_top_menu@2x.png */,
+				BA0526381A06BD4700E8B07D /* bridion_R@2x.png */,
+			);
+			path = general;
+			sourceTree = "<group>";
+		};
+		BA456CA71A0E416D0056B4DF /* KAProgressLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BA456CA81A0E416D0056B4DF /* KAProgressLabel.h */,
+				BA456CA91A0E416D0056B4DF /* KAProgressLabel.m */,
+				BA456CAA1A0E416D0056B4DF /* TPPropertyAnimation.h */,
+				BA456CAB1A0E416D0056B4DF /* TPPropertyAnimation.m */,
+			);
+			path = KAProgressLabel;
+			sourceTree = "<group>";
+		};
+		BA60A75A1A053C0F00916199 /* Thumbs */ = {
+			isa = PBXGroup;
+			children = (
+				BA60A75B1A053C1B00916199 /* bridion_thumb_HP_01.png */,
+				BA60A75C1A053C1B00916199 /* bridion_thumb_MOA_01.png */,
+				BA60A75D1A053C1B00916199 /* bridion_thumb_PCR_01.png */,
+				BA60A75E1A053C1B00916199 /* bridion_thumb_PCR_02.png */,
+				BA60A75F1A053C1B00916199 /* bridion_thumb_PCR_03.png */,
+				BA60A7601A053C1B00916199 /* bridion_thumb_PCR_04.png */,
+				BA60A7611A053C1B00916199 /* bridion_thumb_SSI_01.png */,
+				BA60A7621A053C1B00916199 /* bridion_thumb_SSI_02.png */,
+			);
+			path = Thumbs;
+			sourceTree = "<group>";
+		};
+		BABE0A761A0E354200E0BBF7 /* JWGCircleCounter */ = {
+			isa = PBXGroup;
+			children = (
+				BABE0A771A0E354200E0BBF7 /* JWGCircleCounter.h */,
+				BABE0A781A0E354200E0BBF7 /* JWGCircleCounter.m */,
+			);
+			path = JWGCircleCounter;
+			sourceTree = "<group>";
+		};
+		BAC1FD8D1A09265E009A636C /* PCR */ = {
+			isa = PBXGroup;
+			children = (
+				BAC1FD8E1A09265E009A636C /* 1 */,
+				BAC1FDA21A09265E009A636C /* 2 */,
+				BAC1FDB61A09265E009A636C /* 3 */,
+			);
+			path = PCR;
+			sourceTree = "<group>";
+		};
+		BAC1FD8E1A09265E009A636C /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				BAC1FD8F1A09265E009A636C /* bridion_PCR1_adapted@2x.png */,
+				BAC1FD901A09265E009A636C /* bridion_PCR1_bridion@2x.png */,
+				BAC1FD911A09265E009A636C /* bridion_PCR1_complete@2x.png */,
+				BAC1FD921A09265E009A636C /* bridion_PCR1_copyright@2x.png */,
+				BAC1FD931A09265E009A636C /* bridion_PCR1_graph@2x.png */,
+				BAC1FD941A09265E009A636C /* bridion_PCR1_graph_gray_line@2x.png */,
+				BAC1FD951A09265E009A636C /* bridion_PCR1_graph_orange_line@2x.png */,
+				BAC1FD961A09265E009A636C /* bridion_PCR1_gray11_circle@2x.png */,
+				BAC1FD971A09265E009A636C /* bridion_PCR1_gray_circle@2x.png */,
+				BAC1FD981A09265E009A636C /* bridion_PCR1_gray_line@2x.png */,
+				BAC1FD991A09265E009A636C /* bridion_PCR1_neostigmine@2x.png */,
+				BAC1FD9A1A09265E009A636C /* bridion_PCR1_num5@2x.png */,
+				BAC1FD9B1A09265E009A636C /* bridion_PCR1_orange98_circle@2x.png */,
+				BAC1FD9C1A09265E009A636C /* bridion_PCR1_orange_circle@2x.png */,
+				BAC1FD9D1A09265E009A636C /* bridion_PCR1_orange_line@2x.png */,
+				BAC1FD9E1A09265E009A636C /* bridion_PCR1_predictable@2x.png */,
+				BAC1FD9F1A09265E009A636C /* bridion_PCR1_reference@2x.png */,
+				BAC1FDA01A09265E009A636C /* bridion_PCR1_tittle@2x.png */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		BAC1FDA21A09265E009A636C /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				BAC1FDA31A09265E009A636C /* bridion_PCR1_blue73_circle@2x.png */,
+				BAC1FDA41A09265E009A636C /* bridion_PCR1_gray0_circle@2x.png */,
+				BABE0A6C1A0D149800E0BBF7 /* bridion_PCR2_reference@2x.png */,
+				BAC1FDA51A09265E009A636C /* bridion_PCR1_orange97_circle@2x.png */,
+				BAC1FDA61A09265E009A636C /* bridion_PCR2_adapted@2x.png */,
+				BAC1FDA71A09265E009A636C /* bridion_PCR2_bk@2x.png */,
+				BAC1FDA81A09265E009A636C /* bridion_PCR2_blue_text@2x.png */,
+				BAC1FDA91A09265E009A636C /* bridion_PCR2_bridion@2x.png */,
+				BAC1FDAA1A09265E009A636C /* bridion_PCR2_complete@2x.png */,
+				BAC1FDAB1A09265E009A636C /* bridion_PCR2_graph@2x.png */,
+				BAC1FDAC1A09265E009A636C /* bridion_PCR2_graph_blue_line@2x.png */,
+				BAC1FDAD1A09265E009A636C /* bridion_PCR2_graph_gray_line@2x.png */,
+				BAC1FDAE1A09265E009A636C /* bridion_PCR2_graph_orange_line@2x.png */,
+				BAC1FDAF1A09265E009A636C /* bridion_PCR2_gray_line@2x.png */,
+				BAC1FDB01A09265E009A636C /* bridion_PCR2_neostigmine@2x.png */,
+				BAC1FDB11A09265E009A636C /* bridion_PCR2_orange_line@2x.png */,
+				BAC1FDB21A09265E009A636C /* bridion_PCR2_predictable@2x.png */,
+				BAC1FDB41A09265E009A636C /* bridion_PCR2_tittle@2x.png */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		BAC1FDB61A09265E009A636C /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				BA4C67661A0E7C0A00E3F7EE /* bridion_PCR3_deep_text1@2x.png */,
+				BA4C67671A0E7C0A00E3F7EE /* bridion_PCR3_moderate_text1@2x.png */,
+				BAC1FDB71A09265E009A636C /* bridion_PCR3-line@2x.png */,
+				BAC1FDB81A09265E009A636C /* bridion_PCR3_arrow.png */,
+				BAC1FDB91A09265E009A636C /* bridion_PCR3_button_how-long@2x.png */,
+				BAC1FDBA1A09265E009A636C /* bridion_PCR3_deep-block-press@2x.png */,
+				BAC1FDBB1A09265E009A636C /* bridion_PCR3_deep-block@2x.png */,
+				BAC1FDBC1A09265E009A636C /* bridion_PCR3_deep_2.7_minutes@2x.png */,
+				BAC1FDBE1A09265E009A636C /* bridion_PCR3_moderate-block@2x.png */,
+				BAC1FDBF1A09265E009A636C /* bridion_PCR3_moderate-block_press@2x.png */,
+				BAC1FDC01A09265E009A636C /* bridion_PCR3_moderate_1.4_minutes@2x.png */,
+				BAC1FDC21A09265E009A636C /* bridion_PCR3_rapid@2x.png */,
+				BAC1FDC31A09265E009A636C /* bridion_PCR3_reference@2x.png */,
+				BAC1FDC41A09265E009A636C /* bridion_PCR3_text_down1@2x.png */,
+				BAC1FDC51A09265E009A636C /* bridion_PCR3_text_down2@2x.png */,
+				BAC1FDC61A09265E009A636C /* bridion_PCR3_text_down3@2x.png */,
+				BAC1FDC71A09265E009A636C /* bridion_PCR3_tittle@2x.png */,
+				BA5B51711A0F7DCE0033D5C7 /* bridion_PCR3_deep_gray49@2x.png */,
+				BA5B51721A0F7DCE0033D5C7 /* bridion_PCR3_deep_orange@2x.png */,
+				BA5B51731A0F7DCE0033D5C7 /* bridion_PCR3_moderate_gray18.5@2x.png */,
+				BA5B51741A0F7DCE0033D5C7 /* bridion_PCR3_moderate_orange@2x.png */,
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
 		DB66A646194A0793002A043E /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -2414,6 +2823,11 @@
 		DB66A656194A0793002A043E /* images */ = {
 			isa = PBXGroup;
 			children = (
+				BA05262E1A06BD4700E8B07D /* general */,
+				BA0526231A06A59C00E8B07D /* SSI */,
+				BA05261A1A06A49500E8B07D /* MOA */,
+				BAC1FD8D1A09265E009A636C /* PCR */,
+				BA0526031A069F5800E8B07D /* HP */,
 				DB66A657194A0793002A043E /* bar */,
 				DB66A668194A0793002A043E /* emend_play_back.png */,
 				DB66A669194A0793002A043E /* emend_play_back@2x.png */,
@@ -2426,8 +2840,8 @@
 				DB66A670194A0793002A043E /* emend_play_stop_btn_s.png */,
 				DB66A671194A0793002A043E /* emend_play_stop_btn_s@2x.png */,
 				DB66A672194A0793002A043E /* header_elonva1.png */,
+				BA60A75A1A053C0F00916199 /* Thumbs */,
 				DB66A673194A0793002A043E /* Pages */,
-				DB66A6EE194A0793002A043E /* thumbs */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -2435,12 +2849,12 @@
 		DB66A657194A0793002A043E /* bar */ = {
 			isa = PBXGroup;
 			children = (
-				DB66A658194A0793002A043E /* back.psd */,
 				DB66A659194A0793002A043E /* back@2x.png */,
 				DB66A65A194A0793002A043E /* btn_menu_elonva.png */,
 				DB66A65B194A0793002A043E /* btn_menu_elonva1.png */,
 				DB66A65C194A0793002A043E /* btn_menu_emend.png */,
 				DB66A65D194A0793002A043E /* btn_menu_emend@2x.png */,
+				BA60A7381A0539F000916199 /* btn_pager_bridion@2x.png */,
 				DB66A65E194A0793002A043E /* btn_pager_emend.png */,
 				DB66A65F194A0793002A043E /* btn_pager_emend@2x.png */,
 				DB66A660194A0793002A043E /* btn_pager_emend_s.png */,
@@ -2462,13 +2876,6 @@
 				DB66A677194A0793002A043E /* emend_+@2x.png */,
 			);
 			path = Pages;
-			sourceTree = "<group>";
-		};
-		DB66A6EE194A0793002A043E /* thumbs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = thumbs;
 			sourceTree = "<group>";
 		};
 		DB66A6FC194A0793002A043E /* UI */ = {
@@ -2493,6 +2900,8 @@
 		DB66A6FD194A0793002A043E /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				BA456CA71A0E416D0056B4DF /* KAProgressLabel */,
+				BABE0A761A0E354200E0BBF7 /* JWGCircleCounter */,
 				DB66A6FE194A0793002A043E /* BridionBottomPagerPreview.h */,
 				DB66A6FF194A0793002A043E /* BridionBottomPagerPreview.m */,
 				DB66A700194A0793002A043E /* BridionBottomPagerView.h */,
@@ -2528,6 +2937,25 @@
 				DB66A713194A0793002A043E /* BridionBase.m */,
 				DB66A714194A0793002A043E /* BridionPage0.h */,
 				DB66A715194A0793002A043E /* BridionPage0.m */,
+				BABE0A6A1A0D0F5200E0BBF7 /* BridionPage0.xib */,
+				BA60A7231A0536FC00916199 /* BridionPage1.h */,
+				BA60A7241A0536FC00916199 /* BridionPage1.m */,
+				BAC1FD8B1A092608009A636C /* BridionPage1.xib */,
+				BA60A7251A0536FC00916199 /* BridionPage2.h */,
+				BA60A7261A0536FC00916199 /* BridionPage2.m */,
+				BA33BE201A0C0DEE0021B3FF /* BridionPage2.xib */,
+				BA60A7271A0536FC00916199 /* BridionPage3.h */,
+				BA60A7281A0536FC00916199 /* BridionPage3.m */,
+				BABE0A701A0D1AAD00E0BBF7 /* BridionPage3.xib */,
+				BA60A7291A0536FC00916199 /* BridionPage4.h */,
+				BA60A72A1A0536FC00916199 /* BridionPage4.m */,
+				BABE0A6E1A0D15D200E0BBF7 /* BridionPage4.xib */,
+				BA60A72B1A0536FC00916199 /* BridionPage5.h */,
+				BA60A72C1A0536FC00916199 /* BridionPage5.m */,
+				BA60A72D1A0536FC00916199 /* BridionPage6.h */,
+				BA60A72E1A0536FC00916199 /* BridionPage6.m */,
+				BA60A72F1A0536FC00916199 /* BridionPage7.h */,
+				BA60A7301A0536FC00916199 /* BridionPage7.m */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -3068,9 +3496,10 @@
 		DBCDEA491948C31E00E4DFA3 /* CrittercismSDK */ = {
 			isa = PBXGroup;
 			children = (
+				BA5B51811A0FBDC90033D5C7 /* CRFilter.h */,
 				DBCDEA4A1948C31E00E4DFA3 /* Crittercism.h */,
 				DBCDEA4B1948C31E00E4DFA3 /* CrittercismDelegate.h */,
-				DBCDEA4C1948C31E00E4DFA3 /* libCrittercism_v4_0_0.a */,
+				BA5B517F1A0FBDBF0033D5C7 /* libCrittercism_v5_0_4.a */,
 			);
 			path = CrittercismSDK;
 			sourceTree = "<group>";
@@ -4341,17 +4770,23 @@
 				DBCDEEAA1948C32000E4DFA3 /* endu_tab_app4_s.png in Resources */,
 				DBCDF09F1948C32000E4DFA3 /* gm_logo_zostavax_s.png in Resources */,
 				DBCDEE931948C32000E4DFA3 /* endu_tab_app3_s.png in Resources */,
+				BAC1FDE61A09265E009A636C /* bridion_PCR2_graph_blue_line@2x.png in Resources */,
 				DBCDF0381948C32000E4DFA3 /* gm_logo_flyers.png in Resources */,
 				DBCDF08A1948C32000E4DFA3 /* gm_logo_question.png in Resources */,
 				DB6B5134195AEB8100574CA5 /* GTMEditDoctorLeaveView.xib in Resources */,
 				DBCDEE1D1948C32000E4DFA3 /* ChatToSelectCell.xib in Resources */,
 				DBCDF0751948C32000E4DFA3 /* gm_logo_mss_puregon_s.png in Resources */,
 				DBCDEF341948C32000E4DFA3 /* historyu_tab_app34_s.png in Resources */,
+				BAC1FDFC1A09265E009A636C /* bridion_PCR3_reference@2x.png in Resources */,
 				DBCDEDD31948C32000E4DFA3 /* chat_contact_header_back_s.png in Resources */,
+				BA5B51781A0F7DCE0033D5C7 /* bridion_PCR3_moderate_orange@2x.png in Resources */,
 				DBCDF0061948C32000E4DFA3 /* gm_logo_lecture_s_en.png in Resources */,
 				DBCDEE341948C32000E4DFA3 /* endu_samples_back_en.png in Resources */,
 				DBE5489D196D30D500A3C6EE /* Beyond_the_pill_white.png in Resources */,
+				BA0526291A06A59C00E8B07D /* bridion_SSI_bk@2x.png in Resources */,
 				DBCDF09E1948C32000E4DFA3 /* gm_logo_zostavax.png in Resources */,
+				BA60A7671A053C1B00916199 /* bridion_thumb_PCR_03.png in Resources */,
+				BA05263F1A06BD4700E8B07D /* bridion_logo_bridion_side@2x.png in Resources */,
 				DBCDEEE01948C32000E4DFA3 /* historyu_calendar_cell_back.png in Resources */,
 				DBCDEE3D1948C32000E4DFA3 /* endu_delete_btn_old.png in Resources */,
 				DBCDEF001948C32000E4DFA3 /* historyu_samples_btn.png in Resources */,
@@ -4360,15 +4795,19 @@
 				DBCDEEA21948C32000E4DFA3 /* endu_tab_app46.png in Resources */,
 				DBCDEE541948C32000E4DFA3 /* endu_searchin_btn.png in Resources */,
 				DBCDEFE51948C32000E4DFA3 /* gm_row_back_diprospan.png in Resources */,
+				BAC1FDD41A09265E009A636C /* bridion_PCR1_neostigmine@2x.png in Resources */,
 				DB66A748194A0793002A043E /* emend_play_back@2x.png in Resources */,
 				DBCDEFF31948C32000E4DFA3 /* gm_logo_articles_en.png in Resources */,
 				DBCDF0491948C32000E4DFA3 /* gm_logo_kenes_s.png in Resources */,
 				DBCDEEA51948C32000E4DFA3 /* endu_tab_app46_s@2x.png in Resources */,
 				DBCDEE9B1948C32000E4DFA3 /* endu_tab_app42_s.png in Resources */,
+				BA60A7631A053C1B00916199 /* bridion_thumb_HP_01.png in Resources */,
 				DBCDEEE21948C32000E4DFA3 /* historyu_calendar_meetings_back.png in Resources */,
+				BA0526141A069F5800E8B07D /* bridion_HP_line@2x.png in Resources */,
 				DBCDF06B1948C32000E4DFA3 /* gm_logo_mss_invanz.png in Resources */,
 				DBCDF01B1948C32000E4DFA3 /* gm_logo_start_en.png in Resources */,
 				DBCDEFDD1948C32000E4DFA3 /* gm_row_back_blue.png in Resources */,
+				BABE0A6B1A0D0F5200E0BBF7 /* BridionPage0.xib in Resources */,
 				DBCDEFD81948C32000E4DFA3 /* gm_menu_email_btn_green.png in Resources */,
 				DBCDEEE41948C32000E4DFA3 /* historyu_calendar_meetings_no_lines.png in Resources */,
 				DBCDF0001948C32000E4DFA3 /* gm_logo_flyers_s_en.png in Resources */,
@@ -4396,8 +4835,11 @@
 				DBCDEF3F1948C32000E4DFA3 /* historyu_tab_app3r.png in Resources */,
 				DBCDF0541948C32000E4DFA3 /* gm_logo_more_products_s.png in Resources */,
 				DBCDF02C1948C32000E4DFA3 /* gm_logo_detailed-Aid.png in Resources */,
+				BAC1FDD91A09265E009A636C /* bridion_PCR1_predictable@2x.png in Resources */,
 				DBCDEE831948C32000E4DFA3 /* endu_tab_app32_s.png in Resources */,
+				BA0526101A069F5800E8B07D /* bridion_footer_press@2x.png in Resources */,
 				DBCDEFCB1948C32000E4DFA3 /* GMMainMenuView.xib in Resources */,
+				BA60A7661A053C1B00916199 /* bridion_thumb_PCR_02.png in Resources */,
 				DBCDF0521948C32000E4DFA3 /* gm_logo_mercilon_s.png in Resources */,
 				DBE5489E196D30D500A3C6EE /* Beyond_the_pill.png in Resources */,
 				DBCDEF1A1948C32000E4DFA3 /* historyu_tab_app23.png in Resources */,
@@ -4436,6 +4878,7 @@
 				DBCDEEA81948C32000E4DFA3 /* endu_tab_app47_s.png in Resources */,
 				DBCDEFD21948C32000E4DFA3 /* gm_catalog_yesInternet.png in Resources */,
 				DBCDEDF41948C32000E4DFA3 /* chat_send_contact_btn_open.png in Resources */,
+				BAC1FDD11A09265E009A636C /* bridion_PCR1_gray11_circle@2x.png in Resources */,
 				DBCDEE881948C32000E4DFA3 /* endu_tab_app35.png in Resources */,
 				DBFBEE8019A7864800F76653 /* login_field@2x.png in Resources */,
 				DBCDF0761948C32000E4DFA3 /* gm_logo_mss_rizalt.png in Resources */,
@@ -4443,12 +4886,14 @@
 				DBCDEE3F1948C32000E4DFA3 /* endu_field_blue_back.png in Resources */,
 				DBCDEDDE1948C32000E4DFA3 /* chat_left_bottom_shadow.png in Resources */,
 				DBCDEE091948C32000E4DFA3 /* ChatEditRoomView.xib in Resources */,
+				BAC1FDCD1A09265E009A636C /* bridion_PCR1_copyright@2x.png in Resources */,
 				DBCDEE011948C32000E4DFA3 /* ChatEditPicView.xib in Resources */,
 				DBCDEE611948C32000E4DFA3 /* endu_tab_app18_s.png in Resources */,
 				DBCDEEA41948C32000E4DFA3 /* endu_tab_app46_s.png in Resources */,
 				DBCDEE851948C32000E4DFA3 /* endu_tab_app33_s.png in Resources */,
 				DBCDEEF41948C32000E4DFA3 /* historyu_input.png in Resources */,
 				DBCDF08F1948C32000E4DFA3 /* gm_logo_redirect_s.png in Resources */,
+				BA60A7391A0539F000916199 /* btn_pager_bridion@2x.png in Resources */,
 				DBCDEFEB1948C32000E4DFA3 /* gm_row_back_orange.png in Resources */,
 				DBCDEFE81948C32000E4DFA3 /* gm_row_back_greendark.png in Resources */,
 				DBCDEDD61948C32000E4DFA3 /* chat_contact_row_back_s.png in Resources */,
@@ -4466,6 +4911,7 @@
 				DBCDEE521948C32000E4DFA3 /* endu_samples_close_btn.png in Resources */,
 				DB66A915194A0C03002A043E /* quet_box2_no_sel.png in Resources */,
 				DBCDEE801948C32000E4DFA3 /* endu_tab_app31.png in Resources */,
+				BA0526151A069F5800E8B07D /* bridion_HP_logo@2x.png in Resources */,
 				DB66A751194A0793002A043E /* header_elonva1.png in Resources */,
 				DBCDF0711948C32000E4DFA3 /* gm_logo_mss_mercilon_s.png in Resources */,
 				DBCDF0081948C32000E4DFA3 /* gm_logo_more_products_s_en.png in Resources */,
@@ -4474,6 +4920,7 @@
 				DBCDEFEC1948C32000E4DFA3 /* gm_row_back_orangebright.png in Resources */,
 				DB66A815194A07AB002A043E /* LoginController.xib in Resources */,
 				DBEF7206194A0F9A00F0EDC2 /* bridion_logo_side-white@2x.png in Resources */,
+				BABE0A711A0D1AAD00E0BBF7 /* BridionPage3.xib in Resources */,
 				DBCDEF461948C32000E4DFA3 /* historyu_tab_app41_s.png in Resources */,
 				DBCDF04A1948C32000E4DFA3 /* gm_logo_lecture.png in Resources */,
 				DBCDF0681948C32000E4DFA3 /* gm_logo_mss_emend_s.png in Resources */,
@@ -4486,19 +4933,25 @@
 				DBCDF0AB1948C32000E4DFA3 /* gmtool_badge.png in Resources */,
 				DBCDF05A1948C32000E4DFA3 /* gm_logo_mss_bridion_s.png in Resources */,
 				DBCDEDF31948C32000E4DFA3 /* chat_send_contact_btn_close.png in Resources */,
+				BAC1FDEE1A09265E009A636C /* bridion_PCR2_tittle@2x.png in Resources */,
 				DBCDEEB11948C32000E4DFA3 /* endu_tab_app_s.png in Resources */,
+				BAC1FDD01A09265E009A636C /* bridion_PCR1_graph_orange_line@2x.png in Resources */,
 				DBCDEF741948C32000E4DFA3 /* historyu_top_time_back.png in Resources */,
 				DBCDEDEB1948C32000E4DFA3 /* chat_room_row_white.png in Resources */,
 				DBCDEF3D1948C32000E4DFA3 /* historyu_tab_app39.png in Resources */,
+				BA05263D1A06BD4700E8B07D /* bridion_blue-strip@2x.png in Resources */,
 				DBCDF0C31948C32000E4DFA3 /* gmtool_fosavan_msd_logo.png in Resources */,
+				BA60A7681A053C1B00916199 /* bridion_thumb_PCR_04.png in Resources */,
 				DBCDEF1F1948C32000E4DFA3 /* historyu_tab_app25_s.png in Resources */,
 				DBCDF0661948C32000E4DFA3 /* gm_logo_mss_elonva_s.png in Resources */,
+				BAC1FDD61A09265E009A636C /* bridion_PCR1_orange98_circle@2x.png in Resources */,
 				DBCDF0971948C32000E4DFA3 /* gm_logo_univadis_s.png in Resources */,
 				DBCDEFF61948C32000E4DFA3 /* gm_logo_cansidas_side_s.png in Resources */,
 				DBCDF0571948C32000E4DFA3 /* gm_logo_mss_arius.png in Resources */,
 				DBCDEF4B1948C32000E4DFA3 /* historyu_tab_app43_s.png in Resources */,
 				DB6B513C195AEB8100574CA5 /* GTMEditMenuView.xib in Resources */,
 				DBCDF0901948C32000E4DFA3 /* gm_logo_rizalt.png in Resources */,
+				BA5B517B1A0F827C0033D5C7 /* bridion_SSI_text1@2x.png in Resources */,
 				DBCDEFD41948C32000E4DFA3 /* gm_email_close.png in Resources */,
 				DB66A948194A0C03002A043E /* QuestionViewController.xib in Resources */,
 				DBCDEE421948C32000E4DFA3 /* endu_field_ddl_back.png in Resources */,
@@ -4516,6 +4969,7 @@
 				DBCDF0231948C32000E4DFA3 /* gm_logo_arcoxia_s.png in Resources */,
 				DBCDEFF51948C32000E4DFA3 /* gm_logo_cansidas_side.png in Resources */,
 				DB66A90B194A0C03002A043E /* Default.png in Resources */,
+				BAC1FDDA1A09265E009A636C /* bridion_PCR1_reference@2x.png in Resources */,
 				DBCDEEB01948C32000E4DFA3 /* endu_tab_app8_s.png in Resources */,
 				DBCDF0551948C32000E4DFA3 /* gm_logo_mss_arcoxia.png in Resources */,
 				DBCDEE5E1948C32000E4DFA3 /* endu_tab_app17.png in Resources */,
@@ -4532,9 +4986,12 @@
 				DBCDEDE41948C32000E4DFA3 /* chat_room_edit_back.png in Resources */,
 				DBCDEE841948C32000E4DFA3 /* endu_tab_app33.png in Resources */,
 				DBEF7204194A0F9A00F0EDC2 /* bridion_logo_history@2x.png in Resources */,
+				BAC1FDF41A09265E009A636C /* bridion_PCR3_deep-block@2x.png in Resources */,
+				BAC1FDF31A09265E009A636C /* bridion_PCR3_deep-block-press@2x.png in Resources */,
 				DBCDEF0F1948C32000E4DFA3 /* historyu_tab_app1l.png in Resources */,
 				DB66A7E0194A0793002A043E /* BridionGMMainMenu.plist in Resources */,
 				DBCDEDF21948C32000E4DFA3 /* chat_send_contact_back.png in Resources */,
+				BA5B517C1A0F827C0033D5C7 /* bridion_SSI_text2@2x.png in Resources */,
 				DBCDEE861948C32000E4DFA3 /* endu_tab_app34.png in Resources */,
 				DB66A732194A0793002A043E /* bridion_question.plist in Resources */,
 				DBCDEED91948C32000E4DFA3 /* HistoryUniversalViewController.xib in Resources */,
@@ -4551,6 +5008,7 @@
 				DB66A92A194A0C03002A043E /* quet_pager_back.png in Resources */,
 				DBCDF00E1948C32000E4DFA3 /* gm_logo_pain_s_en.png in Resources */,
 				DBCDEEAB1948C32000E4DFA3 /* endu_tab_app5.png in Resources */,
+				BA4C67691A0E7C0A00E3F7EE /* bridion_PCR3_moderate_text1@2x.png in Resources */,
 				DBCDF0011948C32000E4DFA3 /* gm_logo_home_en.png in Resources */,
 				DBCDEE9C1948C32000E4DFA3 /* endu_tab_app43.png in Resources */,
 				DBCDEE481948C32000E4DFA3 /* endu_ipad_btn_d.png in Resources */,
@@ -4563,6 +5021,7 @@
 				DBCDEEB61948C32000E4DFA3 /* EndMeetingUniApplicationSelectionViewController.xib in Resources */,
 				299BA19819B3CA520038EF4B /* Contraception.png in Resources */,
 				DBCDF0161948C32000E4DFA3 /* gm_logo_recommend_s_en.png in Resources */,
+				BA0526121A069F5800E8B07D /* bridion_HP_Complete@2x.png in Resources */,
 				DBCDF00A1948C32000E4DFA3 /* gm_logo_mss_menu_s.png in Resources */,
 				DBCDEE7D1948C32000E4DFA3 /* endu_tab_app3.png in Resources */,
 				DBCDEE3A1948C32000E4DFA3 /* endu_cal_btn_old.png in Resources */,
@@ -4575,8 +5034,11 @@
 				DB66A913194A0C03002A043E /* quet_box2_back.png in Resources */,
 				DBCDEDE21948C32000E4DFA3 /* chat_online_white.png in Resources */,
 				DBCDEF281948C32000E4DFA3 /* historyu_tab_app2_s.png in Resources */,
+				BA05260F1A069F5800E8B07D /* bridion_footer@2x.png in Resources */,
+				BA05262C1A06A59C00E8B07D /* bridion_SSI_tittle@2x.png in Resources */,
 				DBCDEF041948C32000E4DFA3 /* historyu_tab_app15.png in Resources */,
 				DBCDEE641948C32000E4DFA3 /* endu_tab_app1_o.png in Resources */,
+				BA4C67681A0E7C0A00E3F7EE /* bridion_PCR3_deep_text1@2x.png in Resources */,
 				DBCDEFFF1948C32000E4DFA3 /* gm_logo_flyers_en.png in Resources */,
 				DBCDEF111948C32000E4DFA3 /* historyu_tab_app1r.png in Resources */,
 				DBCDEF321948C32000E4DFA3 /* historyu_tab_app33_s.png in Resources */,
@@ -4584,6 +5046,8 @@
 				DBCDEE461948C32000E4DFA3 /* endu_header_back.png in Resources */,
 				DBCDEE911948C32000E4DFA3 /* endu_tab_app39_s.png in Resources */,
 				DBCDEEA31948C32000E4DFA3 /* endu_tab_app46@2x.png in Resources */,
+				BAC1FDD71A09265E009A636C /* bridion_PCR1_orange_circle@2x.png in Resources */,
+				BA05263B1A06BD4700E8B07D /* bridion_bk_tittle_long.png in Resources */,
 				DBCDF0431948C32000E4DFA3 /* gm_logo_invanz_s.png in Resources */,
 				DBCDEF421948C32000E4DFA3 /* historyu_tab_app40.png in Resources */,
 				DBCDF02B1948C32000E4DFA3 /* gm_logo_dermatology_s.png in Resources */,
@@ -4593,6 +5057,7 @@
 				DBCDEF191948C32000E4DFA3 /* historyu_tab_app22_s.png in Resources */,
 				DBFBEE7D19A7864800F76653 /* login_bottom_strip@2x.png in Resources */,
 				DBCDEE161948C32000E4DFA3 /* ChatRoomParticipantView.xib in Resources */,
+				BA0526431A06BD4700E8B07D /* bridion_R@2x.png in Resources */,
 				DBCDEFBD1948C32000E4DFA3 /* Localizable.strings in Resources */,
 				DBCDEE1F1948C32000E4DFA3 /* ChatToSelectViewController.xib in Resources */,
 				DBCDEF781948C32000E4DFA3 /* historyu_xforce_A.png in Resources */,
@@ -4615,6 +5080,7 @@
 				DBCDEFDE1948C32000E4DFA3 /* gm_row_back_blueblack.png in Resources */,
 				DB66A754194A0793002A043E /* emend_+.png in Resources */,
 				DBCDF0241948C32000E4DFA3 /* gm_logo_articles.png in Resources */,
+				BAC1FDE81A09265E009A636C /* bridion_PCR2_graph_orange_line@2x.png in Resources */,
 				DBCDEF051948C32000E4DFA3 /* historyu_tab_app15_s.png in Resources */,
 				DBCDEEF61948C32000E4DFA3 /* historyu_input_search_btn.png in Resources */,
 				DBCDEF301948C32000E4DFA3 /* historyu_tab_app32_s.png in Resources */,
@@ -4622,9 +5088,12 @@
 				DBCDEE5F1948C32000E4DFA3 /* endu_tab_app17_s.png in Resources */,
 				DBCDEEED1948C32000E4DFA3 /* historyu_freezed_btn.png in Resources */,
 				DBCDF0A61948C32000E4DFA3 /* GMMenuItemView.xib in Resources */,
+				BAC1FDEA1A09265E009A636C /* bridion_PCR2_neostigmine@2x.png in Resources */,
 				DBCDEF6F1948C32000E4DFA3 /* historyu_top_back.png in Resources */,
 				DB66A912194A0C03002A043E /* quet_box1_sep.png in Resources */,
+				BAC1FDD51A09265E009A636C /* bridion_PCR1_num5@2x.png in Resources */,
 				DBCDF0B01948C32000E4DFA3 /* gmtool_btn_back_s.png in Resources */,
+				BA05261F1A06A49500E8B07D /* bridion_MOA_bk@2x.png in Resources */,
 				DB66A745194A0793002A043E /* header_emend.png in Resources */,
 				DBFBEE8319A7864800F76653 /* login_pop@2x.png in Resources */,
 				DB66A918194A0C03002A043E /* quet_box3_back.png in Resources */,
@@ -4637,6 +5106,7 @@
 				DB66A923194A0C03002A043E /* quet_boxend.png in Resources */,
 				DB66A914194A0C03002A043E /* quet_box2_no.png in Resources */,
 				DBCDF0B71948C32000E4DFA3 /* gmtool_edit_back.png in Resources */,
+				BAC1FD8C1A092608009A636C /* BridionPage1.xib in Resources */,
 				DBCDEE5C1948C32000E4DFA3 /* endu_tab_app16.png in Resources */,
 				DBCDF0B41948C32000E4DFA3 /* gmtool_btn_history.png in Resources */,
 				DBCDEF531948C32000E4DFA3 /* historyu_tab_app47.png in Resources */,
@@ -4648,10 +5118,14 @@
 				299BA19F19B3CA520038EF4B /* Victrelis.png in Resources */,
 				DBCDEFDB1948C32000E4DFA3 /* gm_row_back.png in Resources */,
 				DBCDEF5B1948C32000E4DFA3 /* historyu_tab_app5r.png in Resources */,
+				BA0526131A069F5800E8B07D /* bridion_HP_icons@2x.png in Resources */,
 				DB66A928194A0C03002A043E /* quet_logo.png in Resources */,
 				DBFBEE8419A7864800F76653 /* login_terms_text@2x.png in Resources */,
+				BAC1FDE01A09265E009A636C /* bridion_PCR2_adapted@2x.png in Resources */,
 				DBCDF0981948C32000E4DFA3 /* gm_logo_videos.png in Resources */,
+				BAC1FDDD1A09265E009A636C /* bridion_PCR1_blue73_circle@2x.png in Resources */,
 				DBCDEFB81948C32000E4DFA3 /* ZoomingPDFViewerViewController.xib in Resources */,
+				BAC1FDD31A09265E009A636C /* bridion_PCR1_gray_line@2x.png in Resources */,
 				DBCDEEA61948C32000E4DFA3 /* endu_tab_app47.png in Resources */,
 				DBCDEE981948C32000E4DFA3 /* endu_tab_app41.png in Resources */,
 				DBCDF0021948C32000E4DFA3 /* gm_logo_home_s_en.png in Resources */,
@@ -4662,6 +5136,7 @@
 				DB4067E0194DAD1100750F90 /* historyu_tab_app48.png in Resources */,
 				DBCDEEB21948C32000E4DFA3 /* endu_tab_app_s@2x.png in Resources */,
 				DBCDF07B1948C32000E4DFA3 /* gm_logo_nuvaring_s.png in Resources */,
+				BA33BE211A0C0DEE0021B3FF /* BridionPage2.xib in Resources */,
 				DBCDEF0A1948C32000E4DFA3 /* historyu_tab_app18.png in Resources */,
 				DBCDEEFC1948C32000E4DFA3 /* historyu_meeting_back.png in Resources */,
 				DBCDF09B1948C32000E4DFA3 /* gm_logo_who_s.png in Resources */,
@@ -4678,20 +5153,25 @@
 				DBCDF0941948C32000E4DFA3 /* gm_logo_start.png in Resources */,
 				DB66A74B194A0793002A043E /* emend_play_play_s_btn.png in Resources */,
 				DBCDEF4D1948C32000E4DFA3 /* historyu_tab_app44_s.png in Resources */,
+				BAC1FDCA1A09265E009A636C /* bridion_PCR1_adapted@2x.png in Resources */,
 				DBCDF03E1948C32000E4DFA3 /* gm_logo_gardasil.png in Resources */,
 				DBCDEDF61948C32000E4DFA3 /* chat_send_contact_to.png in Resources */,
 				DBCDEE751948C32000E4DFA3 /* endu_tab_app27_s .png in Resources */,
 				DBCDEF3A1948C32000E4DFA3 /* historyu_tab_app37_s.png in Resources */,
 				DBCDF0B11948C32000E4DFA3 /* gmtool_btn_doctorsearch.png in Resources */,
+				BAC1FDF11A09265E009A636C /* bridion_PCR3_arrow.png in Resources */,
 				DBCDF0641948C32000E4DFA3 /* gm_logo_mss_diprospan_s.png in Resources */,
 				DBCDEE351948C32000E4DFA3 /* endu_back_left.png in Resources */,
 				DBCDF0371948C32000E4DFA3 /* gm_logo_flows_s.png in Resources */,
+				BAC1FDF51A09265E009A636C /* bridion_PCR3_deep_2.7_minutes@2x.png in Resources */,
 				DBCDEE951948C32000E4DFA3 /* endu_tab_app4.png in Resources */,
 				DBCDF0B91948C32000E4DFA3 /* gmtool_edit_field.png in Resources */,
 				DBCDF0461948C32000E4DFA3 /* gm_logo_januvia.png in Resources */,
 				DBEF7208194A0F9A00F0EDC2 /* bridion_logo_side@2x.png in Resources */,
+				BAC1FDEC1A09265E009A636C /* bridion_PCR2_predictable@2x.png in Resources */,
 				DBCDEFFA1948C32000E4DFA3 /* gm_logo_detailed-Aid_s_en.png in Resources */,
 				DB66A746194A0793002A043E /* header_emend@2x.png in Resources */,
+				BABE0A6F1A0D15D200E0BBF7 /* BridionPage4.xib in Resources */,
 				DBCDEE9A1948C32000E4DFA3 /* endu_tab_app42.png in Resources */,
 				DBCDEDED1948C32000E4DFA3 /* chat_selectto_checkbox.png in Resources */,
 				DBCDEE5B1948C32000E4DFA3 /* endu_tab_app15_s.png in Resources */,
@@ -4716,8 +5196,11 @@
 				DB66A910194A0C03002A043E /* quet_box1_marker.png in Resources */,
 				DB66A81A194A0820002A043E /* Bridion-Info.plist in Resources */,
 				DBCDEE471948C32000E4DFA3 /* endu_ipad_btn.png in Resources */,
+				BAC1FE001A09265E009A636C /* bridion_PCR3_tittle@2x.png in Resources */,
 				DBCDEF771948C32000E4DFA3 /* historyu_univadis_yes.png in Resources */,
+				BAC1FDE41A09265E009A636C /* bridion_PCR2_complete@2x.png in Resources */,
 				DBCDEF0D1948C32000E4DFA3 /* historyu_tab_app19_s.png in Resources */,
+				BA05263A1A06BD4700E8B07D /* bridion_back@2x.png in Resources */,
 				DBCDEDCF1948C32000E4DFA3 /* chat_bubble_other_nr.png in Resources */,
 				DBCDEDE01948C32000E4DFA3 /* chat_message_date_line.png in Resources */,
 				DBCDEDEA1948C32000E4DFA3 /* chat_room_row_blue.png in Resources */,
@@ -4726,11 +5209,14 @@
 				DBCDEFD91948C32000E4DFA3 /* gm_menu_file_back.png in Resources */,
 				DBCDEDE81948C32000E4DFA3 /* chat_room_row_arrow.png in Resources */,
 				DBCDEDF91948C32000E4DFA3 /* chat_top_left_plain_btn.png in Resources */,
+				BAC1FDFE1A09265E009A636C /* bridion_PCR3_text_down2@2x.png in Resources */,
 				DBFBEE8519A7864800F76653 /* login_v@2x.png in Resources */,
+				BAC1FDE91A09265E009A636C /* bridion_PCR2_gray_line@2x.png in Resources */,
 				DBCDEE4F1948C32000E4DFA3 /* endu_question_back.png in Resources */,
 				DBEF720E194A0F9A00F0EDC2 /* loginAll_back@2x.png in Resources */,
 				DBCDF05F1948C32000E4DFA3 /* gm_logo_mss_clarinase_s.png in Resources */,
 				DBCDEFFD1948C32000E4DFA3 /* gm_logo_flows_en.png in Resources */,
+				BA0526401A06BD4700E8B07D /* bridion_logo_header@2x.png in Resources */,
 				DBCDEF7A1948C32000E4DFA3 /* historyu_xforce_C.png in Resources */,
 				DBCDEF081948C32000E4DFA3 /* historyu_tab_app17.png in Resources */,
 				DB66A74C194A0793002A043E /* emend_play_play_s_btn@2x.png in Resources */,
@@ -4740,6 +5226,8 @@
 				DBCDEF661948C32000E4DFA3 /* historyu_tab_backl.png in Resources */,
 				DBCDEFD01948C32000E4DFA3 /* gm_catalog_btn_d.png in Resources */,
 				DBCDEEEC1948C32000E4DFA3 /* historyu_drag_pin.png in Resources */,
+				BA60A76A1A053C1B00916199 /* bridion_thumb_SSI_02.png in Resources */,
+				BAC1FDE11A09265E009A636C /* bridion_PCR2_bk@2x.png in Resources */,
 				DBCDF03F1948C32000E4DFA3 /* gm_logo_gardasil_s.png in Resources */,
 				DBCDEF601948C32000E4DFA3 /* historyu_tab_app8_one.png in Resources */,
 				DB6B510D195AE3FF00574CA5 /* PortalViewController.xib in Resources */,
@@ -4752,13 +5240,16 @@
 				DBCDEFE01948C32000E4DFA3 /* gm_row_back_brown.png in Resources */,
 				299BA19919B3CA520038EF4B /* Diversify.png in Resources */,
 				DBCDF0C51948C32000E4DFA3 /* gmtool_menu_back.png in Resources */,
+				BAC1FDE71A09265E009A636C /* bridion_PCR2_graph_gray_line@2x.png in Resources */,
 				DBFBEE7F19A7864800F76653 /* login_btn_pinck@2x.png in Resources */,
 				DBCDEF311948C32000E4DFA3 /* historyu_tab_app33.png in Resources */,
 				DBCDEFE71948C32000E4DFA3 /* gm_row_back_green1.png in Resources */,
 				DBCDEF891948C32000E4DFA3 /* HistoryUniversalDoctorExtraDataViewController.xib in Resources */,
+				BA0526201A06A49500E8B07D /* bridion_MOA_chapter_name@2x.png in Resources */,
 				DBCDEEFF1948C32000E4DFA3 /* historyu_samples_back.png in Resources */,
 				DBCDEE7A1948C32000E4DFA3 /* endu_tab_app2_o.png in Resources */,
 				DBCDEEDA1948C32000E4DFA3 /* history.png in Resources */,
+				BA60A7691A053C1B00916199 /* bridion_thumb_SSI_01.png in Resources */,
 				DBCDEF091948C32000E4DFA3 /* historyu_tab_app17_s.png in Resources */,
 				DBCDEF221948C32000E4DFA3 /* historyu_tab_app27.png in Resources */,
 				DBCDEF071948C32000E4DFA3 /* historyu_tab_app16_s.png in Resources */,
@@ -4767,7 +5258,9 @@
 				DBCDEFE91948C32000E4DFA3 /* gm_row_back_ocsaar.png in Resources */,
 				DBCDF01D1948C32000E4DFA3 /* gm_logo_videos_en.png in Resources */,
 				DBCDEDDA1948C32000E4DFA3 /* chat_edituser_gallery_btn.png in Resources */,
+				BAC1FDE21A09265E009A636C /* bridion_PCR2_blue_text@2x.png in Resources */,
 				DBCDEF261948C32000E4DFA3 /* historyu_tab_app29.png in Resources */,
+				BAC1FDFB1A09265E009A636C /* bridion_PCR3_rapid@2x.png in Resources */,
 				DBCDEE681948C32000E4DFA3 /* endu_tab_app20.png in Resources */,
 				DB66A90F194A0C03002A043E /* quet_box1_back.png in Resources */,
 				DBCDEF681948C32000E4DFA3 /* historyu_tab_backr.png in Resources */,
@@ -4775,6 +5268,7 @@
 				DBCDF01C1948C32000E4DFA3 /* gm_logo_start_s_en.png in Resources */,
 				DBCDF0AD1948C32000E4DFA3 /* gmtool_brown_msd_logo.png in Resources */,
 				DBCDF07A1948C32000E4DFA3 /* gm_logo_nuvaring.png in Resources */,
+				BAC1FDE51A09265E009A636C /* bridion_PCR2_graph@2x.png in Resources */,
 				DBCDEEDD1948C32000E4DFA3 /* historyu_add_samples_grid.png in Resources */,
 				DBCDF09C1948C32000E4DFA3 /* gm_logo_zoely.png in Resources */,
 				DBCDEF731948C32000E4DFA3 /* historyu_top_right_shadow.png in Resources */,
@@ -4790,11 +5284,13 @@
 				DBCDF0991948C32000E4DFA3 /* gm_logo_videos_s.png in Resources */,
 				DBCDEE501948C32000E4DFA3 /* endu_question_btn.png in Resources */,
 				DBCDEF6B1948C32000E4DFA3 /* historyu_tab_left_btn_s.png in Resources */,
+				BA60A7641A053C1B00916199 /* bridion_thumb_MOA_01.png in Resources */,
 				DBCDEF631948C32000E4DFA3 /* historyu_tab_app8r_s.png in Resources */,
 				DB66A90C194A0C03002A043E /* iconZihumologim.png in Resources */,
 				DBCDEDDF1948C32000E4DFA3 /* chat_left_top.png in Resources */,
 				DBCDEDF01948C32000E4DFA3 /* chat_send_back.png in Resources */,
 				DBCDF0281948C32000E4DFA3 /* gm_logo_cerazette.png in Resources */,
+				BA5B51761A0F7DCE0033D5C7 /* bridion_PCR3_deep_orange@2x.png in Resources */,
 				DBCDF0171948C32000E4DFA3 /* gm_logo_redirect_en.png in Resources */,
 				DBCDEE9E1948C32000E4DFA3 /* endu_tab_app44.png in Resources */,
 				DB66A90D194A0C03002A043E /* iconZihumologim_old.png in Resources */,
@@ -4810,10 +5306,12 @@
 				DBCDF0B31948C32000E4DFA3 /* gmtool_btn_freeze.png in Resources */,
 				DBCDEE121948C32000E4DFA3 /* ChatRoomListCell.xib in Resources */,
 				DBCDF0361948C32000E4DFA3 /* gm_logo_flows.png in Resources */,
+				BABE0A6D1A0D149800E0BBF7 /* bridion_PCR2_reference@2x.png in Resources */,
 				DBCDEE491948C32000E4DFA3 /* endu_ipad_btn_s.png in Resources */,
 				DBCDEEF71948C32000E4DFA3 /* historyu_mdl_btn_edit.png in Resources */,
 				DBCDEE411948C32000E4DFA3 /* endu_field_clear.png in Resources */,
 				DBCDF0191948C32000E4DFA3 /* gm_logo_safety_en.png in Resources */,
+				BAC1FDF81A09265E009A636C /* bridion_PCR3_moderate-block_press@2x.png in Resources */,
 				DBCDEF4F1948C32000E4DFA3 /* historyu_tab_app45_s.png in Resources */,
 				DBCDEE701948C32000E4DFA3 /* endu_tab_app25.png in Resources */,
 				DBCDEF821948C32000E4DFA3 /* HistoryUniversalCalendarMeetingCell.xib in Resources */,
@@ -4825,6 +5323,7 @@
 				DBCDEFFB1948C32000E4DFA3 /* gm_logo_doctor_en.png in Resources */,
 				DBCDEF021948C32000E4DFA3 /* historyu_tab_app14.png in Resources */,
 				DBCDEE361948C32000E4DFA3 /* endu_back_right.png in Resources */,
+				BA5B517E1A0FB2280033D5C7 /* bridion_MOA_picture@2x.png in Resources */,
 				DBCDEF5D1948C32000E4DFA3 /* historyu_tab_app6.png in Resources */,
 				DBCDEE9F1948C32000E4DFA3 /* endu_tab_app44_s.png in Resources */,
 				DBCDF0811948C32000E4DFA3 /* gm_logo_pegintron_s.png in Resources */,
@@ -4843,8 +5342,10 @@
 				DBCDF0871948C32000E4DFA3 /* gm_logo_privacy-Policy_s.png in Resources */,
 				DBCDEFD51948C32000E4DFA3 /* gm_email_filed.png in Resources */,
 				DBCDF0BB1948C32000E4DFA3 /* gmtool_edit_field_long.png in Resources */,
+				BAC1FDF91A09265E009A636C /* bridion_PCR3_moderate_1.4_minutes@2x.png in Resources */,
 				DBCDF0291948C32000E4DFA3 /* gm_logo_cerazette_s.png in Resources */,
 				DBCDEE581948C32000E4DFA3 /* endu_tab_app14.png in Resources */,
+				BA05263E1A06BD4700E8B07D /* bridion_blue_and_logo_strip.png in Resources */,
 				DBCDF0691948C32000E4DFA3 /* gm_logo_mss_ezetrol.png in Resources */,
 				DBCDEFDC1948C32000E4DFA3 /* gm_row_back_blacklight.png in Resources */,
 				DBCDEEB41948C32000E4DFA3 /* endu_update_btn.textClipping in Resources */,
@@ -4859,14 +5360,17 @@
 				DBCDEDF11948C32000E4DFA3 /* chat_send_btn.png in Resources */,
 				DBCDEEA71948C32000E4DFA3 /* endu_tab_app47@2x.png in Resources */,
 				DBCDF0AE1948C32000E4DFA3 /* gmtool_btn_arrow.png in Resources */,
+				BAC1FDCE1A09265E009A636C /* bridion_PCR1_graph@2x.png in Resources */,
 				DBCDF0561948C32000E4DFA3 /* gm_logo_mss_arcoxia_s.png in Resources */,
 				DBCDEE441948C32000E4DFA3 /* endu_field_err_back.png in Resources */,
 				DB66A92B194A0C03002A043E /* quet_pager_btn.png in Resources */,
 				DBCDEEAE1948C32000E4DFA3 /* endu_tab_app6_s.png in Resources */,
 				DBCDEF761948C32000E4DFA3 /* historyu_univadis_no.png in Resources */,
+				BA0526161A069F5800E8B07D /* bridion_HP_Predictable@2x.png in Resources */,
 				DBCDEE531948C32000E4DFA3 /* endu_samples_open_btn.png in Resources */,
 				DBCDEDEF1948C32000E4DFA3 /* chat_selectto_header_back.png in Resources */,
 				DB66A925194A0C03002A043E /* quet_boxend_text2.png in Resources */,
+				BA0526111A069F5800E8B07D /* bridion_HP_bk@2x.png in Resources */,
 				DBCDF0781948C32000E4DFA3 /* gm_logo_mss_singulair.png in Resources */,
 				DBCDEF591948C32000E4DFA3 /* historyu_tab_app5l.png in Resources */,
 				DBEF7201194A0F9A00F0EDC2 /* bridion_logo_history-white.png in Resources */,
@@ -4886,6 +5390,8 @@
 				DBCDEE3E1948C32000E4DFA3 /* endu_field_back.png in Resources */,
 				DBCDEE551948C32000E4DFA3 /* endu_searchin_btn_s.png in Resources */,
 				DBCDEFB91948C32000E4DFA3 /* Avenir35.ttf in Resources */,
+				BA0526211A06A49500E8B07D /* bridion_MOA_tittle@2x.png in Resources */,
+				BAC1FDCF1A09265E009A636C /* bridion_PCR1_graph_gray_line@2x.png in Resources */,
 				DBFBEE7C19A7864800F76653 /* new_login_back@2x.png in Resources */,
 				DBCDEEA91948C32000E4DFA3 /* endu_tab_app47_s@2x.png in Resources */,
 				DBCDF00D1948C32000E4DFA3 /* gm_logo_pain_en.png in Resources */,
@@ -4899,6 +5405,7 @@
 				DB4067E1194DAD1100750F90 /* historyu_tab_app48_s.png in Resources */,
 				DBCDF0C71948C32000E4DFA3 /* gmtool_white_msd_logo2.png in Resources */,
 				DB66A755194A0793002A043E /* emend_+@2x.png in Resources */,
+				BAC1FDFF1A09265E009A636C /* bridion_PCR3_text_down3@2x.png in Resources */,
 				DBCDF02A1948C32000E4DFA3 /* gm_logo_dermatology.png in Resources */,
 				DBCDF0A01948C32000E4DFA3 /* gm_logo_zoster.png in Resources */,
 				DBCDEF061948C32000E4DFA3 /* historyu_tab_app16.png in Resources */,
@@ -4907,18 +5414,22 @@
 				DBCDF05C1948C32000E4DFA3 /* gm_logo_mss_cerazette_s.png in Resources */,
 				DBCDEF7C1948C32000E4DFA3 /* historyu_xforce_empty.png in Resources */,
 				DBCDEE6F1948C32000E4DFA3 /* endu_tab_app24_s.png in Resources */,
+				BAC1FDCB1A09265E009A636C /* bridion_PCR1_bridion@2x.png in Resources */,
 				DBCDEEAC1948C32000E4DFA3 /* endu_tab_app5_s.png in Resources */,
 				299BA19619B3CA520038EF4B /* ARX-FSV.png in Resources */,
 				DBCDF03C1948C32000E4DFA3 /* gm_logo_fosevan.png in Resources */,
+				BAC1FDCC1A09265E009A636C /* bridion_PCR1_complete@2x.png in Resources */,
 				DBCDF09A1948C32000E4DFA3 /* gm_logo_who.png in Resources */,
 				DBCDEF1E1948C32000E4DFA3 /* historyu_tab_app25.png in Resources */,
 				DBCDF0921948C32000E4DFA3 /* gm_logo_safety.png in Resources */,
 				DBCDEF511948C32000E4DFA3 /* historyu_tab_app46@2x.png in Resources */,
+				BAC1FDE31A09265E009A636C /* bridion_PCR2_bridion@2x.png in Resources */,
 				DBCDEEC61948C32000E4DFA3 /* LICENSE.txt in Resources */,
 				DBCDEDD91948C32000E4DFA3 /* chat_edituser_delete_btn.png in Resources */,
 				DBCDF0831948C32000E4DFA3 /* gm_logo_pharmacist_s.png in Resources */,
 				DB66A73C194A0793002A043E /* btn_menu_emend@2x.png in Resources */,
 				DBCDEF131948C32000E4DFA3 /* historyu_tab_app2.png in Resources */,
+				BAC1FDFD1A09265E009A636C /* bridion_PCR3_text_down1@2x.png in Resources */,
 				DBCDF0931948C32000E4DFA3 /* gm_logo_safety_s.png in Resources */,
 				DBCDEEE81948C32000E4DFA3 /* historyu_calendar_tot_btn.png in Resources */,
 				DBCDF00B1948C32000E4DFA3 /* gm_logo_noxafil.png in Resources */,
@@ -4930,6 +5441,7 @@
 				DBCDEE6E1948C32000E4DFA3 /* endu_tab_app24.png in Resources */,
 				DBCDF0BE1948C32000E4DFA3 /* gmtool_edit_field_short.png in Resources */,
 				DB66A741194A0793002A043E /* gm_elonva_msd_logo.png in Resources */,
+				BAC1FDEB1A09265E009A636C /* bridion_PCR2_orange_line@2x.png in Resources */,
 				DBCDEEF91948C32000E4DFA3 /* historyu_mdl_cell_back.png in Resources */,
 				DBCDF07D1948C32000E4DFA3 /* gm_logo_ocsaar_s.png in Resources */,
 				DBCDF0A31948C32000E4DFA3 /* GMEmailController.xib in Resources */,
@@ -4937,16 +5449,21 @@
 				DBCDF00F1948C32000E4DFA3 /* gm_logo_pharmacist_en.png in Resources */,
 				DBCDEF841948C32000E4DFA3 /* HistoryUniversalDoctorMainContainerView.xib in Resources */,
 				DB66A917194A0C03002A043E /* quet_box2_yes_sel.png in Resources */,
+				BA0526421A06BD4700E8B07D /* bridion_PCR_top_menu@2x.png in Resources */,
 				DBCDEF211948C32000E4DFA3 /* historyu_tab_app26_s.png in Resources */,
 				DBCDF0151948C32000E4DFA3 /* gm_logo_recommend_en.png in Resources */,
 				DBCDF02D1948C32000E4DFA3 /* gm_logo_detailed-Aid_s.png in Resources */,
 				DBCDEF711948C32000E4DFA3 /* historyu_top_left_shadow.png in Resources */,
 				299BA19519B3CA520038EF4B /* Arab Sector.png in Resources */,
 				DBCDEE571948C32000E4DFA3 /* endu_tab_app1.png in Resources */,
+				BA5B51771A0F7DCE0033D5C7 /* bridion_PCR3_moderate_gray18.5@2x.png in Resources */,
 				DBCDEDF71948C32000E4DFA3 /* chat_send_message_field_back.png in Resources */,
+				BAC1FDD21A09265E009A636C /* bridion_PCR1_gray_circle@2x.png in Resources */,
 				DBCDEDD11948C32000E4DFA3 /* chat_contact_header_back.png in Resources */,
+				BAC1FDDB1A09265E009A636C /* bridion_PCR1_tittle@2x.png in Resources */,
 				DBCDEDC91948C32000E4DFA3 /* chat.s3db in Resources */,
 				DBCDEE7B1948C32000E4DFA3 /* endu_tab_app2_s.png in Resources */,
+				BA05263C1A06BD4700E8B07D /* bridion_bk_tittle_short.png in Resources */,
 				DBCDF0111948C32000E4DFA3 /* gm_logo_privacy-Policy_en.png in Resources */,
 				DBCDEDD71948C32000E4DFA3 /* chat_edituser_back.png in Resources */,
 				DBCDEE1B1948C32000E4DFA3 /* ChatSendMessageView.xib in Resources */,
@@ -4984,21 +5501,28 @@
 				DBCDEEDE1948C32000E4DFA3 /* historyu_back.png in Resources */,
 				DBCDEE661948C32000E4DFA3 /* endu_tab_app1_s_o.png in Resources */,
 				DBCDEEEE1948C32000E4DFA3 /* historyu_freezed_btn_s.png in Resources */,
+				BA60A7651A053C1B00916199 /* bridion_thumb_PCR_01.png in Resources */,
 				DBCDF08D1948C32000E4DFA3 /* gm_logo_recommend_s.png in Resources */,
 				DBCDF0B51948C32000E4DFA3 /* gmtool_btn_mc.png in Resources */,
+				BAC1FDDF1A09265E009A636C /* bridion_PCR1_orange97_circle@2x.png in Resources */,
+				BAC1FDF71A09265E009A636C /* bridion_PCR3_moderate-block@2x.png in Resources */,
 				DB66A90E194A0C03002A043E /* quet_back.png in Resources */,
 				DB66A74E194A0793002A043E /* emend_play_stop_btn@2x.png in Resources */,
 				DBCDF0881948C32000E4DFA3 /* gm_logo_propecia.png in Resources */,
 				DBCDEF6A1948C32000E4DFA3 /* historyu_tab_left_btn.png in Resources */,
 				DB66A734194A0793002A043E /* FormataBQLight.ttf in Resources */,
+				BAC1FDF21A09265E009A636C /* bridion_PCR3_button_how-long@2x.png in Resources */,
 				DB66A740194A0793002A043E /* btn_pager_emend_s@2x.png in Resources */,
 				DBEF7205194A0F9A00F0EDC2 /* bridion_logo_side-white.png in Resources */,
+				BA0526171A069F5800E8B07D /* bridion_HP_Rapid@2x.png in Resources */,
 				DBCDEE561948C32000E4DFA3 /* endu_selection_btn.png in Resources */,
 				DBCDEF7B1948C32000E4DFA3 /* historyu_xforce_D.png in Resources */,
 				DBEF71E7194A0D2A00F0EDC2 /* Default-Landscape.png in Resources */,
 				DBCDF0701948C32000E4DFA3 /* gm_logo_mss_mercilon.png in Resources */,
 				DBCDEEE11948C32000E4DFA3 /* historyu_calendar_cell_back_s.png in Resources */,
+				BA0526411A06BD4700E8B07D /* bridion_menu@2x.png in Resources */,
 				DBCDF0B21948C32000E4DFA3 /* gmtool_btn_edit.png in Resources */,
+				BA5B51751A0F7DCE0033D5C7 /* bridion_PCR3_deep_gray49@2x.png in Resources */,
 				DBCDF04F1948C32000E4DFA3 /* gm_logo_medical_btn.png in Resources */,
 				DBCDEEAF1948C32000E4DFA3 /* endu_tab_app8.png in Resources */,
 				DBCDEF6E1948C32000E4DFA3 /* historyu_title_back.png in Resources */,
@@ -5007,6 +5531,7 @@
 				DBCDEF381948C32000E4DFA3 /* historyu_tab_app36_s.png in Resources */,
 				DBCDEF231948C32000E4DFA3 /* historyu_tab_app27_s.png in Resources */,
 				DBCDF0421948C32000E4DFA3 /* gm_logo_invanz.png in Resources */,
+				BA0526181A069F5800E8B07D /* bridion_HP_text@2x.png in Resources */,
 				DB66A91D194A0C03002A043E /* quet_box5_row.png in Resources */,
 				DBCDEFAD1948C32000E4DFA3 /* pdf_link_row2.png in Resources */,
 				DBCDF0531948C32000E4DFA3 /* gm_logo_more_products.png in Resources */,
@@ -5015,6 +5540,7 @@
 				DBCDEF2A1948C32000E4DFA3 /* historyu_tab_app2r_s.png in Resources */,
 				DB66A74A194A0793002A043E /* emend_play_play_btn@2x.png in Resources */,
 				DBCDEDEE1948C32000E4DFA3 /* chat_selectto_checkbox_s.png in Resources */,
+				BA05262A1A06A59C00E8B07D /* bridion_SSI_summary_text@2x.png in Resources */,
 				DBCDEEF51948C32000E4DFA3 /* historyu_input_cal_btn.png in Resources */,
 				DBCDEE651948C32000E4DFA3 /* endu_tab_app1_s.png in Resources */,
 				DBCDEF481948C32000E4DFA3 /* historyu_tab_app42.png in Resources */,
@@ -5051,7 +5577,6 @@
 				DBCDEE4C1948C32000E4DFA3 /* endu_multi_btn_s.png in Resources */,
 				DBCDEFEA1948C32000E4DFA3 /* gm_row_back_olive.png in Resources */,
 				DBCDEF0B1948C32000E4DFA3 /* historyu_tab_app18_s.png in Resources */,
-				DB66A737194A0793002A043E /* back.psd in Resources */,
 				DBCDEDD21948C32000E4DFA3 /* chat_contact_header_back_pink.png in Resources */,
 				DBCDEE141948C32000E4DFA3 /* ChatRoomListView.xib in Resources */,
 				DBCDEF5A1948C32000E4DFA3 /* historyu_tab_app5l_s.png in Resources */,
@@ -5072,10 +5597,12 @@
 				DBCDEF1B1948C32000E4DFA3 /* historyu_tab_app23_s.png in Resources */,
 				DBCDEFD31948C32000E4DFA3 /* gm_email_btn.png in Resources */,
 				DB6B5115195AEA0300574CA5 /* DateSelectionViewControllerTitle.xib in Resources */,
+				BAC1FDD81A09265E009A636C /* bridion_PCR1_orange_line@2x.png in Resources */,
 				DB6B5132195AEB8100574CA5 /* GTMEditClinicView.xib in Resources */,
 				DB4067D9194D9ECE00750F90 /* endu_tab_app48.png in Resources */,
 				DB4067DF194DAD1100750F90 /* historyu_tab_app48@2x.png in Resources */,
 				DBFBEE8119A7864800F76653 /* login_MSD_logo@2x.png in Resources */,
+				BAC1FDF01A09265E009A636C /* bridion_PCR3-line@2x.png in Resources */,
 				DBCDEEDF1948C32000E4DFA3 /* historyu_calendar_backup.png in Resources */,
 				DBCDEFCE1948C32000E4DFA3 /* gm_button_toggle2.png in Resources */,
 				DBCDF0C41948C32000E4DFA3 /* gmtool_line.png in Resources */,
@@ -5098,6 +5625,7 @@
 				DBCDEE621948C32000E4DFA3 /* endu_tab_app19.png in Resources */,
 				DBCDEF691948C32000E4DFA3 /* historyu_tab_backr_s.png in Resources */,
 				DBCDEE6B1948C32000E4DFA3 /* endu_tab_app21_s.png in Resources */,
+				BAC1FDDE1A09265E009A636C /* bridion_PCR1_gray0_circle@2x.png in Resources */,
 				DB66A742194A0793002A043E /* gm_emend_msd_logo.png in Resources */,
 				DBCDEF6D1948C32000E4DFA3 /* historyu_tab_right_btn_s.png in Resources */,
 				DBCDF0351948C32000E4DFA3 /* gm_logo_ezetrol_s.png in Resources */,
@@ -5129,6 +5657,7 @@
 				DBCDEF9A1948C32000E4DFA3 /* HistoryUniversalSamplesViewController.m in Sources */,
 				DBCDEF961948C32000E4DFA3 /* HistoryUniversalAddSamplesPopView.m in Sources */,
 				DB6B5139195AEB8100574CA5 /* GTMEditExpertiseView.m in Sources */,
+				BA60A7311A0536FC00916199 /* BridionPage1.m in Sources */,
 				DBCDEF8A1948C32000E4DFA3 /* HistoryUniversalDragOfChoiseView.m in Sources */,
 				DBCDEE271948C32000E4DFA3 /* LoginResponse.m in Sources */,
 				DB66A934194A0C03002A043E /* QuestionError.m in Sources */,
@@ -5148,10 +5677,12 @@
 				DBCDEECF1948C32000E4DFA3 /* UIToolbar+Custom.m in Sources */,
 				DBCDF0A21948C32000E4DFA3 /* GMEmailController.m in Sources */,
 				DBCDEDFC1948C32000E4DFA3 /* CSqlManager.m in Sources */,
+				BA60A7351A0536FC00916199 /* BridionPage5.m in Sources */,
 				DBCDEF9C1948C32000E4DFA3 /* NSObject+SBJSON.m in Sources */,
 				DBCDEFA51948C32000E4DFA3 /* ASIHTTPRequest.m in Sources */,
 				DBCDEF8B1948C32000E4DFA3 /* HistoryUniversalGlobalQuestion.m in Sources */,
 				DBCDEE101948C32000E4DFA3 /* ChatBubbleTableViewCell.m in Sources */,
+				BABE0A791A0E354200E0BBF7 /* JWGCircleCounter.m in Sources */,
 				DBCDF0DC1948C32000E4DFA3 /* BaseMovieViewController.m in Sources */,
 				DBCDEFB21948C32000E4DFA3 /* PdfLinksView.m in Sources */,
 				DBCDEDBF1948C32000E4DFA3 /* CChatOnlineManager.m in Sources */,
@@ -5182,6 +5713,7 @@
 				DBCDEFC81948C32000E4DFA3 /* GMMenuItemData.m in Sources */,
 				DBCDEF851948C32000E4DFA3 /* HistoryUniversalDMeetingListContainer.m in Sources */,
 				DB66A939194A0C03002A043E /* QuestionBox4View.m in Sources */,
+				BA60A7331A0536FC00916199 /* BridionPage3.m in Sources */,
 				DBCDEFA31948C32000E4DFA3 /* ASIDownloadCache.m in Sources */,
 				DBCDEE291948C32000E4DFA3 /* QuestionManager.m in Sources */,
 				DBCDEDBE1948C32000E4DFA3 /* CChatManager.m in Sources */,
@@ -5210,8 +5742,10 @@
 				DBCDEFC51948C32000E4DFA3 /* GMCatalogDownloadObserver.m in Sources */,
 				DBCDEDC51948C32000E4DFA3 /* CChatDataManager.m in Sources */,
 				DBCDEF861948C32000E4DFA3 /* HistoryUniversalMeetingRow.m in Sources */,
+				BA456CAC1A0E416D0056B4DF /* KAProgressLabel.m in Sources */,
 				DBCDEEB71948C32000E4DFA3 /* EndMeetingUniDateSelectionViewController.m in Sources */,
 				DB66A7E2194A0793002A043E /* BridionBase.m in Sources */,
+				BA60A7371A0536FC00916199 /* BridionPage7.m in Sources */,
 				DBCDEDB71948C32000E4DFA3 /* FTAnimation+UIView.m in Sources */,
 				DBCDEE191948C32000E4DFA3 /* UILabelClipboard.m in Sources */,
 				DBCDEE1C1948C32000E4DFA3 /* ChatToSelectCell.m in Sources */,
@@ -5225,6 +5759,7 @@
 				DBCDEDB91948C32000E4DFA3 /* FTUtils+NSObject.m in Sources */,
 				DBCDEF9E1948C32000E4DFA3 /* SBJSON.m in Sources */,
 				DBCDEE231948C32000E4DFA3 /* ApplicationKeyValue.m in Sources */,
+				BA60A7341A0536FC00916199 /* BridionPage4.m in Sources */,
 				DB6B5141195AEB8100574CA5 /* GTMTopButton.m in Sources */,
 				DBCDEFC41948C32000E4DFA3 /* ErrorMessage.m in Sources */,
 				DBCDEEB81948C32000E4DFA3 /* EndMeetingUniQuestionView.m in Sources */,
@@ -5232,6 +5767,7 @@
 				DB66A93A194A0C03002A043E /* QuestionBox5View.m in Sources */,
 				DBCDEE2E1948C32000E4DFA3 /* UserStatistics.m in Sources */,
 				DBCDEE1A1948C32000E4DFA3 /* ChatSendMessageView.m in Sources */,
+				BA60A7361A0536FC00916199 /* BridionPage6.m in Sources */,
 				DB66A7DC194A0793002A043E /* Bridion.m in Sources */,
 				DBCDEE251948C32000E4DFA3 /* Error.m in Sources */,
 				DBCDEE0C1948C32000E4DFA3 /* ImageCacheObject.m in Sources */,
@@ -5316,9 +5852,11 @@
 				DBCDEEBD1948C32000E4DFA3 /* DotNetDateFormatter.m in Sources */,
 				DB6B513B195AEB8100574CA5 /* GTMEditMenuView.m in Sources */,
 				DBCDEE021948C32000E4DFA3 /* ChatMainView.m in Sources */,
+				BA456CAD1A0E416D0056B4DF /* TPPropertyAnimation.m in Sources */,
 				DBCDEED81948C32000E4DFA3 /* HistoryUniversalViewController.m in Sources */,
 				DB66A93D194A0C03002A043E /* QuestionBoxBase.m in Sources */,
 				DBCDEDC81948C32000E4DFA3 /* SRWebSocket.m in Sources */,
+				BA60A7321A0536FC00916199 /* BridionPage2.m in Sources */,
 				DB66A938194A0C03002A043E /* QuestionBox3View.m in Sources */,
 				DB66A93C194A0C03002A043E /* QuestionBox7View.m in Sources */,
 				DBCDEEC51948C32000E4DFA3 /* UIImage+Extra.m in Sources */,
@@ -5375,16 +5913,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bridion/Bridion-Prefix.pch";
 				INFOPLIST_FILE = "Bridion/Bridion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\\\\\"$(SRCROOT)/../Src/CrittercismSDK\\\\\\\"",
-					"\\\\\\\"$(SRCROOT)/../SrcArc/CrittercismSDK\\\\\\\"",
-					/Users/Levi/Documents/Ykm_Projects/SrcArc/CrittercismSDK,
-					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc/CrittercismSDK,
-					/Users/ykm_macmini/Documents/Projects/Oncology/SrcArc/CrittercismSDK,
-					/Users/ykm_macmini/Documents/Projects/SrcArc/CrittercismSDK,
-					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc,
-					/Users/XEON/YKM/SrcArc/CrittercismSDK,
+					"$(SRCROOT)/../SrcArc/CrittercismSDK",
+					/Users/lior/Documents/IOS/MSD/SrcArc/CrittercismSDK,
 				);
 				PRODUCT_NAME = Bridion;
 				PROVISIONING_PROFILE = "3B75F754-2E58-4BB5-B4F6-590DE635904A";
@@ -5457,16 +5990,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bridion/Bridion-Prefix.pch";
 				INFOPLIST_FILE = "Bridion/Bridion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\\\\\"$(SRCROOT)/../Src/CrittercismSDK\\\\\\\"",
-					"\\\\\\\"$(SRCROOT)/../SrcArc/CrittercismSDK\\\\\\\"",
-					/Users/Levi/Documents/Ykm_Projects/SrcArc/CrittercismSDK,
-					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc/CrittercismSDK,
-					/Users/ykm_macmini/Documents/Projects/Oncology/SrcArc/CrittercismSDK,
-					/Users/ykm_macmini/Documents/Projects/SrcArc/CrittercismSDK,
-					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc,
-					/Users/XEON/YKM/SrcArc/CrittercismSDK,
+					"$(SRCROOT)/../SrcArc/CrittercismSDK",
+					/Users/lior/Documents/IOS/MSD/SrcArc/CrittercismSDK,
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = Bridion;
@@ -5486,16 +6014,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bridion/Bridion-Prefix.pch";
 				INFOPLIST_FILE = "Bridion/Bridion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\\\\\"$(SRCROOT)/../Src/CrittercismSDK\\\\\\\"",
-					"\\\\\\\"$(SRCROOT)/../SrcArc/CrittercismSDK\\\\\\\"",
-					/Users/Levi/Documents/Ykm_Projects/SrcArc/CrittercismSDK,
-					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc/CrittercismSDK,
-					/Users/ykm_macmini/Documents/Projects/Oncology/SrcArc/CrittercismSDK,
-					/Users/ykm_macmini/Documents/Projects/SrcArc/CrittercismSDK,
-					/Users/Levi/Documents/Ykm_Projects/Bridion/SrcArc,
-					/Users/XEON/YKM/SrcArc/CrittercismSDK,
+					"$(SRCROOT)/../SrcArc/CrittercismSDK",
+					/Users/lior/Documents/IOS/MSD/SrcArc/CrittercismSDK,
 				);
 				PRODUCT_NAME = Bridion;
 				PROVISIONING_PROFILE = "3B75F754-2E58-4BB5-B4F6-590DE635904A";

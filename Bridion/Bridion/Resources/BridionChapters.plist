@@ -4,20 +4,129 @@
 <array>
 	<dict>
 		<key>hideFromNavigation</key>
-		<false/>
+		<true/>
 		<key>number</key>
 		<integer>0</integer>
 		<key>name</key>
-		<string>פתיחה</string>
+		<string>Home</string>
 		<key>pages</key>
 		<array>
 			<dict>
 				<key>className</key>
 				<string>BridionPage0</string>
 				<key>previewImage</key>
-				<string></string>
+				<string>bridion_thumb_HP_01.png</string>
 				<key>ignoreMenu</key>
-				<true/>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>hideFromNavigation</key>
+		<true/>
+		<key>number</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Predictable</string>
+		<key>pages</key>
+		<array>
+			<dict>
+				<key>className</key>
+				<string>BridionPage1</string>
+				<key>previewImage</key>
+				<string>bridion_thumb_PCR_01.png</string>
+				<key>ignoreMenu</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>BridionPage2</string>
+				<key>previewImage</key>
+				<string>bridion_thumb_PCR_02.png</string>
+				<key>ignoreMenu</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>BridionPage3</string>
+				<key>previewImage</key>
+				<string>bridion_thumb_PCR_03.png</string>
+				<key>ignoreMenu</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>hideFromNavigation</key>
+		<false/>
+		<key>number</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Patients</string>
+		<key>pages</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>hideFromNavigation</key>
+		<false/>
+		<key>number</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Procedures</string>
+		<key>pages</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>hideFromNavigation</key>
+		<false/>
+		<key>number</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Surgery</string>
+	</dict>
+	<dict>
+		<key>hideFromNavigation</key>
+		<false/>
+		<key>number</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>MOA</string>
+		<key>pages</key>
+		<array>
+			<dict>
+				<key>className</key>
+				<string>BridionPage4</string>
+				<key>previewImage</key>
+				<string>bridion_thumb_MOA_01.png</string>
+				<key>ignoreMenu</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>hideFromNavigation</key>
+		<false/>
+		<key>number</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Summary</string>
+		<key>pages</key>
+		<array>
+			<dict>
+				<key>className</key>
+				<string>BridionPage6</string>
+				<key>previewImage</key>
+				<string>bridion_thumb_SSI_01.png</string>
+				<key>ignoreMenu</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>BridionPage7</string>
+				<key>previewImage</key>
+				<string>bridion_thumb_SSI_02.png</string>
+				<key>ignoreMenu</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>

@@ -14,7 +14,6 @@
     UIImage *buttonImageInfo;
     UIButton *buttonInfoText;
     BOOL isInfoShowing;
-    
 }
 
 - (id)initWithPageNumber:(int)page size:(CGSize)size
@@ -23,9 +22,7 @@
     {
         self.statisticId = page;
         [self setFrame:CGRectMake(0, 0, size.width, size.height)];
-        
-        //UIImageView *aImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ocsaar_background.png"]];
-        //[self addSubview:aImageView];
+        [self setClipsToBounds:YES];
 
         self.imgBack = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height)];
         [self.imgBack setContentMode:UIViewContentModeBottomLeft];
