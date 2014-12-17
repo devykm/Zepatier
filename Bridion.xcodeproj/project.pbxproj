@@ -17,6 +17,8 @@
 		299BA19D19B3CA520038EF4B /* Januet.png in Resources */ = {isa = PBXBuildFile; fileRef = 299BA19219B3CA520038EF4B /* Januet.png */; };
 		299BA19E19B3CA520038EF4B /* Vaccines.png in Resources */ = {isa = PBXBuildFile; fileRef = 299BA19319B3CA520038EF4B /* Vaccines.png */; };
 		299BA19F19B3CA520038EF4B /* Victrelis.png in Resources */ = {isa = PBXBuildFile; fileRef = 299BA19419B3CA520038EF4B /* Victrelis.png */; };
+		29AA31751A1CC76E009400AB /* gm_logo_isentress_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AA31731A1CC76E009400AB /* gm_logo_isentress_white.png */; };
+		29AA31761A1CC76E009400AB /* gm_logo_isentress.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AA31741A1CC76E009400AB /* gm_logo_isentress.png */; };
 		5D98018317CB91B000F0E467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D98018217CB91B000F0E467 /* UIKit.framework */; };
 		5D98018517CB91B000F0E467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D98018417CB91B000F0E467 /* Foundation.framework */; };
 		5D98018717CB91B000F0E467 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D98018617CB91B000F0E467 /* CoreGraphics.framework */; };
@@ -1131,6 +1133,8 @@
 		299BA19219B3CA520038EF4B /* Januet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Januet.png; sourceTree = "<group>"; };
 		299BA19319B3CA520038EF4B /* Vaccines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vaccines.png; sourceTree = "<group>"; };
 		299BA19419B3CA520038EF4B /* Victrelis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Victrelis.png; sourceTree = "<group>"; };
+		29AA31731A1CC76E009400AB /* gm_logo_isentress_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gm_logo_isentress_white.png; sourceTree = "<group>"; };
+		29AA31741A1CC76E009400AB /* gm_logo_isentress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gm_logo_isentress.png; sourceTree = "<group>"; };
 		5D98017E17CB91B000F0E467 /* Bridion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bridion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D98018217CB91B000F0E467 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5D98018417CB91B000F0E467 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -4509,6 +4513,8 @@
 		DBCDECA61948C31F00E4DFA3 /* en */ = {
 			isa = PBXGroup;
 			children = (
+				29AA31731A1CC76E009400AB /* gm_logo_isentress_white.png */,
+				29AA31741A1CC76E009400AB /* gm_logo_isentress.png */,
 				DBE5489B196D30D500A3C6EE /* Beyond_the_pill_white.png */,
 				DBE5489C196D30D500A3C6EE /* Beyond_the_pill.png */,
 				DBCDECA71948C31F00E4DFA3 /* gm_logo_admin_en.png */,
@@ -4951,6 +4957,7 @@
 				DBCDEF4B1948C32000E4DFA3 /* historyu_tab_app43_s.png in Resources */,
 				DB6B513C195AEB8100574CA5 /* GTMEditMenuView.xib in Resources */,
 				DBCDF0901948C32000E4DFA3 /* gm_logo_rizalt.png in Resources */,
+				29AA31751A1CC76E009400AB /* gm_logo_isentress_white.png in Resources */,
 				BA5B517B1A0F827C0033D5C7 /* bridion_SSI_text1@2x.png in Resources */,
 				DBCDEFD41948C32000E4DFA3 /* gm_email_close.png in Resources */,
 				DB66A948194A0C03002A043E /* QuestionViewController.xib in Resources */,
@@ -5508,6 +5515,7 @@
 				BAC1FDF71A09265E009A636C /* bridion_PCR3_moderate-block@2x.png in Resources */,
 				DB66A90E194A0C03002A043E /* quet_back.png in Resources */,
 				DB66A74E194A0793002A043E /* emend_play_stop_btn@2x.png in Resources */,
+				29AA31761A1CC76E009400AB /* gm_logo_isentress.png in Resources */,
 				DBCDF0881948C32000E4DFA3 /* gm_logo_propecia.png in Resources */,
 				DBCDEF6A1948C32000E4DFA3 /* historyu_tab_left_btn.png in Resources */,
 				DB66A734194A0793002A043E /* FormataBQLight.ttf in Resources */,
