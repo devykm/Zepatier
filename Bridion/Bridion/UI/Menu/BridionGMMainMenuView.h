@@ -13,5 +13,6 @@
 @interface BridionGMMainMenuView : GMMainMenuView <GMEmailControllerDelegate>
 
 @property(nonatomic,retain) GMEmailController *pdfMail;
++(BridionGMMainMenuView*)getInstance;
 
 @end

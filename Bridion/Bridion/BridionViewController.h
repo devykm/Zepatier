@@ -14,13 +14,26 @@
 #import "BridionGMMainMenuView.h"
 #import "BridionBottomPagerView.h"
 #import "BridionBase.h"
+#import "customCallsMenuView.h"
 
-@interface BridionViewController : BaseMainAppViewController <QuestionViewControllerDelegate,BridionStartMeetingMenuDelegate,GTMMainMenuViewDelegate,UIScrollViewDelegate,BridionBottomPagerViewDelegate,GMMainMenuViewDelegate,BridionBaseDelegate>
+@interface BridionViewController : BaseMainAppViewController <QuestionViewControllerDelegate,BridionStartMeetingMenuDelegate,GTMMainMenuViewDelegate,UIScrollViewDelegate,BridionBottomPagerViewDelegate,GMMainMenuViewDelegate,BridionBaseDelegate,DataManagerDelegate,PageDelegate>
 
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *waitingCC;
 @property(nonatomic,retain) BridionGMMainMenuView *menu;
 @property(nonatomic,retain) IBOutlet BridionStartMeetingMenu *startMeetingMenu;
 @property(nonatomic,retain) IBOutlet UIView *topMenu;
 @property(nonatomic,weak) IBOutlet UILabel *lblTopMenu;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollMain;
+@property(nonatomic,retain) DataManager *customCallManager;
+@property (weak, nonatomic) IBOutlet UIButton *customCallOpen;
+@property(nonatomic,retain) customCallsMenuView *customCallsMenu;
+@property (nonatomic,assign) int lastPage;
+-(void)setCustomCallsFromPage:(NSMutableArray *)customCallsArray page:(int)page;
+-(void) setCustomCallsScrollView:(NSMutableArray *)customCallsArray appID:(int)appId;
+-(void)createPageForCustomCalls:(int)page;
+-(void) getcustomCalls:(int)appID;
+-(void) backFromPageDate;
++(BridionViewController*)getInstance;
 
 @property(nonatomic,retain) IBOutlet BridionBottomPagerView *chapterPager;
 

@@ -18,6 +18,7 @@
 //#import "NoxafilViewController.h"
 
 @implementation BridionGMMainMenuView
+static BridionGMMainMenuView * instance;
 
 -(id) initWithFrame:(CGRect)frame
 {
@@ -26,9 +27,13 @@
     if (self) {
         
     }
+    instance = self;
+
     return self;
 }
-
++(BridionGMMainMenuView*)getInstance{
+    return instance;
+}
 -(void) btnActionClick:(int)menuTag animate:(BOOL)animate
 {
     switch (menuTag)

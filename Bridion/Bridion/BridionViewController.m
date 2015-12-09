@@ -12,11 +12,12 @@
 #import "BridionBase.h"
 #import "EndMeetingUniversalController.h"
 #import "EndMeetingUniQuestionView.h"
-
+#import "CustomCallsPageData.h"
 #import "Test.h"
 #import "Constants.h"
 #import "HistoryUniversalViewController.h"
 #import "FTAnimation+UIView.h"
+#import "VideoViewController.h"
 
 @interface BridionViewController ()
 @property (nonatomic, retain) NSMutableArray *pagesData;
@@ -30,8 +31,19 @@
 
 @implementation BridionViewController
 {
+    BOOL menuOpened;
+
     BOOL _pageControlUsed;
     QuestionViewController *finalQuestionController;
+}
+static  BridionViewController * instance;
+
++(BridionViewController*)getInstance{
+    if (instance==nil)
+    {
+        instance = [[BridionViewController alloc] init];
+    }
+    return instance;
 }
 
 - (void)viewDidLoad
@@ -48,32 +60,44 @@
     self.chapterArray = [BridionChapterData loadData:@"BridionChapters.plist"];
 	[self initPagesData];
     
-	self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 768-679, SCREEN_WIDTH, 679)];
-	self.scrollView.pagingEnabled = YES;
-	self.scrollView.clipsToBounds = YES;
-    self.scrollView.contentSize = CGSizeMake(SCREEN_WIDTH * [self.pagesData count], self.scrollView.height);
-    self.scrollView.showsHorizontalScrollIndicator = NO;
-    self.scrollView.showsVerticalScrollIndicator = NO;
-    self.scrollView.scrollsToTop = NO;
-	self.scrollView.bounces = YES;
-    self.scrollView.delegate = self;
-	[self.scrollView setUserInteractionEnabled:YES];
-	self.scrollView.canCancelContentTouches = NO;
-    [self.scrollView setBackgroundColor:[UIColor clearColor]];
-	[self.view addSubview:self.scrollView];
+    if((self.scrollMain.hidden = YES)){
+        self.scrollMain.hidden = NO;
+    }
+    
+    self.scrollMain.contentSize = CGSizeMake(self.scrollMain.width * [self.pagesData count], self.scrollMain.height);
+    [self.scrollMain setDelaysContentTouches:NO];
+    if (self.lastPage != 0){
+        //self.mainScrollView.hidden = NO;
+        self.currentPage = self.lastPage;
+        [self loadScrollViewWithPage:self.currentPage];
+        [self scrollToPageAtIndex:self.currentPage animated:NO];
+        [self notifyActiveScreenAppear];
+        [self notifyPageChanged];
+        
+    }else{
+        self.currentPage = 0;
+        [self loadScrollViewWithPage:0];
+        [self loadScrollViewWithPage:1];
+        [self scrollToPageAtIndex:self.currentPage animated:NO];
+        
+        [self notifyActiveScreenAppear];
+        [self notifyPageChanged];
+        
+    }
+
 	
     //Create first pages
-    self.currentPage = 0;
-	[self loadScrollViewWithPage:0];
-    [self loadScrollViewWithPage:1];
-    
-	[self notifyActiveScreenAppear];
+//    self.currentPage = 0;
+//	[self loadScrollViewWithPage:0];
+//    [self loadScrollViewWithPage:1];
+//    
+//	[self notifyActiveScreenAppear];
     
     //Init bottom pager
     self.chapterPager.delegate = self;
     [self.chapterPager initChapters:self.chapterArray];
     
-    [self notifyPageChanged];
+    //[self notifyPageChanged];
 	
     self.startMeetingMenu.delegate = self;
     [self.view bringSubviewToFront:self.chapterPager];
@@ -96,8 +120,66 @@
     [tap setDelaysTouchesEnded:NO];
     [tap setCancelsTouchesInView:NO];
     [tap setNumberOfTapsRequired:2];
-    [self.scrollView addGestureRecognizer:tap];
+    [self.scrollMain addGestureRecognizer:tap];
+    instance = self;
+    
 }
+
+-(void)setCustomCallsFromPage:(NSMutableArray *)customCallsArray page:(int)page{
+    [self.customCallsMenu removeFromSuperview];
+    //[self.view setBackgroundColor:[UIColor colorWithRed:226.0/255.0 green:226.0/255.0 blue:226.0/255.0 alpha:1.0]];
+    [self.btnTools setUserInteractionEnabled:NO];
+    //self.scrollMain.contentSize = CGSizeMake(self.scrollMain.width , self.scrollMain.height);
+    
+    
+    [self.pagesData removeAllObjects];
+    self.pagesData = customCallsArray;
+    //[self resetNotVisiblePages];
+    [self initPagesData];
+    self.scrollMain.contentSize = CGSizeMake(self.scrollMain.width * [self.pagesData count], self.scrollMain.height);
+    [self.scrollMain setDelaysContentTouches:NO];
+    //menuOpened = YES;
+    self.currentPage = page;
+    //[self loadScrollViewWithPage:0];
+    [self loadScrollViewWithPage:page];
+    [self notifyActiveScreenAppear];
+    [self scrollToPageAtIndex:page animated:NO];
+    
+    
+    self.startMeetingMenu.delegate = self;
+    //self.chapterPager.delegate = self;
+    //[self.chapterPager initChapters:self.chapterArray];
+    //[self.lblChapterTitle setFont:[UIFont fontWithName:@"Tipograf2" size:30]];
+    instance = self;
+    
+}
+
+-(void) setCustomCallsScrollView:(NSMutableArray *)customCallsArray appID:(int)appId
+{
+    [self.customCallsMenu removeFromSuperview];
+    //self.scrollMain.contentSize = CGSizeMake(self.scrollMain.width , self.scrollMain.height);
+    //[self resetNotVisiblePages];
+    
+    [self.pagesData removeAllObjects];
+    self.pagesData = customCallsArray;
+    
+    [self initPagesData];
+    self.scrollMain.contentSize = CGSizeMake(self.scrollMain.width * [self.pagesData count], self.scrollMain.height);
+    [self.scrollMain setDelaysContentTouches:NO];
+    
+    self.currentPage = 0;
+    [self loadScrollViewWithPage:0];
+    //[self loadScrollViewWithPage:1];
+    [self notifyActiveScreenAppear];
+    [self scrollToPageAtIndex:0 animated:NO];
+    self.startMeetingMenu.delegate = self;
+    //self.chapterPager.delegate = self;
+    //[self.chapterPager initChapters:self.chapterArray];
+    //[self.lblChapterTitle setFont:[UIFont fontWithName:@"Tipograf2" size:30]];
+    instance = self;
+    
+}
+
 
 -(void) viewWillAppear:(BOOL )animated
 {
@@ -144,11 +226,13 @@
 
 -(void) doubleTap:(UIGestureRecognizer*)gesture
 {
+    if(menuOpened == YES)return;
     [self.chapterPager show];
 }
 
 - (IBAction)btnPredictableCompleteClick:(id)sender
 {
+    if (menuOpened == YES)return;
     [self notifyActiveScreenDisAppear];
     [self setPage:1 animate:NO];
     [self notifyActiveScreenAppear];
@@ -161,7 +245,7 @@
 
 -(void) showEndView
 {
-    EndMeetingUniversalController *end = [[EndMeetingUniversalController alloc] initWithNibName:@"EndMeetingUniversalController" bundle:nil];
+    EndMeetingUniversalController *end = [[EndMeetingUniversalController alloc] initWithNibName:@"EndMeetingViewController" bundle:nil];
 	[self presentViewController:end animated:YES completion:nil];
 }
 
@@ -225,6 +309,16 @@
 
 -(IBAction) btnMenuClick:(id)sender
 {
+    
+    [sender setEnabled:NO];
+    double delayInSeconds = 1.4;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        [sender setEnabled:YES];
+    });
+    if (self.customCallsMenu != nil){
+        [self customCallOpenMenu:self.customCallOpen];
+    }
     if(self.menu != nil) {
         [self.menu hide];
     }
@@ -382,10 +476,10 @@
 	[self loadScrollViewWithPage:pageNumber + 1];
 	
     _currentPage = pageNumber;
-	CGRect frame = _scrollView.frame;
+	CGRect frame = self.scrollMain.frame;
 	frame.origin.x = frame.size.width * pageNumber;
 	frame.origin.y = 0;
-	[_scrollView scrollRectToVisible:frame animated:animated];
+	[self.scrollMain scrollRectToVisible:frame animated:animated];
     
     if(!animated) {
         [self notifyPageChanged];
@@ -394,8 +488,8 @@
 
 - (void) scrollToPageAtIndex:(NSInteger)index animated:(BOOL)animated
 {
-	CGPoint offset = CGPointMake(index * self.scrollView.frame.size.width, 0);
-	[self.scrollView setContentOffset:offset animated:animated];
+	CGPoint offset = CGPointMake(index * self.scrollMain.frame.size.width, 0);
+	[self.scrollMain setContentOffset:offset animated:animated];
 }
 
 -(void)notifyActiveScreenDisAppear
@@ -430,22 +524,93 @@
 	for (int i=0; i<[self.viewControllers count]; i++) {
         BasePageTimer *controller = [self.viewControllers objectAtIndex:i];
         if ((NSNull *)controller != [NSNull null]) {
-            [controller removeFromSuperview];
-            [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
+            @try {
+                if ([controller isKindOfClass:[PDFJanViewController class]]){
+                    PDFJanViewController *controller = [self.viewControllers objectAtIndex:i];
+                    
+                    [controller.view removeFromSuperview];
+                    [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
+                }else if ([controller isKindOfClass:[VideoViewController class]]){
+                    VideoViewController *controller = [self.viewControllers objectAtIndex:i];
+                    
+                    [controller.view removeFromSuperview];
+                    [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
+                }else{
+                    [controller removeFromSuperview];
+                    [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
+                    
+                }
+            }
+            @catch (NSException *exception) {
+                if ([controller isKindOfClass:[PDFJanViewController class]]){
+                    PDFJanViewController *controller = [self.viewControllers objectAtIndex:i];
+                    
+                    [controller.view removeFromSuperview];
+                    [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
+                    
+                }else if ([controller isKindOfClass:[VideoViewController class]]){
+                    VideoViewController *controller = [self.viewControllers objectAtIndex:i];
+                    
+                    [controller.view removeFromSuperview];
+                    [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
+                }else{
+                    [controller removeFromSuperview];
+                    [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
+                    
+                }
+            }
+            
+
         }
 	}
 }
 
 -(void) resetNotVisiblePages {
-	for (int i=0; i<[self.viewControllers count]; i++) {
-		if([self isPageVisible:i] == NO) {
-			BasePageTimer *controller = [self.viewControllers objectAtIndex:i];
-			if ((NSNull *)controller != [NSNull null]) {
-				[controller removeFromSuperview];
-				[self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
-			}
-		}
-	}
+    for (int i=0; i<[self.viewControllers count]; i++) {
+        if([self isPageVisible:i] == NO) {
+            BasePageTimer *controller = [self.viewControllers objectAtIndex:i];
+            if ((NSNull *)controller != [NSNull null]) {
+                @try {
+                    if ([controller isKindOfClass:[PDFJanViewController class]]){
+                        PDFJanViewController *controller = [self.viewControllers objectAtIndex:i];
+                        
+                        [controller removeFromParentViewController];
+                        [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
+                    
+                    }else if ([controller isKindOfClass:[VideoViewController class]]){
+                        VideoViewController *controller = [self.viewControllers objectAtIndex:i];
+                        
+                        [controller removeFromParentViewController];
+                        [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
+                        }else{
+                        [controller removeFromSuperview];
+                        [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
+                        
+                    }
+                }
+                
+                
+                @catch (NSException *exception) {
+                    if ([controller isKindOfClass:[PDFJanViewController class]]){
+                        PDFJanViewController *controller = [self.viewControllers objectAtIndex:i];
+                        
+                        [controller.view removeFromSuperview];
+                        [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
+                    
+                    }else if ([controller isKindOfClass:[VideoViewController class]]){
+                        VideoViewController *controller = [self.viewControllers objectAtIndex:i];
+                        
+                        [controller removeFromParentViewController];
+                        [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
+                        }else{
+                        [controller removeFromSuperview];
+                        [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
+                        
+                    }
+                }
+            }
+        }
+    }
 }
 
 -(BOOL) isPageVisible:(int) page
@@ -465,6 +630,16 @@
     BridionPageData *pageData = [self.pagesData objectAtIndex:self.currentPage];
     [self.chapterPager setChapterSelected:pageData.chapter];
 }
+-(void)openMenu{
+    self.menu = [[BridionGMMainMenuView alloc] initWithFrame:CGRectMake(0, 92, 1024, 768 - 92)];
+    self.menu.delegate = self;
+    [self.menu showInView:self.view];
+    [self.view bringSubviewToFront:self.topMenu];
+    [self.view bringSubviewToFront:self.startMeetingMenu];
+    [self.view bringSubviewToFront:self.btnTools];
+    [self notifyActiveScreenDisAppear];
+    
+}
 
 
 ////////////////////////////
@@ -478,26 +653,137 @@
     BridionPageData *pageData = [self.pagesData objectAtIndex:page];
     BridionBase *controller = [self.viewControllers objectAtIndex:page];
     if ((NSNull *)controller == [NSNull null]) {
-        controller = [[NSClassFromString(pageData.className) alloc] initWithPageNumber:1 size:self.scrollView.bounds.size];
+        controller = [[NSClassFromString(pageData.className) alloc] initWithPageNumber:1 size:self.scrollMain.bounds.size];
 		controller.delegate = self;
         [self.viewControllers replaceObjectAtIndex:page withObject:controller];
     }
 	
 	if (controller != nil && controller.superview == nil) {
-        CGRect frame = _scrollView.frame;
+        CGRect frame = self.scrollMain.frame;
         frame.origin.x = frame.size.width * page;
         frame.origin.y = 0;
         controller.frame = frame;
-        [_scrollView addSubview:controller];
+        [self.scrollMain addSubview:controller];
     }
 }
+
+-(void)createPageForCustomCalls:(int)page{
+    
+    
+    if (page < 0) return;
+    if (page >= [self.pagesData count]) return;
+    
+    CustomCallsPageData *pageData = [self.pagesData objectAtIndex:page];
+    
+    BridionBase *controller = [self.viewControllers objectAtIndex:page];
+    if ((NSNull *)controller == [NSNull null]) {
+        
+        controller = [[NSClassFromString(pageData.className) alloc] initWithPageNumber:page size:self.scrollMain.bounds.size];
+        if([pageData.className isEqualToString:@"pdf"]){
+            
+            //TAMIR SET PDF
+            CustomCallsPageData *pagePdf = pageData;
+            
+            [[BridionViewController getInstance] performSelector:@selector(openMenu)];
+            
+            [[BridionGMMainMenuView getInstance] showPdfMenu:48 section:pagePdf.materialSection statisticId:-1 animate:NO];
+            
+            //TAMIR create the controller
+            //BridionPageData *pageData = [self.pagesData objectAtIndex:page];
+            
+            PDFJanViewController *controller = [self.viewControllers objectAtIndex:page];
+            controller = [[PDFJanViewController alloc] init];
+            
+            controller.applicationId = self.applicationId;
+            [[GMPdfMenu getInstance] PdfOpenClickshowPdfInCustom:pagePdf.materialID vcDelegate:(PDFJanViewController *)controller];
+            [[BridionGMMainMenuView getInstance]removeFromSuperview];
+            [[GMPdfMenu getInstance]removeFromSuperview];
+            
+            if (controller != nil && controller.view.superview == nil) {
+                CGRect frame = self.scrollMain.frame;
+                frame.origin.x = frame.size.width * page;
+                frame.origin.y = 0;
+                controller.view.frame = frame;
+                [self.scrollMain addSubview:controller.view];
+            }
+            if(controller != nil)
+            {
+                controller.delegate = self;
+                [self.viewControllers replaceObjectAtIndex:page withObject:controller];
+            }
+        
+            return;
+            
+            
+        }else if([pageData.className isEqualToString:@"vid"]){
+            CustomCallsPageData *pagevideo = pageData;
+            
+            
+            
+            [[BridionViewController getInstance] performSelector:@selector(openMenu)];
+            
+            [[BridionGMMainMenuView getInstance] showPdfMenu:48 section:pagevideo.materialSection statisticId:-1 animate:NO];
+            VideoViewController *controller = [self.viewControllers objectAtIndex:page];
+            controller = [[VideoViewController alloc] init];
+            controller.applicationId = self.applicationId;
+            [[GMPdfMenu getInstance] PdfOpenClickshowPdfInCustomVideo:pagevideo.materialID vcDelegate:(VideoViewController *)controller];
+            [[BridionGMMainMenuView getInstance]removeFromSuperview];
+            [[GMPdfMenu getInstance]removeFromSuperview];
+            
+            if (controller != nil && controller.view.superview == nil) {
+                CGRect frame = self.scrollMain.frame;
+                frame.origin.x = frame.size.width * page;
+                frame.origin.y = 0;
+                controller.view.frame = frame;
+                [self.scrollMain addSubview:controller.view];
+            }
+            if(controller != nil)
+            {
+                controller.delegate = self;
+                [self.viewControllers replaceObjectAtIndex:page withObject:controller];
+            }
+            return;
+            
+        }
+        if(controller != nil)
+        {
+            controller.delegate = self;
+            [self.viewControllers replaceObjectAtIndex:page withObject:controller];
+        }
+        if (controller != nil && controller.superview == nil) {
+            CGRect frame = self.scrollMain.frame;
+            frame.origin.x = frame.size.width * page;
+            frame.origin.y = 0;
+            controller.frame = frame;
+            [self.scrollMain addSubview:controller];
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+}
+
+
 
 - (void)loadScrollViewWithPage:(int)page
 {
     if (page < 0) return;
     if (page >= [self.pagesData count]) return;
 	
-	[self createPage:page];
+    if (menuOpened == YES ){
+       	[self createPageForCustomCalls:page];
+        
+    }else{
+        [self createPage:page];
+    }
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)sender
@@ -506,18 +792,24 @@
         return;
     }
     
-    CGFloat pageWidth = _scrollView.frame.size.width;
-    int page = floor((_scrollView.contentOffset.x - pageWidth) / pageWidth) + 1;
+    CGFloat pageWidth = self.scrollMain.frame.size.width;
+    int page = floor((self.scrollMain.contentOffset.x - pageWidth) / pageWidth) + 1;
 	if(_currentPage != page) {
 		_currentPage = page;
+        if (self.customCallsMenu != nil){
+            [self loadScrollViewWithPage:page];
+            [self resetNotVisiblePages];
+            
+        }else{
 		[self loadScrollViewWithPage:page - 1];
 		[self loadScrollViewWithPage:page];
 		[self loadScrollViewWithPage:page + 1];
 		[self resetNotVisiblePages];
+        }
 	}
 }
 
-- (void)scrollViewWillBeginDragging:(UIScrollView *)_scrollView
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
 {
     _pageControlUsed = NO;
 	[self notifyActiveScreenDisAppear];
@@ -536,6 +828,136 @@
 	[self notifyActiveScreenAppear];
     [self notifyPageChanged];
 }
+
+- (IBAction)customCallOpenMenu:(UIButton *)sender {
+    
+    
+    if (menuOpened == YES){
+        
+    }
+    if (menuOpened == NO){
+        
+        
+        if(self.menu != nil) {
+            [self.menu hide];
+        }
+        [self.view bringSubviewToFront:self.btnTools];
+        [self.view bringSubviewToFront:self.topMenu];
+        self.customCallOpen.transform = CGAffineTransformMakeScale(0.1, 0.1);
+        [UIView animateWithDuration:1 delay:0 usingSpringWithDamping:0.2 initialSpringVelocity:6.0 options:UIViewAnimationOptionAllowUserInteraction animations:^{
+            self.customCallOpen.transform = CGAffineTransformIdentity;
+            
+        } completion:^(BOOL finished) {
+            
+        }];
+        //        UIView.animateWithDuration(1.0, delay: 0, usingSpringWithDamping: 0.2, initialSpringVelocity: 6.0, options: UIViewAnimationOptions.AllowUserInteraction, animations: { () -> Void in
+        //            self.facebookPhotos.transform = CGAffineTransformIdentity
+        self.waitingCC.hidden = NO;
+        [self getcustomCallsInApp:self.applicationId];
+        sender.enabled= NO;
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(openCustomCallMenuAfterUpdate)
+                                                     name:@"CustomCallsReturned"
+                                                   object:nil];
+        
+        
+        
+    }else{
+        if(self.customCallsMenu != nil) {
+            
+            [self.customCallsMenu removeFromSuperview];
+            self.customCallsMenu = nil;
+        }
+        if(self.menu != nil) {
+            [self.menu hide];
+        }
+
+        self.customCallOpen.transform = CGAffineTransformMakeScale(0.1, 0.1);
+        [UIView animateWithDuration:1 delay:0 usingSpringWithDamping:0.2 initialSpringVelocity:6.0 options:UIViewAnimationOptionAllowUserInteraction animations:^{
+            self.customCallOpen.transform = CGAffineTransformIdentity;
+            
+        } completion:^(BOOL finished) {
+            
+        }];
+        
+        UIImage *customMenuOpened = [UIImage imageNamed:@"icon_call@2x.png"];
+        [[self customCallOpen] setImage :customMenuOpened forState:UIControlStateNormal];
+        menuOpened = NO;
+        //self.currentPage = self.lastPage;
+        //self.scrollMain.contentSize = CGSizeMake(self.scrollMain.width, self.scrollMain.height);
+        //[self.scrollMain.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+        
+        [self.scrollMain.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+        
+        //[self.scrollMain scrollRectToVisible:CGRectMake(1024*self.currentPage, 0, 1024, self.scrollMain.height) animated:NO];
+        [self viewDidLoad];
+        //[self getcustomCalls:self.applicationId];
+        
+        
+    }
+    
+    
+    
+}
+-(void) getcustomCallsInApp:(int)appId  {
+    
+    self.customCallManager = [[DataManager alloc] initWithDelegate:(id<DataManagerDelegate>)self];
+    [self.customCallManager getCustomCallsFilesFromButton:[Test activeUser].userName appId:appId];
+}
+-(void)openCustomCallMenuAfterUpdate{
+    UIImage *customMenuOpened = [UIImage imageNamed:@"icon_call_x@2x.png"];
+    [[self customCallOpen] setImage :customMenuOpened forState:UIControlStateNormal];
+    [self.scrollMain.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+    
+    self.customCallsMenu = [[customCallsMenuView alloc] initWithFrame:CGRectMake(0, 86, 1024, 678 )];
+    self.customCallsMenu.delegate = self;
+    [self.customCallsMenu showInView:self.view];
+    [self.view bringSubviewToFront:self.btnTools];
+    menuOpened = YES;
+    self.lastPage = self.currentPage;
+    //self.lblChapterTitle.hidden = YES;
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"CustomCallsReturned" object:nil];
+    self.waitingCC.hidden = YES;
+    self.customCallOpen.enabled = YES;
+    //[self.startMeetingMenu showCloseMode:YES];
+    
+}
+-(void)getcustomCalls:(int)appID{
+    self.customCallManager = [[DataManager alloc] initWithDelegate:(id<DataManagerDelegate>)self];
+    [self.customCallManager getCustomCallsFiles:[Test activeUser].userName appId:appID];
+}
+-(void) backFromPageDate{
+    
+    self.customCallsMenu = [[customCallsMenuView alloc] initWithFrame:CGRectMake(0, 86, 1024, 678 )];
+    self.customCallsMenu.delegate = self;
+    [self.customCallsMenu showInView:self.view];
+    //[self.view bringSubviewToFront:self.startMeetingMenu];
+    [self.view bringSubviewToFront:self.topMenu];
+    //
+    //[self.view addSubview:customHeaderView];
+    //[self notifyActiveScreenWillDisappear];
+    [self.view bringSubviewToFront:self.btnTools];
+    menuOpened = YES;
+}
+
+-(void) dataManager:(DataManager *)manager dataDidFailed:(NSString *)error forType:(int)type
+{
+    NSLog(error);
+}
+-(void) dataManager:(DataManager*)manager dataDidReceived:(id)data forType:(int)type
+{
+    
+    if(type == REQUEST_GET_CUSTOM_CALLS_FILES){
+        NSError *error;
+        
+        //        NSString *filePath = [[NSBundle mainBundle] pathForResource:@"cc.plist" ofType:nil];
+        //        [data writeToFile:filePath atomically:YES encoding:NSUTF8StringEncoding error:&error];
+    }
+    
+    
+    
+}
+
 
 -(void) dealloc
 {
