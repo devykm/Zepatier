@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZepatierG1aPage2">
+            <connections>
+                <outlet property="backImageView" destination="EYg-Nk-Do5" id="Mly-ks-WY1"/>
+                <outlet property="g1aBall" destination="fBY-WU-2cc" id="GxS-61-kcb"/>
+                <outlet property="marker1" destination="4du-6q-Ok9" id="kUE-Yb-0vM"/>
+                <outlet property="marker2" destination="ki6-pL-ce6" id="RJY-oY-V7B"/>
+                <outlet property="referenceView" destination="jjn-Ai-fMA" id="hjL-hB-Cyj"/>
+                <outlet property="tavla" destination="bYj-SM-ijc" id="lOn-d4-CtU"/>
+                <outlet property="title" destination="WlL-iU-wOJ" id="pne-dY-eL8"/>
+                <outlet property="view" destination="iN0-l3-epB" id="GiA-MF-mcW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slides_back.png" id="EYg-Nk-Do5">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fBY-WU-2cc">
+                    <rect key="frame" x="924" y="585" width="105" height="95"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="HP_G1a_ball680x1171.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YOi-6W-Nl7">
+                    <rect key="frame" x="23" y="629" width="32" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="plus_icon.png"/>
+                    <connections>
+                        <action selector="referenceAction:" destination="-1" eventType="touchUpInside" id="Vsr-TZ-HcO"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="G1a_demographic_tittle.png" id="WlL-iU-wOJ">
+                    <rect key="frame" x="36" y="81" width="850" height="42"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="G1a_demographic_tavla.png" id="bYj-SM-ijc">
+                    <rect key="frame" x="72" y="103" width="844" height="537"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="G1a_marker2.png" id="ki6-pL-ce6">
+                    <rect key="frame" x="72" y="506" width="844" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="G1a_marker1.png" id="4du-6q-Ok9">
+                    <rect key="frame" x="72" y="386" width="844" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="G1a_case_study.png" id="jjn-Ai-fMA">
+                    <rect key="frame" x="31" y="32" width="915" height="594"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="538" y="389.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="G1a_case_study.png" width="911" height="609"/>
+        <image name="G1a_demographic_tavla.png" width="847" height="557"/>
+        <image name="G1a_demographic_tittle.png" width="838" height="38"/>
+        <image name="G1a_marker1.png" width="847" height="22"/>
+        <image name="G1a_marker2.png" width="847" height="22"/>
+        <image name="HP_G1a_ball680x1171.png" width="107" height="101"/>
+        <image name="plus_icon.png" width="30" height="29"/>
+        <image name="slides_back.png" width="1024" height="678"/>
+    </resources>
+</document>

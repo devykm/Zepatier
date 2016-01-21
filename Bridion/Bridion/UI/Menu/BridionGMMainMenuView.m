@@ -13,9 +13,7 @@
 #import "Constants.h"
 #import "UserStatistics.h"
 #import "BridionChapterData.h"
-//#import "InvanzViewController.h"
-//#import "CancidasViewController.h"
-//#import "NoxafilViewController.h"
+
 
 @implementation BridionGMMainMenuView
 static BridionGMMainMenuView * instance;
@@ -41,7 +39,7 @@ static BridionGMMainMenuView * instance;
         case 0:
         {
             NSMutableArray *pagesArray = [[NSMutableArray alloc] init];
-            NSMutableArray *chapters = [BridionChapterData loadData:@"BridionChapters.plist"];
+            NSMutableArray *chapters = [BridionChapterData loadData:@"ZepatierChapters.plist"];
             
             int index = 0;
             for(BridionChapterData *c in chapters) {

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZepatierMainPage">
+            <connections>
+                <outlet property="backImageView" destination="IyQ-sj-XsZ" id="v42-To-i9M"/>
+                <outlet property="circleView" destination="Nip-CS-emq" id="r83-E1-TAk"/>
+                <outlet property="cirrhosis" destination="Qgc-6G-iqY" id="xTi-cx-zmA"/>
+                <outlet property="fireRing" destination="R1U-rv-DdE" id="msD-7E-3kh"/>
+                <outlet property="g1a" destination="bv1-mn-lRB" id="zRL-sf-ORL"/>
+                <outlet property="g1b" destination="dWg-Tb-QXx" id="yyl-Ij-Rwu"/>
+                <outlet property="lungs" destination="jqJ-eD-PEO" id="eat-BT-tei"/>
+                <outlet property="oat" destination="VxA-1h-Eac" id="i58-h1-Nnl"/>
+                <outlet property="piSmall" destination="XTs-l8-8pv" id="Fkv-jh-9t2"/>
+                <outlet property="prSmall" destination="u23-Kw-EbX" id="Cff-4W-MaM"/>
+                <outlet property="ribbon" destination="nAN-ed-OpX" id="MfT-bH-59R"/>
+                <outlet property="te" destination="klw-Tz-J8a" id="9o2-6J-5Uy"/>
+                <outlet property="tn" destination="GiZ-fa-bhO" id="oGS-2I-RA6"/>
+                <outlet property="view" destination="iN0-l3-epB" id="M4J-H7-lNm"/>
+                <outlet property="w8" destination="v8D-Av-1p2" id="XyA-ME-3aQ"/>
+                <outlet property="zepatierLogo" destination="siX-be-Uf8" id="R7f-RV-Ar7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="hp_back.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IyQ-sj-XsZ">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FireRing.png" translatesAutoresizingMaskIntoConstraints="NO" id="R1U-rv-DdE">
+                    <rect key="frame" x="-36" y="34" width="809" height="622"/>
+                </imageView>
+                <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HP_logo482x639@2x_.png" translatesAutoresizingMaskIntoConstraints="NO" id="siX-be-Uf8">
+                    <rect key="frame" x="259" y="248" width="222" height="186"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="186" id="BHh-DB-YMT"/>
+                        <constraint firstAttribute="width" constant="222" id="eNM-rl-abx"/>
+                    </constraints>
+                </imageView>
+                <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HP_circle215x354@2x_.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nip-CS-emq">
+                    <rect key="frame" x="92" y="65" width="552" height="559"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="552" id="uZW-t5-p2j"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bv1-mn-lRB">
+                    <rect key="frame" x="319" y="304" width="105" height="95"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="105" id="7uu-P9-AEk"/>
+                        <constraint firstAttribute="height" constant="95" id="Qms-eY-2oz"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="HP_G1a_ball680x1171.png"/>
+                    <connections>
+                        <action selector="g1aAction:" destination="-1" eventType="touchUpInside" id="qHn-w8-qc7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GiZ-fa-bhO">
+                    <rect key="frame" x="319" y="297" width="111" height="101"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="111" id="gdO-av-CDt"/>
+                        <constraint firstAttribute="height" constant="101" id="mwJ-zY-bng"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="HP_TN_ball354x453.png"/>
+                    <connections>
+                        <action selector="tnAction:" destination="-1" eventType="touchUpInside" id="Nfi-eh-DLD"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqJ-eD-PEO">
+                    <rect key="frame" x="326" y="304" width="104" height="99"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="99" id="sxc-OL-Vl6"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="HP_langs_ball665x302.png"/>
+                    <connections>
+                        <action selector="lungsAction:" destination="-1" eventType="touchUpInside" id="VXF-6W-PSB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxA-1h-Eac">
+                    <rect key="frame" x="319" y="294" width="114" height="116"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="114" id="AK3-eb-bFk"/>
+                        <constraint firstAttribute="height" constant="116" id="Bco-sS-tDx"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="HP_OAT_ball1123x660.png"/>
+                    <connections>
+                        <action selector="oatAction:" destination="-1" eventType="touchUpInside" id="9WX-ei-thD"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u23-Kw-EbX">
+                    <rect key="frame" x="61" y="235" width="61" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="61" id="JFf-4c-WGH"/>
+                        <constraint firstAttribute="height" constant="54" id="whZ-lD-yFw"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="HP_PR_ball94x619.png"/>
+                    <connections>
+                        <action selector="prSmallAction:" destination="-1" eventType="touchUpInside" id="luD-rR-hwy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTs-l8-8pv">
+                    <rect key="frame" x="48" y="271" width="76" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="76" id="RKd-3f-4BD"/>
+                        <constraint firstAttribute="height" constant="54" id="Uzc-QD-aSi"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="HP_PI_ball44X735.png"/>
+                    <connections>
+                        <action selector="piSmallAction:" destination="-1" eventType="touchUpInside" id="8id-xP-ldn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="klw-Tz-J8a">
+                    <rect key="frame" x="317" y="304" width="114" height="107"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="107" id="8mI-Qd-fYK"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="HP_TE_ball156x671.png"/>
+                    <connections>
+                        <action selector="teAction:" destination="-1" eventType="touchUpInside" id="ahp-6b-VgN"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWg-Tb-QXx">
+                    <rect key="frame" x="322" y="307" width="105" height="95"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="105" id="CQc-jc-hjn"/>
+                        <constraint firstAttribute="height" constant="95" id="um2-Pf-zfn"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="HP_G1b_ball862x1237.png"/>
+                    <connections>
+                        <action selector="g1bAction:" destination="-1" eventType="touchUpInside" id="Raw-ah-0cG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8D-Av-1p2">
+                    <rect key="frame" x="326" y="302" width="111" height="94"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="111" id="t6S-GO-WSO"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="HP_8w_ball916x464.png"/>
+                    <connections>
+                        <action selector="w8Action:" destination="-1" eventType="touchUpInside" id="U7a-9g-qnJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAN-ed-OpX">
+                    <rect key="frame" x="317" y="298" width="114" height="107"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="114" id="i9i-hH-c6p"/>
+                        <constraint firstAttribute="height" constant="107" id="z4w-Mv-BBy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" backgroundImage="HP_ribbon_ball266x953.png"/>
+                    <connections>
+                        <action selector="ribbonAction:" destination="-1" eventType="touchUpInside" id="Fg3-xi-xXP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qgc-6G-iqY">
+                    <rect key="frame" x="310" y="289" width="110" height="105"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="110" id="8qW-Ue-lE0"/>
+                        <constraint firstAttribute="height" constant="105" id="vWK-Zc-DKj"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="Cirrhosic_ball.png"/>
+                    <connections>
+                        <action selector="cirhosisAction:" destination="-1" eventType="touchUpInside" id="8SX-q5-Zmo"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Qgc-6G-iqY" firstAttribute="firstBaseline" secondItem="dWg-Tb-QXx" secondAttribute="baseline" id="21b-YE-F7Y"/>
+                <constraint firstItem="Nip-CS-emq" firstAttribute="centerY" secondItem="R1U-rv-DdE" secondAttribute="centerY" id="2ZA-bc-BJL"/>
+                <constraint firstItem="jqJ-eD-PEO" firstAttribute="baseline" secondItem="bv1-mn-lRB" secondAttribute="baseline" id="56L-4g-DB9"/>
+                <constraint firstItem="klw-Tz-J8a" firstAttribute="baseline" secondItem="jqJ-eD-PEO" secondAttribute="baseline" id="9Io-7q-fMl"/>
+                <constraint firstItem="IyQ-sj-XsZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9W6-an-1E6"/>
+                <constraint firstItem="nAN-ed-OpX" firstAttribute="trailing" secondItem="klw-Tz-J8a" secondAttribute="trailing" id="Agl-hF-LEY"/>
+                <constraint firstItem="Qgc-6G-iqY" firstAttribute="centerY" secondItem="siX-be-Uf8" secondAttribute="centerY" id="BA9-ji-qeH"/>
+                <constraint firstItem="GiZ-fa-bhO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="297" id="CQ0-X1-ooa"/>
+                <constraint firstItem="bv1-mn-lRB" firstAttribute="leading" secondItem="GiZ-fa-bhO" secondAttribute="leading" id="FJc-Id-57P"/>
+                <constraint firstItem="nAN-ed-OpX" firstAttribute="leading" secondItem="klw-Tz-J8a" secondAttribute="leading" id="FK0-uY-3Z1"/>
+                <constraint firstItem="jqJ-eD-PEO" firstAttribute="leading" secondItem="v8D-Av-1p2" secondAttribute="leading" id="FRt-1k-407"/>
+                <constraint firstItem="nAN-ed-OpX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="317" id="Ig0-uo-e1q"/>
+                <constraint firstItem="XTs-l8-8pv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="271" id="Ivv-9x-r3O"/>
+                <constraint firstItem="bv1-mn-lRB" firstAttribute="baseline" secondItem="klw-Tz-J8a" secondAttribute="baseline" id="Iwe-2w-4EP"/>
+                <constraint firstItem="Nip-CS-emq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="65" id="KHy-6F-5SZ"/>
+                <constraint firstAttribute="bottom" secondItem="R1U-rv-DdE" secondAttribute="bottom" constant="23" id="Mbe-Ic-0rY"/>
+                <constraint firstItem="bv1-mn-lRB" firstAttribute="centerY" secondItem="nAN-ed-OpX" secondAttribute="centerY" id="Npc-Bj-BvY"/>
+                <constraint firstItem="siX-be-Uf8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="248" id="O40-KW-QXe"/>
+                <constraint firstItem="v8D-Av-1p2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="302" id="OrY-Xc-zyK"/>
+                <constraint firstItem="Qgc-6G-iqY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="310" id="Wmd-BG-rgy"/>
+                <constraint firstItem="R1U-rv-DdE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-36" id="ZJr-of-Dbq"/>
+                <constraint firstItem="jqJ-eD-PEO" firstAttribute="firstBaseline" secondItem="klw-Tz-J8a" secondAttribute="firstBaseline" id="a5S-Om-QDS"/>
+                <constraint firstItem="klw-Tz-J8a" firstAttribute="firstBaseline" secondItem="bv1-mn-lRB" secondAttribute="firstBaseline" id="d7i-8W-2gj"/>
+                <constraint firstItem="bv1-mn-lRB" firstAttribute="top" secondItem="jqJ-eD-PEO" secondAttribute="top" id="eqo-At-Ynn"/>
+                <constraint firstItem="Nip-CS-emq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="92" id="fU1-na-cGI"/>
+                <constraint firstItem="XTs-l8-8pv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="48" id="h1n-N7-n0T"/>
+                <constraint firstItem="bv1-mn-lRB" firstAttribute="centerY" secondItem="VxA-1h-Eac" secondAttribute="centerY" id="h50-oZ-bLb"/>
+                <constraint firstItem="u23-Kw-EbX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="235" id="hgR-az-qI6"/>
+                <constraint firstItem="dWg-Tb-QXx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="307" id="lL9-G7-rcu"/>
+                <constraint firstItem="VxA-1h-Eac" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="294" id="mYg-4y-rMN"/>
+                <constraint firstItem="u23-Kw-EbX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="61" id="n40-It-fhC"/>
+                <constraint firstItem="XTs-l8-8pv" firstAttribute="firstBaseline" secondItem="Qgc-6G-iqY" secondAttribute="baseline" id="qQ1-LF-X1f"/>
+                <constraint firstItem="GiZ-fa-bhO" firstAttribute="trailing" secondItem="jqJ-eD-PEO" secondAttribute="trailing" id="sMF-3w-kds"/>
+                <constraint firstItem="VxA-1h-Eac" firstAttribute="leading" secondItem="GiZ-fa-bhO" secondAttribute="leading" id="t24-id-c8g"/>
+                <constraint firstItem="R1U-rv-DdE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="34" id="tzD-nr-nCZ"/>
+                <constraint firstItem="Nip-CS-emq" firstAttribute="centerX" secondItem="R1U-rv-DdE" secondAttribute="centerX" id="vVs-bG-C7C"/>
+                <constraint firstItem="nAN-ed-OpX" firstAttribute="centerX" secondItem="dWg-Tb-QXx" secondAttribute="centerX" id="voC-3O-vzP"/>
+                <constraint firstItem="dWg-Tb-QXx" firstAttribute="centerX" secondItem="GiZ-fa-bhO" secondAttribute="centerX" id="wVN-VB-KdG"/>
+                <constraint firstItem="IyQ-sj-XsZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xX7-hJ-sF7"/>
+                <constraint firstItem="bv1-mn-lRB" firstAttribute="firstBaseline" secondItem="jqJ-eD-PEO" secondAttribute="firstBaseline" id="ylA-zg-7Hq"/>
+                <constraint firstItem="siX-be-Uf8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="259" id="ypR-Xg-cij"/>
+                <constraint firstItem="bv1-mn-lRB" firstAttribute="top" secondItem="klw-Tz-J8a" secondAttribute="top" id="zqK-9u-XKj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="505" y="334.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Cirrhosic_ball.png" width="260" height="251"/>
+        <image name="FireRing.png" width="640" height="480"/>
+        <image name="HP_8w_ball916x464.png" width="109" height="94"/>
+        <image name="HP_G1a_ball680x1171.png" width="107" height="101"/>
+        <image name="HP_G1b_ball862x1237.png" width="111" height="100"/>
+        <image name="HP_OAT_ball1123x660.png" width="112" height="114"/>
+        <image name="HP_PI_ball44X735.png" width="80" height="57"/>
+        <image name="HP_PR_ball94x619.png" width="63" height="58"/>
+        <image name="HP_TE_ball156x671.png" width="115" height="108"/>
+        <image name="HP_TN_ball354x453.png" width="118" height="109"/>
+        <image name="HP_circle215x354@2x_.png" width="1080" height="1050"/>
+        <image name="HP_langs_ball665x302.png" width="104" height="101"/>
+        <image name="HP_logo482x639@2x_.png" width="530" height="340"/>
+        <image name="HP_ribbon_ball266x953.png" width="117" height="109"/>
+        <image name="hp_back.jpg" width="1024" height="679"/>
+    </resources>
+</document>

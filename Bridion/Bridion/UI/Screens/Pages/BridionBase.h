@@ -15,6 +15,8 @@
 @protocol BridionBaseDelegate <NSObject>
 -(void) bridionBaseMoveToPage:(int)page;
 -(void) bridionBaseChangeHeaderTitle:(NSString*)title;
+-(void)bridionBaseViewOpenPage:(int)page animated:(BOOL)animated;
+
 @end
 
 

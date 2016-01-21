@@ -17,6 +17,7 @@
 #import "customCallsMenuView.h"
 
 @interface BridionViewController : BaseMainAppViewController <QuestionViewControllerDelegate,BridionStartMeetingMenuDelegate,GTMMainMenuViewDelegate,UIScrollViewDelegate,BridionBottomPagerViewDelegate,GMMainMenuViewDelegate,BridionBaseDelegate,DataManagerDelegate,PageDelegate>
+@property (weak, nonatomic) IBOutlet UIImageView *topLogo;
 
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *waitingCC;
 @property(nonatomic,retain) BridionGMMainMenuView *menu;
@@ -34,6 +35,7 @@
 -(void) getcustomCalls:(int)appID;
 -(void) backFromPageDate;
 +(BridionViewController*)getInstance;
+-(void)bridionBaseViewOpenPage:(int)page animated:(BOOL)animated;
 
 @property(nonatomic,retain) IBOutlet BridionBottomPagerView *chapterPager;
 

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZepatierCirrhosisPage1">
+            <connections>
+                <outlet property="backImageView" destination="uSG-oL-IwB" id="FEc-ic-Vgj"/>
+                <outlet property="bars" destination="C0Z-Cb-kP4" id="5S1-u9-nMe"/>
+                <outlet property="blueBox" destination="wFR-Hy-iaM" id="L86-JS-n6y"/>
+                <outlet property="g1bBall" destination="Uvm-CV-ac8" id="xUc-Pw-lid"/>
+                <outlet property="man" destination="UMZ-oL-w1h" id="K7P-Bl-aKm"/>
+                <outlet property="pills" destination="nH6-Du-GLP" id="Rew-pg-z56"/>
+                <outlet property="referenceButton" destination="V72-ph-TUa" id="15a-qD-mhc"/>
+                <outlet property="referenceView" destination="IT9-zY-wVX" id="ABg-e9-n3O"/>
+                <outlet property="title" destination="uac-2a-XPF" id="Bds-Bd-hAt"/>
+                <outlet property="tnGraph" destination="Kex-ae-4sb" id="DDo-Xt-HDV"/>
+                <outlet property="view" destination="iN0-l3-epB" id="qHk-RG-p3D"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slides_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="uSG-oL-IwB">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chirrhosis_1_tittle.png" translatesAutoresizingMaskIntoConstraints="NO" id="uac-2a-XPF">
+                    <rect key="frame" x="38" y="104" width="625" height="91"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="91" id="a5Z-l4-uDw"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1pill-a-day.png" translatesAutoresizingMaskIntoConstraints="NO" id="nH6-Du-GLP">
+                    <rect key="frame" x="753" y="40" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="LkK-tg-q9m"/>
+                        <constraint firstAttribute="height" constant="128" id="ZYH-Ff-iWg"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V72-ph-TUa">
+                    <rect key="frame" x="23" y="629" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="AZk-E3-L6p"/>
+                        <constraint firstAttribute="height" constant="32" id="PzM-ZP-to1"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="plus_icon.png"/>
+                    <connections>
+                        <action selector="referenceAction:" destination="-1" eventType="touchUpInside" id="gyi-JB-nm3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uvm-CV-ac8">
+                    <rect key="frame" x="926" y="584" width="110" height="105"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="110" id="VFJ-Ed-vay"/>
+                        <constraint firstAttribute="height" constant="105" id="ZJr-jS-XBM"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="Cirrhosic_ball.png"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chirrhosis_1_graph_line.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kex-ae-4sb">
+                    <rect key="frame" x="63" y="175" width="579" height="480"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="579" id="lWv-GV-BmB"/>
+                        <constraint firstAttribute="height" constant="480" id="sLT-GF-5Wx"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chirrhosis_1_bars.png" translatesAutoresizingMaskIntoConstraints="NO" id="C0Z-Cb-kP4">
+                    <rect key="frame" x="221" y="177" width="376" height="299"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="376" id="eik-PX-Vet"/>
+                        <constraint firstAttribute="height" constant="299" id="is0-jL-Yxg"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chirrhosis_1_people.png" translatesAutoresizingMaskIntoConstraints="NO" id="UMZ-oL-w1h">
+                    <rect key="frame" x="900" y="200" width="195" height="339"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="195" id="xtt-gd-8Lv"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chirrhosis_1_blue_boxtext.png" translatesAutoresizingMaskIntoConstraints="NO" id="wFR-Hy-iaM">
+                    <rect key="frame" x="142" y="525" width="500" height="74"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="74" id="GJs-yg-J9t"/>
+                        <constraint firstAttribute="width" constant="500" id="tEt-mp-cQF"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chirrhosis_2_case_study.png" translatesAutoresizingMaskIntoConstraints="NO" id="IT9-zY-wVX">
+                    <rect key="frame" x="38" y="40" width="905" height="581"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="IT9-zY-wVX" firstAttribute="leading" secondItem="uac-2a-XPF" secondAttribute="leading" id="80Y-un-cfQ"/>
+                <constraint firstAttribute="trailing" secondItem="nH6-Du-GLP" secondAttribute="trailing" constant="31" id="Bvn-bc-DEi"/>
+                <constraint firstItem="nH6-Du-GLP" firstAttribute="top" secondItem="IT9-zY-wVX" secondAttribute="top" id="EAE-wG-5OJ"/>
+                <constraint firstItem="Uvm-CV-ac8" firstAttribute="top" secondItem="UMZ-oL-w1h" secondAttribute="bottom" constant="45" id="FPW-fT-Yh0"/>
+                <constraint firstAttribute="trailing" secondItem="UMZ-oL-w1h" secondAttribute="trailing" constant="-71" id="LI1-50-p4d"/>
+                <constraint firstAttribute="trailing" secondItem="IT9-zY-wVX" secondAttribute="trailing" constant="81" id="Mmd-3d-pi3"/>
+                <constraint firstItem="V72-ph-TUa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="23" id="PCa-IE-cJM"/>
+                <constraint firstItem="Kex-ae-4sb" firstAttribute="leading" secondItem="V72-ph-TUa" secondAttribute="trailing" constant="8" symbolic="YES" id="Q7E-7e-YUT"/>
+                <constraint firstAttribute="bottom" secondItem="uSG-oL-IwB" secondAttribute="bottom" id="ZvF-Pj-IbM"/>
+                <constraint firstAttribute="bottom" secondItem="V72-ph-TUa" secondAttribute="bottom" constant="18" id="aY2-aE-zGE"/>
+                <constraint firstAttribute="bottom" secondItem="Kex-ae-4sb" secondAttribute="bottom" constant="24" id="bgo-By-Epm"/>
+                <constraint firstItem="uac-2a-XPF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="104" id="dBl-PX-iR0"/>
+                <constraint firstItem="IT9-zY-wVX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="ej2-zY-Amc"/>
+                <constraint firstItem="nH6-Du-GLP" firstAttribute="leading" secondItem="uac-2a-XPF" secondAttribute="trailing" constant="90" id="gaz-EZ-gX5"/>
+                <constraint firstItem="wFR-Hy-iaM" firstAttribute="top" secondItem="C0Z-Cb-kP4" secondAttribute="bottom" constant="49" id="h02-PL-O34"/>
+                <constraint firstAttribute="trailing" secondItem="Uvm-CV-ac8" secondAttribute="trailing" constant="-12" id="jPL-mw-z65"/>
+                <constraint firstItem="uSG-oL-IwB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jUk-lz-tTj"/>
+                <constraint firstAttribute="bottom" secondItem="Uvm-CV-ac8" secondAttribute="bottom" constant="-10" id="kPw-y1-Zcy"/>
+                <constraint firstItem="uSG-oL-IwB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nbj-d0-2Qj"/>
+                <constraint firstItem="UMZ-oL-w1h" firstAttribute="top" secondItem="nH6-Du-GLP" secondAttribute="bottom" constant="32" id="oEu-WW-9C3"/>
+                <constraint firstAttribute="bottom" secondItem="wFR-Hy-iaM" secondAttribute="bottom" constant="80" id="qjZ-6R-7DR"/>
+                <constraint firstItem="uac-2a-XPF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="38" id="u8z-jY-fgp"/>
+                <constraint firstItem="C0Z-Cb-kP4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="221" id="xfU-dc-B15"/>
+                <constraint firstItem="V72-ph-TUa" firstAttribute="top" secondItem="IT9-zY-wVX" secondAttribute="bottom" constant="8" symbolic="YES" id="xnI-9z-JMC"/>
+                <constraint firstItem="wFR-Hy-iaM" firstAttribute="trailing" secondItem="Kex-ae-4sb" secondAttribute="trailing" id="zwd-vI-sOT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="507" y="389.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1pill-a-day.png" width="291" height="133"/>
+        <image name="Chirrhosis_1_bars.png" width="349" height="290"/>
+        <image name="Chirrhosis_1_blue_boxtext.png" width="458" height="73"/>
+        <image name="Chirrhosis_1_graph_line.png" width="527" height="475"/>
+        <image name="Chirrhosis_1_people.png" width="272" height="436"/>
+        <image name="Chirrhosis_1_tittle.png" width="624" height="96"/>
+        <image name="Chirrhosis_2_case_study.png" width="911" height="599"/>
+        <image name="Cirrhosic_ball.png" width="260" height="251"/>
+        <image name="plus_icon.png" width="30" height="29"/>
+        <image name="slides_back.png" width="1024" height="678"/>
+    </resources>
+</document>

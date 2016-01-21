@@ -11,10 +11,10 @@
 @implementation Constants
 
 //Application ID
-NSString* const APPLICATION_ID = @"48";
-NSString* const APPLICATION_SCHEMA = @"msdilbridion";
+NSString* const APPLICATION_ID = @"56";
+NSString* const APPLICATION_SCHEMA = @"msdilzepatier";
 
-NSString* const APPLICATION_UPDATE_LINK = @"itms-services://?action=download-manifest&url=https://www.msdipad.co.il/installer/bridion/msd123123.plist";
+NSString* const APPLICATION_UPDATE_LINK = @"itms-services://?action=download-manifest&url=https://www.msdipad.co.il/installer/zepatier/msd123123.plist";
 
 NSString* const FONT_NAME = @"HelveticaNeue";
 NSString* const FONT_NAME_BOLD = @"HelveticaNeue-Bold";

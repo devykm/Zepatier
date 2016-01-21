@@ -18,7 +18,8 @@
 #import "HistoryUniversalViewController.h"
 #import "FTAnimation+UIView.h"
 #import "VideoViewController.h"
-
+#import "ZepatierPageData.h"
+#import "ZepatierChapterData.h"
 @interface BridionViewController ()
 @property (nonatomic, retain) NSMutableArray *pagesData;
 @property (nonatomic, retain) NSMutableArray *chapterArray;
@@ -50,16 +51,17 @@ static  BridionViewController * instance;
 {
     [super viewDidLoad];
     
-    self.applicationId = APPLICATION_BRIDION;
+    self.applicationId = APPLICATION_ZEPATIER;
     [self.view setBackgroundColor:[UIColor colorWithRed:226.0/255.0 green:226.0/255.0 blue:226.0/255.0 alpha:1.0]];
     
     // set MSD icon btn to inactive
     [self.btnTools setUserInteractionEnabled:NO];
     
-    self.pagesData = [BridionChapterData loadPagesData:@"BridionChapters.plist"];
-    self.chapterArray = [BridionChapterData loadData:@"BridionChapters.plist"];
+    self.pagesData = [ZepatierChapterData loadPagesData:@"ZepatierChapters.plist"];
+    self.chapterArray = [ZepatierChapterData loadData:@"ZepatierChapters.plist"];
 	[self initPagesData];
-    
+    self.topLogo.hidden = YES;
+
     if((self.scrollMain.hidden = YES)){
         self.scrollMain.hidden = NO;
     }
@@ -77,7 +79,7 @@ static  BridionViewController * instance;
     }else{
         self.currentPage = 0;
         [self loadScrollViewWithPage:0];
-        [self loadScrollViewWithPage:1];
+        //[self loadScrollViewWithPage:1];
         [self scrollToPageAtIndex:self.currentPage animated:NO];
         
         [self notifyActiveScreenAppear];
@@ -193,7 +195,7 @@ static  BridionViewController * instance;
         [self.toolsMenu pageDidAppear];
         return;
     }
-	[self notifyActiveScreenAppear];
+	//[self notifyActiveScreenAppear];
     
     [self performSelector:@selector(initAfterDelay) withObject:nil afterDelay:0.2];
 }
@@ -323,7 +325,7 @@ static  BridionViewController * instance;
         [self.menu hide];
     }
     else {
-        self.menu = [[BridionGMMainMenuView alloc] initWithFrame:CGRectMake(0, 90, 1024, 768 - 90)];
+        self.menu = [[BridionGMMainMenuView alloc] initWithFrame:CGRectMake(0, 86, 1024, 768 - 86)];
         self.menu.delegate = self;
         [self.menu showInView:self.view];
         [self.view bringSubviewToFront:self.topMenu];
@@ -378,7 +380,7 @@ static  BridionViewController * instance;
 {
     if(finalQuestionController == nil) {
         finalQuestionController = [[QuestionViewController alloc] initWithNibName:@"QuestionViewController" bundle:[NSBundle mainBundle]];
-        finalQuestionController.dataFileName = @"bridion_question.plist";
+        finalQuestionController.dataFileName = @"Zepatier_question.plist";
         finalQuestionController.delegateQ = self;
         finalQuestionController.applicationId = self.applicationId;
         finalQuestionController.answersData = [Test activeTest].answers;
@@ -484,6 +486,13 @@ static  BridionViewController * instance;
     if(!animated) {
         [self notifyPageChanged];
     }
+    if(self.currentPage >= 1 ){
+        self.topLogo.hidden = NO;
+    }else{
+        self.topLogo.hidden = YES;
+        
+    }
+
 }
 
 - (void) scrollToPageAtIndex:(NSInteger)index animated:(BOOL)animated
@@ -627,7 +636,7 @@ static  BridionViewController * instance;
 		return;
 	}
 
-    BridionPageData *pageData = [self.pagesData objectAtIndex:self.currentPage];
+    ZepatierPageData *pageData = [self.pagesData objectAtIndex:self.currentPage];
     [self.chapterPager setChapterSelected:pageData.chapter];
 }
 -(void)openMenu{
@@ -650,10 +659,10 @@ static  BridionViewController * instance;
 	if (page < 0) return;
     if (page >= [self.pagesData count]) return;
     
-    BridionPageData *pageData = [self.pagesData objectAtIndex:page];
+    ZepatierPageData *pageData = [self.pagesData objectAtIndex:page];
     BridionBase *controller = [self.viewControllers objectAtIndex:page];
     if ((NSNull *)controller == [NSNull null]) {
-        controller = [[NSClassFromString(pageData.className) alloc] initWithPageNumber:1 size:self.scrollMain.bounds.size];
+        controller = [[NSClassFromString(pageData.className) alloc] initWithPageNumber:page size:self.scrollMain.bounds.size];
 		controller.delegate = self;
         [self.viewControllers replaceObjectAtIndex:page withObject:controller];
     }
@@ -665,6 +674,13 @@ static  BridionViewController * instance;
         controller.frame = frame;
         [self.scrollMain addSubview:controller];
     }
+    if(self.currentPage >= 1 ){
+        self.topLogo.hidden = NO;
+    }else{
+        self.topLogo.hidden = YES;
+        
+    }
+
 }
 
 -(void)createPageForCustomCalls:(int)page{
@@ -672,7 +688,13 @@ static  BridionViewController * instance;
     
     if (page < 0) return;
     if (page >= [self.pagesData count]) return;
-    
+    if(self.currentPage >= 1 ){
+        self.topLogo.hidden = NO;
+    }else{
+        self.topLogo.hidden = YES;
+        
+    }
+
     CustomCallsPageData *pageData = [self.pagesData objectAtIndex:page];
     
     BridionBase *controller = [self.viewControllers objectAtIndex:page];
@@ -771,7 +793,16 @@ static  BridionViewController * instance;
     
 }
 
+-(void)bridionBaseViewOpenPage:(int)page animated:(BOOL)animated
+{
+    [self notifyActiveScreenDisAppear];
+    [self setPage:page animate:NO];
+    [self resetNotVisiblePages];
 
+    [self notifyActiveScreenAppear];
+    [self notifyPageChanged];
+
+}
 
 - (void)loadScrollViewWithPage:(int)page
 {
@@ -796,7 +827,7 @@ static  BridionViewController * instance;
     int page = floor((self.scrollMain.contentOffset.x - pageWidth) / pageWidth) + 1;
 	if(_currentPage != page) {
 		_currentPage = page;
-        if (self.customCallsMenu != nil){
+               if (self.customCallsMenu != nil){
             [self loadScrollViewWithPage:page];
             [self resetNotVisiblePages];
             

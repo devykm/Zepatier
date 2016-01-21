@@ -9,7 +9,7 @@
 #import "BridionBottomPagerView.h"
 #import "BridionChapterData.h"
 #import "UIView-Extensions.h"
-
+#import "CSWAnimatedTextView.h"
 #define BOX_W 148
 
 @interface BridionBottomPagerView ()
@@ -97,17 +97,19 @@
         }
         
         UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(xPos, yPos, w, self.barContainer.height)];
-        [btn setBackgroundImage:[[UIImage imageNamed:@"bridion_footer.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateNormal];
-        [btn setBackgroundImage:[[UIImage imageNamed:@"bridion_footer_press.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateSelected];
-        [btn setBackgroundImage:[[UIImage imageNamed:@"bridion_footer_press.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateSelected | UIControlStateHighlighted];
+        [btn setBackgroundImage:[[UIImage imageNamed:@"footer_regular.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateNormal];
+        [btn setBackgroundImage:[[UIImage imageNamed:@"footer_press.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateSelected];
+        [btn setBackgroundImage:[[UIImage imageNamed:@"footer_press.png"] stretchableImageWithLeftCapWidth:20 topCapHeight:0] forState:UIControlStateSelected | UIControlStateHighlighted];
         [btn setAdjustsImageWhenHighlighted:NO];
         [btn setTitle:data.name forState:UIControlStateNormal];
-        [btn setTitleEdgeInsets:UIEdgeInsetsMake(20, 0, 0, 0)];
+        [btn setTitleEdgeInsets:UIEdgeInsetsMake(10, 0, 0, 0)];
         [btn setContentVerticalAlignment:UIControlContentVerticalAlignmentCenter];
+        
         [btn.titleLabel setLineBreakMode:NSLineBreakByWordWrapping];
-        [btn.titleLabel setNumberOfLines:1];
+        [btn.titleLabel setNumberOfLines:0];
         [btn.titleLabel setTextAlignment:NSTextAlignmentCenter];
-        btn.titleLabel.font = [UIFont fontWithName:@"Arial-BoldMT" size:20];
+        [btn.titleLabel sizeToFit];
+        btn.titleLabel.font = [UIFont fontWithName:@"Arial-BoldMT" size:18];
         [btn setTitleColor:[UIColor colorWithRed:(255/255.0) green:(255/255.0) blue:(255/255.0) alpha:1.0f] forState:UIControlStateNormal];
         [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateSelected];
         [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];

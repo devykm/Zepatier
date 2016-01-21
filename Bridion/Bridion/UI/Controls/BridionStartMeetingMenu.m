@@ -36,22 +36,22 @@
 {
     [self setClipsToBounds:YES];
     
-    UIImageView *backView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"emend_play_back.png"]];
+    UIImageView *backView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"contrac_play_back.png"]];
     [backView setFrame:self.bounds];
     [backView setContentMode:UIViewContentModeCenter];
     [self addSubview:backView];
     
     UIButton *btnEnd = [UIButton buttonWithType:UIButtonTypeCustom];
     [btnEnd setFrame:CGRectMake(1, 0, 87, 85)];
-    [btnEnd setImage:[UIImage imageNamed:@"emend_play_stop_btn.png"] forState:UIControlStateNormal];
-    [btnEnd setImage:[UIImage imageNamed:@"emend_play_stop_btn_s.png"] forState:UIControlStateHighlighted];
+    [btnEnd setImage:[UIImage imageNamed:@"contrac_play_stop_btn.png"] forState:UIControlStateNormal];
+    [btnEnd setImage:[UIImage imageNamed:@"contrac_play_stop_btn_s.png"] forState:UIControlStateHighlighted];
     [btnEnd addTarget:self action:@selector(btnEndClick:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:btnEnd];
     
     UIButton *btnStart = [UIButton buttonWithType:UIButtonTypeCustom];
     [btnStart setFrame:CGRectMake(87, 0, 85, 85)];
-    [btnStart setImage:[UIImage imageNamed:@"emend_play_play_btn.png"] forState:UIControlStateNormal];
-    [btnStart setImage:[UIImage imageNamed:@"emend_play_play_btn_s.png"] forState:UIControlStateHighlighted];
+    [btnStart setImage:[UIImage imageNamed:@"contrac_play_play_btn.png"] forState:UIControlStateNormal];
+    [btnStart setImage:[UIImage imageNamed:@"contrac_play_play_btn_s.png"] forState:UIControlStateHighlighted];
     [btnStart addTarget:self action:@selector(btnStartClick:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:btnStart];
     
