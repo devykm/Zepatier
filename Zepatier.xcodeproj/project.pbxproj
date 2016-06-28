@@ -1024,7 +1024,6 @@
 		6999225A1C0B079600D3888F /* CustomCallsPageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6999223F1C0B079600D3888F /* CustomCallsPageData.m */; };
 		6999225B1C0B079600D3888F /* CustomCallsPageDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 699922411C0B079600D3888F /* CustomCallsPageDataView.m */; };
 		6999225C1C0B079600D3888F /* CustomCallsPageDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699922421C0B079600D3888F /* CustomCallsPageDataView.xib */; };
-		6999225D1C0B079600D3888F /* customCallsScrollPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 699922441C0B079600D3888F /* customCallsScrollPager.m */; };
 		6999225E1C0B079600D3888F /* CustomCallsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 699922461C0B079600D3888F /* CustomCallsView.m */; };
 		6999225F1C0B079600D3888F /* CustomCallsViewInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699922471C0B079600D3888F /* CustomCallsViewInterface.xib */; };
 		699922601C0B079600D3888F /* GMCustomChapterData.m in Sources */ = {isa = PBXBuildFile; fileRef = 699922491C0B079600D3888F /* GMCustomChapterData.m */; };
@@ -1120,21 +1119,24 @@
 		69A78A671C4FD867003E35E5 /* ZEPATIR_thumbs_hp.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A78A5F1C4FD867003E35E5 /* ZEPATIR_thumbs_hp.png */; };
 		69A78A681C4FD867003E35E5 /* ZEPATIR_thumbs_safety.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A78A601C4FD867003E35E5 /* ZEPATIR_thumbs_safety.png */; };
 		69A78A691C4FD867003E35E5 /* ZEPATIR_thumbs_tn.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A78A611C4FD867003E35E5 /* ZEPATIR_thumbs_tn.png */; };
-		BA33BE211A0C0DEE0021B3FF /* BridionPage2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA33BE201A0C0DEE0021B3FF /* BridionPage2.xib */; };
+		69C52BD31D2132EA00E73866 /* BridionBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C52BD21D2132EA00E73866 /* BridionBase.m */; };
+		69C52BD51D2264BB00E73866 /* HP_ddi_ball916x464@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BD41D2264BB00E73866 /* HP_ddi_ball916x464@2x.png */; };
+		69C52BD91D226F8D00E73866 /* ZepatierDDIPage1.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C52BD81D226F8D00E73866 /* ZepatierDDIPage1.m */; };
+		69C52BDB1D226FB100E73866 /* ZepatierDDIPage1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BDA1D226FB100E73866 /* ZepatierDDIPage1.xib */; };
+		69C52BE01D22701300E73866 /* general_tavla_tittle58x56@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BDC1D22701300E73866 /* general_tavla_tittle58x56@2x.png */; };
+		69C52BE11D22701300E73866 /* general_tavla01_133x230@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BDD1D22701300E73866 /* general_tavla01_133x230@2x.png */; };
+		69C52BE21D22701300E73866 /* general_tavla02_133x230@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BDE1D22701300E73866 /* general_tavla02_133x230@2x.png */; };
+		69C52BE31D22701300E73866 /* general_tavla03_133x230@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BDF1D22701300E73866 /* general_tavla03_133x230@2x.png */; };
+		69C52BE71D22722500E73866 /* ZEPATIR_thumbs_DDI1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BE41D22722500E73866 /* ZEPATIR_thumbs_DDI1.png */; };
+		69C52BE81D22722500E73866 /* ZEPATIR_thumbs_DDI2.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BE51D22722500E73866 /* ZEPATIR_thumbs_DDI2.png */; };
+		69C52BE91D22722500E73866 /* ZEPATIR_thumbs_DDI3.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BE61D22722500E73866 /* ZEPATIR_thumbs_DDI3.png */; };
+		69C52BEC1D22755500E73866 /* ZepatierDDIPage2.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C52BEB1D22755500E73866 /* ZepatierDDIPage2.m */; };
+		69C52BEE1D22756400E73866 /* ZepatierDDIPage2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BED1D22756400E73866 /* ZepatierDDIPage2.xib */; };
+		69C52BF11D22762900E73866 /* ZepatierDDIPage3.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C52BF01D22762900E73866 /* ZepatierDDIPage3.m */; };
+		69C52BF31D22763600E73866 /* ZepatierDDIPage3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BF21D22763600E73866 /* ZepatierDDIPage3.xib */; };
 		BA456CAC1A0E416D0056B4DF /* KAProgressLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA456CA91A0E416D0056B4DF /* KAProgressLabel.m */; };
 		BA456CAD1A0E416D0056B4DF /* TPPropertyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA456CAB1A0E416D0056B4DF /* TPPropertyAnimation.m */; };
-		BA60A7311A0536FC00916199 /* BridionPage1.m in Sources */ = {isa = PBXBuildFile; fileRef = BA60A7241A0536FC00916199 /* BridionPage1.m */; };
-		BA60A7321A0536FC00916199 /* BridionPage2.m in Sources */ = {isa = PBXBuildFile; fileRef = BA60A7261A0536FC00916199 /* BridionPage2.m */; };
-		BA60A7331A0536FC00916199 /* BridionPage3.m in Sources */ = {isa = PBXBuildFile; fileRef = BA60A7281A0536FC00916199 /* BridionPage3.m */; };
-		BA60A7341A0536FC00916199 /* BridionPage4.m in Sources */ = {isa = PBXBuildFile; fileRef = BA60A72A1A0536FC00916199 /* BridionPage4.m */; };
-		BA60A7351A0536FC00916199 /* BridionPage5.m in Sources */ = {isa = PBXBuildFile; fileRef = BA60A72C1A0536FC00916199 /* BridionPage5.m */; };
-		BA60A7361A0536FC00916199 /* BridionPage6.m in Sources */ = {isa = PBXBuildFile; fileRef = BA60A72E1A0536FC00916199 /* BridionPage6.m */; };
-		BA60A7371A0536FC00916199 /* BridionPage7.m in Sources */ = {isa = PBXBuildFile; fileRef = BA60A7301A0536FC00916199 /* BridionPage7.m */; };
-		BABE0A6B1A0D0F5200E0BBF7 /* BridionPage0.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABE0A6A1A0D0F5200E0BBF7 /* BridionPage0.xib */; };
-		BABE0A6F1A0D15D200E0BBF7 /* BridionPage4.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABE0A6E1A0D15D200E0BBF7 /* BridionPage4.xib */; };
-		BABE0A711A0D1AAD00E0BBF7 /* BridionPage3.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABE0A701A0D1AAD00E0BBF7 /* BridionPage3.xib */; };
 		BABE0A791A0E354200E0BBF7 /* JWGCircleCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = BABE0A781A0E354200E0BBF7 /* JWGCircleCounter.m */; };
-		BAC1FD8C1A092608009A636C /* BridionPage1.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC1FD8B1A092608009A636C /* BridionPage1.xib */; };
 		DB66A61F194A065F002A043E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66A61E194A065F002A043E /* AppDelegate.m */; };
 		DB66A72E194A0793002A043E /* BridionChapterData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66A649194A0793002A043E /* BridionChapterData.m */; };
 		DB66A72F194A0793002A043E /* BridionPageData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66A64B194A0793002A043E /* BridionPageData.m */; };
@@ -1165,8 +1167,6 @@
 		DB66A7DF194A0793002A043E /* BridionZoomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66A70B194A0793002A043E /* BridionZoomItem.m */; };
 		DB66A7E0194A0793002A043E /* BridionGMMainMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB66A70D194A0793002A043E /* BridionGMMainMenu.plist */; };
 		DB66A7E1194A0793002A043E /* BridionGMMainMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66A70F194A0793002A043E /* BridionGMMainMenuView.m */; };
-		DB66A7E2194A0793002A043E /* BridionBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66A713194A0793002A043E /* BridionBase.m */; };
-		DB66A7E3194A0793002A043E /* BridionPage0.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66A715194A0793002A043E /* BridionPage0.m */; };
 		DB66A806194A07AB002A043E /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66A7F2194A07AB002A043E /* Constants.m */; };
 		DB66A814194A07AB002A043E /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66A804194A07AB002A043E /* LoginController.m */; };
 		DB66A815194A07AB002A043E /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB66A805194A07AB002A043E /* LoginController.xib */; };
@@ -2491,8 +2491,6 @@
 		699922401C0B079600D3888F /* CustomCallsPageDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCallsPageDataView.h; sourceTree = "<group>"; };
 		699922411C0B079600D3888F /* CustomCallsPageDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCallsPageDataView.m; sourceTree = "<group>"; };
 		699922421C0B079600D3888F /* CustomCallsPageDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCallsPageDataView.xib; sourceTree = "<group>"; };
-		699922431C0B079600D3888F /* customCallsScrollPager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCallsScrollPager.h; sourceTree = "<group>"; };
-		699922441C0B079600D3888F /* customCallsScrollPager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCallsScrollPager.m; sourceTree = "<group>"; };
 		699922451C0B079600D3888F /* CustomCallsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCallsView.h; sourceTree = "<group>"; };
 		699922461C0B079600D3888F /* CustomCallsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCallsView.m; sourceTree = "<group>"; };
 		699922471C0B079600D3888F /* CustomCallsViewInterface.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCallsViewInterface.xib; sourceTree = "<group>"; };
@@ -2602,31 +2600,31 @@
 		69A78A5F1C4FD867003E35E5 /* ZEPATIR_thumbs_hp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_hp.png; sourceTree = SOURCE_ROOT; };
 		69A78A601C4FD867003E35E5 /* ZEPATIR_thumbs_safety.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_safety.png; sourceTree = SOURCE_ROOT; };
 		69A78A611C4FD867003E35E5 /* ZEPATIR_thumbs_tn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_tn.png; sourceTree = SOURCE_ROOT; };
-		BA33BE201A0C0DEE0021B3FF /* BridionPage2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BridionPage2.xib; sourceTree = "<group>"; };
+		69C52BD11D2132EA00E73866 /* BridionBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionBase.h; sourceTree = "<group>"; };
+		69C52BD21D2132EA00E73866 /* BridionBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionBase.m; sourceTree = "<group>"; };
+		69C52BD41D2264BB00E73866 /* HP_ddi_ball916x464@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HP_ddi_ball916x464@2x.png"; sourceTree = SOURCE_ROOT; };
+		69C52BD71D226F8D00E73866 /* ZepatierDDIPage1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierDDIPage1.h; sourceTree = SOURCE_ROOT; };
+		69C52BD81D226F8D00E73866 /* ZepatierDDIPage1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierDDIPage1.m; sourceTree = SOURCE_ROOT; };
+		69C52BDA1D226FB100E73866 /* ZepatierDDIPage1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierDDIPage1.xib; sourceTree = SOURCE_ROOT; };
+		69C52BDC1D22701300E73866 /* general_tavla_tittle58x56@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla_tittle58x56@2x.png"; sourceTree = SOURCE_ROOT; };
+		69C52BDD1D22701300E73866 /* general_tavla01_133x230@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla01_133x230@2x.png"; sourceTree = SOURCE_ROOT; };
+		69C52BDE1D22701300E73866 /* general_tavla02_133x230@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla02_133x230@2x.png"; sourceTree = SOURCE_ROOT; };
+		69C52BDF1D22701300E73866 /* general_tavla03_133x230@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla03_133x230@2x.png"; sourceTree = SOURCE_ROOT; };
+		69C52BE41D22722500E73866 /* ZEPATIR_thumbs_DDI1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI1.png; sourceTree = SOURCE_ROOT; };
+		69C52BE51D22722500E73866 /* ZEPATIR_thumbs_DDI2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI2.png; sourceTree = SOURCE_ROOT; };
+		69C52BE61D22722500E73866 /* ZEPATIR_thumbs_DDI3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI3.png; sourceTree = SOURCE_ROOT; };
+		69C52BEA1D22755500E73866 /* ZepatierDDIPage2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierDDIPage2.h; sourceTree = SOURCE_ROOT; };
+		69C52BEB1D22755500E73866 /* ZepatierDDIPage2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierDDIPage2.m; sourceTree = SOURCE_ROOT; };
+		69C52BED1D22756400E73866 /* ZepatierDDIPage2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierDDIPage2.xib; sourceTree = SOURCE_ROOT; };
+		69C52BEF1D22762900E73866 /* ZepatierDDIPage3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierDDIPage3.h; sourceTree = SOURCE_ROOT; };
+		69C52BF01D22762900E73866 /* ZepatierDDIPage3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierDDIPage3.m; sourceTree = SOURCE_ROOT; };
+		69C52BF21D22763600E73866 /* ZepatierDDIPage3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierDDIPage3.xib; sourceTree = SOURCE_ROOT; };
 		BA456CA81A0E416D0056B4DF /* KAProgressLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAProgressLabel.h; sourceTree = "<group>"; };
 		BA456CA91A0E416D0056B4DF /* KAProgressLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAProgressLabel.m; sourceTree = "<group>"; };
 		BA456CAA1A0E416D0056B4DF /* TPPropertyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPropertyAnimation.h; sourceTree = "<group>"; };
 		BA456CAB1A0E416D0056B4DF /* TPPropertyAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPropertyAnimation.m; sourceTree = "<group>"; };
-		BA60A7231A0536FC00916199 /* BridionPage1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionPage1.h; sourceTree = "<group>"; };
-		BA60A7241A0536FC00916199 /* BridionPage1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionPage1.m; sourceTree = "<group>"; };
-		BA60A7251A0536FC00916199 /* BridionPage2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionPage2.h; sourceTree = "<group>"; };
-		BA60A7261A0536FC00916199 /* BridionPage2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionPage2.m; sourceTree = "<group>"; };
-		BA60A7271A0536FC00916199 /* BridionPage3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionPage3.h; sourceTree = "<group>"; };
-		BA60A7281A0536FC00916199 /* BridionPage3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionPage3.m; sourceTree = "<group>"; };
-		BA60A7291A0536FC00916199 /* BridionPage4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionPage4.h; sourceTree = "<group>"; };
-		BA60A72A1A0536FC00916199 /* BridionPage4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionPage4.m; sourceTree = "<group>"; };
-		BA60A72B1A0536FC00916199 /* BridionPage5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionPage5.h; sourceTree = "<group>"; };
-		BA60A72C1A0536FC00916199 /* BridionPage5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionPage5.m; sourceTree = "<group>"; };
-		BA60A72D1A0536FC00916199 /* BridionPage6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionPage6.h; sourceTree = "<group>"; };
-		BA60A72E1A0536FC00916199 /* BridionPage6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionPage6.m; sourceTree = "<group>"; };
-		BA60A72F1A0536FC00916199 /* BridionPage7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionPage7.h; sourceTree = "<group>"; };
-		BA60A7301A0536FC00916199 /* BridionPage7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionPage7.m; sourceTree = "<group>"; };
-		BABE0A6A1A0D0F5200E0BBF7 /* BridionPage0.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BridionPage0.xib; sourceTree = "<group>"; };
-		BABE0A6E1A0D15D200E0BBF7 /* BridionPage4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BridionPage4.xib; sourceTree = "<group>"; };
-		BABE0A701A0D1AAD00E0BBF7 /* BridionPage3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BridionPage3.xib; sourceTree = "<group>"; };
 		BABE0A771A0E354200E0BBF7 /* JWGCircleCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWGCircleCounter.h; sourceTree = "<group>"; };
 		BABE0A781A0E354200E0BBF7 /* JWGCircleCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWGCircleCounter.m; sourceTree = "<group>"; };
-		BAC1FD8B1A092608009A636C /* BridionPage1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BridionPage1.xib; sourceTree = "<group>"; };
 		DB66A61D194A065F002A043E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Bridion/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		DB66A61E194A065F002A043E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Bridion/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		DB66A648194A0793002A043E /* BridionChapterData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionChapterData.h; sourceTree = "<group>"; };
@@ -2669,10 +2667,6 @@
 		DB66A70D194A0793002A043E /* BridionGMMainMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BridionGMMainMenu.plist; sourceTree = "<group>"; };
 		DB66A70E194A0793002A043E /* BridionGMMainMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionGMMainMenuView.h; sourceTree = "<group>"; };
 		DB66A70F194A0793002A043E /* BridionGMMainMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionGMMainMenuView.m; sourceTree = "<group>"; };
-		DB66A712194A0793002A043E /* BridionBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionBase.h; sourceTree = "<group>"; };
-		DB66A713194A0793002A043E /* BridionBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionBase.m; sourceTree = "<group>"; };
-		DB66A714194A0793002A043E /* BridionPage0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridionPage0.h; sourceTree = "<group>"; };
-		DB66A715194A0793002A043E /* BridionPage0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridionPage0.m; sourceTree = "<group>"; };
 		DB66A7F1194A07AB002A043E /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		DB66A7F2194A07AB002A043E /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		DB66A803194A07AB002A043E /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
@@ -2837,6 +2831,7 @@
 		5D55120518157B4800542038 /* Bridion */ = {
 			isa = PBXGroup;
 			children = (
+				69C52BD61D226F4200E73866 /* ZepatierDDIChapter */,
 				69A78A591C4FD83F003E35E5 /* ZepatierThumbs */,
 				69A78A2B1C4F9F50003E35E5 /* ZepatierCirrhosisChapter */,
 				69A78A171C4F9219003E35E5 /* ZepatierG1bChapter */,
@@ -4722,8 +4717,6 @@
 				699922401C0B079600D3888F /* CustomCallsPageDataView.h */,
 				699922411C0B079600D3888F /* CustomCallsPageDataView.m */,
 				699922421C0B079600D3888F /* CustomCallsPageDataView.xib */,
-				699922431C0B079600D3888F /* customCallsScrollPager.h */,
-				699922441C0B079600D3888F /* customCallsScrollPager.m */,
 				699922451C0B079600D3888F /* CustomCallsView.h */,
 				699922461C0B079600D3888F /* CustomCallsView.m */,
 				699922471C0B079600D3888F /* CustomCallsViewInterface.xib */,
@@ -4771,6 +4764,7 @@
 		69A789E71C4E4C85003E35E5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				69C52BD41D2264BB00E73866 /* HP_ddi_ball916x464@2x.png */,
 				69610D061C4BC7AB00E81868 /* Cirrhosic_ball.png */,
 				69610D071C4BC7AB00E81868 /* HP_8w_ball916x464@2x.png */,
 				69610D081C4BC7AB00E81868 /* hp_back@2x.jpg */,
@@ -4869,15 +4863,7 @@
 			isa = PBXGroup;
 			children = (
 				69A78A471C4FA3F3003E35E5 /* CirrhosisPage1 */,
-				69A78A361C4F9FB9003E35E5 /* Chirrhosis_2_bars@2x.png */,
-				69A78A371C4F9FB9003E35E5 /* Chirrhosis_2_blue_boxtext@2x.png */,
-				69A78A381C4F9FB9003E35E5 /* Chirrhosis_2_case_study@2x.png */,
-				69A78A391C4F9FB9003E35E5 /* Chirrhosis_2_graph_line@2x.png */,
-				69A78A3A1C4F9FB9003E35E5 /* Chirrhosis_2_tittle@2x.png */,
-				69A78A3B1C4F9FB9003E35E5 /* Cirrhosis_small_ball@2x.png */,
-				69A78A481C4FA40F003E35E5 /* ZepatierCirrhosisPage2.h */,
-				69A78A491C4FA40F003E35E5 /* ZepatierCirrhosisPage2.m */,
-				69A78A4B1C4FA423003E35E5 /* ZepatierCirrhosisPage2.xib */,
+				69C52BD01D21327400E73866 /* CirrhosisPage2 */,
 			);
 			name = ZepatierCirrhosisChapter;
 			sourceTree = "<group>";
@@ -4900,6 +4886,9 @@
 		69A78A591C4FD83F003E35E5 /* ZepatierThumbs */ = {
 			isa = PBXGroup;
 			children = (
+				69C52BE41D22722500E73866 /* ZEPATIR_thumbs_DDI1.png */,
+				69C52BE51D22722500E73866 /* ZEPATIR_thumbs_DDI2.png */,
+				69C52BE61D22722500E73866 /* ZEPATIR_thumbs_DDI3.png */,
 				69A78A5A1C4FD867003E35E5 /* ZEPATIR_thumbs_cirrhosis1.png */,
 				69A78A5B1C4FD867003E35E5 /* ZEPATIR_thumbs_cirrhosis2.png */,
 				69A78A5C1C4FD867003E35E5 /* ZEPATIR_thumbs_demographic.png */,
@@ -4910,6 +4899,42 @@
 				69A78A611C4FD867003E35E5 /* ZEPATIR_thumbs_tn.png */,
 			);
 			name = ZepatierThumbs;
+			sourceTree = "<group>";
+		};
+		69C52BD01D21327400E73866 /* CirrhosisPage2 */ = {
+			isa = PBXGroup;
+			children = (
+				69A78A361C4F9FB9003E35E5 /* Chirrhosis_2_bars@2x.png */,
+				69A78A371C4F9FB9003E35E5 /* Chirrhosis_2_blue_boxtext@2x.png */,
+				69A78A381C4F9FB9003E35E5 /* Chirrhosis_2_case_study@2x.png */,
+				69A78A391C4F9FB9003E35E5 /* Chirrhosis_2_graph_line@2x.png */,
+				69A78A3A1C4F9FB9003E35E5 /* Chirrhosis_2_tittle@2x.png */,
+				69A78A3B1C4F9FB9003E35E5 /* Cirrhosis_small_ball@2x.png */,
+				69A78A481C4FA40F003E35E5 /* ZepatierCirrhosisPage2.h */,
+				69A78A491C4FA40F003E35E5 /* ZepatierCirrhosisPage2.m */,
+				69A78A4B1C4FA423003E35E5 /* ZepatierCirrhosisPage2.xib */,
+			);
+			name = CirrhosisPage2;
+			sourceTree = "<group>";
+		};
+		69C52BD61D226F4200E73866 /* ZepatierDDIChapter */ = {
+			isa = PBXGroup;
+			children = (
+				69C52BD71D226F8D00E73866 /* ZepatierDDIPage1.h */,
+				69C52BD81D226F8D00E73866 /* ZepatierDDIPage1.m */,
+				69C52BDA1D226FB100E73866 /* ZepatierDDIPage1.xib */,
+				69C52BDC1D22701300E73866 /* general_tavla_tittle58x56@2x.png */,
+				69C52BDD1D22701300E73866 /* general_tavla01_133x230@2x.png */,
+				69C52BDE1D22701300E73866 /* general_tavla02_133x230@2x.png */,
+				69C52BDF1D22701300E73866 /* general_tavla03_133x230@2x.png */,
+				69C52BEA1D22755500E73866 /* ZepatierDDIPage2.h */,
+				69C52BEB1D22755500E73866 /* ZepatierDDIPage2.m */,
+				69C52BED1D22756400E73866 /* ZepatierDDIPage2.xib */,
+				69C52BEF1D22762900E73866 /* ZepatierDDIPage3.h */,
+				69C52BF01D22762900E73866 /* ZepatierDDIPage3.m */,
+				69C52BF21D22763600E73866 /* ZepatierDDIPage3.xib */,
+			);
+			name = ZepatierDDIChapter;
 			sourceTree = "<group>";
 		};
 		BA456CA71A0E416D0056B4DF /* KAProgressLabel */ = {
@@ -4944,6 +4969,8 @@
 		DB66A647194A0793002A043E /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				69C52BD11D2132EA00E73866 /* BridionBase.h */,
+				69C52BD21D2132EA00E73866 /* BridionBase.m */,
 				DB66A648194A0793002A043E /* BridionChapterData.h */,
 				DB66A649194A0793002A043E /* BridionChapterData.m */,
 				DB66A64A194A0793002A043E /* BridionPageData.h */,
@@ -5007,16 +5034,8 @@
 				DB66A670194A0793002A043E /* emend_play_stop_btn_s.png */,
 				DB66A671194A0793002A043E /* emend_play_stop_btn_s@2x.png */,
 				DB66A672194A0793002A043E /* header_elonva1.png */,
-				DB66A673194A0793002A043E /* Pages */,
 			);
 			path = images;
-			sourceTree = "<group>";
-		};
-		DB66A673194A0793002A043E /* Pages */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pages;
 			sourceTree = "<group>";
 		};
 		DB66A6FC194A0793002A043E /* UI */ = {
@@ -5032,7 +5051,6 @@
 				DB66A70A194A0793002A043E /* BridionZoomItem.h */,
 				DB66A70B194A0793002A043E /* BridionZoomItem.m */,
 				DB66A70C194A0793002A043E /* Menu */,
-				DB66A710194A0793002A043E /* Screens */,
 			);
 			name = UI;
 			path = Bridion/Bridion/UI;
@@ -5061,44 +5079,6 @@
 				DB66A70F194A0793002A043E /* BridionGMMainMenuView.m */,
 			);
 			path = Menu;
-			sourceTree = "<group>";
-		};
-		DB66A710194A0793002A043E /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-				DB66A711194A0793002A043E /* Pages */,
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
-		DB66A711194A0793002A043E /* Pages */ = {
-			isa = PBXGroup;
-			children = (
-				DB66A712194A0793002A043E /* BridionBase.h */,
-				DB66A713194A0793002A043E /* BridionBase.m */,
-				DB66A714194A0793002A043E /* BridionPage0.h */,
-				DB66A715194A0793002A043E /* BridionPage0.m */,
-				BABE0A6A1A0D0F5200E0BBF7 /* BridionPage0.xib */,
-				BA60A7231A0536FC00916199 /* BridionPage1.h */,
-				BA60A7241A0536FC00916199 /* BridionPage1.m */,
-				BAC1FD8B1A092608009A636C /* BridionPage1.xib */,
-				BA60A7251A0536FC00916199 /* BridionPage2.h */,
-				BA60A7261A0536FC00916199 /* BridionPage2.m */,
-				BA33BE201A0C0DEE0021B3FF /* BridionPage2.xib */,
-				BA60A7271A0536FC00916199 /* BridionPage3.h */,
-				BA60A7281A0536FC00916199 /* BridionPage3.m */,
-				BABE0A701A0D1AAD00E0BBF7 /* BridionPage3.xib */,
-				BA60A7291A0536FC00916199 /* BridionPage4.h */,
-				BA60A72A1A0536FC00916199 /* BridionPage4.m */,
-				BABE0A6E1A0D15D200E0BBF7 /* BridionPage4.xib */,
-				BA60A72B1A0536FC00916199 /* BridionPage5.h */,
-				BA60A72C1A0536FC00916199 /* BridionPage5.m */,
-				BA60A72D1A0536FC00916199 /* BridionPage6.h */,
-				BA60A72E1A0536FC00916199 /* BridionPage6.m */,
-				BA60A72F1A0536FC00916199 /* BridionPage7.h */,
-				BA60A7301A0536FC00916199 /* BridionPage7.m */,
-			);
-			path = Pages;
 			sourceTree = "<group>";
 		};
 		DB66A7F0194A07AB002A043E /* Core */ = {
@@ -5330,6 +5310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				699920D41C0AFF8700D3888F /* gm_logo_redirect_en.png in Resources */,
+				69C52BEE1D22756400E73866 /* ZepatierDDIPage2.xib in Resources */,
 				699920291C0AFF8700D3888F /* HistoryUniversalAddSamplesPopView.xib in Resources */,
 				69991F181C0AFF8700D3888F /* endu_tab_app42_s.png in Resources */,
 				69991FE01C0AFF8700D3888F /* historyu_tab_app47@2x.png in Resources */,
@@ -5337,6 +5318,7 @@
 				69991E4D1C0AFF8700D3888F /* ChatContactListView.xib in Resources */,
 				699EB44D1C4CF6B30057CE9C /* Thumbs.db in Resources */,
 				699921371C0AFF8700D3888F /* gm_logo_mss_januvia_s.png in Resources */,
+				69C52BDB1D226FB100E73866 /* ZepatierDDIPage1.xib in Resources */,
 				699920201C0AFF8700D3888F /* HistoryUniversalOtherViewController.xib in Resources */,
 				699920791C0AFF8700D3888F /* gm_email_close.png in Resources */,
 				69A78A401C4F9FB9003E35E5 /* Chirrhosis_1_tittle@2x.png in Resources */,
@@ -5363,7 +5345,6 @@
 				69991FA81C0AFF8700D3888F /* historyu_tab_app24.png in Resources */,
 				69991FBA1C0AFF8700D3888F /* historyu_tab_app31_s.png in Resources */,
 				69A78A411C4F9FB9003E35E5 /* Chirrhosis_2_bars@2x.png in Resources */,
-				BABE0A6B1A0D0F5200E0BBF7 /* BridionPage0.xib in Resources */,
 				699920951C0AFF8700D3888F /* gm_top_shadow.png in Resources */,
 				DBEF7207194A0F9A00F0EDC2 /* bridion_logo_side.png in Resources */,
 				69991E151C0AFF8700D3888F /* chat_bubble_other_nr.png in Resources */,
@@ -5468,7 +5449,6 @@
 				DB66A815194A07AB002A043E /* LoginController.xib in Resources */,
 				DBEF7206194A0F9A00F0EDC2 /* bridion_logo_side-white@2x.png in Resources */,
 				6999207C1C0AFF8700D3888F /* gm_menu_email_btn.png in Resources */,
-				BABE0A711A0D1AAD00E0BBF7 /* BridionPage3.xib in Resources */,
 				69991F651C0AFF8700D3888F /* HistoryUniversalViewController.xib in Resources */,
 				69991ED61C0AFF8700D3888F /* endu_tab_app14_s.png in Resources */,
 				69A78A651C4FD867003E35E5 /* ZEPATIR_thumbs_g1a.png in Resources */,
@@ -5668,7 +5648,6 @@
 				699920081C0AFF8700D3888F /* historyu_univadis_no.png in Resources */,
 				DB66A923194A0C03002A043E /* quet_boxend.png in Resources */,
 				DB66A914194A0C03002A043E /* quet_box2_no.png in Resources */,
-				BAC1FD8C1A092608009A636C /* BridionPage1.xib in Resources */,
 				6999210C1C0AFF8700D3888F /* gm_logo_invanz_s.png in Resources */,
 				DBE3AA2D195088BF005201DA /* icon.png in Resources */,
 				699920BA1C0AFF8700D3888F /* gm_logo_home_en.png in Resources */,
@@ -5685,6 +5664,7 @@
 				69991EA41C0AFF8700D3888F /* DocSummaryView.xib in Resources */,
 				699921801C0AFF8700D3888F /* gmtool_checkbox.png in Resources */,
 				69991EE11C0AFF8700D3888F /* endu_tab_app1_o.png in Resources */,
+				69C52BE31D22701300E73866 /* general_tavla03_133x230@2x.png in Resources */,
 				699921941C0AFF8700D3888F /* GTMEditClinicView.xib in Resources */,
 				69991FD51C0AFF8700D3888F /* historyu_tab_app42_s.png in Resources */,
 				699920731C0AFF8700D3888F /* gm_button_toggle2.png in Resources */,
@@ -5697,6 +5677,7 @@
 				69991F6E1C0AFF8700D3888F /* historyu_calendar_meetings_back.png in Resources */,
 				699920191C0AFF8700D3888F /* HistoryUniversalMeetingRow.xib in Resources */,
 				69991F101C0AFF8700D3888F /* endu_tab_app3_s.png in Resources */,
+				69C52BF31D22763600E73866 /* ZepatierDDIPage3.xib in Resources */,
 				699921A21C0AFF8700D3888F /* GTMEditNewDoctorView.xib in Resources */,
 				699EB45E1C4D13910057CE9C /* contrac_play_stop_btn.png in Resources */,
 				69991E211C0AFF8700D3888F /* chat_edituser_toggle.png in Resources */,
@@ -5709,7 +5690,6 @@
 				69A78A041C4E50C4003E35E5 /* G1a_safety_tavla@2x.png in Resources */,
 				DB66A926194A0C03002A043E /* quet_boxstart.png in Resources */,
 				699920BD1C0AFF8700D3888F /* gm_logo_isentress_white.png in Resources */,
-				BA33BE211A0C0DEE0021B3FF /* BridionPage2.xib in Resources */,
 				69991EFB1C0AFF8700D3888F /* endu_tab_app30.png in Resources */,
 				699921561C0AFF8700D3888F /* gm_logo_redirect.png in Resources */,
 				699920A61C0AFF8700D3888F /* Beyond_the_pill.png in Resources */,
@@ -5775,7 +5755,6 @@
 				6999204B1C0AFF8700D3888F /* pdf_link_row3.png in Resources */,
 				69610D1F1C4BC7AB00E81868 /* HP_ribbon_ball266x953@2x.png in Resources */,
 				6999217D1C0AFF8700D3888F /* gmtool_btn_mc.png in Resources */,
-				BABE0A6F1A0D15D200E0BBF7 /* BridionPage4.xib in Resources */,
 				69991E631C0AFF8700D3888F /* ChatToSelectCell.xib in Resources */,
 				69991F721C0AFF8700D3888F /* historyu_calendar_powerbackup.png in Resources */,
 				69991F7C1C0AFF8700D3888F /* historyu_globalquestion_gray.png in Resources */,
@@ -5881,6 +5860,7 @@
 				69610D1C1C4BC7AB00E81868 /* HP_OAT_ball1123x660@2x.png in Resources */,
 				6999215C1C0AFF8700D3888F /* gm_logo_start.png in Resources */,
 				69991FF91C0AFF8700D3888F /* historyu_tab_backl_s.png in Resources */,
+				69C52BE01D22701300E73866 /* general_tavla_tittle58x56@2x.png in Resources */,
 				69991EC51C0AFF8700D3888F /* endu_ipad_btn_d.png in Resources */,
 				699921251C0AFF8700D3888F /* gm_logo_mss_cerazette_s.png in Resources */,
 				699920DC1C0AFF8700D3888F /* gm_logo_videos_en.png in Resources */,
@@ -5901,6 +5881,9 @@
 				699920551C0AFF8700D3888F /* ZoomingPDFViewerViewController.xib in Resources */,
 				69991EAC1C0AFF8700D3888F /* EndMeetingUniversalController.xib in Resources */,
 				69991E1A1C0AFF8700D3888F /* chat_contact_header_back_white.png in Resources */,
+				69C52BD51D2264BB00E73866 /* HP_ddi_ball916x464@2x.png in Resources */,
+				69C52BE71D22722500E73866 /* ZEPATIR_thumbs_DDI1.png in Resources */,
+				69C52BE91D22722500E73866 /* ZEPATIR_thumbs_DDI3.png in Resources */,
 				6999213B1C0AFF8700D3888F /* gm_logo_mss_orgalutran_s.png in Resources */,
 				DB66A90C194A0C03002A043E /* iconZihumologim.png in Resources */,
 				69A789ED1C4E5025003E35E5 /* ZepatierG1aPage1.xib in Resources */,
@@ -5992,6 +5975,7 @@
 				DB66A925194A0C03002A043E /* quet_boxend_text2.png in Resources */,
 				69991F851C0AFF8700D3888F /* historyu_mdl_cell_back.png in Resources */,
 				699EB4641C4D15360057CE9C /* slides_back@2x.png in Resources */,
+				69C52BE81D22722500E73866 /* ZEPATIR_thumbs_DDI2.png in Resources */,
 				699921AC1C0AFF8700D3888F /* Ezetrol.png in Resources */,
 				DBEF7201194A0F9A00F0EDC2 /* bridion_logo_history-white.png in Resources */,
 				69A78A541C4FD3AF003E35E5 /* Images.xcassets in Resources */,
@@ -6141,6 +6125,7 @@
 				699921601C0AFF8700D3888F /* gm_logo_videos.png in Resources */,
 				699920B71C0AFF8700D3888F /* gm_logo_flows_s_en.png in Resources */,
 				69991EDC1C0AFF8700D3888F /* endu_tab_app17_s.png in Resources */,
+				69C52BE11D22701300E73866 /* general_tavla01_133x230@2x.png in Resources */,
 				6999219C1C0AFF8700D3888F /* GTMEditExpertiseView.xib in Resources */,
 				699922621C0B079600D3888F /* MSD-CALLangleItem.jpg in Resources */,
 				DB66A90E194A0C03002A043E /* quet_back.png in Resources */,
@@ -6228,6 +6213,7 @@
 				DB66A731194A0793002A043E /* BridionViewController.xib in Resources */,
 				699921AE1C0AFF8700D3888F /* Hospitals.png in Resources */,
 				699921151C0AFF8700D3888F /* gm_logo_livialovestin.png in Resources */,
+				69C52BE21D22701300E73866 /* general_tavla02_133x230@2x.png in Resources */,
 				69991F9C1C0AFF8700D3888F /* historyu_tab_app1l_s.png in Resources */,
 				699920231C0AFF8700D3888F /* HistoryUniversalTopView.xib in Resources */,
 				DB66A81B194A0820002A043E /* InfoPlist.strings in Resources */,
@@ -6309,13 +6295,11 @@
 				DB66A944194A0C03002A043E /* QuestionBoxStartView.m in Sources */,
 				69991F541C0AFF8700D3888F /* PDFView.m in Sources */,
 				699920111C0AFF8700D3888F /* HistoryUniversalCalendarContainerView.m in Sources */,
-				BA60A7311A0536FC00916199 /* BridionPage1.m in Sources */,
 				69991F591C0AFF8700D3888F /* UINavigation-Extension.m in Sources */,
 				69991E6E1C0AFF8700D3888F /* LoginResponse.m in Sources */,
 				DB66A934194A0C03002A043E /* QuestionError.m in Sources */,
 				DB66A61F194A065F002A043E /* AppDelegate.m in Sources */,
 				6999206C1C0AFF8700D3888F /* GMCatalogManager.m in Sources */,
-				BA60A7351A0536FC00916199 /* BridionPage5.m in Sources */,
 				69A78A4A1C4FA40F003E35E5 /* ZepatierCirrhosisPage2.m in Sources */,
 				69A789EB1C4E4FDD003E35E5 /* ZepatierG1aPage1.m in Sources */,
 				699921C31C0AFF8700D3888F /* BaseMovieViewController.m in Sources */,
@@ -6324,7 +6308,6 @@
 				699922611C0B079600D3888F /* GMCustomPageData.m in Sources */,
 				BABE0A791A0E354200E0BBF7 /* JWGCircleCounter.m in Sources */,
 				69991DFF1C0AFF8700D3888F /* FTUtils+NSObject.m in Sources */,
-				DB66A7E3194A0793002A043E /* BridionPage0.m in Sources */,
 				69991E0C1C0AFF8700D3888F /* base64.c in Sources */,
 				6999203D1C0AFF8700D3888F /* AFURLResponseSerialization.m in Sources */,
 				699921991C0AFF8700D3888F /* GTMEditDoctorUniteView.m in Sources */,
@@ -6345,6 +6328,7 @@
 				699920631C0AFF8700D3888F /* BaseMainAppViewController.m in Sources */,
 				69991E571C0AFF8700D3888F /* ChatRoomListCell.m in Sources */,
 				6999203C1C0AFF8700D3888F /* AFURLRequestSerialization.m in Sources */,
+				69C52BD31D2132EA00E73866 /* BridionBase.m in Sources */,
 				69A78A2E1C4F9F75003E35E5 /* ZepatierCirrhosisPage1.m in Sources */,
 				6999204E1C0AFF8700D3888F /* PdfFileData.m in Sources */,
 				69991EA81C0AFF8700D3888F /* TOTData.m in Sources */,
@@ -6381,7 +6365,6 @@
 				6999206F1C0AFF8700D3888F /* GMMainMenuView.m in Sources */,
 				69A789E31C4D3D59003E35E5 /* ZepatierTNPage1.m in Sources */,
 				699920541C0AFF8700D3888F /* ZoomingPDFViewerViewController.m in Sources */,
-				BA60A7331A0536FC00916199 /* BridionPage3.m in Sources */,
 				69991F4B1C0AFF8700D3888F /* NSObject+JSON.m in Sources */,
 				DB66A72F194A0793002A043E /* BridionPageData.m in Sources */,
 				69991F5D1C0AFF8700D3888F /* UIViewController+Container.m in Sources */,
@@ -6426,7 +6409,6 @@
 				69991F601C0AFF8700D3888F /* HistoryUniversalDoctorExtraData.m in Sources */,
 				699920511C0AFF8700D3888F /* PdfTiledView.m in Sources */,
 				BA456CAC1A0E416D0056B4DF /* KAProgressLabel.m in Sources */,
-				DB66A7E2194A0793002A043E /* BridionBase.m in Sources */,
 				69991E411C0AFF8700D3888F /* CSqlClient.m in Sources */,
 				6999225B1C0B079600D3888F /* CustomCallsPageDataView.m in Sources */,
 				69991E731C0AFF8700D3888F /* Timer.m in Sources */,
@@ -6436,11 +6418,11 @@
 				69991EA31C0AFF8700D3888F /* DocSummaryView.m in Sources */,
 				6999206D1C0AFF8700D3888F /* GMMenuItemData.m in Sources */,
 				6999201F1C0AFF8700D3888F /* HistoryUniversalOtherViewController.m in Sources */,
-				BA60A7371A0536FC00916199 /* BridionPage7.m in Sources */,
 				699920641C0AFF8700D3888F /* DateSelectionViewController.m in Sources */,
 				6999206B1C0AFF8700D3888F /* GMCatalogFileHelper.m in Sources */,
 				69991F411C0AFF8700D3888F /* EndMeetingUniSamplesView.m in Sources */,
 				699920341C0AFF8700D3888F /* SBJsonWriter.m in Sources */,
+				69C52BF11D22762900E73866 /* ZepatierDDIPage3.m in Sources */,
 				69991E051C0AFF8700D3888F /* CChatOnlineManager.m in Sources */,
 				69991E451C0AFF8700D3888F /* CSqlTeam.m in Sources */,
 				69991F3A1C0AFF8700D3888F /* EndMeetingUniApplicationSelectionViewController.m in Sources */,
@@ -6459,7 +6441,6 @@
 				6999219B1C0AFF8700D3888F /* GTMEditExpertiseView.m in Sources */,
 				69991F441C0AFF8700D3888F /* ExtendUIView.m in Sources */,
 				699921A11C0AFF8700D3888F /* GTMEditNewDoctorView.m in Sources */,
-				BA60A7341A0536FC00916199 /* BridionPage4.m in Sources */,
 				69991F571C0AFF8700D3888F /* UIImageExtras.m in Sources */,
 				69991E481C0AFF8700D3888F /* ChatMainView.m in Sources */,
 				69991E4A1C0AFF8700D3888F /* ChatContactListCell.m in Sources */,
@@ -6468,9 +6449,7 @@
 				6999205F1C0AFF8700D3888F /* SoundEffect.m in Sources */,
 				69991F4F1C0AFF8700D3888F /* UICustomBarButtonItem.m in Sources */,
 				693AE8781C4CEAE900F2DE1E /* ZepatierChapterData.m in Sources */,
-				6999225D1C0B079600D3888F /* customCallsScrollPager.m in Sources */,
 				DB66A93A194A0C03002A043E /* QuestionBox5View.m in Sources */,
-				BA60A7361A0536FC00916199 /* BridionPage6.m in Sources */,
 				DB66A7DC194A0793002A043E /* Bridion.m in Sources */,
 				699920461C0AFF8700D3888F /* Reachability.m in Sources */,
 				69991F631C0AFF8700D3888F /* HistoryUniversalMeetingListItemData.m in Sources */,
@@ -6535,6 +6514,7 @@
 				69991E6F1C0AFF8700D3888F /* MeetingFreezeManager.m in Sources */,
 				6999216F1C0AFF8700D3888F /* GMPdfMenu.m in Sources */,
 				69991E001C0AFF8700D3888F /* FTUtils+UIGestureRecognizer.m in Sources */,
+				69C52BEC1D22755500E73866 /* ZepatierDDIPage2.m in Sources */,
 				699921A41C0AFF8700D3888F /* InfoControl.m in Sources */,
 				DB66A93D194A0C03002A043E /* QuestionBoxBase.m in Sources */,
 				69991F621C0AFF8700D3888F /* HistoryUniversalMeetingData.m in Sources */,
@@ -6544,10 +6524,10 @@
 				6999203A1C0AFF8700D3888F /* AFSecurityPolicy.m in Sources */,
 				699921C71C0AFF8700D3888F /* BasePageTimerController.m in Sources */,
 				699921931C0AFF8700D3888F /* GTMEditClinicView.m in Sources */,
+				69C52BD91D226F8D00E73866 /* ZepatierDDIPage1.m in Sources */,
 				6999202A1C0AFF8700D3888F /* HistoryUniversalAddSamplesRow.m in Sources */,
 				699920451C0AFF8700D3888F /* DataManager.m in Sources */,
 				699920281C0AFF8700D3888F /* HistoryUniversalAddSamplesPopView.m in Sources */,
-				BA60A7321A0536FC00916199 /* BridionPage2.m in Sources */,
 				69991E5F1C0AFF8700D3888F /* UILabelClipboard.m in Sources */,
 				69991E041C0AFF8700D3888F /* CChatManager.m in Sources */,
 				6999216A1C0AFF8700D3888F /* GMEmailController.m in Sources */,
@@ -6635,8 +6615,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.msdil.Zepatier;
 				PRODUCT_NAME = Zepatier;
-				PROVISIONING_PROFILE = "f1aa0df8-7396-472f-a0a2-781530c5e716";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "018ccd32-dc07-4be2-b6f4-7529aafa18fa";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "018ccd32-dc07-4be2-b6f4-7529aafa18fa";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -6704,8 +6684,8 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yehuda Kedem (SVHCGDBFT9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yehuda Kedem (SVHCGDBFT9)";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bridion/Zepatier-Prefix.pch";
@@ -6722,8 +6702,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.msdil.Zepatier;
 				PRODUCT_NAME = Zepatier;
-				PROVISIONING_PROFILE = "f1aa0df8-7396-472f-a0a2-781530c5e716";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "018ccd32-dc07-4be2-b6f4-7529aafa18fa";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "018ccd32-dc07-4be2-b6f4-7529aafa18fa";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -6753,8 +6733,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.msdil.Zepatier;
 				PRODUCT_NAME = Zepatier;
-				PROVISIONING_PROFILE = "f1aa0df8-7396-472f-a0a2-781530c5e716";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "018ccd32-dc07-4be2-b6f4-7529aafa18fa";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "018ccd32-dc07-4be2-b6f4-7529aafa18fa";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};

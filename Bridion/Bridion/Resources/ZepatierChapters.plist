@@ -2,44 +2,44 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-    <dict>
-        <key>hideFromNavigation</key>
-        <false/>
-        <key>number</key>
-        <integer>0</integer>
-        <key>name</key>
-        <string>General</string>
-        <key>pages</key>
-        <array>
-            <dict>
-                <key>className</key>
-                <string>ZepatierMainPage</string>
-                <key>previewImage</key>
-                <string>ZEPATIR_thumbs_hp.png</string>
-                <key>ignoreMenu</key>
-                <false/>
-            </dict>
-        </array>
-    </dict>
-    <dict>
-        <key>hideFromNavigation</key>
-        <false/>
-        <key>number</key>
-        <integer>0</integer>
-        <key>name</key>
-        <string>TN</string>
-        <key>pages</key>
-        <array>
-            <dict>
-                <key>className</key>
-                <string>ZepatierTNPage1</string>
-                <key>previewImage</key>
-                <string>ZEPATIR_thumbs_tn.png</string>
-                <key>ignoreMenu</key>
-                <false/>
-            </dict>
-        </array>
-    </dict>
+	<dict>
+		<key>hideFromNavigation</key>
+		<false/>
+		<key>number</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>General</string>
+		<key>pages</key>
+		<array>
+			<dict>
+				<key>className</key>
+				<string>ZepatierMainPage</string>
+				<key>previewImage</key>
+				<string>ZEPATIR_thumbs_hp.png</string>
+				<key>ignoreMenu</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>hideFromNavigation</key>
+		<false/>
+		<key>number</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>TN</string>
+		<key>pages</key>
+		<array>
+			<dict>
+				<key>className</key>
+				<string>ZepatierTNPage1</string>
+				<key>previewImage</key>
+				<string>ZEPATIR_thumbs_tn.png</string>
+				<key>ignoreMenu</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
 	<dict>
 		<key>hideFromNavigation</key>
 		<false/>
@@ -58,20 +58,55 @@
 		<key>name</key>
 		<string>Cirrhosis</string>
 		<key>pages</key>
+		<array>
+			<dict>
+				<key>className</key>
+				<string>ZepatierCirrhosisPage1</string>
+				<key>previewImage</key>
+				<string>ZEPATIR_thumbs_cirrhosis1.png</string>
+				<key>ignoreMenu</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>ZepatierCirrhosisPage2</string>
+				<key>previewImage</key>
+				<string>ZEPATIR_thumbs_cirrhosis2.png</string>
+				<key>ignoreMenu</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>hideFromNavigation</key>
+		<false/>
+		<key>number</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>DDI</string>
+        <key>pages</key>
         <array>
             <dict>
                 <key>className</key>
-                <string>ZepatierCirrhosisPage1</string>
+                <string>ZepatierDDIPage1</string>
                 <key>previewImage</key>
-                <string>ZEPATIR_thumbs_cirrhosis1.png</string>
+                <string>ZEPATIR_thumbs_DDI3</string>
                 <key>ignoreMenu</key>
                 <false/>
             </dict>
             <dict>
                 <key>className</key>
-                <string>ZepatierCirrhosisPage2</string>
+                <string>ZepatierDDIPage2</string>
                 <key>previewImage</key>
-                <string>ZEPATIR_thumbs_cirrhosis2.png</string>
+                <string>ZEPATIR_thumbs_DDI2</string>
+                <key>ignoreMenu</key>
+                <false/>
+            </dict>
+            <dict>
+                <key>className</key>
+                <string>ZepatierDDIPage3</string>
+                <key>previewImage</key>
+                <string>ZEPATIR_thumbs_DDI1</string>
                 <key>ignoreMenu</key>
                 <false/>
             </dict>
@@ -83,25 +118,17 @@
 		<key>number</key>
 		<integer>0</integer>
 		<key>name</key>
-		<string>8W</string>
-	</dict>
-	<dict>
-		<key>hideFromNavigation</key>
-		<false/>
-		<key>number</key>
-		<integer>0</integer>
-		<key>name</key>
 		<string>G1b</string>
 		<key>pages</key>
-        <array>
-        <dict>
-            <key>className</key>
-            <string>ZepatierG1bPage1</string>
-            <key>previewImage</key>
-            <string>ZEPATIR_thumbs_g1b.png</string>
-            <key>ignoreMenu</key>
-            <false/>
-        </dict>
+		<array>
+			<dict>
+				<key>className</key>
+				<string>ZepatierG1bPage1</string>
+				<key>previewImage</key>
+				<string>ZEPATIR_thumbs_g1b.png</string>
+				<key>ignoreMenu</key>
+				<false/>
+			</dict>
 		</array>
 	</dict>
 	<dict>
@@ -112,32 +139,32 @@
 		<key>name</key>
 		<string>G1a</string>
 		<key>pages</key>
-        <array>
-            <dict>
-                <key>className</key>
-                <string>ZepatierG1aPage1</string>
-                <key>previewImage</key>
-                <string>ZEPATIR_thumbs_g1a.png</string>
-                <key>ignoreMenu</key>
-                <false/>
-            </dict>
-            <dict>
-                <key>className</key>
-                <string>ZepatierG1aPage2</string>
-                <key>previewImage</key>
-                <string>ZEPATIR_thumbs_demographic.png</string>
-                <key>ignoreMenu</key>
-                <false/>
-            </dict>
-            <dict>
-                <key>className</key>
-                <string>ZepatierG1aPage3</string>
-                <key>previewImage</key>
-                <string>ZEPATIR_thumbs_safety.png</string>
-                <key>ignoreMenu</key>
-                <false/>
-            </dict>
-        </array>
+		<array>
+			<dict>
+				<key>className</key>
+				<string>ZepatierG1aPage1</string>
+				<key>previewImage</key>
+				<string>ZEPATIR_thumbs_g1a.png</string>
+				<key>ignoreMenu</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>ZepatierG1aPage2</string>
+				<key>previewImage</key>
+				<string>ZEPATIR_thumbs_demographic.png</string>
+				<key>ignoreMenu</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>ZepatierG1aPage3</string>
+				<key>previewImage</key>
+				<string>ZEPATIR_thumbs_safety.png</string>
+				<key>ignoreMenu</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>hideFromNavigation</key>

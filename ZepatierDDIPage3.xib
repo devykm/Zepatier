@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZepatierDDIPage3">
+            <connections>
+                <outlet property="tavla" destination="ClG-5R-Si7" id="s1a-89-QBZ"/>
+                <outlet property="title" destination="Npa-Uj-Ed3" id="BMx-jp-fAP"/>
+                <outlet property="view" destination="iN0-l3-epB" id="858-8j-c7s"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slides_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="mQH-Hc-5AL">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="general_tavla01_133x230.png" translatesAutoresizingMaskIntoConstraints="NO" id="ClG-5R-Si7">
+                    <rect key="frame" x="66" y="115" width="895" height="563"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="general_tavla_tittle58x56.png" translatesAutoresizingMaskIntoConstraints="NO" id="Npa-Uj-Ed3">
+                    <rect key="frame" x="28" y="70" width="995" height="76"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HP_ddi_ball916x464.png" translatesAutoresizingMaskIntoConstraints="NO" id="o0W-1u-EVS">
+                    <rect key="frame" x="939" y="594" width="85" height="85"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="394" y="415.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="HP_ddi_ball916x464.png" width="95" height="95"/>
+        <image name="general_tavla01_133x230.png" width="894" height="563"/>
+        <image name="general_tavla_tittle58x56.png" width="995" height="75"/>
+        <image name="slides_back.png" width="1024" height="678"/>
+    </resources>
+</document>

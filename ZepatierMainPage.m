@@ -12,7 +12,7 @@
 #import "ZepatierChapterData.h"
 @implementation ZepatierMainPage
 {
-    CGRect w8Rect;
+    CGRect ddiRect;
     CGRect tnRect;
     CGRect cirhosisRect;
     CGRect g1bRect;
@@ -37,7 +37,7 @@
         self.g1a.alpha = 0.0;
         self.g1b.alpha = 0.0;
         self.oat.alpha = 0.0;
-        self.w8.alpha = 0.0;
+        self.ddi.alpha = 0.0;
         self.lungs.alpha = 0.0;
         self.tn.alpha = 0.0;
         self.te.alpha = 0.0;
@@ -79,7 +79,7 @@
 {
     
     [self runSpinAnimationOnView:self.cirrhosis duration:5.0 rotations:1.0 repeat:0];
-    [self runSpinAnimationOnView:self.w8 duration:5.0 rotations:1.0 repeat:0];
+    [self runSpinAnimationOnView:self.ddi duration:5.0 rotations:1.0 repeat:0];
     [self runSpinAnimationOnView:self.g1a duration:5.0 rotations:1.0 repeat:0];
     [self runSpinAnimationOnView:self.g1b duration:5.0 rotations:1.0 repeat:0];
     [self runSpinAnimationOnView:self.te duration:5.0 rotations:1.0 repeat:0];
@@ -97,8 +97,8 @@
             self.cirrhosis.layer.frame = CGRectMake(173, 490, 110, 105);
             self.cirrhosis.alpha = 1.0;
             
-            self.w8.frame = CGRectMake(457, 138, 111, 94);
-            self.w8.alpha = 1.0;
+            self.ddi.frame = CGRectMake(457, 138, 85, 85);
+            self.ddi.alpha = 1.0;
             
             self.g1b.frame = CGRectMake(443, 524, 105, 95);
             self.g1b.alpha = 1.0;
@@ -243,7 +243,16 @@
 
 - (IBAction)w8Action:(UIButton *)sender {
     
-    
+    [UIView animateWithDuration:1.0 animations:^{
+        //[sender setOriginX:125];
+        //[sender setOriginY:188];
+        sender.layer.frame = CGRectMake(939, 594, 85, 85);
+    } completion:^(BOOL finished) {
+        [self performSelector:@selector(goToDDI:) withObject:[NSNumber numberWithInt:0] afterDelay:0.5];
+        
+        
+    }];
+ 
     
 }
 -(void)saveOriginalCoords{
@@ -252,7 +261,7 @@
     ribbonRect = self.ribbon.frame;
     lungsRect = self.lungs.frame;
     oatRect = self.oat.frame;
-    w8Rect = self.w8.frame;
+    ddiRect = self.ddi.frame;
     g1aRect = self.g1a.frame;
     g1bRect = self.g1b.frame;
     cirhosisRect = self.cirrhosis.frame;
@@ -268,7 +277,7 @@
     self.g1a.frame = g1aRect;
     self.g1b.frame = g1bRect;
     self.cirrhosis.frame = cirhosisRect;
-    self.w8.frame = w8Rect;
+    self.ddi.frame = ddiRect;
     [self.view layoutIfNeeded];
 
     
@@ -279,6 +288,11 @@
     
     //[self setOriginalCoords];
 }
+-(void)goToDDI:(NSNumber*)slideNumber {
+    [self.delegate bridionBaseViewOpenPage:[ZepatierChapterData getChapterPageRealIndex:4 pageIndex:[slideNumber intValue]] animated:NO];
+    [self setOriginalCoords];
+}
+
 -(void)goToGb1:(NSNumber*)slideNumber {
     [self.delegate bridionBaseViewOpenPage:[ZepatierChapterData getChapterPageRealIndex:5 pageIndex:[slideNumber intValue]] animated:NO];
     [self setOriginalCoords];

@@ -43,5 +43,6 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *piSmall;
 
+@property (weak, nonatomic) IBOutlet UIButton *ddi;
 
 @end
