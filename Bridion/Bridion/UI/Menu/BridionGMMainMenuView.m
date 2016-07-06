@@ -20,7 +20,7 @@ static BridionGMMainMenuView * instance;
 
 -(id) initWithFrame:(CGRect)frame
 {
-    NSMutableArray *items = [GMMenuItemData readPlistFile:@"BridionGMMainMenu.plist" applicationId:APPLICATION_BRIDION];
+    NSMutableArray *items = [GMMenuItemData readPlistFile:@"BridionGMMainMenu.plist" applicationId:APPLICATION_ZEPATIER];
     self = [super initWithFrame:frame items:items];
     if (self) {
         
@@ -133,7 +133,7 @@ static BridionGMMainMenuView * instance;
             
         default:
         {
-            [self showPdfMenu:APPLICATION_BRIDION section:menuTag statisticId:-1 animate:YES];
+            [self showPdfMenu:APPLICATION_ZEPATIER section:menuTag statisticId:-1 animate:YES];
         }
             break;
 
