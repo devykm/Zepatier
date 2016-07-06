@@ -1127,13 +1127,13 @@
 		69C52BE11D22701300E73866 /* general_tavla01_133x230@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BDD1D22701300E73866 /* general_tavla01_133x230@2x.png */; };
 		69C52BE21D22701300E73866 /* general_tavla02_133x230@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BDE1D22701300E73866 /* general_tavla02_133x230@2x.png */; };
 		69C52BE31D22701300E73866 /* general_tavla03_133x230@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BDF1D22701300E73866 /* general_tavla03_133x230@2x.png */; };
-		69C52BE71D22722500E73866 /* ZEPATIR_thumbs_DDI1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BE41D22722500E73866 /* ZEPATIR_thumbs_DDI1.png */; };
-		69C52BE81D22722500E73866 /* ZEPATIR_thumbs_DDI2.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BE51D22722500E73866 /* ZEPATIR_thumbs_DDI2.png */; };
-		69C52BE91D22722500E73866 /* ZEPATIR_thumbs_DDI3.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BE61D22722500E73866 /* ZEPATIR_thumbs_DDI3.png */; };
 		69C52BEC1D22755500E73866 /* ZepatierDDIPage2.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C52BEB1D22755500E73866 /* ZepatierDDIPage2.m */; };
 		69C52BEE1D22756400E73866 /* ZepatierDDIPage2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BED1D22756400E73866 /* ZepatierDDIPage2.xib */; };
 		69C52BF11D22762900E73866 /* ZepatierDDIPage3.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C52BF01D22762900E73866 /* ZepatierDDIPage3.m */; };
 		69C52BF31D22763600E73866 /* ZepatierDDIPage3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BF21D22763600E73866 /* ZepatierDDIPage3.xib */; };
+		69C52BF71D2291A600E73866 /* ZEPATIR_thumbs_DDI1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BF41D2291A600E73866 /* ZEPATIR_thumbs_DDI1.png */; };
+		69C52BF81D2291A600E73866 /* ZEPATIR_thumbs_DDI2.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BF51D2291A600E73866 /* ZEPATIR_thumbs_DDI2.png */; };
+		69C52BF91D2291A600E73866 /* ZEPATIR_thumbs_DDI3.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BF61D2291A600E73866 /* ZEPATIR_thumbs_DDI3.png */; };
 		BA456CAC1A0E416D0056B4DF /* KAProgressLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA456CA91A0E416D0056B4DF /* KAProgressLabel.m */; };
 		BA456CAD1A0E416D0056B4DF /* TPPropertyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA456CAB1A0E416D0056B4DF /* TPPropertyAnimation.m */; };
 		BABE0A791A0E354200E0BBF7 /* JWGCircleCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = BABE0A781A0E354200E0BBF7 /* JWGCircleCounter.m */; };
@@ -2610,15 +2610,15 @@
 		69C52BDD1D22701300E73866 /* general_tavla01_133x230@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla01_133x230@2x.png"; sourceTree = SOURCE_ROOT; };
 		69C52BDE1D22701300E73866 /* general_tavla02_133x230@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla02_133x230@2x.png"; sourceTree = SOURCE_ROOT; };
 		69C52BDF1D22701300E73866 /* general_tavla03_133x230@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla03_133x230@2x.png"; sourceTree = SOURCE_ROOT; };
-		69C52BE41D22722500E73866 /* ZEPATIR_thumbs_DDI1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI1.png; sourceTree = SOURCE_ROOT; };
-		69C52BE51D22722500E73866 /* ZEPATIR_thumbs_DDI2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI2.png; sourceTree = SOURCE_ROOT; };
-		69C52BE61D22722500E73866 /* ZEPATIR_thumbs_DDI3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI3.png; sourceTree = SOURCE_ROOT; };
 		69C52BEA1D22755500E73866 /* ZepatierDDIPage2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierDDIPage2.h; sourceTree = SOURCE_ROOT; };
 		69C52BEB1D22755500E73866 /* ZepatierDDIPage2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierDDIPage2.m; sourceTree = SOURCE_ROOT; };
 		69C52BED1D22756400E73866 /* ZepatierDDIPage2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierDDIPage2.xib; sourceTree = SOURCE_ROOT; };
 		69C52BEF1D22762900E73866 /* ZepatierDDIPage3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierDDIPage3.h; sourceTree = SOURCE_ROOT; };
 		69C52BF01D22762900E73866 /* ZepatierDDIPage3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierDDIPage3.m; sourceTree = SOURCE_ROOT; };
 		69C52BF21D22763600E73866 /* ZepatierDDIPage3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierDDIPage3.xib; sourceTree = SOURCE_ROOT; };
+		69C52BF41D2291A600E73866 /* ZEPATIR_thumbs_DDI1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI1.png; sourceTree = SOURCE_ROOT; };
+		69C52BF51D2291A600E73866 /* ZEPATIR_thumbs_DDI2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI2.png; sourceTree = SOURCE_ROOT; };
+		69C52BF61D2291A600E73866 /* ZEPATIR_thumbs_DDI3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI3.png; sourceTree = SOURCE_ROOT; };
 		BA456CA81A0E416D0056B4DF /* KAProgressLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAProgressLabel.h; sourceTree = "<group>"; };
 		BA456CA91A0E416D0056B4DF /* KAProgressLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAProgressLabel.m; sourceTree = "<group>"; };
 		BA456CAA1A0E416D0056B4DF /* TPPropertyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPropertyAnimation.h; sourceTree = "<group>"; };
@@ -4886,9 +4886,9 @@
 		69A78A591C4FD83F003E35E5 /* ZepatierThumbs */ = {
 			isa = PBXGroup;
 			children = (
-				69C52BE41D22722500E73866 /* ZEPATIR_thumbs_DDI1.png */,
-				69C52BE51D22722500E73866 /* ZEPATIR_thumbs_DDI2.png */,
-				69C52BE61D22722500E73866 /* ZEPATIR_thumbs_DDI3.png */,
+				69C52BF41D2291A600E73866 /* ZEPATIR_thumbs_DDI1.png */,
+				69C52BF51D2291A600E73866 /* ZEPATIR_thumbs_DDI2.png */,
+				69C52BF61D2291A600E73866 /* ZEPATIR_thumbs_DDI3.png */,
 				69A78A5A1C4FD867003E35E5 /* ZEPATIR_thumbs_cirrhosis1.png */,
 				69A78A5B1C4FD867003E35E5 /* ZEPATIR_thumbs_cirrhosis2.png */,
 				69A78A5C1C4FD867003E35E5 /* ZEPATIR_thumbs_demographic.png */,
@@ -5362,6 +5362,7 @@
 				699920B51C0AFF8700D3888F /* gm_logo_doctor_s_en.png in Resources */,
 				6999204A1C0AFF8700D3888F /* pdf_link_row2.png in Resources */,
 				69A78A661C4FD867003E35E5 /* ZEPATIR_thumbs_g1b.png in Resources */,
+				69C52BF81D2291A600E73866 /* ZEPATIR_thumbs_DDI2.png in Resources */,
 				699920941C0AFF8700D3888F /* gm_row_back_red.png in Resources */,
 				699920351C0AFF8700D3888F /* login_logos_arx-fsv.png in Resources */,
 				699921911C0AFF8700D3888F /* gmtool_white_msd_logo.png in Resources */,
@@ -5550,6 +5551,7 @@
 				69991E401C0AFF8700D3888F /* chat_user_icon_back.png in Resources */,
 				69991F831C0AFF8700D3888F /* historyu_mdl_btn_edit.png in Resources */,
 				69A78A451C4F9FB9003E35E5 /* Chirrhosis_2_tittle@2x.png in Resources */,
+				69C52BF71D2291A600E73866 /* ZEPATIR_thumbs_DDI1.png in Resources */,
 				69991F1D1C0AFF8700D3888F /* endu_tab_app45.png in Resources */,
 				69610D291C4BC8CD00E81868 /* ZepatierMainPage.xib in Resources */,
 				69A78A1C1C4F9255003E35E5 /* ZepatierG1bPage1.xib in Resources */,
@@ -5688,6 +5690,7 @@
 				69991F331C0AFF8700D3888F /* endu_tab_app6_s.png in Resources */,
 				69610D201C4BC7AB00E81868 /* HP_TE_ball156x671@2x.png in Resources */,
 				69A78A041C4E50C4003E35E5 /* G1a_safety_tavla@2x.png in Resources */,
+				69C52BF91D2291A600E73866 /* ZEPATIR_thumbs_DDI3.png in Resources */,
 				DB66A926194A0C03002A043E /* quet_boxstart.png in Resources */,
 				699920BD1C0AFF8700D3888F /* gm_logo_isentress_white.png in Resources */,
 				69991EFB1C0AFF8700D3888F /* endu_tab_app30.png in Resources */,
@@ -5882,8 +5885,6 @@
 				69991EAC1C0AFF8700D3888F /* EndMeetingUniversalController.xib in Resources */,
 				69991E1A1C0AFF8700D3888F /* chat_contact_header_back_white.png in Resources */,
 				69C52BD51D2264BB00E73866 /* HP_ddi_ball916x464@2x.png in Resources */,
-				69C52BE71D22722500E73866 /* ZEPATIR_thumbs_DDI1.png in Resources */,
-				69C52BE91D22722500E73866 /* ZEPATIR_thumbs_DDI3.png in Resources */,
 				6999213B1C0AFF8700D3888F /* gm_logo_mss_orgalutran_s.png in Resources */,
 				DB66A90C194A0C03002A043E /* iconZihumologim.png in Resources */,
 				69A789ED1C4E5025003E35E5 /* ZepatierG1aPage1.xib in Resources */,
@@ -5975,7 +5976,6 @@
 				DB66A925194A0C03002A043E /* quet_boxend_text2.png in Resources */,
 				69991F851C0AFF8700D3888F /* historyu_mdl_cell_back.png in Resources */,
 				699EB4641C4D15360057CE9C /* slides_back@2x.png in Resources */,
-				69C52BE81D22722500E73866 /* ZEPATIR_thumbs_DDI2.png in Resources */,
 				699921AC1C0AFF8700D3888F /* Ezetrol.png in Resources */,
 				DBEF7201194A0F9A00F0EDC2 /* bridion_logo_history-white.png in Resources */,
 				69A78A541C4FD3AF003E35E5 /* Images.xcassets in Resources */,
@@ -6597,7 +6597,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Merck Sharp & Dohme  (Israel-1996) Company Ltd.//";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Merck Sharp & Dohme  (Israel-1996) Company Ltd.//";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -6615,8 +6615,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.msdil.Zepatier;
 				PRODUCT_NAME = Zepatier;
-				PROVISIONING_PROFILE = "018ccd32-dc07-4be2-b6f4-7529aafa18fa";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "018ccd32-dc07-4be2-b6f4-7529aafa18fa";
+				PROVISIONING_PROFILE = "f1aa0df8-7396-472f-a0a2-781530c5e716";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "f1aa0df8-7396-472f-a0a2-781530c5e716";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -6702,8 +6702,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.msdil.Zepatier;
 				PRODUCT_NAME = Zepatier;
-				PROVISIONING_PROFILE = "018ccd32-dc07-4be2-b6f4-7529aafa18fa";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "018ccd32-dc07-4be2-b6f4-7529aafa18fa";
+				PROVISIONING_PROFILE = "f1aa0df8-7396-472f-a0a2-781530c5e716";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "f1aa0df8-7396-472f-a0a2-781530c5e716";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -6715,7 +6715,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Merck Sharp & Dohme  (Israel-1996) Company Ltd.//";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Merck Sharp & Dohme  (Israel-1996) Company Ltd.//";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -6733,8 +6733,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.msdil.Zepatier;
 				PRODUCT_NAME = Zepatier;
-				PROVISIONING_PROFILE = "018ccd32-dc07-4be2-b6f4-7529aafa18fa";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "018ccd32-dc07-4be2-b6f4-7529aafa18fa";
+				PROVISIONING_PROFILE = "f1aa0df8-7396-472f-a0a2-781530c5e716";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "f1aa0df8-7396-472f-a0a2-781530c5e716";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};

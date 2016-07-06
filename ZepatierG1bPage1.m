@@ -29,7 +29,6 @@
     self.bars.alpha = 0.0;
     self.tnGraph.alpha = 0.0;
     self.pills.alpha = 0.0;
-    self.blueBox.alpha = 0.0;
     return self;
 }
 
@@ -42,7 +41,6 @@
     }
     self.isLoaded = YES;
     self.pills.transform = CGAffineTransformMakeScale(0.5, 0.5);
-    self.blueBox.transform = CGAffineTransformMakeScale(0.5, 0.5);
     rectImageGray = self.bars.frame;
     self.bars.contentMode = UIViewContentModeBottom;
     self.bars.clipsToBounds = YES;
@@ -72,12 +70,7 @@
                         self.bars.alpha = 1.0;
                         
                     } completion:^(BOOL finished) {
-                        [UIView animateWithDuration:1.0 delay:0 usingSpringWithDamping:0.4 initialSpringVelocity:6.0 options:UIViewAnimationOptionCurveEaseIn animations:^{
-                            self.blueBox.transform = CGAffineTransformIdentity;
-                            self.blueBox.alpha = 1.0;
-                        } completion:^(BOOL finished) {
-                            
-                        }];
+                        
                     }];
                 }];
             }];

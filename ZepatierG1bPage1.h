@@ -30,6 +30,5 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *referenceView;
 
-@property (weak, nonatomic) IBOutlet UIImageView *blueBox;
 
 @end

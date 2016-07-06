@@ -20,7 +20,7 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slides_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="hLF-lG-ROU">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="general_tavla02_133x230.png" translatesAutoresizingMaskIntoConstraints="NO" id="EBX-gt-m76">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="general_tavla01_133x230.png" translatesAutoresizingMaskIntoConstraints="NO" id="EBX-gt-m76">
                     <rect key="frame" x="66" y="115" width="895" height="563"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="general_tavla_tittle58x56.png" translatesAutoresizingMaskIntoConstraints="NO" id="ksH-aQ-vgb">
@@ -32,12 +32,12 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="599" y="324.5"/>
+            <point key="canvasLocation" x="661" y="328.5"/>
         </view>
     </objects>
     <resources>
         <image name="HP_ddi_ball916x464.png" width="95" height="95"/>
-        <image name="general_tavla02_133x230.png" width="894" height="563"/>
+        <image name="general_tavla01_133x230.png" width="894" height="563"/>
         <image name="general_tavla_tittle58x56.png" width="995" height="75"/>
         <image name="slides_back.png" width="1024" height="678"/>
     </resources>

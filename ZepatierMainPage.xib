@@ -128,7 +128,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pWy-mU-sGt">
-                    <rect key="frame" x="328" y="307" width="85" height="85"/>
+                    <rect key="frame" x="328" y="307" width="90" height="90"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" backgroundImage="HP_ddi_ball916x464.png"/>
                     <connections>

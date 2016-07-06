@@ -98,7 +98,7 @@
                 <key>className</key>
                 <string>ZepatierDDIPage2</string>
                 <key>previewImage</key>
-                <string>ZEPATIR_thumbs_DDI2</string>
+                <string>ZEPATIR_thumbs_DDI1</string>
                 <key>ignoreMenu</key>
                 <false/>
             </dict>
@@ -106,7 +106,7 @@
                 <key>className</key>
                 <string>ZepatierDDIPage3</string>
                 <key>previewImage</key>
-                <string>ZEPATIR_thumbs_DDI1</string>
+                <string>ZEPATIR_thumbs_DDI2</string>
                 <key>ignoreMenu</key>
                 <false/>
             </dict>
