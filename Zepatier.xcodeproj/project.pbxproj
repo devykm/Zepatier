@@ -1123,10 +1123,6 @@
 		69C52BD51D2264BB00E73866 /* HP_ddi_ball916x464@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BD41D2264BB00E73866 /* HP_ddi_ball916x464@2x.png */; };
 		69C52BD91D226F8D00E73866 /* ZepatierDDIPage1.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C52BD81D226F8D00E73866 /* ZepatierDDIPage1.m */; };
 		69C52BDB1D226FB100E73866 /* ZepatierDDIPage1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BDA1D226FB100E73866 /* ZepatierDDIPage1.xib */; };
-		69C52BE01D22701300E73866 /* general_tavla_tittle58x56@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BDC1D22701300E73866 /* general_tavla_tittle58x56@2x.png */; };
-		69C52BE11D22701300E73866 /* general_tavla01_133x230@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BDD1D22701300E73866 /* general_tavla01_133x230@2x.png */; };
-		69C52BE21D22701300E73866 /* general_tavla02_133x230@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BDE1D22701300E73866 /* general_tavla02_133x230@2x.png */; };
-		69C52BE31D22701300E73866 /* general_tavla03_133x230@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BDF1D22701300E73866 /* general_tavla03_133x230@2x.png */; };
 		69C52BEC1D22755500E73866 /* ZepatierDDIPage2.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C52BEB1D22755500E73866 /* ZepatierDDIPage2.m */; };
 		69C52BEE1D22756400E73866 /* ZepatierDDIPage2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BED1D22756400E73866 /* ZepatierDDIPage2.xib */; };
 		69C52BF11D22762900E73866 /* ZepatierDDIPage3.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C52BF01D22762900E73866 /* ZepatierDDIPage3.m */; };
@@ -1134,6 +1130,14 @@
 		69C52BF71D2291A600E73866 /* ZEPATIR_thumbs_DDI1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BF41D2291A600E73866 /* ZEPATIR_thumbs_DDI1.png */; };
 		69C52BF81D2291A600E73866 /* ZEPATIR_thumbs_DDI2.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BF51D2291A600E73866 /* ZEPATIR_thumbs_DDI2.png */; };
 		69C52BF91D2291A600E73866 /* ZEPATIR_thumbs_DDI3.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BF61D2291A600E73866 /* ZEPATIR_thumbs_DDI3.png */; };
+		69DC7C031D4E3A5D0098EF58 /* ZepatierDDIPage4.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DC7C021D4E3A5D0098EF58 /* ZepatierDDIPage4.m */; };
+		69DC7C051D4E3A840098EF58 /* ZepatierDDIPage4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C041D4E3A840098EF58 /* ZepatierDDIPage4.xib */; };
+		69DC7C0A1D4E3B3E0098EF58 /* general_tavla_tittle58x56@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C061D4E3B3E0098EF58 /* general_tavla_tittle58x56@2x.png */; };
+		69DC7C0B1D4E3B3E0098EF58 /* general_tavla01_133x230@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C071D4E3B3E0098EF58 /* general_tavla01_133x230@2x.png */; };
+		69DC7C0C1D4E3B3E0098EF58 /* general_tavla02_133x230@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C081D4E3B3E0098EF58 /* general_tavla02_133x230@2x.png */; };
+		69DC7C0D1D4E3B3E0098EF58 /* general_tavla03_133x230@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C091D4E3B3E0098EF58 /* general_tavla03_133x230@2x.png */; };
+		69DC7C0F1D4E3B5A0098EF58 /* general_tavla04_133x230@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C0E1D4E3B5A0098EF58 /* general_tavla04_133x230@2x.png */; };
+		69DC7C111D4E51180098EF58 /* slides_back_dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C101D4E51180098EF58 /* slides_back_dark@2x.png */; };
 		BA456CAC1A0E416D0056B4DF /* KAProgressLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA456CA91A0E416D0056B4DF /* KAProgressLabel.m */; };
 		BA456CAD1A0E416D0056B4DF /* TPPropertyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA456CAB1A0E416D0056B4DF /* TPPropertyAnimation.m */; };
 		BABE0A791A0E354200E0BBF7 /* JWGCircleCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = BABE0A781A0E354200E0BBF7 /* JWGCircleCounter.m */; };
@@ -2606,10 +2610,6 @@
 		69C52BD71D226F8D00E73866 /* ZepatierDDIPage1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierDDIPage1.h; sourceTree = SOURCE_ROOT; };
 		69C52BD81D226F8D00E73866 /* ZepatierDDIPage1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierDDIPage1.m; sourceTree = SOURCE_ROOT; };
 		69C52BDA1D226FB100E73866 /* ZepatierDDIPage1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierDDIPage1.xib; sourceTree = SOURCE_ROOT; };
-		69C52BDC1D22701300E73866 /* general_tavla_tittle58x56@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla_tittle58x56@2x.png"; sourceTree = SOURCE_ROOT; };
-		69C52BDD1D22701300E73866 /* general_tavla01_133x230@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla01_133x230@2x.png"; sourceTree = SOURCE_ROOT; };
-		69C52BDE1D22701300E73866 /* general_tavla02_133x230@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla02_133x230@2x.png"; sourceTree = SOURCE_ROOT; };
-		69C52BDF1D22701300E73866 /* general_tavla03_133x230@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla03_133x230@2x.png"; sourceTree = SOURCE_ROOT; };
 		69C52BEA1D22755500E73866 /* ZepatierDDIPage2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierDDIPage2.h; sourceTree = SOURCE_ROOT; };
 		69C52BEB1D22755500E73866 /* ZepatierDDIPage2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierDDIPage2.m; sourceTree = SOURCE_ROOT; };
 		69C52BED1D22756400E73866 /* ZepatierDDIPage2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierDDIPage2.xib; sourceTree = SOURCE_ROOT; };
@@ -2619,6 +2619,15 @@
 		69C52BF41D2291A600E73866 /* ZEPATIR_thumbs_DDI1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI1.png; sourceTree = SOURCE_ROOT; };
 		69C52BF51D2291A600E73866 /* ZEPATIR_thumbs_DDI2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI2.png; sourceTree = SOURCE_ROOT; };
 		69C52BF61D2291A600E73866 /* ZEPATIR_thumbs_DDI3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI3.png; sourceTree = SOURCE_ROOT; };
+		69DC7C011D4E3A5D0098EF58 /* ZepatierDDIPage4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierDDIPage4.h; sourceTree = SOURCE_ROOT; };
+		69DC7C021D4E3A5D0098EF58 /* ZepatierDDIPage4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierDDIPage4.m; sourceTree = SOURCE_ROOT; };
+		69DC7C041D4E3A840098EF58 /* ZepatierDDIPage4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierDDIPage4.xib; sourceTree = SOURCE_ROOT; };
+		69DC7C061D4E3B3E0098EF58 /* general_tavla_tittle58x56@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla_tittle58x56@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C071D4E3B3E0098EF58 /* general_tavla01_133x230@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla01_133x230@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C081D4E3B3E0098EF58 /* general_tavla02_133x230@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla02_133x230@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C091D4E3B3E0098EF58 /* general_tavla03_133x230@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla03_133x230@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C0E1D4E3B5A0098EF58 /* general_tavla04_133x230@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla04_133x230@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C101D4E51180098EF58 /* slides_back_dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slides_back_dark@2x.png"; sourceTree = SOURCE_ROOT; };
 		BA456CA81A0E416D0056B4DF /* KAProgressLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAProgressLabel.h; sourceTree = "<group>"; };
 		BA456CA91A0E416D0056B4DF /* KAProgressLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAProgressLabel.m; sourceTree = "<group>"; };
 		BA456CAA1A0E416D0056B4DF /* TPPropertyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPropertyAnimation.h; sourceTree = "<group>"; };
@@ -4920,19 +4929,24 @@
 		69C52BD61D226F4200E73866 /* ZepatierDDIChapter */ = {
 			isa = PBXGroup;
 			children = (
+				69DC7C101D4E51180098EF58 /* slides_back_dark@2x.png */,
+				69DC7C061D4E3B3E0098EF58 /* general_tavla_tittle58x56@2x.png */,
+				69DC7C071D4E3B3E0098EF58 /* general_tavla01_133x230@2x.png */,
+				69DC7C081D4E3B3E0098EF58 /* general_tavla02_133x230@2x.png */,
+				69DC7C091D4E3B3E0098EF58 /* general_tavla03_133x230@2x.png */,
+				69DC7C0E1D4E3B5A0098EF58 /* general_tavla04_133x230@2x.png */,
 				69C52BD71D226F8D00E73866 /* ZepatierDDIPage1.h */,
 				69C52BD81D226F8D00E73866 /* ZepatierDDIPage1.m */,
 				69C52BDA1D226FB100E73866 /* ZepatierDDIPage1.xib */,
-				69C52BDC1D22701300E73866 /* general_tavla_tittle58x56@2x.png */,
-				69C52BDD1D22701300E73866 /* general_tavla01_133x230@2x.png */,
-				69C52BDE1D22701300E73866 /* general_tavla02_133x230@2x.png */,
-				69C52BDF1D22701300E73866 /* general_tavla03_133x230@2x.png */,
 				69C52BEA1D22755500E73866 /* ZepatierDDIPage2.h */,
 				69C52BEB1D22755500E73866 /* ZepatierDDIPage2.m */,
 				69C52BED1D22756400E73866 /* ZepatierDDIPage2.xib */,
 				69C52BEF1D22762900E73866 /* ZepatierDDIPage3.h */,
 				69C52BF01D22762900E73866 /* ZepatierDDIPage3.m */,
 				69C52BF21D22763600E73866 /* ZepatierDDIPage3.xib */,
+				69DC7C011D4E3A5D0098EF58 /* ZepatierDDIPage4.h */,
+				69DC7C021D4E3A5D0098EF58 /* ZepatierDDIPage4.m */,
+				69DC7C041D4E3A840098EF58 /* ZepatierDDIPage4.xib */,
 			);
 			name = ZepatierDDIChapter;
 			sourceTree = "<group>";
@@ -5375,6 +5389,7 @@
 				699920001C0AFF8700D3888F /* historyu_title_back.png in Resources */,
 				69A78A571C4FD640003E35E5 /* Icon-76.png in Resources */,
 				699922531C0B079600D3888F /* arrow-white@2x.png in Resources */,
+				69DC7C0A1D4E3B3E0098EF58 /* general_tavla_tittle58x56@2x.png in Resources */,
 				69991F201C0AFF8700D3888F /* endu_tab_app46@2x.png in Resources */,
 				69991ED41C0AFF8700D3888F /* endu_tab_app1.png in Resources */,
 				69991F681C0AFF8700D3888F /* historyu_add_samples_close.png in Resources */,
@@ -5442,6 +5457,7 @@
 				6999205E1C0AFF8700D3888F /* Localizable.strings in Resources */,
 				699920981C0AFF8700D3888F /* alon_larofe.png in Resources */,
 				69991F961C0AFF8700D3888F /* historyu_tab_app18.png in Resources */,
+				69DC7C0D1D4E3B3E0098EF58 /* general_tavla03_133x230@2x.png in Resources */,
 				69991F9B1C0AFF8700D3888F /* historyu_tab_app1l.png in Resources */,
 				DB66A751194A0793002A043E /* header_elonva1.png in Resources */,
 				69991ECF1C0AFF8700D3888F /* endu_samples_close_btn.png in Resources */,
@@ -5632,6 +5648,7 @@
 				69991FB01C0AFF8700D3888F /* historyu_tab_app28.png in Resources */,
 				6999225C1C0B079600D3888F /* CustomCallsPageDataView.xib in Resources */,
 				69A78A271C4F92F4003E35E5 /* G1b_graph_line@2x.png in Resources */,
+				69DC7C051D4E3A840098EF58 /* ZepatierDDIPage4.xib in Resources */,
 				69991FA61C0AFF8700D3888F /* historyu_tab_app23.png in Resources */,
 				699921291C0AFF8700D3888F /* gm_logo_mss_clarinase_s@2x.png in Resources */,
 				699920D91C0AFF8700D3888F /* gm_logo_start_s_en.png in Resources */,
@@ -5666,7 +5683,6 @@
 				69991EA41C0AFF8700D3888F /* DocSummaryView.xib in Resources */,
 				699921801C0AFF8700D3888F /* gmtool_checkbox.png in Resources */,
 				69991EE11C0AFF8700D3888F /* endu_tab_app1_o.png in Resources */,
-				69C52BE31D22701300E73866 /* general_tavla03_133x230@2x.png in Resources */,
 				699921941C0AFF8700D3888F /* GTMEditClinicView.xib in Resources */,
 				69991FD51C0AFF8700D3888F /* historyu_tab_app42_s.png in Resources */,
 				699920731C0AFF8700D3888F /* gm_button_toggle2.png in Resources */,
@@ -5824,6 +5840,7 @@
 				69991F861C0AFF8700D3888F /* historyu_mdl_noIpad.png in Resources */,
 				DBEF720E194A0F9A00F0EDC2 /* loginAll_back@2x.png in Resources */,
 				69991F771C0AFF8700D3888F /* historyu_drag_color_back.png in Resources */,
+				69DC7C111D4E51180098EF58 /* slides_back_dark@2x.png in Resources */,
 				6999219E1C0AFF8700D3888F /* GTMEditMenuView.xib in Resources */,
 				699921821C0AFF8700D3888F /* gmtool_edit_back.png in Resources */,
 				69A300F21C0DA8EA005DC5B1 /* Apps-Player-Video-icon.png in Resources */,
@@ -5863,7 +5880,6 @@
 				69610D1C1C4BC7AB00E81868 /* HP_OAT_ball1123x660@2x.png in Resources */,
 				6999215C1C0AFF8700D3888F /* gm_logo_start.png in Resources */,
 				69991FF91C0AFF8700D3888F /* historyu_tab_backl_s.png in Resources */,
-				69C52BE01D22701300E73866 /* general_tavla_tittle58x56@2x.png in Resources */,
 				69991EC51C0AFF8700D3888F /* endu_ipad_btn_d.png in Resources */,
 				699921251C0AFF8700D3888F /* gm_logo_mss_cerazette_s.png in Resources */,
 				699920DC1C0AFF8700D3888F /* gm_logo_videos_en.png in Resources */,
@@ -5897,6 +5913,7 @@
 				699921B21C0AFF8700D3888F /* Victrelis.png in Resources */,
 				69991F361C0AFF8700D3888F /* endu_tab_app_s.png in Resources */,
 				699920EC1C0AFF8700D3888F /* gm_logo_arcoxia_s.png in Resources */,
+				69DC7C0B1D4E3B3E0098EF58 /* general_tavla01_133x230@2x.png in Resources */,
 				69991F661C0AFF8700D3888F /* history.png in Resources */,
 				6999209C1C0AFF8700D3888F /* hatvayot.png in Resources */,
 				69991F8F1C0AFF8700D3888F /* historyu_tab_app14_s.png in Resources */,
@@ -5945,12 +5962,14 @@
 				69991F121C0AFF8700D3888F /* endu_tab_app4.png in Resources */,
 				699920BB1C0AFF8700D3888F /* gm_logo_home_s_en.png in Resources */,
 				699920681C0AFF8700D3888F /* EntitlementsDebug.plist in Resources */,
+				69DC7C0C1D4E3B3E0098EF58 /* general_tavla02_133x230@2x.png in Resources */,
 				69991F091C0AFF8700D3888F /* endu_tab_app37.png in Resources */,
 				6999212E1C0AFF8700D3888F /* gm_logo_mss_elonva.png in Resources */,
 				699921921C0AFF8700D3888F /* gmtool_white_msd_logo2.png in Resources */,
 				69991FA41C0AFF8700D3888F /* historyu_tab_app22.png in Resources */,
 				69991E7E1C0AFF8700D3888F /* background@2x.png in Resources */,
 				6999214B1C0AFF8700D3888F /* gm_logo_pharmacist_s.png in Resources */,
+				69DC7C0F1D4E3B5A0098EF58 /* general_tavla04_133x230@2x.png in Resources */,
 				69991F891C0AFF8700D3888F /* historyu_meetingList_back.png in Resources */,
 				69610D141C4BC7AB00E81868 /* Cirrhosic_ball.png in Resources */,
 				69991EEA1C0AFF8700D3888F /* endu_tab_app22_s.png in Resources */,
@@ -6125,7 +6144,6 @@
 				699921601C0AFF8700D3888F /* gm_logo_videos.png in Resources */,
 				699920B71C0AFF8700D3888F /* gm_logo_flows_s_en.png in Resources */,
 				69991EDC1C0AFF8700D3888F /* endu_tab_app17_s.png in Resources */,
-				69C52BE11D22701300E73866 /* general_tavla01_133x230@2x.png in Resources */,
 				6999219C1C0AFF8700D3888F /* GTMEditExpertiseView.xib in Resources */,
 				699922621C0B079600D3888F /* MSD-CALLangleItem.jpg in Resources */,
 				DB66A90E194A0C03002A043E /* quet_back.png in Resources */,
@@ -6213,7 +6231,6 @@
 				DB66A731194A0793002A043E /* BridionViewController.xib in Resources */,
 				699921AE1C0AFF8700D3888F /* Hospitals.png in Resources */,
 				699921151C0AFF8700D3888F /* gm_logo_livialovestin.png in Resources */,
-				69C52BE21D22701300E73866 /* general_tavla02_133x230@2x.png in Resources */,
 				69991F9C1C0AFF8700D3888F /* historyu_tab_app1l_s.png in Resources */,
 				699920231C0AFF8700D3888F /* HistoryUniversalTopView.xib in Resources */,
 				DB66A81B194A0820002A043E /* InfoPlist.strings in Resources */,
@@ -6363,6 +6380,7 @@
 				69991E441C0AFF8700D3888F /* CSqlRoom.m in Sources */,
 				699921BF1C0AFF8700D3888F /* SelectionViewController.m in Sources */,
 				6999206F1C0AFF8700D3888F /* GMMainMenuView.m in Sources */,
+				69DC7C031D4E3A5D0098EF58 /* ZepatierDDIPage4.m in Sources */,
 				69A789E31C4D3D59003E35E5 /* ZepatierTNPage1.m in Sources */,
 				699920541C0AFF8700D3888F /* ZoomingPDFViewerViewController.m in Sources */,
 				69991F4B1C0AFF8700D3888F /* NSObject+JSON.m in Sources */,

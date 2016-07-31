@@ -110,6 +110,14 @@
                 <key>ignoreMenu</key>
                 <false/>
             </dict>
+            <dict>
+                <key>className</key>
+                <string>ZepatierDDIPage4</string>
+                <key>previewImage</key>
+                <string>ZEPATIR_thumbs_DDI2</string>
+                <key>ignoreMenu</key>
+                <false/>
+            </dict>
         </array>
 	</dict>
 	<dict>

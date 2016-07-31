@@ -52,7 +52,7 @@ static BridionGMMainMenuView * instance;
                     index++;
                 }
             }
-			[self showHomeMenu:pagesArray statisticId:BridionStatistictMenuHome];
+			[self showHomeMenu:pagesArray statisticId:ZepatierStatisticsHomePage];
 
             break;
         }
