@@ -31,16 +31,22 @@
         return;
     }
     self.isLoaded = YES;
-    
-    [UIView animateWithDuration:1.0 animations:^{
-        self.title.alpha = 1.0;
-        self.title.frame = CGRectMake(29, 28, 995, 76);
+    [UIView animateWithDuration:0.5 delay:0.5 options:nil animations:^{
+        
     } completion:^(BOOL finished) {
         [UIView animateWithDuration:1.0 animations:^{
-            self.tavla.alpha = 1.0;
+            self.title.alpha = 1.0;
+            self.title.frame = CGRectMake(29, 28, 995, 76);
         } completion:^(BOOL finished) {
-            
+            [UIView animateWithDuration:1.0 animations:^{
+                self.tavla.alpha = 1.0;
+            } completion:^(BOOL finished) {
+                
+  
+    }];
+    
         }];
+  
     }];
     
     

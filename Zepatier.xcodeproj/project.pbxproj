@@ -26,6 +26,16 @@
 		693AE8751C4CEA9300F2DE1E /* ZepatierPageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 693AE8741C4CEA9300F2DE1E /* ZepatierPageData.m */; };
 		693AE8781C4CEAE900F2DE1E /* ZepatierChapterData.m in Sources */ = {isa = PBXBuildFile; fileRef = 693AE8771C4CEAE900F2DE1E /* ZepatierChapterData.m */; };
 		69507F9C1C50DB420081090A /* Zepatier.png in Resources */ = {isa = PBXBuildFile; fileRef = 69507F9B1C50DB420081090A /* Zepatier.png */; };
+		69557FD31D51DAD200407479 /* ZEPATIR_thumbs_DDI1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69557FCF1D51DAD200407479 /* ZEPATIR_thumbs_DDI1.png */; };
+		69557FD41D51DAD200407479 /* ZEPATIR_thumbs_DDI2.png in Resources */ = {isa = PBXBuildFile; fileRef = 69557FD01D51DAD200407479 /* ZEPATIR_thumbs_DDI2.png */; };
+		69557FD51D51DAD200407479 /* ZEPATIR_thumbs_DDI3.png in Resources */ = {isa = PBXBuildFile; fileRef = 69557FD11D51DAD200407479 /* ZEPATIR_thumbs_DDI3.png */; };
+		69557FD61D51DAD200407479 /* ZEPATIR_thumbs_DDI4.png in Resources */ = {isa = PBXBuildFile; fileRef = 69557FD21D51DAD200407479 /* ZEPATIR_thumbs_DDI4.png */; };
+		69557FD81D51DAE100407479 /* ZEPATIR_thumbs_g1b_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 69557FD71D51DAE100407479 /* ZEPATIR_thumbs_g1b_2.png */; };
+		69557FDE1D51DAF100407479 /* ZEPATIR_thumbs_general01.png in Resources */ = {isa = PBXBuildFile; fileRef = 69557FD91D51DAF100407479 /* ZEPATIR_thumbs_general01.png */; };
+		69557FDF1D51DAF100407479 /* ZEPATIR_thumbs_general02.png in Resources */ = {isa = PBXBuildFile; fileRef = 69557FDA1D51DAF100407479 /* ZEPATIR_thumbs_general02.png */; };
+		69557FE01D51DAF100407479 /* ZEPATIR_thumbs_general03.png in Resources */ = {isa = PBXBuildFile; fileRef = 69557FDB1D51DAF100407479 /* ZEPATIR_thumbs_general03.png */; };
+		69557FE11D51DAF100407479 /* ZEPATIR_thumbs_general04.png in Resources */ = {isa = PBXBuildFile; fileRef = 69557FDC1D51DAF100407479 /* ZEPATIR_thumbs_general04.png */; };
+		69557FE21D51DAF100407479 /* ZEPATIR_thumbs_general05.png in Resources */ = {isa = PBXBuildFile; fileRef = 69557FDD1D51DAF100407479 /* ZEPATIR_thumbs_general05.png */; };
 		69610D141C4BC7AB00E81868 /* Cirrhosic_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 69610D061C4BC7AB00E81868 /* Cirrhosic_ball.png */; };
 		69610D151C4BC7AB00E81868 /* HP_8w_ball916x464@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69610D071C4BC7AB00E81868 /* HP_8w_ball916x464@2x.png */; };
 		69610D161C4BC7AB00E81868 /* hp_back@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69610D081C4BC7AB00E81868 /* hp_back@2x.jpg */; };
@@ -1127,9 +1137,6 @@
 		69C52BEE1D22756400E73866 /* ZepatierDDIPage2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BED1D22756400E73866 /* ZepatierDDIPage2.xib */; };
 		69C52BF11D22762900E73866 /* ZepatierDDIPage3.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C52BF01D22762900E73866 /* ZepatierDDIPage3.m */; };
 		69C52BF31D22763600E73866 /* ZepatierDDIPage3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BF21D22763600E73866 /* ZepatierDDIPage3.xib */; };
-		69C52BF71D2291A600E73866 /* ZEPATIR_thumbs_DDI1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BF41D2291A600E73866 /* ZEPATIR_thumbs_DDI1.png */; };
-		69C52BF81D2291A600E73866 /* ZEPATIR_thumbs_DDI2.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BF51D2291A600E73866 /* ZEPATIR_thumbs_DDI2.png */; };
-		69C52BF91D2291A600E73866 /* ZEPATIR_thumbs_DDI3.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C52BF61D2291A600E73866 /* ZEPATIR_thumbs_DDI3.png */; };
 		69DC7C031D4E3A5D0098EF58 /* ZepatierDDIPage4.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DC7C021D4E3A5D0098EF58 /* ZepatierDDIPage4.m */; };
 		69DC7C051D4E3A840098EF58 /* ZepatierDDIPage4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C041D4E3A840098EF58 /* ZepatierDDIPage4.xib */; };
 		69DC7C0A1D4E3B3E0098EF58 /* general_tavla_tittle58x56@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C061D4E3B3E0098EF58 /* general_tavla_tittle58x56@2x.png */; };
@@ -1138,6 +1145,64 @@
 		69DC7C0D1D4E3B3E0098EF58 /* general_tavla03_133x230@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C091D4E3B3E0098EF58 /* general_tavla03_133x230@2x.png */; };
 		69DC7C0F1D4E3B5A0098EF58 /* general_tavla04_133x230@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C0E1D4E3B5A0098EF58 /* general_tavla04_133x230@2x.png */; };
 		69DC7C111D4E51180098EF58 /* slides_back_dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C101D4E51180098EF58 /* slides_back_dark@2x.png */; };
+		69DC7C161D4F35B40098EF58 /* ZepatierGeneralPage1.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DC7C151D4F35B40098EF58 /* ZepatierGeneralPage1.m */; };
+		69DC7C181D4F35EB0098EF58 /* ZepatierGeneralPage1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C171D4F35EB0098EF58 /* ZepatierGeneralPage1.xib */; };
+		69DC7C201D4F36370098EF58 /* General_01ref40x1023@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C191D4F36370098EF58 /* General_01ref40x1023@2x.png */; };
+		69DC7C211D4F36370098EF58 /* General_01slogen654x48@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C1A1D4F36370098EF58 /* General_01slogen654x48@2x.png */; };
+		69DC7C221D4F36370098EF58 /* General_01text1_216x470@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C1B1D4F36370098EF58 /* General_01text1_216x470@2x.png */; };
+		69DC7C231D4F36370098EF58 /* General_01text2_408x765@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C1C1D4F36370098EF58 /* General_01text2_408x765@2x.png */; };
+		69DC7C241D4F36370098EF58 /* General_01text3_192x1145@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C1D1D4F36370098EF58 /* General_01text3_192x1145@2x.png */; };
+		69DC7C251D4F36370098EF58 /* General01_g1a_ball794x811@2x_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C1E1D4F36370098EF58 /* General01_g1a_ball794x811@2x_03.png */; };
+		69DC7C261D4F36370098EF58 /* General01_g1b_ball442x494@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C1F1D4F36370098EF58 /* General01_g1b_ball442x494@2x.png */; };
+		69DC7C2B1D4F429F0098EF58 /* ZepatierGeneralPage2.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DC7C2A1D4F429F0098EF58 /* ZepatierGeneralPage2.m */; };
+		69DC7C2D1D4F42B10098EF58 /* ZepatierGeneralPage2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C2C1D4F42B10098EF58 /* ZepatierGeneralPage2.xib */; };
+		69DC7C331D4F42EB0098EF58 /* ZEPATIR_02chart334x222@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C2E1D4F42EB0098EF58 /* ZEPATIR_02chart334x222@2x.png */; };
+		69DC7C341D4F42EB0098EF58 /* ZEPATIR_02ref22x773@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C2F1D4F42EB0098EF58 /* ZEPATIR_02ref22x773@2x.png */; };
+		69DC7C351D4F42EB0098EF58 /* ZEPATIR_02slogen1608x0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C301D4F42EB0098EF58 /* ZEPATIR_02slogen1608x0@2x.png */; };
+		69DC7C361D4F42EB0098EF58 /* ZEPATIR_02text_down336x1089@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C311D4F42EB0098EF58 /* ZEPATIR_02text_down336x1089@2x.png */; };
+		69DC7C371D4F42EB0098EF58 /* ZEPATIR_02tittle52x82@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C321D4F42EB0098EF58 /* ZEPATIR_02tittle52x82@2x.png */; };
+		69DC7C3B1D4F477A0098EF58 /* ZepatierGeneralPage3.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DC7C3A1D4F477A0098EF58 /* ZepatierGeneralPage3.m */; };
+		69DC7C3D1D4F47870098EF58 /* ZepatierGeneralPage3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C3C1D4F47870098EF58 /* ZepatierGeneralPage3.xib */; };
+		69DC7C441D4F47B80098EF58 /* General03bar_back172x300@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C3E1D4F47B80098EF58 /* General03bar_back172x300@2x.png */; };
+		69DC7C451D4F47B80098EF58 /* General03bars342x410@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C3F1D4F47B80098EF58 /* General03bars342x410@2x.png */; };
+		69DC7C471D4F47B80098EF58 /* General03ref_44x985@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C411D4F47B80098EF58 /* General03ref_44x985@2x.png */; };
+		69DC7C481D4F47B80098EF58 /* General03textdown304x1131@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C421D4F47B80098EF58 /* General03textdown304x1131@2x.png */; };
+		69DC7C491D4F47B80098EF58 /* General03tittle58x100@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C431D4F47B80098EF58 /* General03tittle58x100@2x.png */; };
+		69DC7C4E1D4F6CB80098EF58 /* ZepatierGeneralPage4.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DC7C4D1D4F6CB80098EF58 /* ZepatierGeneralPage4.m */; };
+		69DC7C511D4F6CDA0098EF58 /* ZepatierGeneralPage4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C501D4F6CDA0098EF58 /* ZepatierGeneralPage4.xib */; };
+		69DC7C551D4F6D3B0098EF58 /* General04ref_40x1033@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C521D4F6D3B0098EF58 /* General04ref_40x1033@2x.png */; };
+		69DC7C561D4F6D3B0098EF58 /* General04text_78x284@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C531D4F6D3B0098EF58 /* General04text_78x284@2x.png */; };
+		69DC7C571D4F6D3B0098EF58 /* General04tittle_58x94@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C541D4F6D3B0098EF58 /* General04tittle_58x94@2x.png */; };
+		69DC7C5B1D4F6F7B0098EF58 /* ZepatierGeneralPage5.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DC7C5A1D4F6F7B0098EF58 /* ZepatierGeneralPage5.m */; };
+		69DC7C5D1D4F6F880098EF58 /* ZepatierGeneralPage5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C5C1D4F6F880098EF58 /* ZepatierGeneralPage5.xib */; };
+		69DC7C711D4F6FCF0098EF58 /* General05_ball_text1_256x268@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C5E1D4F6FCF0098EF58 /* General05_ball_text1_256x268@2x.png */; };
+		69DC7C721D4F6FCF0098EF58 /* General05_ball_text2_254x512@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C5F1D4F6FCF0098EF58 /* General05_ball_text2_254x512@2x.png */; };
+		69DC7C731D4F6FCF0098EF58 /* General05_ball_text3_1252x765@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C601D4F6FCF0098EF58 /* General05_ball_text3_1252x765@2x.png */; };
+		69DC7C741D4F6FCF0098EF58 /* General05_ball_text4_256x999@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C611D4F6FCF0098EF58 /* General05_ball_text4_256x999@2x.png */; };
+		69DC7C751D4F6FCF0098EF58 /* General05_ball_text5_1250x268@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C621D4F6FCF0098EF58 /* General05_ball_text5_1250x268@2x.png */; };
+		69DC7C761D4F6FCF0098EF58 /* General05_ball_text6_1248x512@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C631D4F6FCF0098EF58 /* General05_ball_text6_1248x512@2x.png */; };
+		69DC7C771D4F6FCF0098EF58 /* General05_ball_text7_1252x765@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C641D4F6FCF0098EF58 /* General05_ball_text7_1252x765@2x.png */; };
+		69DC7C781D4F6FCF0098EF58 /* General05_ball_text8_1252x997@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C651D4F6FCF0098EF58 /* General05_ball_text8_1252x997@2x.png */; };
+		69DC7C791D4F6FCF0098EF58 /* General05_ball1_76x306@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C661D4F6FCF0098EF58 /* General05_ball1_76x306@2x.png */; };
+		69DC7C7A1D4F6FCF0098EF58 /* General05_ball2_75x524@2x_.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C671D4F6FCF0098EF58 /* General05_ball2_75x524@2x_.png */; };
+		69DC7C7B1D4F6FCF0098EF58 /* General05_ball3_75x775@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C681D4F6FCF0098EF58 /* General05_ball3_75x775@2x.png */; };
+		69DC7C7C1D4F6FCF0098EF58 /* General05_ball4_73x1005@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C691D4F6FCF0098EF58 /* General05_ball4_73x1005@2x.png */; };
+		69DC7C7D1D4F6FCF0098EF58 /* General05_ball5_1058x286@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C6A1D4F6FCF0098EF58 /* General05_ball5_1058x286@2x.png */; };
+		69DC7C7E1D4F6FCF0098EF58 /* General05_ball6_1058x523@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C6B1D4F6FCF0098EF58 /* General05_ball6_1058x523@2x.png */; };
+		69DC7C7F1D4F6FCF0098EF58 /* General05_ball7_1058x773@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C6C1D4F6FCF0098EF58 /* General05_ball7_1058x773@2x.png */; };
+		69DC7C801D4F6FCF0098EF58 /* General05_ball8_1058x1005@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C6D1D4F6FCF0098EF58 /* General05_ball8_1058x1005@2x.png */; };
+		69DC7C811D4F6FCF0098EF58 /* General05_tittle62x84@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C6E1D4F6FCF0098EF58 /* General05_tittle62x84@2x.png */; };
+		69DC7C821D4F6FCF0098EF58 /* General05downtext_144x1271@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C6F1D4F6FCF0098EF58 /* General05downtext_144x1271@2x.png */; };
+		69DC7C831D4F6FCF0098EF58 /* General05ref34x250@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C701D4F6FCF0098EF58 /* General05ref34x250@2x.png */; };
+		69DC7C891D4F81E50098EF58 /* ZepatierG1bPage2.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DC7C881D4F81E50098EF58 /* ZepatierG1bPage2.m */; };
+		69DC7C8B1D4F81F40098EF58 /* ZepatierG1bPage2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C8A1D4F81F40098EF58 /* ZepatierG1bPage2.xib */; };
+		69DC7C911D4F83720098EF58 /* 02G1b_backgraph_136x402@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C8C1D4F83720098EF58 /* 02G1b_backgraph_136x402@2x.png */; };
+		69DC7C921D4F83720098EF58 /* 02G1b_downtext288x1126@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C8D1D4F83720098EF58 /* 02G1b_downtext288x1126@2x.png */; };
+		69DC7C931D4F83720098EF58 /* 02G1b_graph372x434@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C8E1D4F83720098EF58 /* 02G1b_graph372x434@2x.png */; };
+		69DC7C951D4F83720098EF58 /* 02G1b_tittle62x78@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C901D4F83720098EF58 /* 02G1b_tittle62x78@2x.png */; };
+		69DC7C971D4F89940098EF58 /* General03man1400x252@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DC7C961D4F89940098EF58 /* General03man1400x252@2x.png */; };
+		69E5596F1D52182A005AAE33 /* 02G1b_ref26x352@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E5596E1D52182A005AAE33 /* 02G1b_ref26x352@2x.png */; };
+		69E559711D521846005AAE33 /* General_01text2B_1148x997@2x_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E559701D521846005AAE33 /* General_01text2B_1148x997@2x_03.png */; };
 		BA456CAC1A0E416D0056B4DF /* KAProgressLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA456CA91A0E416D0056B4DF /* KAProgressLabel.m */; };
 		BA456CAD1A0E416D0056B4DF /* TPPropertyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA456CAB1A0E416D0056B4DF /* TPPropertyAnimation.m */; };
 		BABE0A791A0E354200E0BBF7 /* JWGCircleCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = BABE0A781A0E354200E0BBF7 /* JWGCircleCounter.m */; };
@@ -1282,6 +1347,16 @@
 		693AE8761C4CEAE900F2DE1E /* ZepatierChapterData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierChapterData.h; sourceTree = "<group>"; };
 		693AE8771C4CEAE900F2DE1E /* ZepatierChapterData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierChapterData.m; sourceTree = "<group>"; };
 		69507F9B1C50DB420081090A /* Zepatier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zepatier.png; sourceTree = "<group>"; };
+		69557FCF1D51DAD200407479 /* ZEPATIR_thumbs_DDI1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI1.png; sourceTree = SOURCE_ROOT; };
+		69557FD01D51DAD200407479 /* ZEPATIR_thumbs_DDI2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI2.png; sourceTree = SOURCE_ROOT; };
+		69557FD11D51DAD200407479 /* ZEPATIR_thumbs_DDI3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI3.png; sourceTree = SOURCE_ROOT; };
+		69557FD21D51DAD200407479 /* ZEPATIR_thumbs_DDI4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI4.png; sourceTree = SOURCE_ROOT; };
+		69557FD71D51DAE100407479 /* ZEPATIR_thumbs_g1b_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_g1b_2.png; sourceTree = SOURCE_ROOT; };
+		69557FD91D51DAF100407479 /* ZEPATIR_thumbs_general01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_general01.png; sourceTree = SOURCE_ROOT; };
+		69557FDA1D51DAF100407479 /* ZEPATIR_thumbs_general02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_general02.png; sourceTree = SOURCE_ROOT; };
+		69557FDB1D51DAF100407479 /* ZEPATIR_thumbs_general03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_general03.png; sourceTree = SOURCE_ROOT; };
+		69557FDC1D51DAF100407479 /* ZEPATIR_thumbs_general04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_general04.png; sourceTree = SOURCE_ROOT; };
+		69557FDD1D51DAF100407479 /* ZEPATIR_thumbs_general05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_general05.png; sourceTree = SOURCE_ROOT; };
 		69610D061C4BC7AB00E81868 /* Cirrhosic_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cirrhosic_ball.png; sourceTree = SOURCE_ROOT; };
 		69610D071C4BC7AB00E81868 /* HP_8w_ball916x464@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HP_8w_ball916x464@2x.png"; sourceTree = SOURCE_ROOT; };
 		69610D081C4BC7AB00E81868 /* hp_back@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hp_back@2x.jpg"; sourceTree = SOURCE_ROOT; };
@@ -2616,9 +2691,6 @@
 		69C52BEF1D22762900E73866 /* ZepatierDDIPage3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierDDIPage3.h; sourceTree = SOURCE_ROOT; };
 		69C52BF01D22762900E73866 /* ZepatierDDIPage3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierDDIPage3.m; sourceTree = SOURCE_ROOT; };
 		69C52BF21D22763600E73866 /* ZepatierDDIPage3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierDDIPage3.xib; sourceTree = SOURCE_ROOT; };
-		69C52BF41D2291A600E73866 /* ZEPATIR_thumbs_DDI1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI1.png; sourceTree = SOURCE_ROOT; };
-		69C52BF51D2291A600E73866 /* ZEPATIR_thumbs_DDI2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI2.png; sourceTree = SOURCE_ROOT; };
-		69C52BF61D2291A600E73866 /* ZEPATIR_thumbs_DDI3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZEPATIR_thumbs_DDI3.png; sourceTree = SOURCE_ROOT; };
 		69DC7C011D4E3A5D0098EF58 /* ZepatierDDIPage4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierDDIPage4.h; sourceTree = SOURCE_ROOT; };
 		69DC7C021D4E3A5D0098EF58 /* ZepatierDDIPage4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierDDIPage4.m; sourceTree = SOURCE_ROOT; };
 		69DC7C041D4E3A840098EF58 /* ZepatierDDIPage4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierDDIPage4.xib; sourceTree = SOURCE_ROOT; };
@@ -2628,6 +2700,70 @@
 		69DC7C091D4E3B3E0098EF58 /* general_tavla03_133x230@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla03_133x230@2x.png"; sourceTree = SOURCE_ROOT; };
 		69DC7C0E1D4E3B5A0098EF58 /* general_tavla04_133x230@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_tavla04_133x230@2x.png"; sourceTree = SOURCE_ROOT; };
 		69DC7C101D4E51180098EF58 /* slides_back_dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slides_back_dark@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C141D4F35B40098EF58 /* ZepatierGeneralPage1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierGeneralPage1.h; sourceTree = SOURCE_ROOT; };
+		69DC7C151D4F35B40098EF58 /* ZepatierGeneralPage1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierGeneralPage1.m; sourceTree = SOURCE_ROOT; };
+		69DC7C171D4F35EB0098EF58 /* ZepatierGeneralPage1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierGeneralPage1.xib; sourceTree = SOURCE_ROOT; };
+		69DC7C191D4F36370098EF58 /* General_01ref40x1023@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General_01ref40x1023@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C1A1D4F36370098EF58 /* General_01slogen654x48@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General_01slogen654x48@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C1B1D4F36370098EF58 /* General_01text1_216x470@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General_01text1_216x470@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C1C1D4F36370098EF58 /* General_01text2_408x765@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General_01text2_408x765@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C1D1D4F36370098EF58 /* General_01text3_192x1145@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General_01text3_192x1145@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C1E1D4F36370098EF58 /* General01_g1a_ball794x811@2x_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General01_g1a_ball794x811@2x_03.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C1F1D4F36370098EF58 /* General01_g1b_ball442x494@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General01_g1b_ball442x494@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C291D4F429F0098EF58 /* ZepatierGeneralPage2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierGeneralPage2.h; sourceTree = SOURCE_ROOT; };
+		69DC7C2A1D4F429F0098EF58 /* ZepatierGeneralPage2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierGeneralPage2.m; sourceTree = SOURCE_ROOT; };
+		69DC7C2C1D4F42B10098EF58 /* ZepatierGeneralPage2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierGeneralPage2.xib; sourceTree = SOURCE_ROOT; };
+		69DC7C2E1D4F42EB0098EF58 /* ZEPATIR_02chart334x222@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZEPATIR_02chart334x222@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C2F1D4F42EB0098EF58 /* ZEPATIR_02ref22x773@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZEPATIR_02ref22x773@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C301D4F42EB0098EF58 /* ZEPATIR_02slogen1608x0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZEPATIR_02slogen1608x0@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C311D4F42EB0098EF58 /* ZEPATIR_02text_down336x1089@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZEPATIR_02text_down336x1089@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C321D4F42EB0098EF58 /* ZEPATIR_02tittle52x82@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZEPATIR_02tittle52x82@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C391D4F477A0098EF58 /* ZepatierGeneralPage3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierGeneralPage3.h; sourceTree = SOURCE_ROOT; };
+		69DC7C3A1D4F477A0098EF58 /* ZepatierGeneralPage3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierGeneralPage3.m; sourceTree = SOURCE_ROOT; };
+		69DC7C3C1D4F47870098EF58 /* ZepatierGeneralPage3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierGeneralPage3.xib; sourceTree = SOURCE_ROOT; };
+		69DC7C3E1D4F47B80098EF58 /* General03bar_back172x300@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General03bar_back172x300@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C3F1D4F47B80098EF58 /* General03bars342x410@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General03bars342x410@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C411D4F47B80098EF58 /* General03ref_44x985@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General03ref_44x985@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C421D4F47B80098EF58 /* General03textdown304x1131@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General03textdown304x1131@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C431D4F47B80098EF58 /* General03tittle58x100@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General03tittle58x100@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C4C1D4F6CB80098EF58 /* ZepatierGeneralPage4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierGeneralPage4.h; sourceTree = SOURCE_ROOT; };
+		69DC7C4D1D4F6CB80098EF58 /* ZepatierGeneralPage4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierGeneralPage4.m; sourceTree = SOURCE_ROOT; };
+		69DC7C501D4F6CDA0098EF58 /* ZepatierGeneralPage4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierGeneralPage4.xib; sourceTree = SOURCE_ROOT; };
+		69DC7C521D4F6D3B0098EF58 /* General04ref_40x1033@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General04ref_40x1033@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C531D4F6D3B0098EF58 /* General04text_78x284@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General04text_78x284@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C541D4F6D3B0098EF58 /* General04tittle_58x94@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General04tittle_58x94@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C591D4F6F7B0098EF58 /* ZepatierGeneralPage5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierGeneralPage5.h; sourceTree = SOURCE_ROOT; };
+		69DC7C5A1D4F6F7B0098EF58 /* ZepatierGeneralPage5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierGeneralPage5.m; sourceTree = SOURCE_ROOT; };
+		69DC7C5C1D4F6F880098EF58 /* ZepatierGeneralPage5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierGeneralPage5.xib; sourceTree = SOURCE_ROOT; };
+		69DC7C5E1D4F6FCF0098EF58 /* General05_ball_text1_256x268@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball_text1_256x268@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C5F1D4F6FCF0098EF58 /* General05_ball_text2_254x512@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball_text2_254x512@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C601D4F6FCF0098EF58 /* General05_ball_text3_1252x765@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball_text3_1252x765@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C611D4F6FCF0098EF58 /* General05_ball_text4_256x999@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball_text4_256x999@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C621D4F6FCF0098EF58 /* General05_ball_text5_1250x268@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball_text5_1250x268@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C631D4F6FCF0098EF58 /* General05_ball_text6_1248x512@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball_text6_1248x512@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C641D4F6FCF0098EF58 /* General05_ball_text7_1252x765@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball_text7_1252x765@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C651D4F6FCF0098EF58 /* General05_ball_text8_1252x997@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball_text8_1252x997@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C661D4F6FCF0098EF58 /* General05_ball1_76x306@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball1_76x306@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C671D4F6FCF0098EF58 /* General05_ball2_75x524@2x_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball2_75x524@2x_.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C681D4F6FCF0098EF58 /* General05_ball3_75x775@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball3_75x775@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C691D4F6FCF0098EF58 /* General05_ball4_73x1005@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball4_73x1005@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C6A1D4F6FCF0098EF58 /* General05_ball5_1058x286@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball5_1058x286@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C6B1D4F6FCF0098EF58 /* General05_ball6_1058x523@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball6_1058x523@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C6C1D4F6FCF0098EF58 /* General05_ball7_1058x773@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball7_1058x773@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C6D1D4F6FCF0098EF58 /* General05_ball8_1058x1005@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_ball8_1058x1005@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C6E1D4F6FCF0098EF58 /* General05_tittle62x84@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05_tittle62x84@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C6F1D4F6FCF0098EF58 /* General05downtext_144x1271@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05downtext_144x1271@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C701D4F6FCF0098EF58 /* General05ref34x250@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General05ref34x250@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C871D4F81E50098EF58 /* ZepatierG1bPage2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZepatierG1bPage2.h; sourceTree = SOURCE_ROOT; };
+		69DC7C881D4F81E50098EF58 /* ZepatierG1bPage2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZepatierG1bPage2.m; sourceTree = SOURCE_ROOT; };
+		69DC7C8A1D4F81F40098EF58 /* ZepatierG1bPage2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZepatierG1bPage2.xib; sourceTree = SOURCE_ROOT; };
+		69DC7C8C1D4F83720098EF58 /* 02G1b_backgraph_136x402@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02G1b_backgraph_136x402@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C8D1D4F83720098EF58 /* 02G1b_downtext288x1126@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02G1b_downtext288x1126@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C8E1D4F83720098EF58 /* 02G1b_graph372x434@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02G1b_graph372x434@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C901D4F83720098EF58 /* 02G1b_tittle62x78@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02G1b_tittle62x78@2x.png"; sourceTree = SOURCE_ROOT; };
+		69DC7C961D4F89940098EF58 /* General03man1400x252@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General03man1400x252@2x.png"; sourceTree = SOURCE_ROOT; };
+		69E5596E1D52182A005AAE33 /* 02G1b_ref26x352@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02G1b_ref26x352@2x.png"; sourceTree = SOURCE_ROOT; };
+		69E559701D521846005AAE33 /* General_01text2B_1148x997@2x_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General_01text2B_1148x997@2x_03.png"; sourceTree = SOURCE_ROOT; };
 		BA456CA81A0E416D0056B4DF /* KAProgressLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAProgressLabel.h; sourceTree = "<group>"; };
 		BA456CA91A0E416D0056B4DF /* KAProgressLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAProgressLabel.m; sourceTree = "<group>"; };
 		BA456CAA1A0E416D0056B4DF /* TPPropertyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPropertyAnimation.h; sourceTree = "<group>"; };
@@ -2840,6 +2976,7 @@
 		5D55120518157B4800542038 /* Bridion */ = {
 			isa = PBXGroup;
 			children = (
+				69DC7C131D4F356D0098EF58 /* ZepatierGeneralChapter */,
 				69C52BD61D226F4200E73866 /* ZepatierDDIChapter */,
 				69A78A591C4FD83F003E35E5 /* ZepatierThumbs */,
 				69A78A2B1C4F9F50003E35E5 /* ZepatierCirrhosisChapter */,
@@ -4854,16 +4991,8 @@
 		69A78A171C4F9219003E35E5 /* ZepatierG1bChapter */ = {
 			isa = PBXGroup;
 			children = (
-				69A78A1D1C4F92F4003E35E5 /* G1b_bars@2x.png */,
-				69A78A1E1C4F92F4003E35E5 /* G1b_blue_boxtext@2x.png */,
-				69A78A1F1C4F92F4003E35E5 /* G1b_case_study@2x.png */,
-				69A78A201C4F92F4003E35E5 /* G1b_graph_line@2x.png */,
-				69A78A211C4F92F4003E35E5 /* G1b_people@2x.png */,
-				69A78A221C4F92F4003E35E5 /* G1b_small_ball@2x.png */,
-				69A78A231C4F92F4003E35E5 /* G1b_tittle@2x.png */,
-				69A78A181C4F9244003E35E5 /* ZepatierG1bPage1.h */,
-				69A78A191C4F9244003E35E5 /* ZepatierG1bPage1.m */,
-				69A78A1B1C4F9255003E35E5 /* ZepatierG1bPage1.xib */,
+				69DC7C861D4F81CA0098EF58 /* ZepatierG1bPage2 */,
+				69DC7C841D4F81AE0098EF58 /* ZepatierG1bPage1 */,
 			);
 			name = ZepatierG1bChapter;
 			sourceTree = "<group>";
@@ -4895,9 +5024,16 @@
 		69A78A591C4FD83F003E35E5 /* ZepatierThumbs */ = {
 			isa = PBXGroup;
 			children = (
-				69C52BF41D2291A600E73866 /* ZEPATIR_thumbs_DDI1.png */,
-				69C52BF51D2291A600E73866 /* ZEPATIR_thumbs_DDI2.png */,
-				69C52BF61D2291A600E73866 /* ZEPATIR_thumbs_DDI3.png */,
+				69557FD91D51DAF100407479 /* ZEPATIR_thumbs_general01.png */,
+				69557FDA1D51DAF100407479 /* ZEPATIR_thumbs_general02.png */,
+				69557FDB1D51DAF100407479 /* ZEPATIR_thumbs_general03.png */,
+				69557FDC1D51DAF100407479 /* ZEPATIR_thumbs_general04.png */,
+				69557FDD1D51DAF100407479 /* ZEPATIR_thumbs_general05.png */,
+				69557FD71D51DAE100407479 /* ZEPATIR_thumbs_g1b_2.png */,
+				69557FCF1D51DAD200407479 /* ZEPATIR_thumbs_DDI1.png */,
+				69557FD01D51DAD200407479 /* ZEPATIR_thumbs_DDI2.png */,
+				69557FD11D51DAD200407479 /* ZEPATIR_thumbs_DDI3.png */,
+				69557FD21D51DAD200407479 /* ZEPATIR_thumbs_DDI4.png */,
 				69A78A5A1C4FD867003E35E5 /* ZEPATIR_thumbs_cirrhosis1.png */,
 				69A78A5B1C4FD867003E35E5 /* ZEPATIR_thumbs_cirrhosis2.png */,
 				69A78A5C1C4FD867003E35E5 /* ZEPATIR_thumbs_demographic.png */,
@@ -4949,6 +5085,141 @@
 				69DC7C041D4E3A840098EF58 /* ZepatierDDIPage4.xib */,
 			);
 			name = ZepatierDDIChapter;
+			sourceTree = "<group>";
+		};
+		69DC7C131D4F356D0098EF58 /* ZepatierGeneralChapter */ = {
+			isa = PBXGroup;
+			children = (
+				69DC7C581D4F6F630098EF58 /* ZepatierGeneralPage5 */,
+				69DC7C4F1D4F6CC10098EF58 /* ZepatierGeneralPage4 */,
+				69DC7C381D4F47600098EF58 /* ZepatierGeneralPage3 */,
+				69DC7C281D4F42880098EF58 /* ZepatierGeneralPage2 */,
+				69DC7C271D4F427A0098EF58 /* ZepatierGeneralPage1 */,
+			);
+			name = ZepatierGeneralChapter;
+			sourceTree = "<group>";
+		};
+		69DC7C271D4F427A0098EF58 /* ZepatierGeneralPage1 */ = {
+			isa = PBXGroup;
+			children = (
+				69DC7C191D4F36370098EF58 /* General_01ref40x1023@2x.png */,
+				69DC7C1A1D4F36370098EF58 /* General_01slogen654x48@2x.png */,
+				69DC7C1B1D4F36370098EF58 /* General_01text1_216x470@2x.png */,
+				69DC7C1C1D4F36370098EF58 /* General_01text2_408x765@2x.png */,
+				69E559701D521846005AAE33 /* General_01text2B_1148x997@2x_03.png */,
+				69DC7C1D1D4F36370098EF58 /* General_01text3_192x1145@2x.png */,
+				69DC7C1E1D4F36370098EF58 /* General01_g1a_ball794x811@2x_03.png */,
+				69DC7C1F1D4F36370098EF58 /* General01_g1b_ball442x494@2x.png */,
+				69DC7C141D4F35B40098EF58 /* ZepatierGeneralPage1.h */,
+				69DC7C151D4F35B40098EF58 /* ZepatierGeneralPage1.m */,
+				69DC7C171D4F35EB0098EF58 /* ZepatierGeneralPage1.xib */,
+			);
+			name = ZepatierGeneralPage1;
+			sourceTree = "<group>";
+		};
+		69DC7C281D4F42880098EF58 /* ZepatierGeneralPage2 */ = {
+			isa = PBXGroup;
+			children = (
+				69DC7C2E1D4F42EB0098EF58 /* ZEPATIR_02chart334x222@2x.png */,
+				69DC7C2F1D4F42EB0098EF58 /* ZEPATIR_02ref22x773@2x.png */,
+				69DC7C301D4F42EB0098EF58 /* ZEPATIR_02slogen1608x0@2x.png */,
+				69DC7C311D4F42EB0098EF58 /* ZEPATIR_02text_down336x1089@2x.png */,
+				69DC7C321D4F42EB0098EF58 /* ZEPATIR_02tittle52x82@2x.png */,
+				69DC7C291D4F429F0098EF58 /* ZepatierGeneralPage2.h */,
+				69DC7C2A1D4F429F0098EF58 /* ZepatierGeneralPage2.m */,
+				69DC7C2C1D4F42B10098EF58 /* ZepatierGeneralPage2.xib */,
+			);
+			name = ZepatierGeneralPage2;
+			sourceTree = "<group>";
+		};
+		69DC7C381D4F47600098EF58 /* ZepatierGeneralPage3 */ = {
+			isa = PBXGroup;
+			children = (
+				69DC7C3E1D4F47B80098EF58 /* General03bar_back172x300@2x.png */,
+				69DC7C3F1D4F47B80098EF58 /* General03bars342x410@2x.png */,
+				69DC7C961D4F89940098EF58 /* General03man1400x252@2x.png */,
+				69DC7C411D4F47B80098EF58 /* General03ref_44x985@2x.png */,
+				69DC7C421D4F47B80098EF58 /* General03textdown304x1131@2x.png */,
+				69DC7C431D4F47B80098EF58 /* General03tittle58x100@2x.png */,
+				69DC7C391D4F477A0098EF58 /* ZepatierGeneralPage3.h */,
+				69DC7C3A1D4F477A0098EF58 /* ZepatierGeneralPage3.m */,
+				69DC7C3C1D4F47870098EF58 /* ZepatierGeneralPage3.xib */,
+			);
+			name = ZepatierGeneralPage3;
+			sourceTree = "<group>";
+		};
+		69DC7C4F1D4F6CC10098EF58 /* ZepatierGeneralPage4 */ = {
+			isa = PBXGroup;
+			children = (
+				69DC7C521D4F6D3B0098EF58 /* General04ref_40x1033@2x.png */,
+				69DC7C531D4F6D3B0098EF58 /* General04text_78x284@2x.png */,
+				69DC7C541D4F6D3B0098EF58 /* General04tittle_58x94@2x.png */,
+				69DC7C4C1D4F6CB80098EF58 /* ZepatierGeneralPage4.h */,
+				69DC7C4D1D4F6CB80098EF58 /* ZepatierGeneralPage4.m */,
+				69DC7C501D4F6CDA0098EF58 /* ZepatierGeneralPage4.xib */,
+			);
+			name = ZepatierGeneralPage4;
+			sourceTree = "<group>";
+		};
+		69DC7C581D4F6F630098EF58 /* ZepatierGeneralPage5 */ = {
+			isa = PBXGroup;
+			children = (
+				69DC7C5E1D4F6FCF0098EF58 /* General05_ball_text1_256x268@2x.png */,
+				69DC7C5F1D4F6FCF0098EF58 /* General05_ball_text2_254x512@2x.png */,
+				69DC7C601D4F6FCF0098EF58 /* General05_ball_text3_1252x765@2x.png */,
+				69DC7C611D4F6FCF0098EF58 /* General05_ball_text4_256x999@2x.png */,
+				69DC7C621D4F6FCF0098EF58 /* General05_ball_text5_1250x268@2x.png */,
+				69DC7C631D4F6FCF0098EF58 /* General05_ball_text6_1248x512@2x.png */,
+				69DC7C641D4F6FCF0098EF58 /* General05_ball_text7_1252x765@2x.png */,
+				69DC7C651D4F6FCF0098EF58 /* General05_ball_text8_1252x997@2x.png */,
+				69DC7C661D4F6FCF0098EF58 /* General05_ball1_76x306@2x.png */,
+				69DC7C671D4F6FCF0098EF58 /* General05_ball2_75x524@2x_.png */,
+				69DC7C681D4F6FCF0098EF58 /* General05_ball3_75x775@2x.png */,
+				69DC7C691D4F6FCF0098EF58 /* General05_ball4_73x1005@2x.png */,
+				69DC7C6A1D4F6FCF0098EF58 /* General05_ball5_1058x286@2x.png */,
+				69DC7C6B1D4F6FCF0098EF58 /* General05_ball6_1058x523@2x.png */,
+				69DC7C6C1D4F6FCF0098EF58 /* General05_ball7_1058x773@2x.png */,
+				69DC7C6D1D4F6FCF0098EF58 /* General05_ball8_1058x1005@2x.png */,
+				69DC7C6E1D4F6FCF0098EF58 /* General05_tittle62x84@2x.png */,
+				69DC7C6F1D4F6FCF0098EF58 /* General05downtext_144x1271@2x.png */,
+				69DC7C701D4F6FCF0098EF58 /* General05ref34x250@2x.png */,
+				69DC7C591D4F6F7B0098EF58 /* ZepatierGeneralPage5.h */,
+				69DC7C5A1D4F6F7B0098EF58 /* ZepatierGeneralPage5.m */,
+				69DC7C5C1D4F6F880098EF58 /* ZepatierGeneralPage5.xib */,
+			);
+			name = ZepatierGeneralPage5;
+			sourceTree = "<group>";
+		};
+		69DC7C841D4F81AE0098EF58 /* ZepatierG1bPage1 */ = {
+			isa = PBXGroup;
+			children = (
+				69A78A1D1C4F92F4003E35E5 /* G1b_bars@2x.png */,
+				69A78A1E1C4F92F4003E35E5 /* G1b_blue_boxtext@2x.png */,
+				69A78A1F1C4F92F4003E35E5 /* G1b_case_study@2x.png */,
+				69A78A201C4F92F4003E35E5 /* G1b_graph_line@2x.png */,
+				69A78A211C4F92F4003E35E5 /* G1b_people@2x.png */,
+				69A78A221C4F92F4003E35E5 /* G1b_small_ball@2x.png */,
+				69A78A231C4F92F4003E35E5 /* G1b_tittle@2x.png */,
+				69A78A181C4F9244003E35E5 /* ZepatierG1bPage1.h */,
+				69A78A191C4F9244003E35E5 /* ZepatierG1bPage1.m */,
+				69A78A1B1C4F9255003E35E5 /* ZepatierG1bPage1.xib */,
+			);
+			name = ZepatierG1bPage1;
+			sourceTree = "<group>";
+		};
+		69DC7C861D4F81CA0098EF58 /* ZepatierG1bPage2 */ = {
+			isa = PBXGroup;
+			children = (
+				69DC7C8C1D4F83720098EF58 /* 02G1b_backgraph_136x402@2x.png */,
+				69DC7C8D1D4F83720098EF58 /* 02G1b_downtext288x1126@2x.png */,
+				69DC7C8E1D4F83720098EF58 /* 02G1b_graph372x434@2x.png */,
+				69E5596E1D52182A005AAE33 /* 02G1b_ref26x352@2x.png */,
+				69DC7C901D4F83720098EF58 /* 02G1b_tittle62x78@2x.png */,
+				69DC7C871D4F81E50098EF58 /* ZepatierG1bPage2.h */,
+				69DC7C881D4F81E50098EF58 /* ZepatierG1bPage2.m */,
+				69DC7C8A1D4F81F40098EF58 /* ZepatierG1bPage2.xib */,
+			);
+			name = ZepatierG1bPage2;
 			sourceTree = "<group>";
 		};
 		BA456CA71A0E416D0056B4DF /* KAProgressLabel */ = {
@@ -5324,7 +5595,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				699920D41C0AFF8700D3888F /* gm_logo_redirect_en.png in Resources */,
+				69DC7C351D4F42EB0098EF58 /* ZEPATIR_02slogen1608x0@2x.png in Resources */,
 				69C52BEE1D22756400E73866 /* ZepatierDDIPage2.xib in Resources */,
+				69DC7C441D4F47B80098EF58 /* General03bar_back172x300@2x.png in Resources */,
 				699920291C0AFF8700D3888F /* HistoryUniversalAddSamplesPopView.xib in Resources */,
 				69991F181C0AFF8700D3888F /* endu_tab_app42_s.png in Resources */,
 				69991FE01C0AFF8700D3888F /* historyu_tab_app47@2x.png in Resources */,
@@ -5334,6 +5607,7 @@
 				699921371C0AFF8700D3888F /* gm_logo_mss_januvia_s.png in Resources */,
 				69C52BDB1D226FB100E73866 /* ZepatierDDIPage1.xib in Resources */,
 				699920201C0AFF8700D3888F /* HistoryUniversalOtherViewController.xib in Resources */,
+				69DC7C371D4F42EB0098EF58 /* ZEPATIR_02tittle52x82@2x.png in Resources */,
 				699920791C0AFF8700D3888F /* gm_email_close.png in Resources */,
 				69A78A401C4F9FB9003E35E5 /* Chirrhosis_1_tittle@2x.png in Resources */,
 				69991F981C0AFF8700D3888F /* historyu_tab_app19.png in Resources */,
@@ -5341,6 +5615,7 @@
 				69991F7A1C0AFF8700D3888F /* historyu_freezed_btn_s.png in Resources */,
 				69991EE31C0AFF8700D3888F /* endu_tab_app1_s_o.png in Resources */,
 				699920761C0AFF8700D3888F /* gm_catalog_noInternet.png in Resources */,
+				69DC7C791D4F6FCF0098EF58 /* General05_ball1_76x306@2x.png in Resources */,
 				699921891C0AFF8700D3888F /* gmtool_edit_field_short.png in Resources */,
 				69991E951C0AFF8700D3888F /* power_butt_press@2x.png in Resources */,
 				699921021C0AFF8700D3888F /* gm_logo_flyers_s.png in Resources */,
@@ -5371,12 +5646,12 @@
 				69991E1F1C0AFF8700D3888F /* chat_edituser_delete_btn.png in Resources */,
 				699921131C0AFF8700D3888F /* gm_logo_lecture.png in Resources */,
 				69A78A2A1C4F92F4003E35E5 /* G1b_tittle@2x.png in Resources */,
+				69557FE01D51DAF100407479 /* ZEPATIR_thumbs_general03.png in Resources */,
 				699920D71C0AFF8700D3888F /* gm_logo_safety_s_en.png in Resources */,
 				69991F691C0AFF8700D3888F /* historyu_add_samples_grid.png in Resources */,
 				699920B51C0AFF8700D3888F /* gm_logo_doctor_s_en.png in Resources */,
 				6999204A1C0AFF8700D3888F /* pdf_link_row2.png in Resources */,
 				69A78A661C4FD867003E35E5 /* ZEPATIR_thumbs_g1b.png in Resources */,
-				69C52BF81D2291A600E73866 /* ZEPATIR_thumbs_DDI2.png in Resources */,
 				699920941C0AFF8700D3888F /* gm_row_back_red.png in Resources */,
 				699920351C0AFF8700D3888F /* login_logos_arx-fsv.png in Resources */,
 				699921911C0AFF8700D3888F /* gmtool_white_msd_logo.png in Resources */,
@@ -5402,6 +5677,7 @@
 				69991EDA1C0AFF8700D3888F /* endu_tab_app16_s.png in Resources */,
 				6999212D1C0AFF8700D3888F /* gm_logo_mss_diprospan_s.png in Resources */,
 				699920A71C0AFF8700D3888F /* Beyond_the_pill_white.png in Resources */,
+				69557FDE1D51DAF100407479 /* ZEPATIR_thumbs_general01.png in Resources */,
 				69A789FB1C4E50C4003E35E5 /* G1a_bars@2x.png in Resources */,
 				69A78A581C4FD640003E35E5 /* Icon-76@2x.png in Resources */,
 				6999217A1C0AFF8700D3888F /* gmtool_btn_edit.png in Resources */,
@@ -5431,6 +5707,7 @@
 				69991FC01C0AFF8700D3888F /* historyu_tab_app34_s.png in Resources */,
 				6999213D1C0AFF8700D3888F /* gm_logo_mss_puregon_s.png in Resources */,
 				69991FE71C0AFF8700D3888F /* historyu_tab_app49_s.png in Resources */,
+				69E5596F1D52182A005AAE33 /* 02G1b_ref26x352@2x.png in Resources */,
 				69991FED1C0AFF8700D3888F /* historyu_tab_app5r.png in Resources */,
 				69991FBE1C0AFF8700D3888F /* historyu_tab_app33_s.png in Resources */,
 				69A789DD1C4D3D13003E35E5 /* TN_graph_line@2x.png in Resources */,
@@ -5453,6 +5730,7 @@
 				69991FD71C0AFF8700D3888F /* historyu_tab_app43_s.png in Resources */,
 				699920021C0AFF8700D3888F /* historyu_top_inner_back.png in Resources */,
 				69A78A631C4FD867003E35E5 /* ZEPATIR_thumbs_cirrhosis2.png in Resources */,
+				69DC7C7E1D4F6FCF0098EF58 /* General05_ball6_1058x523@2x.png in Resources */,
 				699921441C0AFF8700D3888F /* gm_logo_ocsaar.png in Resources */,
 				6999205E1C0AFF8700D3888F /* Localizable.strings in Resources */,
 				699920981C0AFF8700D3888F /* alon_larofe.png in Resources */,
@@ -5474,6 +5752,7 @@
 				699920F21C0AFF8700D3888F /* gm_logo_cerazette_s.png in Resources */,
 				DBEF7203194A0F9A00F0EDC2 /* bridion_logo_history.png in Resources */,
 				6999200D1C0AFF8700D3888F /* historyu_xforce_D.png in Resources */,
+				69557FE11D51DAF100407479 /* ZEPATIR_thumbs_general04.png in Resources */,
 				699921A01C0AFF8700D3888F /* GTMEditNameView.xib in Resources */,
 				69991EA01C0AFF8700D3888F /* your_call_text@2x.png in Resources */,
 				699920581C0AFF8700D3888F /* PortalViewController.xib in Resources */,
@@ -5485,6 +5764,7 @@
 				6999217C1C0AFF8700D3888F /* gmtool_btn_history.png in Resources */,
 				69991FA71C0AFF8700D3888F /* historyu_tab_app23_s.png in Resources */,
 				699921A71C0AFF8700D3888F /* Arab Sector.png in Resources */,
+				69DC7C341D4F42EB0098EF58 /* ZEPATIR_02ref22x773@2x.png in Resources */,
 				69991FE21C0AFF8700D3888F /* historyu_tab_app48.png in Resources */,
 				69991FDF1C0AFF8700D3888F /* historyu_tab_app47.png in Resources */,
 				6999207D1C0AFF8700D3888F /* gm_menu_email_btn_green.png in Resources */,
@@ -5496,6 +5776,7 @@
 				69991FF11C0AFF8700D3888F /* historyu_tab_app8.png in Resources */,
 				699921031C0AFF8700D3888F /* gm_logo_focusd.png in Resources */,
 				69991EAE1C0AFF8700D3888F /* EndMeetingViewController.xib in Resources */,
+				69DC7C971D4F89940098EF58 /* General03man1400x252@2x.png in Resources */,
 				69991EB11C0AFF8700D3888F /* endu_samples_back_en.png in Resources */,
 				699921171C0AFF8700D3888F /* gm_logo_medical.png in Resources */,
 				699920101C0AFF8700D3888F /* HistoryUniversalCalendarCell.xib in Resources */,
@@ -5511,6 +5792,7 @@
 				699920921C0AFF8700D3888F /* gm_row_back_propecia.png in Resources */,
 				6999218A1C0AFF8700D3888F /* gmtool_edit_right_shadow.png in Resources */,
 				69991F211C0AFF8700D3888F /* endu_tab_app46_s.png in Resources */,
+				69DC7C511D4F6CDA0098EF58 /* ZepatierGeneralPage4.xib in Resources */,
 				DB66A931194A0C03002A043E /* quet_data_zio.plist in Resources */,
 				69A78A031C4E50C4003E35E5 /* G1a_marker2@2x.png in Resources */,
 				69991FE51C0AFF8700D3888F /* historyu_tab_app48_s@2x.png in Resources */,
@@ -5542,6 +5824,7 @@
 				69991EB31C0AFF8700D3888F /* endu_back_right.png in Resources */,
 				69991EBE1C0AFF8700D3888F /* endu_field_clear.png in Resources */,
 				699921671C0AFF8700D3888F /* gm_logo_zostavax_s.png in Resources */,
+				69DC7C921D4F83720098EF58 /* 02G1b_downtext288x1126@2x.png in Resources */,
 				69A789E01C4D3D13003E35E5 /* TN_tittle@2x.png in Resources */,
 				DB66A92A194A0C03002A043E /* quet_pager_back.png in Resources */,
 				699920EE1C0AFF8700D3888F /* gm_logo_articles_s.png in Resources */,
@@ -5558,8 +5841,10 @@
 				69A789FF1C4E50C4003E35E5 /* G1a_demographic_tittle@2x.png in Resources */,
 				69991F7E1C0AFF8700D3888F /* historyu_header.png in Resources */,
 				69991FE81C0AFF8700D3888F /* historyu_tab_app4_s.png in Resources */,
+				69DC7C741D4F6FCF0098EF58 /* General05_ball_text4_256x999@2x.png in Resources */,
 				69991FFC1C0AFF8700D3888F /* historyu_tab_left_btn.png in Resources */,
 				699920D81C0AFF8700D3888F /* gm_logo_start_en.png in Resources */,
+				69DC7C951D4F83720098EF58 /* 02G1b_tittle62x78@2x.png in Resources */,
 				69991E831C0AFF8700D3888F /* cell_bl.png in Resources */,
 				DB66A91E194A0C03002A043E /* quet_box5_row_s.png in Resources */,
 				69991E3C1C0AFF8700D3888F /* chat_send_contact_to.png in Resources */,
@@ -5567,15 +5852,17 @@
 				69991E401C0AFF8700D3888F /* chat_user_icon_back.png in Resources */,
 				69991F831C0AFF8700D3888F /* historyu_mdl_btn_edit.png in Resources */,
 				69A78A451C4F9FB9003E35E5 /* Chirrhosis_2_tittle@2x.png in Resources */,
-				69C52BF71D2291A600E73866 /* ZEPATIR_thumbs_DDI1.png in Resources */,
 				69991F1D1C0AFF8700D3888F /* endu_tab_app45.png in Resources */,
 				69610D291C4BC8CD00E81868 /* ZepatierMainPage.xib in Resources */,
 				69A78A1C1C4F9255003E35E5 /* ZepatierG1bPage1.xib in Resources */,
 				69991F2F1C0AFF8700D3888F /* endu_tab_app50.png in Resources */,
 				69991FAA1C0AFF8700D3888F /* historyu_tab_app25.png in Resources */,
+				69DC7C7D1D4F6FCF0098EF58 /* General05_ball5_1058x286@2x.png in Resources */,
 				699920DB1C0AFF8700D3888F /* gm_logo_victrelis_s.png in Resources */,
+				69DC7C471D4F47B80098EF58 /* General03ref_44x985@2x.png in Resources */,
 				69991E3A1C0AFF8700D3888F /* chat_send_contact_btn_open.png in Resources */,
 				69991EF41C0AFF8700D3888F /* endu_tab_app28_s.png in Resources */,
+				69DC7C7F1D4F6FCF0098EF58 /* General05_ball7_1058x773@2x.png in Resources */,
 				699921281C0AFF8700D3888F /* gm_logo_mss_clarinase_s.png in Resources */,
 				DB66A913194A0C03002A043E /* quet_box2_back.png in Resources */,
 				699920E11C0AFF8700D3888F /* hatvayot_white.png in Resources */,
@@ -5610,8 +5897,10 @@
 				69A78A001C4E50C4003E35E5 /* G1a_graph_line@2x.png in Resources */,
 				699920F81C0AFF8700D3888F /* gm_logo_diprospan_s.png in Resources */,
 				699920C81C0AFF8700D3888F /* gm_logo_noxafil.png in Resources */,
+				69DC7C7A1D4F6FCF0098EF58 /* General05_ball2_75x524@2x_.png in Resources */,
 				DB66A736194A0793002A043E /* Tipogra2_1.ttf in Resources */,
 				69991E4B1C0AFF8700D3888F /* ChatContactListCell.xib in Resources */,
+				69DC7C911D4F83720098EF58 /* 02G1b_backgraph_136x402@2x.png in Resources */,
 				69991F401C0AFF8700D3888F /* EndMeetingUniSampleRow.xib in Resources */,
 				69A78A621C4FD867003E35E5 /* ZEPATIR_thumbs_cirrhosis1.png in Resources */,
 				699920141C0AFF8700D3888F /* HistoryUniversalCalendarMeetingCell.xib in Resources */,
@@ -5639,6 +5928,7 @@
 				69991FD31C0AFF8700D3888F /* historyu_tab_app41_s@2x.png in Resources */,
 				6999211C1C0AFF8700D3888F /* gm_logo_more_products.png in Resources */,
 				69991F1A1C0AFF8700D3888F /* endu_tab_app43_s.png in Resources */,
+				69DC7C241D4F36370098EF58 /* General_01text3_192x1145@2x.png in Resources */,
 				6999215A1C0AFF8700D3888F /* gm_logo_safety.png in Resources */,
 				69991EC91C0AFF8700D3888F /* endu_multi_btn_s.png in Resources */,
 				699921191C0AFF8700D3888F /* gm_logo_medical_s.png in Resources */,
@@ -5646,6 +5936,7 @@
 				69991E2F1C0AFF8700D3888F /* chat_room_row_arrow_s.png in Resources */,
 				69610D171C4BC7AB00E81868 /* HP_circle215x354@2x_.png in Resources */,
 				69991FB01C0AFF8700D3888F /* historyu_tab_app28.png in Resources */,
+				69DC7C451D4F47B80098EF58 /* General03bars342x410@2x.png in Resources */,
 				6999225C1C0B079600D3888F /* CustomCallsPageDataView.xib in Resources */,
 				69A78A271C4F92F4003E35E5 /* G1b_graph_line@2x.png in Resources */,
 				69DC7C051D4E3A840098EF58 /* ZepatierDDIPage4.xib in Resources */,
@@ -5668,6 +5959,7 @@
 				DB66A923194A0C03002A043E /* quet_boxend.png in Resources */,
 				DB66A914194A0C03002A043E /* quet_box2_no.png in Resources */,
 				6999210C1C0AFF8700D3888F /* gm_logo_invanz_s.png in Resources */,
+				69DC7C751D4F6FCF0098EF58 /* General05_ball_text5_1250x268@2x.png in Resources */,
 				DBE3AA2D195088BF005201DA /* icon.png in Resources */,
 				699920BA1C0AFF8700D3888F /* gm_logo_home_en.png in Resources */,
 				6999210B1C0AFF8700D3888F /* gm_logo_invanz.png in Resources */,
@@ -5693,6 +5985,7 @@
 				69991F8A1C0AFF8700D3888F /* historyu_other_btn.png in Resources */,
 				69991F6C1C0AFF8700D3888F /* historyu_calendar_cell_back.png in Resources */,
 				69991F6E1C0AFF8700D3888F /* historyu_calendar_meetings_back.png in Resources */,
+				69DC7C251D4F36370098EF58 /* General01_g1a_ball794x811@2x_03.png in Resources */,
 				699920191C0AFF8700D3888F /* HistoryUniversalMeetingRow.xib in Resources */,
 				69991F101C0AFF8700D3888F /* endu_tab_app3_s.png in Resources */,
 				69C52BF31D22763600E73866 /* ZepatierDDIPage3.xib in Resources */,
@@ -5706,18 +5999,20 @@
 				69991F331C0AFF8700D3888F /* endu_tab_app6_s.png in Resources */,
 				69610D201C4BC7AB00E81868 /* HP_TE_ball156x671@2x.png in Resources */,
 				69A78A041C4E50C4003E35E5 /* G1a_safety_tavla@2x.png in Resources */,
-				69C52BF91D2291A600E73866 /* ZEPATIR_thumbs_DDI3.png in Resources */,
 				DB66A926194A0C03002A043E /* quet_boxstart.png in Resources */,
 				699920BD1C0AFF8700D3888F /* gm_logo_isentress_white.png in Resources */,
 				69991EFB1C0AFF8700D3888F /* endu_tab_app30.png in Resources */,
 				699921561C0AFF8700D3888F /* gm_logo_redirect.png in Resources */,
+				69DC7C5D1D4F6F880098EF58 /* ZepatierGeneralPage5.xib in Resources */,
 				699920A61C0AFF8700D3888F /* Beyond_the_pill.png in Resources */,
 				69991F001C0AFF8700D3888F /* endu_tab_app32_s.png in Resources */,
 				69991FCE1C0AFF8700D3888F /* historyu_tab_app40.png in Resources */,
 				6999210D1C0AFF8700D3888F /* gm_logo_januetXR.png in Resources */,
 				699920D01C0AFF8700D3888F /* gm_logo_question_en.png in Resources */,
 				699921B41C0AFF8700D3888F /* card-number@2x.png in Resources */,
+				69DC7C821D4F6FCF0098EF58 /* General05downtext_144x1271@2x.png in Resources */,
 				699920F11C0AFF8700D3888F /* gm_logo_cerazette.png in Resources */,
+				69DC7C801D4F6FCF0098EF58 /* General05_ball8_1058x1005@2x.png in Resources */,
 				DB66A74B194A0793002A043E /* emend_play_play_s_btn.png in Resources */,
 				699921071C0AFF8700D3888F /* gm_logo_gardasil.png in Resources */,
 				6999216E1C0AFF8700D3888F /* GMMenuItemView.xib in Resources */,
@@ -5747,15 +6042,18 @@
 				69991FC21C0AFF8700D3888F /* historyu_tab_app35_s.png in Resources */,
 				69991ECE1C0AFF8700D3888F /* endu_samples_back.png in Resources */,
 				69991F021C0AFF8700D3888F /* endu_tab_app33_s.png in Resources */,
+				69DC7C2D1D4F42B10098EF58 /* ZepatierGeneralPage2.xib in Resources */,
 				6999214C1C0AFF8700D3888F /* gm_logo_powercall.png in Resources */,
 				69991F301C0AFF8700D3888F /* endu_tab_app50_s.png in Resources */,
 				699920A51C0AFF8700D3888F /* alon_larofe_white.png in Resources */,
 				69991F251C0AFF8700D3888F /* endu_tab_app47_s.png in Resources */,
+				69DC7C491D4F47B80098EF58 /* General03tittle58x100@2x.png in Resources */,
 				69991F701C0AFF8700D3888F /* historyu_calendar_meetings_no_lines.png in Resources */,
 				699921321C0AFF8700D3888F /* gm_logo_mss_ezetrol.png in Resources */,
 				69991F141C0AFF8700D3888F /* endu_tab_app40_s.png in Resources */,
 				DBEF7208194A0F9A00F0EDC2 /* bridion_logo_side@2x.png in Resources */,
 				699921BA1C0AFF8700D3888F /* login_pop@2x.png in Resources */,
+				69DC7C731D4F6FCF0098EF58 /* General05_ball_text3_1252x765@2x.png in Resources */,
 				699921641C0AFF8700D3888F /* gm_logo_zoely.png in Resources */,
 				69A789DB1C4D3D13003E35E5 /* TN_bars@2x.png in Resources */,
 				6999200B1C0AFF8700D3888F /* historyu_xforce_B.png in Resources */,
@@ -5786,7 +6084,9 @@
 				DB66A747194A0793002A043E /* emend_play_back.png in Resources */,
 				699920841C0AFF8700D3888F /* gm_row_back_bluedark.png in Resources */,
 				69991E321C0AFF8700D3888F /* chat_selectto_btn.png in Resources */,
+				69DC7C181D4F35EB0098EF58 /* ZepatierGeneralPage1.xib in Resources */,
 				69A789FD1C4E50C4003E35E5 /* G1a_case_study@2x.png in Resources */,
+				69DC7C831D4F6FCF0098EF58 /* General05ref34x250@2x.png in Resources */,
 				69991E231C0AFF8700D3888F /* chat_left_addmessage_btn.png in Resources */,
 				69991EFD1C0AFF8700D3888F /* endu_tab_app31.png in Resources */,
 				699921631C0AFF8700D3888F /* gm_logo_who_s.png in Resources */,
@@ -5803,13 +6103,16 @@
 				69991F3E1C0AFF8700D3888F /* EndMeetingUniQuestionView.xib in Resources */,
 				699921011C0AFF8700D3888F /* gm_logo_flyers.png in Resources */,
 				DB66A910194A0C03002A043E /* quet_box1_marker.png in Resources */,
+				69DC7C361D4F42EB0098EF58 /* ZEPATIR_02text_down336x1089@2x.png in Resources */,
 				699920B61C0AFF8700D3888F /* gm_logo_flows_en.png in Resources */,
 				DB66A81A194A0820002A043E /* Zepatier-Info.plist in Resources */,
 				699920B01C0AFF8700D3888F /* gm_logo_cards_en.png in Resources */,
 				699920971C0AFF8700D3888F /* icon_call_x@2x.png in Resources */,
 				69991FA91C0AFF8700D3888F /* historyu_tab_app24_s.png in Resources */,
+				69557FD61D51DAD200407479 /* ZEPATIR_thumbs_DDI4.png in Resources */,
 				699920A91C0AFF8700D3888F /* catalog_gm_logo_isentress_white.png in Resources */,
 				69A789DC1C4D3D13003E35E5 /* TN_case_study@2x.png in Resources */,
+				69DC7C721D4F6FCF0098EF58 /* General05_ball_text2_254x512@2x.png in Resources */,
 				69991F2D1C0AFF8700D3888F /* endu_tab_app4_s.png in Resources */,
 				69991E8E1C0AFF8700D3888F /* icon_hours@2x.png in Resources */,
 				699921AD1C0AFF8700D3888F /* Fertility.png in Resources */,
@@ -5825,6 +6128,7 @@
 				699920B31C0AFF8700D3888F /* gm_logo_detailed-Aid_s_en.png in Resources */,
 				699920661C0AFF8700D3888F /* DateSelectionViewControllerTitle.xib in Resources */,
 				69991F381C0AFF8700D3888F /* endu_update_btn.png in Resources */,
+				69DC7C8B1D4F81F40098EF58 /* ZepatierG1bPage2.xib in Resources */,
 				69991EEF1C0AFF8700D3888F /* endu_tab_app26.png in Resources */,
 				6999212A1C0AFF8700D3888F /* gm_logo_mss_dermatology.png in Resources */,
 				69991F731C0AFF8700D3888F /* historyu_calendar_report_btn.png in Resources */,
@@ -5845,6 +6149,7 @@
 				699921821C0AFF8700D3888F /* gmtool_edit_back.png in Resources */,
 				69A300F21C0DA8EA005DC5B1 /* Apps-Player-Video-icon.png in Resources */,
 				699920FA1C0AFF8700D3888F /* gm_logo_doctor_s.png in Resources */,
+				69DC7C561D4F6D3B0098EF58 /* General04text_78x284@2x.png in Resources */,
 				69991E3B1C0AFF8700D3888F /* chat_send_contact_field_back.png in Resources */,
 				69991E351C0AFF8700D3888F /* chat_selectto_header_back.png in Resources */,
 				699921751C0AFF8700D3888F /* gmtool_brown_msd_logo.png in Resources */,
@@ -5856,6 +6161,7 @@
 				6999209E1C0AFF8700D3888F /* knasim.png in Resources */,
 				69991FCC1C0AFF8700D3888F /* historyu_tab_app3r_s.png in Resources */,
 				69A78A3D1C4F9FB9003E35E5 /* Chirrhosis_1_blue_boxtext@2x.png in Resources */,
+				69DC7C481D4F47B80098EF58 /* General03textdown304x1131@2x.png in Resources */,
 				69A78A431C4F9FB9003E35E5 /* Chirrhosis_2_case_study@2x.png in Resources */,
 				69610D181C4BC7AB00E81868 /* HP_G1a_ball680x1171@2x.png in Resources */,
 				699920491C0AFF8700D3888F /* pdf_link_row1.png in Resources */,
@@ -5875,6 +6181,7 @@
 				69991F6B1C0AFF8700D3888F /* historyu_calendar_backup.png in Resources */,
 				699EB44A1C4CF6B30057CE9C /* footer_press@2x.png in Resources */,
 				6999215B1C0AFF8700D3888F /* gm_logo_safety_s.png in Resources */,
+				69DC7C781D4F6FCF0098EF58 /* General05_ball_text8_1252x997@2x.png in Resources */,
 				699921B91C0AFF8700D3888F /* login_MSD_logo@2x.png in Resources */,
 				69991E871C0AFF8700D3888F /* circle_vi@2x.png in Resources */,
 				69610D1C1C4BC7AB00E81868 /* HP_OAT_ball1123x660@2x.png in Resources */,
@@ -5924,6 +6231,7 @@
 				699921521C0AFF8700D3888F /* gm_logo_question.png in Resources */,
 				699921791C0AFF8700D3888F /* gmtool_btn_doctorsearch.png in Resources */,
 				6999207A1C0AFF8700D3888F /* gm_email_filed.png in Resources */,
+				69DC7C221D4F36370098EF58 /* General_01text1_216x470@2x.png in Resources */,
 				69991FA01C0AFF8700D3888F /* historyu_tab_app20.png in Resources */,
 				69991F171C0AFF8700D3888F /* endu_tab_app42.png in Resources */,
 				69991F0D1C0AFF8700D3888F /* endu_tab_app39.png in Resources */,
@@ -5941,6 +6249,7 @@
 				699921C01C0AFF8700D3888F /* SelectionViewController.xib in Resources */,
 				699920161C0AFF8700D3888F /* HistoryUniversalDoctorMainContainerView.xib in Resources */,
 				699920F51C0AFF8700D3888F /* gm_logo_detailed-Aid.png in Resources */,
+				69DC7C201D4F36370098EF58 /* General_01ref40x1023@2x.png in Resources */,
 				6999208A1C0AFF8700D3888F /* gm_row_back_diprospan.png in Resources */,
 				69991E391C0AFF8700D3888F /* chat_send_contact_btn_close.png in Resources */,
 				699920671C0AFF8700D3888F /* Entitlements.plist in Resources */,
@@ -5983,6 +6292,7 @@
 				699920C31C0AFF8700D3888F /* gm_logo_lecture_s_en.png in Resources */,
 				DB66A92B194A0C03002A043E /* quet_pager_btn.png in Resources */,
 				69991F761C0AFF8700D3888F /* historyu_drag_back.png in Resources */,
+				69557FE21D51DAF100407479 /* ZEPATIR_thumbs_general05.png in Resources */,
 				699920AE1C0AFF8700D3888F /* gm_logo_cansidas_side.png in Resources */,
 				699920091C0AFF8700D3888F /* historyu_univadis_yes.png in Resources */,
 				69A789DF1C4D3D13003E35E5 /* TN_small_ball@2x.png in Resources */,
@@ -6033,6 +6343,7 @@
 				69991F7F1C0AFF8700D3888F /* historyu_info_btn.png in Resources */,
 				699921741C0AFF8700D3888F /* gmtool_blue_msd_logo.png in Resources */,
 				69991F911C0AFF8700D3888F /* historyu_tab_app15_s.png in Resources */,
+				69DC7C7B1D4F6FCF0098EF58 /* General05_ball3_75x775@2x.png in Resources */,
 				69991F9D1C0AFF8700D3888F /* historyu_tab_app1r.png in Resources */,
 				699920D11C0AFF8700D3888F /* gm_logo_question_s_en.png in Resources */,
 				69991EB91C0AFF8700D3888F /* endu_delete_btn.png in Resources */,
@@ -6056,6 +6367,7 @@
 				6999201E1C0AFF8700D3888F /* HistoryUniversalGlobalQuestion.xib in Resources */,
 				6999209A1C0AFF8700D3888F /* hadmaya.png in Resources */,
 				69991EE81C0AFF8700D3888F /* endu_tab_app21_s.png in Resources */,
+				69557FD31D51DAD200407479 /* ZEPATIR_thumbs_DDI1.png in Resources */,
 				69991EB41C0AFF8700D3888F /* endu_backup_btn.png in Resources */,
 				69991E3F1C0AFF8700D3888F /* chat_top_left_plain_btn.png in Resources */,
 				69991E371C0AFF8700D3888F /* chat_send_btn.png in Resources */,
@@ -6073,6 +6385,7 @@
 				69991FC11C0AFF8700D3888F /* historyu_tab_app35.png in Resources */,
 				DB66A917194A0C03002A043E /* quet_box2_yes_sel.png in Resources */,
 				69A78A261C4F92F4003E35E5 /* G1b_case_study@2x.png in Resources */,
+				69DC7C331D4F42EB0098EF58 /* ZEPATIR_02chart334x222@2x.png in Resources */,
 				699920C51C0AFF8700D3888F /* gm_logo_more_products_s_en.png in Resources */,
 				6999211A1C0AFF8700D3888F /* gm_logo_mercilon.png in Resources */,
 				699EB4651C4D15360057CE9C /* 1pill-a-day@2x.png in Resources */,
@@ -6089,7 +6402,9 @@
 				69610D191C4BC7AB00E81868 /* HP_G1b_ball862x1237@2x.png in Resources */,
 				69991FC71C0AFF8700D3888F /* historyu_tab_app38.png in Resources */,
 				699920AC1C0AFF8700D3888F /* gm_logo_articles_en.png in Resources */,
+				69557FD41D51DAD200407479 /* ZEPATIR_thumbs_DDI2.png in Resources */,
 				DB66A91F194A0C03002A043E /* quet_box6_back.png in Resources */,
+				69DC7C231D4F36370098EF58 /* General_01text2_408x765@2x.png in Resources */,
 				DB66A924194A0C03002A043E /* quet_boxend_text.png in Resources */,
 				DB66A91A194A0C03002A043E /* quet_box4_back.png in Resources */,
 				699920F01C0AFF8700D3888F /* gm_logo_cards_s.png in Resources */,
@@ -6108,6 +6423,7 @@
 				69A78A4C1C4FA423003E35E5 /* ZepatierCirrhosisPage2.xib in Resources */,
 				DBE3AA2C195088BF005201DA /* icon@2x.png in Resources */,
 				69991E191C0AFF8700D3888F /* chat_contact_header_back_s.png in Resources */,
+				69E559711D521846005AAE33 /* General_01text2B_1148x997@2x_03.png in Resources */,
 				69991E2C1C0AFF8700D3888F /* chat_room_edit_back_t.png in Resources */,
 				69991E2B1C0AFF8700D3888F /* chat_room_edit_back_b.png in Resources */,
 				69991E651C0AFF8700D3888F /* ChatToSelectViewController.xib in Resources */,
@@ -6130,6 +6446,7 @@
 				699921091C0AFF8700D3888F /* gm_logo_home.png in Resources */,
 				69991F011C0AFF8700D3888F /* endu_tab_app33.png in Resources */,
 				69991E281C0AFF8700D3888F /* chat_online_white.png in Resources */,
+				69DC7C3D1D4F47870098EF58 /* ZepatierGeneralPage3.xib in Resources */,
 				69991FA11C0AFF8700D3888F /* historyu_tab_app20_s.png in Resources */,
 				699920931C0AFF8700D3888F /* gm_row_back_purple.png in Resources */,
 				699920B11C0AFF8700D3888F /* gm_logo_cards_s_en.png in Resources */,
@@ -6155,6 +6472,7 @@
 				69991F991C0AFF8700D3888F /* historyu_tab_app19_s.png in Resources */,
 				69991FEC1C0AFF8700D3888F /* historyu_tab_app5l_s.png in Resources */,
 				699920251C0AFF8700D3888F /* HistoryUniversalFreezedCell.xib in Resources */,
+				69DC7C771D4F6FCF0098EF58 /* General05_ball_text7_1252x765@2x.png in Resources */,
 				69991E941C0AFF8700D3888F /* power_butt@2x.png in Resources */,
 				69991FAB1C0AFF8700D3888F /* historyu_tab_app25_s.png in Resources */,
 				DB66A734194A0793002A043E /* FormataBQLight.ttf in Resources */,
@@ -6167,6 +6485,7 @@
 				69991F081C0AFF8700D3888F /* endu_tab_app36_s.png in Resources */,
 				69991E311C0AFF8700D3888F /* chat_room_row_white.png in Resources */,
 				69991F671C0AFF8700D3888F /* historyu_add_samples_back.png in Resources */,
+				69DC7C7C1D4F6FCF0098EF58 /* General05_ball4_73x1005@2x.png in Resources */,
 				69991E491C0AFF8700D3888F /* ChatMainView.xib in Resources */,
 				6999208B1C0AFF8700D3888F /* gm_row_back_green.png in Resources */,
 				69991EED1C0AFF8700D3888F /* endu_tab_app25.png in Resources */,
@@ -6177,6 +6496,7 @@
 				699920E41C0AFF8700D3888F /* lecture.png in Resources */,
 				69991FEA1C0AFF8700D3888F /* historyu_tab_app5_s.png in Resources */,
 				69A78A291C4F92F4003E35E5 /* G1b_small_ball@2x.png in Resources */,
+				69DC7C571D4F6D3B0098EF58 /* General04tittle_58x94@2x.png in Resources */,
 				69991FFD1C0AFF8700D3888F /* historyu_tab_left_btn_s.png in Resources */,
 				699920531C0AFF8700D3888F /* PdfZoomPopViewController.xib in Resources */,
 				69610D1E1C4BC7AB00E81868 /* HP_PR_ball94x619@2x.png in Resources */,
@@ -6193,6 +6513,8 @@
 				69991FD21C0AFF8700D3888F /* historyu_tab_app41_s.png in Resources */,
 				69991E9D1C0AFF8700D3888F /* true@2x.png in Resources */,
 				699920C21C0AFF8700D3888F /* gm_logo_lecture_en.png in Resources */,
+				69DC7C551D4F6D3B0098EF58 /* General04ref_40x1033@2x.png in Resources */,
+				69DC7C261D4F36370098EF58 /* General01_g1b_ball442x494@2x.png in Resources */,
 				699921351C0AFF8700D3888F /* gm_logo_mss_invanz_s.png in Resources */,
 				69991E981C0AFF8700D3888F /* report_another_call@2x.png in Resources */,
 				69991ED01C0AFF8700D3888F /* endu_samples_open_btn.png in Resources */,
@@ -6200,10 +6522,13 @@
 				699920CA1C0AFF8700D3888F /* gm_logo_pain_en.png in Resources */,
 				699920E01C0AFF8700D3888F /* hatvayot.png in Resources */,
 				69991F2B1C0AFF8700D3888F /* endu_tab_app49.png in Resources */,
+				69DC7C761D4F6FCF0098EF58 /* General05_ball_text6_1248x512@2x.png in Resources */,
 				6999211E1C0AFF8700D3888F /* gm_logo_mss_arcoxia.png in Resources */,
+				69557FD81D51DAE100407479 /* ZEPATIR_thumbs_g1b_2.png in Resources */,
 				699920D51C0AFF8700D3888F /* gm_logo_redirect_s_en.png in Resources */,
 				699920B21C0AFF8700D3888F /* gm_logo_detailed-Aid_en.png in Resources */,
 				69A78A011C4E50C4003E35E5 /* G1a_man@2x.png in Resources */,
+				69557FD51D51DAD200407479 /* ZEPATIR_thumbs_DDI3.png in Resources */,
 				699921101C0AFF8700D3888F /* gm_logo_januvia_s.png in Resources */,
 				699920701C0AFF8700D3888F /* GMMainMenuView.xib in Resources */,
 				69991EF51C0AFF8700D3888F /* endu_tab_app29.png in Resources */,
@@ -6212,6 +6537,7 @@
 				69991EE91C0AFF8700D3888F /* endu_tab_app22.png in Resources */,
 				69991FDC1C0AFF8700D3888F /* historyu_tab_app46.png in Resources */,
 				DB66A74A194A0793002A043E /* emend_play_play_btn@2x.png in Resources */,
+				69DC7C211D4F36370098EF58 /* General_01slogen654x48@2x.png in Resources */,
 				69991F391C0AFF8700D3888F /* endu_update_btn.textClipping in Resources */,
 				69A78A681C4FD867003E35E5 /* ZEPATIR_thumbs_safety.png in Resources */,
 				69A78A061C4E50C4003E35E5 /* G1a_small_ball@2x.png in Resources */,
@@ -6222,6 +6548,7 @@
 				69991FDE1C0AFF8700D3888F /* historyu_tab_app46_s.png in Resources */,
 				69991EEC1C0AFF8700D3888F /* endu_tab_app24_s.png in Resources */,
 				69991EFA1C0AFF8700D3888F /* endu_tab_app3.png in Resources */,
+				69557FDF1D51DAF100407479 /* ZEPATIR_thumbs_general02.png in Resources */,
 				699920591C0AFF8700D3888F /* portal_img_place_back@2x.png in Resources */,
 				69991F901C0AFF8700D3888F /* historyu_tab_app15.png in Resources */,
 				6999218B1C0AFF8700D3888F /* gmtool_edit_row.png in Resources */,
@@ -6232,6 +6559,7 @@
 				699921AE1C0AFF8700D3888F /* Hospitals.png in Resources */,
 				699921151C0AFF8700D3888F /* gm_logo_livialovestin.png in Resources */,
 				69991F9C1C0AFF8700D3888F /* historyu_tab_app1l_s.png in Resources */,
+				69DC7C811D4F6FCF0098EF58 /* General05_tittle62x84@2x.png in Resources */,
 				699920231C0AFF8700D3888F /* HistoryUniversalTopView.xib in Resources */,
 				DB66A81B194A0820002A043E /* InfoPlist.strings in Resources */,
 				699920621C0AFF8700D3888F /* BaseLoginViewController.xib in Resources */,
@@ -6289,9 +6617,11 @@
 				699921331C0AFF8700D3888F /* gm_logo_mss_ezetrol_s.png in Resources */,
 				699921111C0AFF8700D3888F /* gm_logo_kenes.png in Resources */,
 				699921691C0AFF8700D3888F /* gm_logo_zoster_s.png in Resources */,
+				69DC7C931D4F83720098EF58 /* 02G1b_graph372x434@2x.png in Resources */,
 				69991E1E1C0AFF8700D3888F /* chat_edituser_camera_btn.png in Resources */,
 				699921141C0AFF8700D3888F /* gm_logo_lecture_s.png in Resources */,
 				699920071C0AFF8700D3888F /* historyu_univadis_logo.png in Resources */,
+				69DC7C711D4F6FCF0098EF58 /* General05_ball_text1_256x268@2x.png in Resources */,
 				699920C91C0AFF8700D3888F /* gm_logo_noxafil_s.png in Resources */,
 				69991FB61C0AFF8700D3888F /* historyu_tab_app2r_s.png in Resources */,
 				DB66A927194A0C03002A043E /* quet_boxstart_btn.png in Resources */,
@@ -6370,6 +6700,7 @@
 				DB66A946194A0C03002A043E /* QuestionUIData.m in Sources */,
 				DB66A7DD194A0793002A043E /* BridionInfoControl.m in Sources */,
 				6999225E1C0B079600D3888F /* CustomCallsView.m in Sources */,
+				69DC7C4E1D4F6CB80098EF58 /* ZepatierGeneralPage4.m in Sources */,
 				699922641C0B079600D3888F /* PDFJanViewController.m in Sources */,
 				69991DFD1C0AFF8700D3888F /* FTAnimation+UIView.m in Sources */,
 				699920571C0AFF8700D3888F /* PortalViewController.m in Sources */,
@@ -6393,6 +6724,7 @@
 				6999204F1C0AFF8700D3888F /* PdfLinksView.m in Sources */,
 				DB66A93F194A0C03002A043E /* QuestionBoxDataType1.m in Sources */,
 				69991E501C0AFF8700D3888F /* ASIAsyncImageView.m in Sources */,
+				69DC7C891D4F81E50098EF58 /* ZepatierG1bPage2.m in Sources */,
 				DB66A940194A0C03002A043E /* QuestionBoxDataType2.m in Sources */,
 				6999202C1C0AFF8700D3888F /* HistoryUniversalSamplesViewController.m in Sources */,
 				69991E551C0AFF8700D3888F /* ChatBubbleHeaderTableViewCell.m in Sources */,
@@ -6412,6 +6744,7 @@
 				69991E741C0AFF8700D3888F /* UserPDFStatistics.m in Sources */,
 				699920601C0AFF8700D3888F /* BaseAppDelegate.m in Sources */,
 				69991F4E1C0AFF8700D3888F /* UIApplication-Extension.m in Sources */,
+				69DC7C3B1D4F477A0098EF58 /* ZepatierGeneralPage3.m in Sources */,
 				6999203B1C0AFF8700D3888F /* AFURLConnectionOperation.m in Sources */,
 				69991E5B1C0AFF8700D3888F /* ChatRoomParticipantView.m in Sources */,
 				69991F3F1C0AFF8700D3888F /* EndMeetingUniSampleRow.m in Sources */,
@@ -6454,6 +6787,7 @@
 				69991F4D1C0AFF8700D3888F /* UIAlertViewHelper.m in Sources */,
 				699921C41C0AFF8700D3888F /* BasePageScrollTimer.m in Sources */,
 				DB66A7DA194A0793002A043E /* BridionBottomPagerView.m in Sources */,
+				69DC7C5B1D4F6F7B0098EF58 /* ZepatierGeneralPage5.m in Sources */,
 				69991E0B1C0AFF8700D3888F /* CChatDataManager.m in Sources */,
 				699920361C0AFF8700D3888F /* AFHTTPRequestOperation.m in Sources */,
 				6999219B1C0AFF8700D3888F /* GTMEditExpertiseView.m in Sources */,
@@ -6542,6 +6876,7 @@
 				6999203A1C0AFF8700D3888F /* AFSecurityPolicy.m in Sources */,
 				699921C71C0AFF8700D3888F /* BasePageTimerController.m in Sources */,
 				699921931C0AFF8700D3888F /* GTMEditClinicView.m in Sources */,
+				69DC7C2B1D4F429F0098EF58 /* ZepatierGeneralPage2.m in Sources */,
 				69C52BD91D226F8D00E73866 /* ZepatierDDIPage1.m in Sources */,
 				6999202A1C0AFF8700D3888F /* HistoryUniversalAddSamplesRow.m in Sources */,
 				699920451C0AFF8700D3888F /* DataManager.m in Sources */,
@@ -6566,6 +6901,7 @@
 				69991F4A1C0AFF8700D3888F /* NSObject+Extension.m in Sources */,
 				69991F5C1C0AFF8700D3888F /* UIView-Extensions.m in Sources */,
 				69991EA91C0AFF8700D3888F /* EndMeetingUniBaseAppGroupData.m in Sources */,
+				69DC7C161D4F35B40098EF58 /* ZepatierGeneralPage1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

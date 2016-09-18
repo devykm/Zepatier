@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZepatierGeneralPage1">
+            <connections>
+                <outlet property="g1aball" destination="msH-Cg-jCs" id="wVY-CO-3pU"/>
+                <outlet property="g1bball" destination="Lpd-J7-7Jl" id="ZGD-rd-W3d"/>
+                <outlet property="referenceView" destination="WWT-sr-XPW" id="Zvr-X8-D9j"/>
+                <outlet property="slogan" destination="4dl-k9-zXF" id="3eq-WP-P9Z"/>
+                <outlet property="text1" destination="v73-XI-h06" id="4th-hN-U1Y"/>
+                <outlet property="text2" destination="Tqu-nS-hO7" id="SWX-1p-8xt"/>
+                <outlet property="text3" destination="UVT-qD-4BA" id="U7n-Is-mUf"/>
+                <outlet property="text4" destination="o8w-EI-zgk" id="eTd-kE-KwL"/>
+                <outlet property="view" destination="iN0-l3-epB" id="QpR-17-tpD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slides_back_dark.png" translatesAutoresizingMaskIntoConstraints="NO" id="vwS-mi-1Hj">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General_01text1_216x470.png" translatesAutoresizingMaskIntoConstraints="NO" id="v73-XI-h06">
+                    <rect key="frame" x="108" y="235" width="602" height="175"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General_01text2_408x765.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tqu-nS-hO7">
+                    <rect key="frame" x="204" y="383" width="655" height="172"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General01_g1a_ball794x811@2x_03.png" translatesAutoresizingMaskIntoConstraints="NO" id="msH-Cg-jCs">
+                    <rect key="frame" x="397" y="406" width="175" height="148"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General01_g1b_ball442x494.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lpd-J7-7Jl">
+                    <rect key="frame" x="221" y="247" width="190" height="170"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General_01text3_192x1145.png" translatesAutoresizingMaskIntoConstraints="NO" id="UVT-qD-4BA">
+                    <rect key="frame" x="96" y="573" width="555" height="99"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ed-ko-wr4">
+                    <rect key="frame" x="21" y="627" width="36" height="34"/>
+                    <state key="normal" image="plus_icon.png"/>
+                    <connections>
+                        <action selector="openReference:" destination="-1" eventType="touchUpInside" id="bje-LY-pq1"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General_01ref40x1023.png" translatesAutoresizingMaskIntoConstraints="NO" id="WWT-sr-XPW">
+                    <rect key="frame" x="20" y="511" width="427" height="133"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General_01slogen654x48.png" translatesAutoresizingMaskIntoConstraints="NO" id="4dl-k9-zXF">
+                    <rect key="frame" x="327" y="24" width="384" height="198"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General_01text2B_1148x997@2x_03.png" translatesAutoresizingMaskIntoConstraints="NO" id="o8w-EI-zgk">
+                    <rect key="frame" x="580" y="503" width="354" height="62"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="629" y="363.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="General01_g1a_ball794x811@2x_03.png" width="350" height="296"/>
+        <image name="General01_g1b_ball442x494.png" width="190" height="169"/>
+        <image name="General_01ref40x1023.png" width="427" height="135"/>
+        <image name="General_01slogen654x48.png" width="394" height="198"/>
+        <image name="General_01text1_216x470.png" width="602" height="174"/>
+        <image name="General_01text2B_1148x997@2x_03.png" width="815" height="159"/>
+        <image name="General_01text2_408x765.png" width="655" height="172"/>
+        <image name="General_01text3_192x1145.png" width="555" height="99"/>
+        <image name="plus_icon.png" width="30" height="29"/>
+        <image name="slides_back_dark.png" width="1024" height="678"/>
+    </resources>
+</document>

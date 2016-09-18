@@ -19,6 +19,46 @@
 				<key>ignoreMenu</key>
 				<false/>
 			</dict>
+            <dict>
+                <key>className</key>
+                <string>ZepatierGeneralPage1</string>
+                <key>previewImage</key>
+                <string>ZEPATIR_thumbs_general01.png</string>
+                <key>ignoreMenu</key>
+                <false/>
+            </dict>
+            <dict>
+                <key>className</key>
+                <string>ZepatierGeneralPage2</string>
+                <key>previewImage</key>
+                <string>ZEPATIR_thumbs_general02.png</string>
+                <key>ignoreMenu</key>
+                <false/>
+            </dict>
+            <dict>
+                <key>className</key>
+                <string>ZepatierGeneralPage3</string>
+                <key>previewImage</key>
+                <string>ZEPATIR_thumbs_general03.png</string>
+                <key>ignoreMenu</key>
+                <false/>
+            </dict>
+            <dict>
+                <key>className</key>
+                <string>ZepatierGeneralPage5</string>
+                <key>previewImage</key>
+                <string>ZEPATIR_thumbs_general05.png</string>
+                <key>ignoreMenu</key>
+                <false/>
+            </dict>
+            <dict>
+                <key>className</key>
+                <string>ZepatierGeneralPage4</string>
+                <key>previewImage</key>
+                <string>ZEPATIR_thumbs_general04.png</string>
+                <key>ignoreMenu</key>
+                <false/>
+            </dict>
 		</array>
 	</dict>
 	<dict>
@@ -90,7 +130,7 @@
                 <key>className</key>
                 <string>ZepatierDDIPage1</string>
                 <key>previewImage</key>
-                <string>ZEPATIR_thumbs_DDI3</string>
+                <string>ZEPATIR_thumbs_DDI1</string>
                 <key>ignoreMenu</key>
                 <false/>
             </dict>
@@ -98,7 +138,7 @@
                 <key>className</key>
                 <string>ZepatierDDIPage2</string>
                 <key>previewImage</key>
-                <string>ZEPATIR_thumbs_DDI1</string>
+                <string>ZEPATIR_thumbs_DDI2</string>
                 <key>ignoreMenu</key>
                 <false/>
             </dict>
@@ -106,7 +146,7 @@
                 <key>className</key>
                 <string>ZepatierDDIPage3</string>
                 <key>previewImage</key>
-                <string>ZEPATIR_thumbs_DDI2</string>
+                <string>ZEPATIR_thumbs_DDI3</string>
                 <key>ignoreMenu</key>
                 <false/>
             </dict>
@@ -114,7 +154,7 @@
                 <key>className</key>
                 <string>ZepatierDDIPage4</string>
                 <key>previewImage</key>
-                <string>ZEPATIR_thumbs_DDI2</string>
+                <string>ZEPATIR_thumbs_DDI4</string>
                 <key>ignoreMenu</key>
                 <false/>
             </dict>
@@ -137,6 +177,14 @@
 				<key>ignoreMenu</key>
 				<false/>
 			</dict>
+            <dict>
+                <key>className</key>
+                <string>ZepatierG1bPage2</string>
+                <key>previewImage</key>
+                <string>ZEPATIR_thumbs_g1b_2.png</string>
+                <key>ignoreMenu</key>
+                <false/>
+            </dict>
 		</array>
 	</dict>
 	<dict>

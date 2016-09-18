@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZepatierGeneralPage2">
+            <connections>
+                <outlet property="blueText" destination="fHF-Uh-DJx" id="zl1-wd-yZX"/>
+                <outlet property="chart" destination="XnP-fh-zpT" id="DMo-XC-rue"/>
+                <outlet property="referenceView" destination="t82-Sj-LeA" id="DJd-QO-HnZ"/>
+                <outlet property="slogan" destination="hB4-NJ-7Ce" id="jPP-bg-TMn"/>
+                <outlet property="title" destination="MbT-vW-0AL" id="0QR-HO-vgk"/>
+                <outlet property="view" destination="iN0-l3-epB" id="QBN-Rf-njz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slides_back_dark.png" translatesAutoresizingMaskIntoConstraints="NO" id="wQn-n7-Uli">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rJN-Xi-5U1">
+                    <rect key="frame" x="21" y="627" width="36" height="34"/>
+                    <state key="normal" image="plus_icon.png"/>
+                    <connections>
+                        <action selector="openReference:" destination="-1" eventType="touchUpInside" id="j9Q-aF-Caa"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ZEPATIR_02tittle52x82.png" translatesAutoresizingMaskIntoConstraints="NO" id="MbT-vW-0AL">
+                    <rect key="frame" x="26" y="100" width="384" height="56"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ZEPATIR_02slogen1608x0.png" translatesAutoresizingMaskIntoConstraints="NO" id="hB4-NJ-7Ce">
+                    <rect key="frame" x="804" y="0.0" width="220" height="111"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ZEPATIR_02chart334x222.png" translatesAutoresizingMaskIntoConstraints="NO" id="XnP-fh-zpT">
+                    <rect key="frame" x="167" y="111" width="655" height="380"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ZEPATIR_02text_down336x1089.png" translatesAutoresizingMaskIntoConstraints="NO" id="fHF-Uh-DJx">
+                    <rect key="frame" x="168" y="545" width="683" height="83"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ZEPATIR_02ref22x773.png" translatesAutoresizingMaskIntoConstraints="NO" id="t82-Sj-LeA">
+                    <rect key="frame" x="11" y="386" width="681" height="255"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="600" y="383.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ZEPATIR_02chart334x222.png" width="655" height="379"/>
+        <image name="ZEPATIR_02ref22x773.png" width="681" height="255"/>
+        <image name="ZEPATIR_02slogen1608x0.png" width="220" height="111"/>
+        <image name="ZEPATIR_02text_down336x1089.png" width="683" height="83"/>
+        <image name="ZEPATIR_02tittle52x82.png" width="384" height="56"/>
+        <image name="plus_icon.png" width="30" height="29"/>
+        <image name="slides_back_dark.png" width="1024" height="678"/>
+    </resources>
+</document>

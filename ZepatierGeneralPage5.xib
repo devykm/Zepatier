@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZepatierGeneralPage5">
+            <connections>
+                <outlet property="ball1" destination="4y2-Cw-d21" id="kWK-aU-9AV"/>
+                <outlet property="ball2" destination="RUD-z5-5Cl" id="6ZW-Zg-BSe"/>
+                <outlet property="ball3" destination="1KO-fz-5Fa" id="AUL-Hy-Md5"/>
+                <outlet property="ball4" destination="jsb-gB-L2y" id="gce-gb-ujL"/>
+                <outlet property="ball5" destination="FUr-Lw-9w8" id="g7z-Tb-2me"/>
+                <outlet property="ball6" destination="Txp-Jl-kvC" id="ZeM-aW-Oa9"/>
+                <outlet property="ball7" destination="l3v-ut-ec2" id="0gJ-MT-MHZ"/>
+                <outlet property="ball8" destination="PMP-jf-y0E" id="Dkd-f3-ema"/>
+                <outlet property="ballText1" destination="7zL-my-sxI" id="0RY-CE-38c"/>
+                <outlet property="ballText2" destination="K1q-To-gbS" id="Mjy-z9-aBV"/>
+                <outlet property="ballText3" destination="XEv-RC-dt2" id="r5F-E5-S2K"/>
+                <outlet property="ballText4" destination="fT3-rc-BK1" id="hIg-av-jwp"/>
+                <outlet property="ballText5" destination="xmK-uL-mZ2" id="t3E-Yv-l8Z"/>
+                <outlet property="ballText6" destination="E4x-DE-g46" id="iI8-DM-99a"/>
+                <outlet property="ballText7" destination="yom-Rg-N0t" id="ihZ-9T-DAI"/>
+                <outlet property="ballText8" destination="Z2n-Je-qfk" id="Yuc-Ie-g6k"/>
+                <outlet property="downText" destination="pvJ-Kq-JfM" id="p3d-CG-g3d"/>
+                <outlet property="referenceView" destination="YRS-Vi-xLa" id="lgo-DO-6CH"/>
+                <outlet property="slogan" destination="R6d-AZ-bAU" id="qXR-zD-iHy"/>
+                <outlet property="title" destination="ESu-vR-nkL" id="ond-Ah-YxU"/>
+                <outlet property="view" destination="iN0-l3-epB" id="njs-2R-iDu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slides_back_dark.png" translatesAutoresizingMaskIntoConstraints="NO" id="bmb-QA-P8u">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball_text8_1252x997.png" translatesAutoresizingMaskIntoConstraints="NO" id="Z2n-Je-qfk">
+                    <rect key="frame" x="626" y="499" width="360" height="100"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball_text7_1252x765.png" translatesAutoresizingMaskIntoConstraints="NO" id="yom-Rg-N0t">
+                    <rect key="frame" x="626" y="382" width="357" height="100"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball_text6_1248x512.png" translatesAutoresizingMaskIntoConstraints="NO" id="E4x-DE-g46">
+                    <rect key="frame" x="624" y="256" width="359" height="112"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball_text5_1250x268.png" translatesAutoresizingMaskIntoConstraints="NO" id="xmK-uL-mZ2">
+                    <rect key="frame" x="625" y="134" width="359" height="107"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball_text4_256x999.png" translatesAutoresizingMaskIntoConstraints="NO" id="fT3-rc-BK1">
+                    <rect key="frame" x="128" y="499" width="377" height="105"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball_text3_1252x765.png" translatesAutoresizingMaskIntoConstraints="NO" id="XEv-RC-dt2">
+                    <rect key="frame" x="126" y="382" width="378" height="90"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball_text2_254x512.png" translatesAutoresizingMaskIntoConstraints="NO" id="K1q-To-gbS">
+                    <rect key="frame" x="127" y="256" width="378" height="107"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball8_1058x1005.png" translatesAutoresizingMaskIntoConstraints="NO" id="PMP-jf-y0E">
+                    <rect key="frame" x="529" y="503" width="122" height="99"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball7_1058x773.png" translatesAutoresizingMaskIntoConstraints="NO" id="l3v-ut-ec2">
+                    <rect key="frame" x="529" y="386" width="120" height="90"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball6_1058x523.png" translatesAutoresizingMaskIntoConstraints="NO" id="Txp-Jl-kvC">
+                    <rect key="frame" x="529" y="261" width="120" height="98"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball5_1058x286.png" translatesAutoresizingMaskIntoConstraints="NO" id="FUr-Lw-9w8">
+                    <rect key="frame" x="529" y="143" width="120" height="101"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball4_73x1005.png" translatesAutoresizingMaskIntoConstraints="NO" id="jsb-gB-L2y">
+                    <rect key="frame" x="38" y="503" width="115" height="97"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball3_75x775.png" translatesAutoresizingMaskIntoConstraints="NO" id="1KO-fz-5Fa">
+                    <rect key="frame" x="38" y="387" width="115" height="89"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball2_75x524@2x_.png" translatesAutoresizingMaskIntoConstraints="NO" id="RUD-z5-5Cl">
+                    <rect key="frame" x="38" y="262" width="115" height="97"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I1L-vn-Gi7">
+                    <rect key="frame" x="21" y="627" width="36" height="34"/>
+                    <state key="normal" image="plus_icon.png"/>
+                    <connections>
+                        <action selector="openReference:" destination="-1" eventType="touchUpInside" id="N5b-UY-cVI"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ZEPATIR_02slogen1608x0.png" translatesAutoresizingMaskIntoConstraints="NO" id="R6d-AZ-bAU">
+                    <rect key="frame" x="804" y="0.0" width="220" height="111"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_tittle62x84.png" translatesAutoresizingMaskIntoConstraints="NO" id="ESu-vR-nkL">
+                    <rect key="frame" x="31" y="92" width="623" height="82"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball1_76x306.png" translatesAutoresizingMaskIntoConstraints="NO" id="4y2-Cw-d21">
+                    <rect key="frame" x="38" y="153" width="98" height="89"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05_ball_text1_256x268.png" translatesAutoresizingMaskIntoConstraints="NO" id="7zL-my-sxI">
+                    <rect key="frame" x="128" y="134" width="375" height="112"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05downtext_144x1271.png" translatesAutoresizingMaskIntoConstraints="NO" id="pvJ-Kq-JfM">
+                    <rect key="frame" x="82" y="627" width="136" height="37"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General05ref34x250.png" translatesAutoresizingMaskIntoConstraints="NO" id="YRS-Vi-xLa">
+                    <rect key="frame" x="17" y="125" width="975" height="520"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="573" y="375.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="General05_ball1_76x306.png" width="98" height="89"/>
+        <image name="General05_ball2_75x524@2x_.png" width="229" height="194"/>
+        <image name="General05_ball3_75x775.png" width="114" height="89"/>
+        <image name="General05_ball4_73x1005.png" width="115" height="97"/>
+        <image name="General05_ball5_1058x286.png" width="120" height="101"/>
+        <image name="General05_ball6_1058x523.png" width="120" height="98"/>
+        <image name="General05_ball7_1058x773.png" width="120" height="90"/>
+        <image name="General05_ball8_1058x1005.png" width="121" height="99"/>
+        <image name="General05_ball_text1_256x268.png" width="375" height="112"/>
+        <image name="General05_ball_text2_254x512.png" width="378" height="106"/>
+        <image name="General05_ball_text3_1252x765.png" width="378" height="90"/>
+        <image name="General05_ball_text4_256x999.png" width="377" height="105"/>
+        <image name="General05_ball_text5_1250x268.png" width="359" height="107"/>
+        <image name="General05_ball_text6_1248x512.png" width="359" height="112"/>
+        <image name="General05_ball_text7_1252x765.png" width="357" height="100"/>
+        <image name="General05_ball_text8_1252x997.png" width="360" height="100"/>
+        <image name="General05_tittle62x84.png" width="623" height="82"/>
+        <image name="General05downtext_144x1271.png" width="131" height="33"/>
+        <image name="General05ref34x250.png" width="975" height="519"/>
+        <image name="ZEPATIR_02slogen1608x0.png" width="220" height="111"/>
+        <image name="plus_icon.png" width="30" height="29"/>
+        <image name="slides_back_dark.png" width="1024" height="678"/>
+    </resources>
+</document>

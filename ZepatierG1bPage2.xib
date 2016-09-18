@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZepatierG1bPage2">
+            <connections>
+                <outlet property="backGraph" destination="dEP-Dt-Dg6" id="OhB-m4-R05"/>
+                <outlet property="graph" destination="DQR-13-YE2" id="Ai3-LX-U5m"/>
+                <outlet property="referenceView" destination="zY8-hS-v62" id="Jfw-Vc-OrY"/>
+                <outlet property="slogan" destination="vLZ-hY-cFr" id="QRi-Av-llT"/>
+                <outlet property="textDown" destination="bLs-2e-y1E" id="h3Y-NO-Xuc"/>
+                <outlet property="title" destination="l85-th-w8h" id="1Ej-ui-Pxs"/>
+                <outlet property="view" destination="iN0-l3-epB" id="can-Bt-plC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slides_back_dark.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Ho-3m-Oql">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="679"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jq0-rZ-cnk">
+                    <rect key="frame" x="23" y="639" width="32" height="32"/>
+                    <state key="normal" backgroundImage="plus_icon.png"/>
+                    <connections>
+                        <action selector="referenceAction:" destination="-1" eventType="touchUpInside" id="BGy-Kr-XLf"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1pill-a-day.png" translatesAutoresizingMaskIntoConstraints="NO" id="vLZ-hY-cFr">
+                    <rect key="frame" x="708" y="23" width="290" height="151"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02G1b_tittle62x78.png" translatesAutoresizingMaskIntoConstraints="NO" id="l85-th-w8h">
+                    <rect key="frame" x="31" y="89" width="648" height="112"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02G1b_backgraph_136x402.png" translatesAutoresizingMaskIntoConstraints="NO" id="dEP-Dt-Dg6">
+                    <rect key="frame" x="68" y="201" width="870" height="352"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02G1b_downtext288x1126.png" translatesAutoresizingMaskIntoConstraints="NO" id="bLs-2e-y1E">
+                    <rect key="frame" x="144" y="563" width="768" height="104"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02G1b_graph372x434.png" translatesAutoresizingMaskIntoConstraints="NO" id="DQR-13-YE2">
+                    <rect key="frame" x="186" y="217" width="710" height="300"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02G1b_ref26x352.png" translatesAutoresizingMaskIntoConstraints="NO" id="zY8-hS-v62">
+                    <rect key="frame" x="17" y="164" width="973" height="476"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGX-8x-Jxw">
+                    <rect key="frame" x="930" y="590" width="105" height="95"/>
+                    <state key="normal" backgroundImage="HP_G1b_ball862x1237.png"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="509" y="386.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="02G1b_backgraph_136x402.png" width="870" height="352"/>
+        <image name="02G1b_downtext288x1126.png" width="768" height="104"/>
+        <image name="02G1b_graph372x434.png" width="710" height="300"/>
+        <image name="02G1b_ref26x352.png" width="973" height="464"/>
+        <image name="02G1b_tittle62x78.png" width="647" height="112"/>
+        <image name="1pill-a-day.png" width="291" height="133"/>
+        <image name="HP_G1b_ball862x1237.png" width="111" height="100"/>
+        <image name="plus_icon.png" width="30" height="29"/>
+        <image name="slides_back_dark.png" width="1024" height="678"/>
+    </resources>
+</document>
