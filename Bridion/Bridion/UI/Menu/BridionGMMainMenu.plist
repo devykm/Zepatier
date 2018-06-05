@@ -4,18 +4,30 @@
 <array>
 	<dict>
 		<key>logo</key>
-		<string>gm_logo_home.png</string>
+		<string>gm_logo_arcoxia.png</string>
 		<key>logoSelected</key>
-		<string>gm_logo_home_s.png</string>
+		<string>gm_logo_arcoxia_s.png</string>
 		<key>tag</key>
-		<integer>0</integer>
+		<integer>201</integer>
 		<key>back</key>
-		<string>gm_row_back_greendark.png</string>
+		<string>gm_row_back_blue.png</string>
 		<key>isPushMode</key>
 		<true/>
-		<key>isFirstSelected</key>
-		<true/>
 	</dict>
+    <dict>
+        <key>logo</key>
+        <string>gm_logo_home.png</string>
+        <key>logoSelected</key>
+        <string>gm_logo_home_s.png</string>
+        <key>tag</key>
+        <integer>0</integer>
+        <key>back</key>
+        <string>gm_row_back_greendark.png</string>
+        <key>isPushMode</key>
+        <true/>
+        <key>isFirstSelected</key>
+        <true/>
+    </dict>
 	<dict>
 		<key>logo</key>
 		<string>gm_logo_question.png</string>

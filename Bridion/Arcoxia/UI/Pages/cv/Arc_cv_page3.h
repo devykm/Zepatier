@@ -1,0 +1,14 @@
+//
+//  Arc_cv_page3.h
+//  Arcoxia
+//
+//  Created by ykm dev on 12/3/12.
+//
+//
+
+#import <UIKit/UIKit.h>
+#import "ArcBasePageView.h"
+
+@interface Arc_cv_page3 : ArcBasePageView
+
+@end

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>mail</key>
+		<false/>
+		<key>applicationId</key>
+		<string>5</string>
+		<key>file</key>
+		<string>Arcoxia 3rd detail.pdf</string>
+		<key>thumb</key>
+		<string>Arcoxia 3rd detail thumbnail.png</string>
+		<key>cat</key>
+		<string>ארקוקסיה</string>
+		<key>title</key>
+		<string>Arcoxia 3rd detail</string>
+		<key>itemId</key>
+		<real>10287</real>
+	</dict>
+</array>
+</plist>

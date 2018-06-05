@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ArcViewController">
+            <connections>
+                <outlet property="backImageView" destination="9" id="R8r-Xk-hME"/>
+                <outlet property="backMenImage" destination="4" id="17"/>
+                <outlet property="btnTools" destination="19" id="20"/>
+                <outlet property="chapterCenterPager" destination="7" id="16"/>
+                <outlet property="chapterManager" destination="6" id="15"/>
+                <outlet property="combinationMenuButton" destination="e95-Xu-iMB" id="RAP-JB-7eA"/>
+                <outlet property="customCallMenuButton" destination="Y7c-UR-g4I" id="9gP-PE-5H4"/>
+                <outlet property="dosageMenuButton" destination="WQK-N5-iWP" id="piA-hM-iFl"/>
+                <outlet property="effiencyMenuButton" destination="VqC-fM-edq" id="2iP-hU-Gfc"/>
+                <outlet property="headerView" destination="8" id="rm7-aZ-h2Z"/>
+                <outlet property="safetyMenuButton" destination="rf6-Zv-ufv" id="bsg-s6-gLz"/>
+                <outlet property="startMeetingMenu" destination="5" id="14"/>
+                <outlet property="timeMenuButton" destination="eYC-TO-sh0" id="Mgn-yH-md0"/>
+                <outlet property="topMenu" destination="11" id="13"/>
+                <outlet property="view" destination="3" id="12"/>
+                <outlet property="waitingCC" destination="vuJ-a6-jZF" id="ciN-u1-y4I"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="3">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="arc_back.png" id="9">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="bottomLeft" image="arcoxia_hp_back.png" id="4">
+                    <rect key="frame" x="0.0" y="108" width="710" height="660"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                </imageView>
+                <button opaque="NO" tag="700" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VqC-fM-edq">
+                    <rect key="frame" x="618" y="90" width="110" height="58"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="menu_efficiency_butt.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="effiencyChapter:" destination="-1" eventType="touchUpInside" id="wHx-Rc-Qt5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="701" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rf6-Zv-ufv">
+                    <rect key="frame" x="514" y="90" width="104" height="58"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="menu_safety_butt.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="safetyChapter:" destination="-1" eventType="touchUpInside" id="K92-8w-NXt"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="702" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="e95-Xu-iMB">
+                    <rect key="frame" x="359" y="90" width="155" height="58"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="menu_combination_butt.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="combinationChapter:" destination="-1" eventType="touchUpInside" id="JR6-O7-fcg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="703" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eYC-TO-sh0">
+                    <rect key="frame" x="218" y="90" width="141" height="58"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="menu_time_butt.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="timeChapter:" destination="-1" eventType="touchUpInside" id="nif-q5-mvE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="704" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WQK-N5-iWP">
+                    <rect key="frame" x="36" y="90" width="182" height="58"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="menu_dosage_butt.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="dosageChapter:" destination="-1" eventType="touchUpInside" id="LGe-ei-GdK"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" id="5" customClass="ArcStartMeetingMenu">
+                    <rect key="frame" x="0.0" y="554" width="202" height="85"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" id="8">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="arc_topnav_back.png" id="11">
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="100"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="10">
+                            <rect key="frame" x="934" y="26" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" image="arc_topnav_btn.png">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnMenuClick:" destination="-1" eventType="touchUpInside" id="18"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="666" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Y7c-UR-g4I">
+                            <rect key="frame" x="870" y="25" width="64" height="41"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="icon_call.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="customCallOpenMenu:" destination="-1" eventType="touchUpInside" id="ibI-0g-u6y"/>
+                            </connections>
+                        </button>
+                        <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" id="vuJ-a6-jZF">
+                            <rect key="frame" x="890" y="35" width="20" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="color" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="19">
+                    <rect key="frame" x="33" y="20" width="134" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="gmtool_arcoxia_msd_logo.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnToolsMenuClick:" destination="-1" eventType="touchUpInside" id="21"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" id="6" customClass="ArcChapterManager">
+                    <rect key="frame" x="0.0" y="90" width="1024" height="678"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="7" customClass="ArcCenterPager">
+                    <rect key="frame" x="728" y="94" width="296" height="673"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arc_back.png" width="1024" height="748"/>
+        <image name="arc_topnav_back.png" width="1024" height="82"/>
+        <image name="arc_topnav_btn.png" width="40" height="40"/>
+        <image name="arcoxia_hp_back.png" width="1024" height="669"/>
+        <image name="gmtool_arcoxia_msd_logo.png" width="134" height="80"/>
+        <image name="icon_call.png" width="39" height="39"/>
+        <image name="menu_combination_butt.png" width="310" height="110"/>
+        <image name="menu_dosage_butt.png" width="174" height="55"/>
+        <image name="menu_efficiency_butt.png" width="211" height="110"/>
+        <image name="menu_safety_butt.png" width="209" height="110"/>
+        <image name="menu_time_butt.png" width="263" height="110"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

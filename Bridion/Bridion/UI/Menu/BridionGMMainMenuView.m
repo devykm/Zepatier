@@ -71,22 +71,13 @@ static BridionGMMainMenuView * instance;
             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://medical.msd.co.il"]];
             break;
         }
-        // invanz application    
-        case 2000:
+        // Arcoxia application
+        case 201:
         {
-            // show invanz
-//            InvanzViewController *viewController = [[InvanzViewController alloc] initWithNibName:@"InvanzViewController" bundle:nil];
-//            
-//            CATransition* transition = [CATransition animation];
-//            transition.removedOnCompletion = YES;
-//            transition.duration = 0.4;
-//            transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-//            transition.type = kCATransitionPush;
-//            transition.subtype = kCATransitionFromTop;
-//            [self.window.layer addAnimation:transition forKey:nil];
-//            self.window.rootViewController = viewController;
-//            
-//            break;
+            
+            AppDelegate *app = (AppDelegate*)[UIApplication sharedApplication].delegate;
+            [app showArcoxia:UIViewAnimationOptionTransitionNone];
+
         }
             
         case 2101: // open cancidas VC

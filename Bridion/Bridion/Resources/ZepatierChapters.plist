@@ -11,7 +11,7 @@
 		<string>General</string>
 		<key>pages</key>
 		<array>
-			<dict>
+            <dict>
 				<key>className</key>
 				<string>ZepatierMainPage</string>
 				<key>previewImage</key>

@@ -20,6 +20,7 @@
 #import "VideoViewController.h"
 #import "ZepatierPageData.h"
 #import "ZepatierChapterData.h"
+#import "ArcBasePageView.h"
 @interface BridionViewController ()
 @property (nonatomic, retain) NSMutableArray *pagesData;
 @property (nonatomic, retain) NSMutableArray *chapterArray;
@@ -700,6 +701,97 @@ static  BridionViewController * instance;
     BridionBase *controller = [self.viewControllers objectAtIndex:page];
     if ((NSNull *)controller == [NSNull null]) {
         
+        if (pageData.prodId == 5){
+            
+            //ArcBasePageView *controller = [self.viewControllers objectAtIndex:page];
+            
+                controller = [[NSClassFromString(pageData.className) alloc] initWithPageNumber:page size:CGSizeMake (950, 530)];
+                if([pageData.className isEqualToString:@"pdf"]){
+                    
+                    CustomCallsPageData *pagePdf = pageData;
+                    
+                    [[BridionViewController getInstance] performSelector:@selector(openMenu)];
+                    
+                    [[BridionGMMainMenuView getInstance] showPdfMenu:5 section:pagePdf.materialSection statisticId:-1 animate:NO];
+                    
+                    PDFJanViewController *controller = [self.viewControllers objectAtIndex:page];
+                    controller = [[PDFJanViewController alloc] init];
+                    
+                    controller.applicationId = self.applicationId;
+                    [[GMPdfMenu getInstance] PdfOpenClickshowPdfInCustom:pagePdf.materialID vcDelegate:(PDFJanViewController *)controller];
+                    [[BridionGMMainMenuView getInstance]removeFromSuperview];
+                    [[GMPdfMenu getInstance]removeFromSuperview];
+                    
+                    if (controller != nil && controller.view.superview == nil) {
+                        CGRect frame = self.scrollMain.frame;
+                        frame.origin.x = frame.size.width * page;
+                        frame.origin.y = 0;
+                        controller.view.frame = frame;
+                        [self.scrollMain addSubview:controller.view];
+                    }
+                    if(controller != nil)
+                    {
+                        controller.delegate = self;
+                        [self.viewControllers replaceObjectAtIndex:page withObject:controller];
+                    }
+                    
+        
+                    return;
+                    
+                    
+                }else if([pageData.className isEqualToString:@"vid"]){
+                    CustomCallsPageData *pagevideo = pageData;
+                    
+                    
+                    
+                    [[BridionViewController getInstance] performSelector:@selector(openMenu)];
+                    
+                    [[BridionGMMainMenuView getInstance] showPdfMenu:5 section:pagevideo.materialSection statisticId:-1 animate:NO];
+                    VideoViewController *controller = [self.viewControllers objectAtIndex:page];
+                    controller = [[VideoViewController alloc] init];
+                    controller.applicationId = self.applicationId;
+                    [[GMPdfMenu getInstance] PdfOpenClickshowPdfInCustomVideo:pagevideo.materialID vcDelegate:(VideoViewController *)controller];
+                    [[BridionGMMainMenuView getInstance]removeFromSuperview];
+                    [[GMPdfMenu getInstance]removeFromSuperview];
+                    
+                    if (controller != nil && controller.view.superview == nil) {
+                        CGRect frame = self.scrollMain.frame;
+                        frame.origin.x = frame.size.width * page;
+                        frame.origin.y = 0;
+                        controller.view.frame = frame;
+                        [self.scrollMain addSubview:controller.view];
+                    }
+                    if(controller != nil)
+                    {
+                        controller.delegate = self;
+                        [self.viewControllers replaceObjectAtIndex:page withObject:controller];
+                    }
+                    return;
+                    
+                }
+                
+                if(controller != nil)
+                {
+                    //controller.delegate = self;
+                    [self.viewControllers replaceObjectAtIndex:page withObject:controller];
+                }
+                if (controller != nil && controller.superview == nil) {
+                    CGRect frame = self.scrollMain.frame;
+                    frame.origin.x = frame.size.width * page +40;
+                    frame.origin.y = self.scrollMain.frame.origin.y;
+                    
+                    controller.frame = frame;
+                    [self.scrollMain addSubview:controller];
+                    //[self.scrollView bringSubviewToFront:controller];
+                    //[self.view bringSubviewToFront:self.startMeetingMenu];
+                    
+                }
+                
+        
+  
+            
+        }else{
+        
         controller = [[NSClassFromString(pageData.className) alloc] initWithPageNumber:page size:self.scrollMain.bounds.size];
         if([pageData.className isEqualToString:@"pdf"]){
             
@@ -767,6 +859,7 @@ static  BridionViewController * instance;
             return;
             
         }
+    
         if(controller != nil)
         {
             controller.delegate = self;
@@ -780,7 +873,7 @@ static  BridionViewController * instance;
             [self.scrollMain addSubview:controller];
         }
         
-        
+    }
         
         
         

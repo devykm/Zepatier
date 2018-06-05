@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>pressedImage</key>
+		<string>menu1_top_Early_Stage_OA.png</string>
+		<key>previewImage</key>
+		<string>menu1_side_Early_Stage_OA.png</string>
+		<key>color</key>
+		<string>0xffa9c0</string>
+		<key>number</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Early Stage OA</string>
+		<key>pages</key>
+		<array>
+			<dict>
+				<key>className</key>
+				<string>Profile_Early_Stage</string>
+				<key>previewImage</key>
+				<string>THUMBS_profile01.png</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>pressedImage</key>
+		<string>menu2_top_Establishe_OA.png</string>
+		<key>previewImage</key>
+		<string>menu2_side_Establishe_OA.png</string>
+		<key>color</key>
+		<string>0xfb7f9f</string>
+		<key>number</key>
+		<integer>1</integer>
+		<key>name</key>
+		<string>Established OA</string>
+		<key>pages</key>
+		<array>
+			<dict>
+				<key>className</key>
+				<string>Profile_Established</string>
+				<key>previewImage</key>
+				<string>THUMBS_profile02.png</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>pressedImage</key>
+		<string>menu3_top_Severe_and_Limiting_OA1.png</string>
+		<key>previewImage</key>
+		<string>menu3_side_Severe_and_Limiting_OA1.png</string>
+		<key>color</key>
+		<string>0xf44673</string>
+		<key>number</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>Severe &amp; Limiting OA 1</string>
+		<key>pages</key>
+		<array>
+			<dict>
+				<key>className</key>
+				<string>Profile_Severe1</string>
+				<key>previewImage</key>
+				<string>THUMBS_profile03.png</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>pressedImage</key>
+		<string>menu4_top_Severe_and_Limiting_OA2.png</string>
+		<key>previewImage</key>
+		<string>menu4_side_Severe_and_Limiting_OA2.png</string>
+		<key>color</key>
+		<string>0xce1141</string>
+		<key>number</key>
+		<integer>3</integer>
+		<key>name</key>
+		<string>Severe &amp; Limiting OA 2</string>
+		<key>pages</key>
+		<array>
+			<dict>
+				<key>className</key>
+				<string>Profile_Severe2</string>
+				<key>previewImage</key>
+				<string>THUMBS_profile04.png</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>pressedImage</key>
+		<string>menu5_top_side_Acute_Gout.png</string>
+		<key>previewImage</key>
+		<string>menu5_side_Acute_Gout.png</string>
+		<key>color</key>
+		<string>0xb80a37</string>
+		<key>number</key>
+		<integer>4</integer>
+		<key>name</key>
+		<string>Acute Gout</string>
+		<key>pages</key>
+		<array>
+			<dict>
+				<key>className</key>
+				<string>Profile_Acoute</string>
+				<key>previewImage</key>
+				<string>THUMBS_profile05.png</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <array>
+    <dict>
+      <key>qid</key>
+      <integer>402</integer>
+      <key>question</key>
+      <string>כמה חולים הסובלים מכאב את/ה רואה בממוצע ביום?</string>
+      <key>type</key>
+      <integer>4</integer>
+      <key>fromValue</key>
+      <integer>0</integer>
+      <key>toValue</key>
+      <integer>60</integer>
+      <key>initValue</key>
+      <integer>0</integer>
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>400</integer>
+      <key>question</key>
+      <string>כמה NSAIDs את/ה רושמת/ם ביום בממוצע?</string>
+      <key>type</key>
+      <integer>4</integer>
+      <key>fromValue</key>
+      <integer>0</integer>
+      <key>toValue</key>
+      <integer>40</integer>
+      <key>initValue</key>
+      <integer>0</integer>
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>401</integer>
+      <key>question</key>
+      <string>כמה ארקוקסיה את/ה רושמת/ם ביום בממוצע?</string>
+      <key>type</key>
+      <integer>4</integer>
+      <key>fromValue</key>
+      <integer>0</integer>
+      <key>toValue</key>
+      <integer>40</integer>
+      <key>initValue</key>
+      <integer>0</integer>
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>10028</integer>
+      <key>question</key>
+      <string>לכמה ימים את/ה רושמת/ם ארקוקסיה בכל קורס טיפולי?</string>
+      <key>type</key>
+      <integer>5</integer>
+      <key>answers</key>
+      <array>
+        <string>3</string>
+        <string>5</string>
+        <string>10</string>
+        <string>20+</string>
+        <string>30+</string>
+      </array>
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>407</integer>
+      <key>question</key>
+      <string>אילו מוצרים נוספים את/ה רושמ/ת?</string>
+      <key>type</key>
+      <integer>7</integer>
+      <key>answers</key>
+      <array>
+        <dict>
+          <key>answer</key>
+          <string>אתופן</string>
+          <key>subTitle</key>
+          <string>למה?</string>
+          <key>subs</key>
+          <array>
+            <string>יעילות</string>
+            <string>בטיחות CV</string>
+            <string>בטיחות GI</string>
+            <string>בטיחות כלייתית</string>
+            <string>מחיר</string>
+            <string>נוחות שימוש למטופל</string>
+            <string>מהירות שיכוך הכאב</string>
+            <string>משך זמן פעולה</string>
+            <string>למטופל אין ביטוח משלים</string>
+            <string>ניסיון קודם/בקשה של המטופל</string>
+            <string>*</string>
+          </array>
+        </dict>
+        <dict>
+          <key>answer</key>
+          <string>ברקסין</string>
+          <key>subTitle</key>
+          <string>למה?</string>
+          <key>subs</key>
+          <array>
+            <string>יעילות</string>
+            <string>בטיחות CV</string>
+            <string>בטיחות GI</string>
+            <string>בטיחות כלייתית</string>
+            <string>מחיר</string>
+            <string>נוחות שימוש למטופל</string>
+            <string>מהירות שיכוך הכאב</string>
+            <string>משך זמן פעולה</string>
+            <string>למטופל אין ביטוח משלים</string>
+            <string>ניסיון קודם/בקשה של המטופל</string>
+            <string>*</string>
+          </array>
+        </dict>
+        <dict>
+          <key>answer</key>
+          <string>קספו</string>
+          <key>subTitle</key>
+          <string>למה?</string>
+          <key>subs</key>
+          <array>
+            <string>יעילות</string>
+            <string>בטיחות CV</string>
+            <string>בטיחות GI</string>
+            <string>בטיחות כלייתית</string>
+            <string>מחיר</string>
+            <string>נוחות שימוש למטופל</string>
+            <string>מהירות שיכוך הכאב</string>
+            <string>משך זמן פעולה</string>
+            <string>למטופל אין ביטוח משלים</string>
+            <string>ניסיון קודם/בקשה של המטופל</string>
+            <string>*</string>
+          </array>
+        </dict>
+        <dict>
+          <key>answer</key>
+          <string>וימובו</string>
+          <key>subTitle</key>
+          <string>למה?</string>
+          <key>subs</key>
+          <array>
+            <string>יעילות</string>
+            <string>בטיחות CV</string>
+            <string>בטיחות GI</string>
+            <string>בטיחות כלייתית</string>
+            <string>מחיר</string>
+            <string>נוחות שימוש למטופל</string>
+            <string>מהירות שיכוך הכאב</string>
+            <string>משך זמן פעולה</string>
+            <string>למטופל אין ביטוח משלים</string>
+            <string>ניסיון קודם/בקשה של המטופל</string>
+            <string>*</string>
+          </array>
+        </dict>
+        <dict>
+          <key>answer</key>
+          <string>נקסין</string>
+          <key>subTitle</key>
+          <string>למה?</string>
+          <key>subs</key>
+          <array>
+            <string>יעילות</string>
+            <string>בטיחות CV</string>
+            <string>בטיחות GI</string>
+            <string>בטיחות כלייתית</string>
+            <string>מחיר</string>
+            <string>נוחות שימוש למטופל</string>
+            <string>מהירות שיכוך הכאב</string>
+            <string>משך זמן פעולה</string>
+            <string>למטופל אין ביטוח משלים</string>
+            <string>ניסיון קודם/בקשה של המטופל</string>
+            <string>*</string>
+          </array>
+        </dict>
+        <dict>
+          <key>answer</key>
+          <string>וולטרן</string>
+          <key>subTitle</key>
+          <string>למה?</string>
+          <key>subs</key>
+          <array>
+            <string>יעילות</string>
+            <string>בטיחות CV</string>
+            <string>בטיחות GI</string>
+            <string>בטיחות כלייתית</string>
+            <string>מחיר</string>
+            <string>נוחות שימוש למטופל</string>
+            <string>מהירות שיכוך הכאב</string>
+            <string>משך זמן פעולה</string>
+            <string>למטופל אין ביטוח משלים</string>
+            <string>ניסיון קודם/בקשה של המטופל</string>
+            <string>*</string>
+          </array>
+        </dict>
+        <dict>
+          <key>answer</key>
+          <string>קתודולון</string>
+          <key>subTitle</key>
+          <string>למה?</string>
+          <key>subs</key>
+          <array>
+            <string>יעילות</string>
+            <string>בטיחות CV</string>
+            <string>בטיחות GI</string>
+            <string>בטיחות כלייתית</string>
+            <string>מחיר</string>
+            <string>נוחות שימוש למטופל</string>
+            <string>מהירות שיכוך הכאב</string>
+            <string>משך זמן פעולה</string>
+            <string>למטופל אין ביטוח משלים</string>
+            <string>ניסיון קודם/בקשה של המטופל</string>
+            <string>*</string>
+          </array>
+        </dict>
+        <dict>
+          <key>answer</key>
+          <string>סלקוקס</string>
+          <key>subTitle</key>
+          <string>למה?</string>
+          <key>subs</key>
+          <array>
+            <string>יעילות</string>
+            <string>בטיחות CV</string>
+            <string>בטיחות GI</string>
+            <string>בטיחות כלייתית</string>
+            <string>מחיר</string>
+            <string>נוחות שימוש למטופל</string>
+            <string>מהירות שיכוך הכאב</string>
+            <string>משך זמן פעולה</string>
+            <string>למטופל אין ביטוח משלים</string>
+            <string>ניסיון קודם/בקשה של המטופל</string>
+            <string>*</string>
+          </array>
+        </dict>
+        <dict>
+          <key>answer</key>
+          <string>אתודולק</string>
+          <key>subTitle</key>
+          <string>למה?</string>
+          <key>subs</key>
+          <array>
+            <string>יעילות</string>
+            <string>בטיחות CV</string>
+            <string>בטיחות GI</string>
+            <string>בטיחות כלייתית</string>
+            <string>מחיר</string>
+            <string>נוחות שימוש למטופל</string>
+            <string>מהירות שיכוך הכאב</string>
+            <string>משך זמן פעולה</string>
+            <string>למטופל אין ביטוח משלים</string>
+            <string>ניסיון קודם/בקשה של המטופל</string>
+            <string>*</string>
+          </array>
+        </dict>
+        <dict>
+          <key>answer</key>
+          <string>*</string>
+          <key>subTitle</key>
+          <string />
+          <key>subs</key>
+          <array />
+        </dict>
+      </array>
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>10029</integer>
+      <key>question</key>
+      <string>האם בעיניך יש יתרון לארקוקסיה מול NSAIDs אחרים?</string>
+      <key>type</key>
+      <integer>2</integer>
+      <key>relatedToNext</key>
+      <true />
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>10030</integer>
+      <key>question</key>
+      <string>אם כן, מהו?</string>
+      <key>type</key>
+      <integer>6</integer>
+      <key>answers</key>
+      <array>
+        <string>יעילות</string>
+        <string>בטיחות CV</string>
+        <string>בטיחות GI</string>
+        <string>בטיחות כלייתית</string>
+        <string>מחיר</string>
+        <string>נוחות שימוש למטופל</string>
+        <string>מהירות שיכוך הכאב</string>
+        <string>משך זמן פעולה</string>
+        <string>*</string>
+      </array>
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>10031</integer>
+      <key>question</key>
+      <string>כשאת\ה לא רושמת\ם ארקוקסיה, למה?</string>
+      <key>type</key>
+      <integer>6</integer>
+      <key>answers</key>
+      <array>
+        <string>יעילות</string>
+        <string>בטיחות CV</string>
+        <string>בטיחות GI</string>
+        <string>בטיחות כלייתית</string>
+        <string>מחיר</string>
+        <string>נוחות שימוש למטופל</string>
+        <string>מהירות שיכוך הכאב</string>
+        <string>משך זמן פעולה</string>
+        <string>*</string>
+        <string>למטופל אין ביטוח משלים</string>
+      </array>
+    </dict>
+    <dict>
+      <key>qid</key>
+      <integer>405</integer>
+      <key>question</key>
+      <string>איזה מינונים של ארקוקסיה את\ה  רושמת\ם?</string>
+      <key>type</key>
+      <integer>5</integer>
+      <key>answers</key>
+      <array>
+        <string>30</string>
+        <string>60</string>
+        <string>90</string>
+        <string>120</string>
+      </array>
+    </dict>
+  </array>
+</plist>
